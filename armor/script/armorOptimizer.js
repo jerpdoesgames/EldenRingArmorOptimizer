@@ -34,31 +34,48 @@ class armorOptimizer
         poiseMin: 15
     };
 
-    sortBy({property})
+    sortBy({property, fallback})
     {
         return (a, b) =>
         {
-            return b[property] - a[property];
+            if (b[property] == a[property] && fallback != null)
+                return b[fallback] - a[fallback];
+            else
+                return b[property] - a[property];
         }
     }
 
-    getArmorSetWeight(aSet)
+    sortByAggregate({property, fallback})
     {
-        let totalWeight = 0;
+        return (a, b) =>
+        {
+            let aTotal = this.getArrayPropertyTotal(b, property);
+            let bTotal = this.getArrayPropertyTotal(a, property);
+
+            if (aTotal == bTotal && fallback != null)
+                return this.getArrayPropertyTotal(b, fallback) - this.getArrayPropertyTotal(a, fallback);
+            else
+                return this.getArrayPropertyTotal(b, property) - this.getArrayPropertyTotal(a, property);
+        }
+    }
+
+    getArrayPropertyTotal(aSet, aProperty, aFallback)
+    {
+        let total = 0;
 
         for (const armorItem of aSet)
         {
-            totalWeight += armorItem.weight;
+            total += armorItem[aProperty];
         }
 
-        return totalWeight;
+        return total;
     }
 
     testFindArmor()
     {
         armor.sort(this.sortBy({ property: sortFields[this.configuration.sort] }))
 
-        let checkCountMax = 20;
+        let checkCountMax = 50000;
         let armorCombinations = [];
 
         for (const baseArmorItem of armor)
@@ -72,13 +89,13 @@ class armorOptimizer
 
                 if (
                     !curCombination.find(it => it.slotType === checkArmorItem.slotType) &&
-                    (this.getArmorSetWeight(curCombination) + checkArmorItem.weight) <= this.configuration.totalWeightMax
+                    (this.getArrayPropertyTotal(curCombination, "weight") + checkArmorItem.weight) <= this.configuration.totalWeightMax
                 )
                 {
                     curCombination.push(checkArmorItem);
                 }
 
-                if (curCombination.length >= 4)
+                if (curCombination.length >= 4 && this.getArrayPropertyTotal(curCombination, "poise") >= this.configuration.poiseMin)
                 {
                     armorCombinations.push(curCombination);
                     break;
@@ -87,18 +104,47 @@ class armorOptimizer
 
             if (armorCombinations.length >= checkCountMax)
             {
-                console.log(armorCombinations);
                 break;
             }
 
         }
 
+        let output = "";
+        let maxPoise = 0;
+
+
+        armorCombinations.sort(this.sortByAggregate({ property: sortFields[this.configuration.sort], fallback: "physical"  }));
+
+        for (const curCombination of armorCombinations)
+        {
+            let totalPoise = 0;
+            let totalWeight = 0;
+            curCombination.sort(this.sortBy({property: "slotType"}));
+            for (const curArmor of curCombination)
+            {
+                output += `${curArmor.name}<br/>`
+                totalPoise += curArmor.poise;
+                totalWeight += curArmor.weight;
+            }
+            output += `Weight: ${totalWeight}<br/>`
+            output += `Poise: ${totalPoise}<br/><br/>`
+            maxPoise = Math.max(totalPoise, maxPoise);
+        }
+
+
+
+        output = `
+        Total Combinations: ${armorCombinations.length}<br/>
+        Max Poise: ${maxPoise}<br/><br/>
+        ` + output;
+
+        this.contentElement.innerHTML = output;
 
     }
 
     initialize()
     {
-        // this.contentElement = document.getElementById("outputDiv");
+        this.contentElement = document.getElementById("outputDiv");
 
         // Later
 

@@ -9,22 +9,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1.4,
-    "negation": {
-      "physical": 0.9,
-      "strike": 1.8,
-      "slash": 1.8,
-      "pierce": 1.4,
-      "magic": 4.4,
-      "fire": 4,
-      "lightning": 4.2,
-      "holy": 4.4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 10,
-      "focus": 27,
-      "vitality": 29
-    }
+    "poise": 0,
+    "physical": 0.9,
+    "strike": 1.8,
+    "slash": 1.8,
+    "pierce": 1.4,
+    "magic": 4.4,
+    "fire": 4,
+    "lightning": 4.2,
+    "holy": 4.4,
+    "immunity": 15,
+    "robustness": 10,
+    "focus": 27,
+    "vitality": 29
   },
   {
     "name": "Commoner\u0027s Headband (Altered)",
@@ -36,22 +33,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 0.7,
-    "negation": {
-      "physical": 0.1,
-      "strike": 1.1,
-      "slash": 1.1,
-      "pierce": 0.6,
-      "magic": 3.9,
-      "fire": 3.5,
-      "lightning": 3.7,
-      "holy": 3.9
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 8,
-      "focus": 23,
-      "vitality": 24
-    }
+    "poise": 0,
+    "physical": 0.1,
+    "strike": 1.1,
+    "slash": 1.1,
+    "pierce": 0.6,
+    "magic": 3.9,
+    "fire": 3.5,
+    "lightning": 3.7,
+    "holy": 3.9,
+    "immunity": 12,
+    "robustness": 8,
+    "focus": 23,
+    "vitality": 24
   },
   {
     "name": "Aristocrat Headband",
@@ -63,22 +57,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1.2,
-    "negation": {
-      "physical": 1.9,
-      "strike": 1.9,
-      "slash": 1.9,
-      "pierce": 1.6,
-      "magic": 4,
-      "fire": 3.6,
-      "lightning": 3.8,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 10,
-      "focus": 25,
-      "vitality": 22
-    }
+    "poise": 0,
+    "physical": 1.9,
+    "strike": 1.9,
+    "slash": 1.9,
+    "pierce": 1.6,
+    "magic": 4,
+    "fire": 3.6,
+    "lightning": 3.8,
+    "holy": 4,
+    "immunity": 15,
+    "robustness": 10,
+    "focus": 25,
+    "vitality": 22
   },
   {
     "name": "Aristocrat Hat",
@@ -90,22 +81,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 3.1,
-      "strike": 3.1,
-      "slash": 2.8,
-      "pierce": 3.1,
-      "magic": 3.8,
-      "fire": 4,
-      "lightning": 3.8,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 14,
-      "focus": 18,
-      "vitality": 20
-    }
+    "poise": 1,
+    "physical": 3.1,
+    "strike": 3.1,
+    "slash": 2.8,
+    "pierce": 3.1,
+    "magic": 3.8,
+    "fire": 4,
+    "lightning": 3.8,
+    "holy": 3.1,
+    "immunity": 22,
+    "robustness": 14,
+    "focus": 18,
+    "vitality": 20
   },
   {
     "name": "Old Aristocrat Cowl",
@@ -117,22 +105,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.5,
-      "strike": 2.5,
-      "slash": 2.3,
-      "pierce": 2.5,
-      "magic": 3.4,
-      "fire": 3.6,
-      "lightning": 3.4,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 11,
-      "focus": 15,
-      "vitality": 16
-    }
+    "poise": 1,
+    "physical": 2.5,
+    "strike": 2.5,
+    "slash": 2.3,
+    "pierce": 2.5,
+    "magic": 3.4,
+    "fire": 3.6,
+    "lightning": 3.4,
+    "holy": 2.5,
+    "immunity": 18,
+    "robustness": 11,
+    "focus": 15,
+    "vitality": 16
   },
   {
     "name": "Page Hood",
@@ -144,22 +129,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1.4,
-    "negation": {
-      "physical": 1.8,
-      "strike": 1.4,
-      "slash": 0.9,
-      "pierce": 0.9,
-      "magic": 4.4,
-      "fire": 4.2,
-      "lightning": 4.5,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 8,
-      "focus": 29,
-      "vitality": 29
-    }
+    "poise": 0,
+    "physical": 1.8,
+    "strike": 1.4,
+    "slash": 0.9,
+    "pierce": 0.9,
+    "magic": 4.4,
+    "fire": 4.2,
+    "lightning": 4.5,
+    "holy": 4.5,
+    "immunity": 15,
+    "robustness": 8,
+    "focus": 29,
+    "vitality": 29
   },
   {
     "name": "High Page Hood",
@@ -171,22 +153,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1.4,
-    "negation": {
-      "physical": 0.9,
-      "strike": 1.8,
-      "slash": 0.9,
-      "pierce": 0.9,
-      "magic": 4.6,
-      "fire": 4.2,
-      "lightning": 4.4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 8,
-      "focus": 27,
-      "vitality": 27
-    }
+    "poise": 0,
+    "physical": 0.9,
+    "strike": 1.8,
+    "slash": 0.9,
+    "pierce": 0.9,
+    "magic": 4.6,
+    "fire": 4.2,
+    "lightning": 4.4,
+    "holy": 4.5,
+    "immunity": 15,
+    "robustness": 8,
+    "focus": 27,
+    "vitality": 27
   },
   {
     "name": "Guardian Mask",
@@ -198,22 +177,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 3.8,
-      "strike": 3.6,
-      "slash": 3.6,
-      "pierce": 3.4,
-      "magic": 4.2,
-      "fire": 4,
-      "lightning": 4.2,
-      "holy": 4.2
-    },
-    "resists": {
-      "immunity": 33,
-      "robustness": 22,
-      "focus": 26,
-      "vitality": 24
-    }
+    "poise": 2,
+    "physical": 3.8,
+    "strike": 3.6,
+    "slash": 3.6,
+    "pierce": 3.4,
+    "magic": 4.2,
+    "fire": 4,
+    "lightning": 4.2,
+    "holy": 4.2,
+    "immunity": 33,
+    "robustness": 22,
+    "focus": 26,
+    "vitality": 24
   },
   {
     "name": "Festive Hood",
@@ -225,22 +201,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.4,
-      "strike": 1.8,
-      "slash": 2.1,
-      "pierce": 1.8,
-      "magic": 4.5,
-      "fire": 4.2,
-      "lightning": 4.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 9,
-      "focus": 29,
-      "vitality": 29
-    }
+    "poise": 0,
+    "physical": 1.4,
+    "strike": 1.8,
+    "slash": 2.1,
+    "pierce": 1.8,
+    "magic": 4.5,
+    "fire": 4.2,
+    "lightning": 4.4,
+    "holy": 4.6,
+    "immunity": 18,
+    "robustness": 9,
+    "focus": 29,
+    "vitality": 29
   },
   {
     "name": "Festive Hood (Altered)",
@@ -252,22 +225,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1,
-    "negation": {
-      "physical": 0.2,
-      "strike": 0.9,
-      "slash": 1.4,
-      "pierce": 0.9,
-      "magic": 4.2,
-      "fire": 3.8,
-      "lightning": 4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 4,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 0,
+    "physical": 0.2,
+    "strike": 0.9,
+    "slash": 1.4,
+    "pierce": 0.9,
+    "magic": 4.2,
+    "fire": 3.8,
+    "lightning": 4,
+    "holy": 4.5,
+    "immunity": 13,
+    "robustness": 4,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Blue Festive Hood",
@@ -279,22 +249,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.4,
-      "strike": 1.4,
-      "slash": 2.1,
-      "pierce": 1.8,
-      "magic": 4.5,
-      "fire": 4,
-      "lightning": 4.5,
-      "holy": 4.9
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 9,
-      "focus": 31,
-      "vitality": 27
-    }
+    "poise": 0,
+    "physical": 1.4,
+    "strike": 1.4,
+    "slash": 2.1,
+    "pierce": 1.8,
+    "magic": 4.5,
+    "fire": 4,
+    "lightning": 4.5,
+    "holy": 4.9,
+    "immunity": 20,
+    "robustness": 9,
+    "focus": 31,
+    "vitality": 27
   },
   {
     "name": "Guilty Hood",
@@ -306,22 +273,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 1.4,
-    "negation": {
-      "physical": 0.9,
-      "strike": 1.4,
-      "slash": 1.8,
-      "pierce": 0.2,
-      "magic": 4.4,
-      "fire": 4,
-      "lightning": 4.5,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 9,
-      "focus": 27,
-      "vitality": 31
-    }
+    "poise": 0,
+    "physical": 0.9,
+    "strike": 1.4,
+    "slash": 1.8,
+    "pierce": 0.2,
+    "magic": 4.4,
+    "fire": 4,
+    "lightning": 4.5,
+    "holy": 4.6,
+    "immunity": 15,
+    "robustness": 9,
+    "focus": 27,
+    "vitality": 31
   },
   {
     "name": "Prisoner Iron Mask",
@@ -333,22 +297,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 8.6,
-    "negation": {
-      "physical": 6.8,
-      "strike": 5.9,
-      "slash": 7,
-      "pierce": 6.8,
-      "magic": 4.6,
-      "fire": 4.9,
-      "lightning": 4.5,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 44,
-      "focus": 35,
-      "vitality": 20
-    }
+    "poise": 11,
+    "physical": 6.8,
+    "strike": 5.9,
+    "slash": 7,
+    "pierce": 6.8,
+    "magic": 4.6,
+    "fire": 4.9,
+    "lightning": 4.5,
+    "holy": 4.8,
+    "immunity": 29,
+    "robustness": 44,
+    "focus": 35,
+    "vitality": 20
   },
   {
     "name": "Blackguard\u0027s Iron Mask",
@@ -360,22 +321,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 6.2,
-    "negation": {
-      "physical": 5.8,
-      "strike": 4.4,
-      "slash": 6.1,
-      "pierce": 5.5,
-      "magic": 4.2,
-      "fire": 4.4,
-      "lightning": 4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 31,
-      "focus": 12,
-      "vitality": 12
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 4.4,
+    "slash": 6.1,
+    "pierce": 5.5,
+    "magic": 4.2,
+    "fire": 4.4,
+    "lightning": 4,
+    "holy": 4.5,
+    "immunity": 22,
+    "robustness": 31,
+    "focus": 12,
+    "vitality": 12
   },
   {
     "name": "Bloodsoaked Mask",
@@ -387,22 +345,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 1.8,
-      "strike": 1.8,
-      "slash": 1.8,
-      "pierce": 2.1,
-      "magic": 4.6,
-      "fire": 4.4,
-      "lightning": 4.5,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 10,
-      "focus": 30,
-      "vitality": 31
-    }
+    "poise": 0,
+    "physical": 1.8,
+    "strike": 1.8,
+    "slash": 1.8,
+    "pierce": 2.1,
+    "magic": 4.6,
+    "fire": 4.4,
+    "lightning": 4.5,
+    "holy": 4.6,
+    "immunity": 18,
+    "robustness": 10,
+    "focus": 30,
+    "vitality": 31
   },
   {
     "name": "Black Dumpling",
@@ -414,22 +369,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 2.7,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.1,
-      "slash": 2.8,
-      "pierce": 2.8,
-      "magic": 3.1,
-      "fire": 3.4,
-      "lightning": 3.6,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 15,
-      "focus": 0,
-      "vitality": 20
-    }
+    "poise": 1,
+    "physical": 2.8,
+    "strike": 3.1,
+    "slash": 2.8,
+    "pierce": 2.8,
+    "magic": 3.1,
+    "fire": 3.4,
+    "lightning": 3.6,
+    "holy": 3.1,
+    "immunity": 24,
+    "robustness": 15,
+    "focus": 0,
+    "vitality": 20
   },
   {
     "name": "Mushroom Head",
@@ -441,22 +393,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.1,
-      "strike": 2.5,
-      "slash": 0.9,
-      "pierce": 1.8,
-      "magic": 4.7,
-      "fire": 1.8,
-      "lightning": 4.6,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 44,
-      "robustness": 10,
-      "focus": 39,
-      "vitality": 33
-    }
+    "poise": 0,
+    "physical": 2.1,
+    "strike": 2.5,
+    "slash": 0.9,
+    "pierce": 1.8,
+    "magic": 4.7,
+    "fire": 1.8,
+    "lightning": 4.6,
+    "holy": 4.6,
+    "immunity": 44,
+    "robustness": 10,
+    "focus": 39,
+    "vitality": 33
   },
   {
     "name": "Mushroom Crown",
@@ -468,22 +417,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 1,
     "weight": 9.1,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.9,
-      "slash": 6.8,
-      "pierce": 7,
-      "magic": 4.8,
-      "fire": 3.1,
-      "lightning": 4.6,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 45,
-      "focus": 18,
-      "vitality": 22
-    }
+    "poise": 9,
+    "physical": 5.8,
+    "strike": 5.9,
+    "slash": 6.8,
+    "pierce": 7,
+    "magic": 4.8,
+    "fire": 3.1,
+    "lightning": 4.6,
+    "holy": 4.8,
+    "immunity": 46,
+    "robustness": 45,
+    "focus": 18,
+    "vitality": 22
   },
   {
     "name": "Astrologer Hood",
@@ -495,22 +441,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.8,
-      "strike": 1.4,
-      "slash": 1.4,
-      "pierce": 1.4,
-      "magic": 4.6,
-      "fire": 4.5,
-      "lightning": 4.6,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 9,
-      "focus": 31,
-      "vitality": 27
-    }
+    "poise": 1,
+    "physical": 1.8,
+    "strike": 1.4,
+    "slash": 1.4,
+    "pierce": 1.4,
+    "magic": 4.6,
+    "fire": 4.5,
+    "lightning": 4.6,
+    "holy": 4.5,
+    "immunity": 18,
+    "robustness": 9,
+    "focus": 31,
+    "vitality": 27
   },
   {
     "name": "Juvenile Scholar Cap",
@@ -522,22 +465,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1.4,
-    "negation": {
-      "physical": 1.4,
-      "strike": 1.8,
-      "slash": 1.8,
-      "pierce": 1.4,
-      "magic": 4.5,
-      "fire": 4,
-      "lightning": 4.2,
-      "holy": 4.4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 10,
-      "focus": 26,
-      "vitality": 29
-    }
+    "poise": 0,
+    "physical": 1.4,
+    "strike": 1.8,
+    "slash": 1.8,
+    "pierce": 1.4,
+    "magic": 4.5,
+    "fire": 4,
+    "lightning": 4.2,
+    "holy": 4.4,
+    "immunity": 15,
+    "robustness": 10,
+    "focus": 26,
+    "vitality": 29
   },
   {
     "name": "Karolos Glintstone Crown",
@@ -549,22 +489,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 5.2,
-      "pierce": 4.8,
-      "magic": 4.4,
-      "fire": 4.5,
-      "lightning": 3.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 26,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 3,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 5.2,
+    "pierce": 4.8,
+    "magic": 4.4,
+    "fire": 4.5,
+    "lightning": 3.4,
+    "holy": 3.8,
+    "immunity": 16,
+    "robustness": 26,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Olivinus Glintstone Crown",
@@ -576,22 +513,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 5.2,
-      "pierce": 4.8,
-      "magic": 4.4,
-      "fire": 4.5,
-      "lightning": 3.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 26,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 3,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 5.2,
+    "pierce": 4.8,
+    "magic": 4.4,
+    "fire": 4.5,
+    "lightning": 3.4,
+    "holy": 3.8,
+    "immunity": 16,
+    "robustness": 26,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Twinsage Glintstone Crown",
@@ -603,22 +537,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 5.2,
-      "pierce": 4.8,
-      "magic": 4.4,
-      "fire": 4.5,
-      "lightning": 3.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 26,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 3,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 5.2,
+    "pierce": 4.8,
+    "magic": 4.4,
+    "fire": 4.5,
+    "lightning": 3.4,
+    "holy": 3.8,
+    "immunity": 16,
+    "robustness": 26,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Witch\u0027s Glintstone Crown",
@@ -630,22 +561,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 5.2,
-      "pierce": 4.8,
-      "magic": 4.4,
-      "fire": 4.5,
-      "lightning": 3.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 26,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 3,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 5.2,
+    "pierce": 4.8,
+    "magic": 4.4,
+    "fire": 4.5,
+    "lightning": 3.4,
+    "holy": 3.8,
+    "immunity": 16,
+    "robustness": 26,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Lazuli Glintstone Crown",
@@ -657,22 +585,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 5.2,
-      "pierce": 4.8,
-      "magic": 4.4,
-      "fire": 4.5,
-      "lightning": 3.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 26,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 3,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 5.2,
+    "pierce": 4.8,
+    "magic": 4.4,
+    "fire": 4.5,
+    "lightning": 3.4,
+    "holy": 3.8,
+    "immunity": 16,
+    "robustness": 26,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Haima Glintstone Crown",
@@ -684,22 +609,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 2.7,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.5,
-      "slash": 2.1,
-      "pierce": 2.3,
-      "magic": 4.8,
-      "fire": 4.5,
-      "lightning": 4.6,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 11,
-      "focus": 33,
-      "vitality": 39
-    }
+    "poise": 2,
+    "physical": 2.3,
+    "strike": 2.5,
+    "slash": 2.1,
+    "pierce": 2.3,
+    "magic": 4.8,
+    "fire": 4.5,
+    "lightning": 4.6,
+    "holy": 4.6,
+    "immunity": 22,
+    "robustness": 11,
+    "focus": 33,
+    "vitality": 39
   },
   {
     "name": "Hierodas Glintstone Crown",
@@ -711,22 +633,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.3,
-      "slash": 2.8,
-      "pierce": 2.3,
-      "magic": 4.9,
-      "fire": 4.7,
-      "lightning": 4.6,
-      "holy": 4.9
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 11,
-      "focus": 39,
-      "vitality": 42
-    }
+    "poise": 2,
+    "physical": 2.3,
+    "strike": 2.3,
+    "slash": 2.8,
+    "pierce": 2.3,
+    "magic": 4.9,
+    "fire": 4.7,
+    "lightning": 4.6,
+    "holy": 4.9,
+    "immunity": 20,
+    "robustness": 11,
+    "focus": 39,
+    "vitality": 42
   },
   {
     "name": "Spellblade\u0027s Pointed Hat",
@@ -738,22 +657,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1.5,
-    "negation": {
-      "physical": 1.3,
-      "strike": 0.8,
-      "slash": 1.3,
-      "pierce": 1.3,
-      "magic": 4.5,
-      "fire": 3.9,
-      "lightning": 4.1,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 8,
-      "focus": 25,
-      "vitality": 27
-    }
+    "poise": 0,
+    "physical": 1.3,
+    "strike": 0.8,
+    "slash": 1.3,
+    "pierce": 1.3,
+    "magic": 4.5,
+    "fire": 3.9,
+    "lightning": 4.1,
+    "holy": 4.5,
+    "immunity": 15,
+    "robustness": 8,
+    "focus": 25,
+    "vitality": 27
   },
   {
     "name": "Alberich\u0027s Pointed Hat",
@@ -765,22 +681,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.8,
-      "strike": 1.4,
-      "slash": 1.8,
-      "pierce": 1.8,
-      "magic": 4.6,
-      "fire": 4.2,
-      "lightning": 4.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 10,
-      "focus": 29,
-      "vitality": 31
-    }
+    "poise": 0,
+    "physical": 1.8,
+    "strike": 1.4,
+    "slash": 1.8,
+    "pierce": 1.8,
+    "magic": 4.6,
+    "fire": 4.2,
+    "lightning": 4.4,
+    "holy": 4.6,
+    "immunity": 16,
+    "robustness": 10,
+    "focus": 29,
+    "vitality": 31
   },
   {
     "name": "Alberich\u0027s Pointed Hat (Altered)",
@@ -792,22 +705,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1,
-    "negation": {
-      "physical": 0.9,
-      "strike": 0.2,
-      "slash": 0.9,
-      "pierce": 0.9,
-      "magic": 4.4,
-      "fire": 3.8,
-      "lightning": 4,
-      "holy": 4.4
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 7,
-      "focus": 23,
-      "vitality": 24
-    }
+    "poise": 0,
+    "physical": 0.9,
+    "strike": 0.2,
+    "slash": 0.9,
+    "pierce": 0.9,
+    "magic": 4.4,
+    "fire": 3.8,
+    "lightning": 4,
+    "holy": 4.4,
+    "immunity": 12,
+    "robustness": 7,
+    "focus": 23,
+    "vitality": 24
   },
   {
     "name": "Preceptor\u0027s Big Hat",
@@ -819,22 +729,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 2.5,
-      "strike": 2.8,
-      "slash": 2.5,
-      "pierce": 2.5,
-      "magic": 5.5,
-      "fire": 4.9,
-      "lightning": 4.8,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 12,
-      "focus": 44,
-      "vitality": 42
-    }
+    "poise": 2,
+    "physical": 2.5,
+    "strike": 2.8,
+    "slash": 2.5,
+    "pierce": 2.5,
+    "magic": 5.5,
+    "fire": 4.9,
+    "lightning": 4.8,
+    "holy": 4.8,
+    "immunity": 26,
+    "robustness": 12,
+    "focus": 44,
+    "vitality": 42
   },
   {
     "name": "Mask of Confidence",
@@ -846,22 +753,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 3.3,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.5,
-      "slash": 2.3,
-      "pierce": 2.3,
-      "magic": 5.3,
-      "fire": 4.8,
-      "lightning": 4.7,
-      "holy": 4.7
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 11,
-      "focus": 39,
-      "vitality": 35
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 2.5,
+    "slash": 2.3,
+    "pierce": 2.3,
+    "magic": 5.3,
+    "fire": 4.8,
+    "lightning": 4.7,
+    "holy": 4.7,
+    "immunity": 24,
+    "robustness": 11,
+    "focus": 39,
+    "vitality": 35
   },
   {
     "name": "Azur\u0027s Glintstone Crown",
@@ -873,22 +777,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 2.8,
-      "strike": 2.3,
-      "slash": 2.5,
-      "pierce": 2.5,
-      "magic": 5.8,
-      "fire": 4.6,
-      "lightning": 4.7,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 23,
-      "robustness": 14,
-      "focus": 44,
-      "vitality": 39
-    }
+    "poise": 2,
+    "physical": 2.8,
+    "strike": 2.3,
+    "slash": 2.5,
+    "pierce": 2.5,
+    "magic": 5.8,
+    "fire": 4.6,
+    "lightning": 4.7,
+    "holy": 5,
+    "immunity": 23,
+    "robustness": 14,
+    "focus": 44,
+    "vitality": 39
   },
   {
     "name": "Lusat\u0027s Glintstone Crown",
@@ -900,22 +801,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.1,
-      "strike": 2.3,
-      "slash": 3.1,
-      "pierce": 2.3,
-      "magic": 5.5,
-      "fire": 4.6,
-      "lightning": 4.8,
-      "holy": 4.9
-    },
-    "resists": {
-      "immunity": 23,
-      "robustness": 11,
-      "focus": 39,
-      "vitality": 44
-    }
+    "poise": 2,
+    "physical": 3.1,
+    "strike": 2.3,
+    "slash": 3.1,
+    "pierce": 2.3,
+    "magic": 5.5,
+    "fire": 4.6,
+    "lightning": 4.8,
+    "holy": 4.9,
+    "immunity": 23,
+    "robustness": 11,
+    "focus": 39,
+    "vitality": 44
   },
   {
     "name": "Queen\u0027s Crescent Crown",
@@ -927,22 +825,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.1,
-      "strike": 1.8,
-      "slash": 1.8,
-      "pierce": 1.4,
-      "magic": 4.9,
-      "fire": 4.5,
-      "lightning": 4.6,
-      "holy": 4.7
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 11,
-      "focus": 31,
-      "vitality": 35
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 1.8,
+    "slash": 1.8,
+    "pierce": 1.4,
+    "magic": 4.9,
+    "fire": 4.5,
+    "lightning": 4.6,
+    "holy": 4.7,
+    "immunity": 18,
+    "robustness": 11,
+    "focus": 31,
+    "vitality": 35
   },
   {
     "name": "Snow Witch Hat",
@@ -954,22 +849,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 1.8,
-      "strike": 2.1,
-      "slash": 2.1,
-      "pierce": 1.4,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.6,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 14,
-      "focus": 31,
-      "vitality": 31
-    }
+    "poise": 1,
+    "physical": 1.8,
+    "strike": 2.1,
+    "slash": 2.1,
+    "pierce": 1.4,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.6,
+    "holy": 4.6,
+    "immunity": 16,
+    "robustness": 14,
+    "focus": 31,
+    "vitality": 31
   },
   {
     "name": "Fia\u0027s Hood",
@@ -981,22 +873,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.4,
-      "strike": 1.8,
-      "slash": 1.4,
-      "pierce": 1.4,
-      "magic": 4.4,
-      "fire": 4.2,
-      "lightning": 4.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 8,
-      "focus": 29,
-      "vitality": 45
-    }
+    "poise": 0,
+    "physical": 1.4,
+    "strike": 1.8,
+    "slash": 1.4,
+    "pierce": 1.4,
+    "magic": 4.4,
+    "fire": 4.2,
+    "lightning": 4.4,
+    "holy": 4.6,
+    "immunity": 18,
+    "robustness": 8,
+    "focus": 29,
+    "vitality": 45
   },
   {
     "name": "Prophet Blindfold",
@@ -1008,22 +897,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1,
-    "negation": {
-      "physical": 0.2,
-      "strike": 0.9,
-      "slash": 0.9,
-      "pierce": 0.2,
-      "magic": 4.5,
-      "fire": 4.2,
-      "lightning": 4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 5,
-      "focus": 27,
-      "vitality": 27
-    }
+    "poise": 0,
+    "physical": 0.2,
+    "strike": 0.9,
+    "slash": 0.9,
+    "pierce": 0.2,
+    "magic": 4.5,
+    "fire": 4.2,
+    "lightning": 4,
+    "holy": 4.5,
+    "immunity": 14,
+    "robustness": 5,
+    "focus": 27,
+    "vitality": 27
   },
   {
     "name": "Traveling Maiden Hood",
@@ -1035,22 +921,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 1.6,
-    "negation": {
-      "physical": 1.4,
-      "strike": 1.8,
-      "slash": 1.8,
-      "pierce": 0.9,
-      "magic": 4.6,
-      "fire": 4.5,
-      "lightning": 4.6,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 10,
-      "focus": 29,
-      "vitality": 31
-    }
+    "poise": 1,
+    "physical": 1.4,
+    "strike": 1.8,
+    "slash": 1.8,
+    "pierce": 0.9,
+    "magic": 4.6,
+    "fire": 4.5,
+    "lightning": 4.6,
+    "holy": 4.6,
+    "immunity": 18,
+    "robustness": 10,
+    "focus": 29,
+    "vitality": 31
   },
   {
     "name": "Finger Maiden Fillet",
@@ -1062,22 +945,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.1,
-      "strike": 1.8,
-      "slash": 1.8,
-      "pierce": 1.4,
-      "magic": 4.8,
-      "fire": 4.6,
-      "lightning": 4.6,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 10,
-      "focus": 31,
-      "vitality": 31
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 1.8,
+    "slash": 1.8,
+    "pierce": 1.4,
+    "magic": 4.8,
+    "fire": 4.6,
+    "lightning": 4.6,
+    "holy": 4.8,
+    "immunity": 18,
+    "robustness": 10,
+    "focus": 31,
+    "vitality": 31
   },
   {
     "name": "Sage Hood",
@@ -1089,22 +969,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.1,
-      "slash": 2.1,
-      "pierce": 1.4,
-      "magic": 4.8,
-      "fire": 4.5,
-      "lightning": 4.6,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 10,
-      "focus": 31,
-      "vitality": 33
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 2.1,
+    "slash": 2.1,
+    "pierce": 1.4,
+    "magic": 4.8,
+    "fire": 4.5,
+    "lightning": 4.6,
+    "holy": 4.8,
+    "immunity": 16,
+    "robustness": 10,
+    "focus": 31,
+    "vitality": 33
   },
   {
     "name": "Greathood",
@@ -1116,22 +993,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 3.8,
-      "strike": 3.6,
-      "slash": 3.8,
-      "pierce": 3.6,
-      "magic": 5.5,
-      "fire": 5,
-      "lightning": 5.5,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 33,
-      "robustness": 20,
-      "focus": 47,
-      "vitality": 47
-    }
+    "poise": 2,
+    "physical": 3.8,
+    "strike": 3.6,
+    "slash": 3.8,
+    "pierce": 3.6,
+    "magic": 5.5,
+    "fire": 5,
+    "lightning": 5.5,
+    "holy": 6.2,
+    "immunity": 33,
+    "robustness": 20,
+    "focus": 47,
+    "vitality": 47
   },
   {
     "name": "Radiant Gold Mask",
@@ -1143,22 +1017,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.1,
-      "slash": 2.1,
-      "pierce": 1.4,
-      "magic": 4.6,
-      "fire": 4.5,
-      "lightning": 4.6,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 9,
-      "focus": 33,
-      "vitality": 33
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 2.1,
+    "slash": 2.1,
+    "pierce": 1.4,
+    "magic": 4.6,
+    "fire": 4.5,
+    "lightning": 4.6,
+    "holy": 4.8,
+    "immunity": 22,
+    "robustness": 9,
+    "focus": 33,
+    "vitality": 33
   },
   {
     "name": "Perfumer Hood",
@@ -1170,22 +1041,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.4,
-      "strike": 2.1,
-      "slash": 1.8,
-      "pierce": 1.4,
-      "magic": 4.6,
-      "fire": 4.2,
-      "lightning": 4.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 8,
-      "focus": 27,
-      "vitality": 29
-    }
+    "poise": 1,
+    "physical": 1.4,
+    "strike": 2.1,
+    "slash": 1.8,
+    "pierce": 1.4,
+    "magic": 4.6,
+    "fire": 4.2,
+    "lightning": 4.4,
+    "holy": 4.6,
+    "immunity": 26,
+    "robustness": 8,
+    "focus": 27,
+    "vitality": 29
   },
   {
     "name": "Traveler\u0027s Hat",
@@ -1197,22 +1065,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.8,
-      "strike": 1.8,
-      "slash": 1.4,
-      "pierce": 0.9,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 23,
-      "robustness": 9,
-      "focus": 29,
-      "vitality": 27
-    }
+    "poise": 1,
+    "physical": 1.8,
+    "strike": 1.8,
+    "slash": 1.4,
+    "pierce": 0.9,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.4,
+    "holy": 4.6,
+    "immunity": 23,
+    "robustness": 9,
+    "focus": 29,
+    "vitality": 27
   },
   {
     "name": "Depraved Perfumer Headscarf",
@@ -1224,22 +1089,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 2.1,
-    "negation": {
-      "physical": 2,
-      "strike": 2,
-      "slash": 1.7,
-      "pierce": 1.3,
-      "magic": 4.6,
-      "fire": 4.5,
-      "lightning": 4.4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 28,
-      "robustness": 10,
-      "focus": 25,
-      "vitality": 34
-    }
+    "poise": 1,
+    "physical": 2,
+    "strike": 2,
+    "slash": 1.7,
+    "pierce": 1.3,
+    "magic": 4.6,
+    "fire": 4.5,
+    "lightning": 4.4,
+    "holy": 4.5,
+    "immunity": 28,
+    "robustness": 10,
+    "focus": 25,
+    "vitality": 34
   },
   {
     "name": "Ruler\u0027s Mask",
@@ -1251,22 +1113,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 1.8,
-      "strike": 2.3,
-      "slash": 2.3,
-      "pierce": 1.4,
-      "magic": 4.6,
-      "fire": 4.4,
-      "lightning": 4.6,
-      "holy": 4.7
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 10,
-      "focus": 33,
-      "vitality": 33
-    }
+    "poise": 1,
+    "physical": 1.8,
+    "strike": 2.3,
+    "slash": 2.3,
+    "pierce": 1.4,
+    "magic": 4.6,
+    "fire": 4.4,
+    "lightning": 4.6,
+    "holy": 4.7,
+    "immunity": 20,
+    "robustness": 10,
+    "focus": 33,
+    "vitality": 33
   },
   {
     "name": "Consort\u0027s Mask",
@@ -1278,22 +1137,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 2.8,
-      "strike": 2.8,
-      "slash": 2.5,
-      "pierce": 2.5,
-      "magic": 5,
-      "fire": 4.8,
-      "lightning": 4.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 14,
-      "focus": 39,
-      "vitality": 35
-    }
+    "poise": 2,
+    "physical": 2.8,
+    "strike": 2.8,
+    "slash": 2.5,
+    "pierce": 2.5,
+    "magic": 5,
+    "fire": 4.8,
+    "lightning": 4.8,
+    "holy": 5,
+    "immunity": 24,
+    "robustness": 14,
+    "focus": 39,
+    "vitality": 35
   },
   {
     "name": "Marais Mask",
@@ -1305,22 +1161,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.1,
-      "strike": 2.3,
-      "slash": 1.8,
-      "pierce": 1.4,
-      "magic": 4.6,
-      "fire": 4.5,
-      "lightning": 4.5,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 14,
-      "focus": 35,
-      "vitality": 33
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 2.3,
+    "slash": 1.8,
+    "pierce": 1.4,
+    "magic": 4.6,
+    "fire": 4.5,
+    "lightning": 4.5,
+    "holy": 4.6,
+    "immunity": 20,
+    "robustness": 14,
+    "focus": 35,
+    "vitality": 33
   },
   {
     "name": "Great Horned Headband",
@@ -1332,22 +1185,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 3.3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.1,
-      "slash": 2.8,
-      "pierce": 2.8,
-      "magic": 3.1,
-      "fire": 3.4,
-      "lightning": 3.8,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 33,
-      "robustness": 23,
-      "focus": 27,
-      "vitality": 22
-    }
+    "poise": 1,
+    "physical": 2.8,
+    "strike": 3.1,
+    "slash": 2.8,
+    "pierce": 2.8,
+    "magic": 3.1,
+    "fire": 3.4,
+    "lightning": 3.8,
+    "holy": 3.4,
+    "immunity": 33,
+    "robustness": 23,
+    "focus": 27,
+    "vitality": 22
   },
   {
     "name": "Shining Horned Headband",
@@ -1359,22 +1209,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 3.3,
-    "negation": {
-      "physical": 2.5,
-      "strike": 2.8,
-      "slash": 2.5,
-      "pierce": 3.6,
-      "magic": 3.6,
-      "fire": 3.4,
-      "lightning": 3.6,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 33,
-      "robustness": 23,
-      "focus": 27,
-      "vitality": 20
-    }
+    "poise": 2,
+    "physical": 2.5,
+    "strike": 2.8,
+    "slash": 2.5,
+    "pierce": 3.6,
+    "magic": 3.6,
+    "fire": 3.4,
+    "lightning": 3.6,
+    "holy": 3.1,
+    "immunity": 33,
+    "robustness": 23,
+    "focus": 27,
+    "vitality": 20
   },
   {
     "name": "Godskin Apostle Hood",
@@ -1386,22 +1233,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 2.2,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.1,
-      "slash": 2.1,
-      "pierce": 1.4,
-      "magic": 4.6,
-      "fire": 4.4,
-      "lightning": 4.5,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 10,
-      "focus": 33,
-      "vitality": 31
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 2.1,
+    "slash": 2.1,
+    "pierce": 1.4,
+    "magic": 4.6,
+    "fire": 4.4,
+    "lightning": 4.5,
+    "holy": 5,
+    "immunity": 20,
+    "robustness": 10,
+    "focus": 33,
+    "vitality": 31
   },
   {
     "name": "Godskin Noble Hood",
@@ -1413,22 +1257,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.4,
-      "strike": 2.8,
-      "slash": 1.8,
-      "pierce": 1.4,
-      "magic": 4.5,
-      "fire": 4,
-      "lightning": 4.2,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 10,
-      "focus": 27,
-      "vitality": 29
-    }
+    "poise": 1,
+    "physical": 1.4,
+    "strike": 2.8,
+    "slash": 1.8,
+    "pierce": 1.4,
+    "magic": 4.5,
+    "fire": 4,
+    "lightning": 4.2,
+    "holy": 4.8,
+    "immunity": 16,
+    "robustness": 10,
+    "focus": 27,
+    "vitality": 29
   },
   {
     "name": "Sanguine Noble Hood",
@@ -1440,22 +1281,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 1,
     "weight": 1.4,
-    "negation": {
-      "physical": 1.4,
-      "strike": 0.9,
-      "slash": 0.9,
-      "pierce": 0.9,
-      "magic": 4.6,
-      "fire": 3.8,
-      "lightning": 4.5,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 5,
-      "focus": 29,
-      "vitality": 27
-    }
+    "poise": 0,
+    "physical": 1.4,
+    "strike": 0.9,
+    "slash": 0.9,
+    "pierce": 0.9,
+    "magic": 4.6,
+    "fire": 3.8,
+    "lightning": 4.5,
+    "holy": 4.6,
+    "immunity": 18,
+    "robustness": 5,
+    "focus": 29,
+    "vitality": 27
   },
   {
     "name": "Crimson Tear Scarab",
@@ -1467,22 +1305,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 3.8,
-      "strike": 4,
-      "slash": 3.8,
-      "pierce": 3.8,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.6,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 22,
-      "focus": 27,
-      "vitality": 26
-    }
+    "poise": 2,
+    "physical": 3.8,
+    "strike": 4,
+    "slash": 3.8,
+    "pierce": 3.8,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.6,
+    "holy": 4.5,
+    "immunity": 42,
+    "robustness": 22,
+    "focus": 27,
+    "vitality": 26
   },
   {
     "name": "Cerulean Tear Scarab",
@@ -1494,22 +1329,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 3.8,
-      "strike": 4,
-      "slash": 3.8,
-      "pierce": 3.8,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.6,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 22,
-      "focus": 27,
-      "vitality": 26
-    }
+    "poise": 2,
+    "physical": 3.8,
+    "strike": 4,
+    "slash": 3.8,
+    "pierce": 3.8,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.6,
+    "holy": 4.5,
+    "immunity": 42,
+    "robustness": 22,
+    "focus": 27,
+    "vitality": 26
   },
   {
     "name": "Ash-of-War Scarab",
@@ -1521,22 +1353,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 3.8,
-      "strike": 4,
-      "slash": 3.8,
-      "pierce": 3.8,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.6,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 22,
-      "focus": 27,
-      "vitality": 26
-    }
+    "poise": 2,
+    "physical": 3.8,
+    "strike": 4,
+    "slash": 3.8,
+    "pierce": 3.8,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.6,
+    "holy": 4.5,
+    "immunity": 42,
+    "robustness": 22,
+    "focus": 27,
+    "vitality": 26
   },
   {
     "name": "Glintstone Scarab",
@@ -1548,22 +1377,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 3.8,
-      "strike": 4,
-      "slash": 3.8,
-      "pierce": 3.8,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.6,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 22,
-      "focus": 27,
-      "vitality": 26
-    }
+    "poise": 2,
+    "physical": 3.8,
+    "strike": 4,
+    "slash": 3.8,
+    "pierce": 3.8,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.6,
+    "holy": 4.5,
+    "immunity": 42,
+    "robustness": 22,
+    "focus": 27,
+    "vitality": 26
   },
   {
     "name": "Incantation Scarab",
@@ -1575,22 +1401,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 3.8,
-      "strike": 4,
-      "slash": 3.8,
-      "pierce": 3.8,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.6,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 22,
-      "focus": 27,
-      "vitality": 26
-    }
+    "poise": 2,
+    "physical": 3.8,
+    "strike": 4,
+    "slash": 3.8,
+    "pierce": 3.8,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.6,
+    "holy": 4.5,
+    "immunity": 42,
+    "robustness": 22,
+    "focus": 27,
+    "vitality": 26
   },
   {
     "name": "Imp Head (Cat)",
@@ -1602,22 +1425,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 5.8,
-      "pierce": 6.1,
-      "magic": 5,
-      "fire": 5.8,
-      "lightning": 4.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 35,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 5.8,
+    "pierce": 6.1,
+    "magic": 5,
+    "fire": 5.8,
+    "lightning": 4.8,
+    "holy": 5,
+    "immunity": 35,
+    "robustness": 35,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Imp Head (Wolf)",
@@ -1629,22 +1449,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 5.8,
-      "pierce": 6.1,
-      "magic": 5,
-      "fire": 5.8,
-      "lightning": 4.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 35,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 5.8,
+    "pierce": 6.1,
+    "magic": 5,
+    "fire": 5.8,
+    "lightning": 4.8,
+    "holy": 5,
+    "immunity": 35,
+    "robustness": 35,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Imp Head (Fanged)",
@@ -1656,22 +1473,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 5.8,
-      "pierce": 6.1,
-      "magic": 5,
-      "fire": 5.8,
-      "lightning": 4.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 35,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 5.8,
+    "pierce": 6.1,
+    "magic": 5,
+    "fire": 5.8,
+    "lightning": 4.8,
+    "holy": 5,
+    "immunity": 35,
+    "robustness": 35,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Imp Head (Long-Tongued)",
@@ -1683,22 +1497,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 5.8,
-      "pierce": 6.1,
-      "magic": 5,
-      "fire": 5.8,
-      "lightning": 4.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 35,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 5.8,
+    "pierce": 6.1,
+    "magic": 5,
+    "fire": 5.8,
+    "lightning": 4.8,
+    "holy": 5,
+    "immunity": 35,
+    "robustness": 35,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Imp Head (Corpse)",
@@ -1710,22 +1521,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 5.8,
-      "pierce": 6.1,
-      "magic": 5,
-      "fire": 5.8,
-      "lightning": 4.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 35,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 5.8,
+    "pierce": 6.1,
+    "magic": 5,
+    "fire": 5.8,
+    "lightning": 4.8,
+    "holy": 5,
+    "immunity": 35,
+    "robustness": 35,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Imp Head (Elder)",
@@ -1737,22 +1545,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 5.8,
-      "pierce": 6.1,
-      "magic": 5,
-      "fire": 5.8,
-      "lightning": 4.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 35,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 5.8,
+    "pierce": 6.1,
+    "magic": 5,
+    "fire": 5.8,
+    "lightning": 4.8,
+    "holy": 5,
+    "immunity": 35,
+    "robustness": 35,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Nox Mirrorhelm",
@@ -1764,22 +1569,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 7.5,
-    "negation": {
-      "physical": 4,
-      "strike": 3.4,
-      "slash": 5.5,
-      "pierce": 5,
-      "magic": 6.7,
-      "fire": 5.3,
-      "lightning": 4.2,
-      "holy": 5.3
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 33,
-      "focus": 26,
-      "vitality": 42
-    }
+    "poise": 4,
+    "physical": 4,
+    "strike": 3.4,
+    "slash": 5.5,
+    "pierce": 5,
+    "magic": 6.7,
+    "fire": 5.3,
+    "lightning": 4.2,
+    "holy": 5.3,
+    "immunity": 29,
+    "robustness": 33,
+    "focus": 26,
+    "vitality": 42
   },
   {
     "name": "Iji\u0027s Mirrorhelm",
@@ -1791,22 +1593,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 7.5,
-    "negation": {
-      "physical": 3.8,
-      "strike": 3.8,
-      "slash": 5.2,
-      "pierce": 5.2,
-      "magic": 6.2,
-      "fire": 4.6,
-      "lightning": 4.8,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 42,
-      "focus": 26,
-      "vitality": 39
-    }
+    "poise": 5,
+    "physical": 3.8,
+    "strike": 3.8,
+    "slash": 5.2,
+    "pierce": 5.2,
+    "magic": 6.2,
+    "fire": 4.6,
+    "lightning": 4.8,
+    "holy": 5.8,
+    "immunity": 22,
+    "robustness": 42,
+    "focus": 26,
+    "vitality": 39
   },
   {
     "name": "Silver Tear Mask",
@@ -1818,22 +1617,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.2,
-      "strike": 3.6,
-      "slash": 3.8,
-      "pierce": 3.1,
-      "magic": 5.5,
-      "fire": 5.2,
-      "lightning": 5,
-      "holy": 5.3
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 20,
-      "focus": 44,
-      "vitality": 44
-    }
+    "poise": 3,
+    "physical": 4.2,
+    "strike": 3.6,
+    "slash": 3.8,
+    "pierce": 3.1,
+    "magic": 5.5,
+    "fire": 5.2,
+    "lightning": 5,
+    "holy": 5.3,
+    "immunity": 26,
+    "robustness": 20,
+    "focus": 44,
+    "vitality": 44
   },
   {
     "name": "Envoy Crown",
@@ -1845,22 +1641,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.1,
-      "slash": 3.1,
-      "pierce": 2.8,
-      "magic": 5.3,
-      "fire": 4.7,
-      "lightning": 4.9,
-      "holy": 5.5
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 15,
-      "focus": 46,
-      "vitality": 46
-    }
+    "poise": 2,
+    "physical": 2.8,
+    "strike": 3.1,
+    "slash": 3.1,
+    "pierce": 2.8,
+    "magic": 5.3,
+    "fire": 4.7,
+    "lightning": 4.9,
+    "holy": 5.5,
+    "immunity": 27,
+    "robustness": 15,
+    "focus": 46,
+    "vitality": 46
   },
   {
     "name": "Octopus Head",
@@ -1872,22 +1665,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.4,
-      "strike": 5.4,
-      "slash": 2.8,
-      "pierce": 2.8,
-      "magic": 4,
-      "fire": 3.6,
-      "lightning": 4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 14,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 5.4,
+    "slash": 2.8,
+    "pierce": 2.8,
+    "magic": 4,
+    "fire": 3.6,
+    "lightning": 4,
+    "holy": 3.8,
+    "immunity": 31,
+    "robustness": 14,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Jar",
@@ -1899,22 +1689,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 6.8,
-    "negation": {
-      "physical": 6.8,
-      "strike": 3.4,
-      "slash": 7,
-      "pierce": 6.8,
-      "magic": 4.7,
-      "fire": 4.9,
-      "lightning": 4.6,
-      "holy": 4.7
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 33,
-      "focus": 16,
-      "vitality": 15
-    }
+    "poise": 8,
+    "physical": 6.8,
+    "strike": 3.4,
+    "slash": 7,
+    "pierce": 6.8,
+    "magic": 4.7,
+    "fire": 4.9,
+    "lightning": 4.6,
+    "holy": 4.7,
+    "immunity": 24,
+    "robustness": 33,
+    "focus": 16,
+    "vitality": 15
   },
   {
     "name": "Albinauric Mask",
@@ -1926,22 +1713,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 4,
-      "strike": 3.1,
-      "slash": 4,
-      "pierce": 3.8,
-      "magic": 2.5,
-      "fire": 3.1,
-      "lightning": 2.1,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 23,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 3,
+    "physical": 4,
+    "strike": 3.1,
+    "slash": 4,
+    "pierce": 3.8,
+    "magic": 2.5,
+    "fire": 3.1,
+    "lightning": 2.1,
+    "holy": 2.5,
+    "immunity": 12,
+    "robustness": 23,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Black Wolf Mask",
@@ -1953,22 +1737,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 1,
     "weight": 5.9,
-    "negation": {
-      "physical": 5.2,
-      "strike": 4.6,
-      "slash": 5.2,
-      "pierce": 5.5,
-      "magic": 4,
-      "fire": 4.5,
-      "lightning": 3.6,
-      "holy": 4.2
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 33,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 8,
+    "physical": 5.2,
+    "strike": 4.6,
+    "slash": 5.2,
+    "pierce": 5.5,
+    "magic": 4,
+    "fire": 4.5,
+    "lightning": 3.6,
+    "holy": 4.2,
+    "immunity": 16,
+    "robustness": 33,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Blue Cloth Cowl",
@@ -1980,22 +1761,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 2.7,
-    "negation": {
-      "physical": 2.8,
-      "strike": 2.8,
-      "slash": 2.3,
-      "pierce": 2.3,
-      "magic": 3.1,
-      "fire": 3.4,
-      "lightning": 3.8,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 15,
-      "focus": 18,
-      "vitality": 18
-    }
+    "poise": 1,
+    "physical": 2.8,
+    "strike": 2.8,
+    "slash": 2.3,
+    "pierce": 2.3,
+    "magic": 3.1,
+    "fire": 3.4,
+    "lightning": 3.8,
+    "holy": 2.8,
+    "immunity": 24,
+    "robustness": 15,
+    "focus": 18,
+    "vitality": 18
   },
   {
     "name": "Crimson Hood",
@@ -2007,22 +1785,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.4,
-      "strike": 1.8,
-      "slash": 1.4,
-      "pierce": 1.8,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.5,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 9,
-      "focus": 27,
-      "vitality": 29
-    }
+    "poise": 0,
+    "physical": 1.4,
+    "strike": 1.8,
+    "slash": 1.4,
+    "pierce": 1.8,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.5,
+    "holy": 4.6,
+    "immunity": 16,
+    "robustness": 9,
+    "focus": 27,
+    "vitality": 29
   },
   {
     "name": "Navy Hood",
@@ -2034,22 +1809,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.4,
-      "strike": 2.1,
-      "slash": 1.8,
-      "pierce": 0.9,
-      "magic": 4.6,
-      "fire": 4.7,
-      "lightning": 4.4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 10,
-      "focus": 29,
-      "vitality": 27
-    }
+    "poise": 0,
+    "physical": 1.4,
+    "strike": 2.1,
+    "slash": 1.8,
+    "pierce": 0.9,
+    "magic": 4.6,
+    "fire": 4.7,
+    "lightning": 4.4,
+    "holy": 4.5,
+    "immunity": 20,
+    "robustness": 10,
+    "focus": 29,
+    "vitality": 27
   },
   {
     "name": "White Mask",
@@ -2061,22 +1833,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 3.2,
-    "negation": {
-      "physical": 2.7,
-      "strike": 3,
-      "slash": 3.3,
-      "pierce": 2.7,
-      "magic": 3.5,
-      "fire": 3.7,
-      "lightning": 3.9,
-      "holy": 3.7
-    },
-    "resists": {
-      "immunity": 23,
-      "robustness": 18,
-      "focus": 21,
-      "vitality": 22
-    }
+    "poise": 2,
+    "physical": 2.7,
+    "strike": 3,
+    "slash": 3.3,
+    "pierce": 2.7,
+    "magic": 3.5,
+    "fire": 3.7,
+    "lightning": 3.9,
+    "holy": 3.7,
+    "immunity": 23,
+    "robustness": 18,
+    "focus": 21,
+    "vitality": 22
   },
   {
     "name": "Nomadic Merchant\u0027s Chapeau",
@@ -2088,22 +1857,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.1,
-      "slash": 2.5,
-      "pierce": 2.3,
-      "magic": 3.4,
-      "fire": 3.4,
-      "lightning": 3.4,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 14,
-      "focus": 31,
-      "vitality": 20
-    }
+    "poise": 1,
+    "physical": 2.8,
+    "strike": 3.1,
+    "slash": 2.5,
+    "pierce": 2.3,
+    "magic": 3.4,
+    "fire": 3.4,
+    "lightning": 3.4,
+    "holy": 3.1,
+    "immunity": 24,
+    "robustness": 14,
+    "focus": 31,
+    "vitality": 20
   },
   {
     "name": "Bandit Mask",
@@ -2115,22 +1881,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.1,
-      "slash": 3.1,
-      "pierce": 3.1,
-      "magic": 3.1,
-      "fire": 3.4,
-      "lightning": 3.6,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 30,
-      "robustness": 14,
-      "focus": 14,
-      "vitality": 16
-    }
+    "poise": 0,
+    "physical": 2.8,
+    "strike": 3.1,
+    "slash": 3.1,
+    "pierce": 3.1,
+    "magic": 3.1,
+    "fire": 3.4,
+    "lightning": 3.6,
+    "holy": 3.1,
+    "immunity": 30,
+    "robustness": 14,
+    "focus": 14,
+    "vitality": 16
   },
   {
     "name": "Black Hood",
@@ -2142,22 +1905,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.1,
-      "slash": 3.1,
-      "pierce": 3.1,
-      "magic": 3.1,
-      "fire": 3.4,
-      "lightning": 3.6,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 33,
-      "robustness": 16,
-      "focus": 16,
-      "vitality": 18
-    }
+    "poise": 1,
+    "physical": 2.8,
+    "strike": 3.1,
+    "slash": 3.1,
+    "pierce": 3.1,
+    "magic": 3.1,
+    "fire": 3.4,
+    "lightning": 3.6,
+    "holy": 3.1,
+    "immunity": 33,
+    "robustness": 16,
+    "focus": 16,
+    "vitality": 18
   },
   {
     "name": "Confessor Hood",
@@ -2169,22 +1929,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 3.3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.6,
-      "slash": 2.8,
-      "pierce": 3.1,
-      "magic": 3.8,
-      "fire": 3.8,
-      "lightning": 4.2,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 20,
-      "focus": 20,
-      "vitality": 22
-    }
+    "poise": 2,
+    "physical": 2.8,
+    "strike": 3.6,
+    "slash": 2.8,
+    "pierce": 3.1,
+    "magic": 3.8,
+    "fire": 3.8,
+    "lightning": 4.2,
+    "holy": 3.4,
+    "immunity": 26,
+    "robustness": 20,
+    "focus": 20,
+    "vitality": 22
   },
   {
     "name": "Confessor Hood (Altered)",
@@ -2196,22 +1953,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 2.7,
-    "negation": {
-      "physical": 2.3,
-      "strike": 3.1,
-      "slash": 2.3,
-      "pierce": 2.5,
-      "magic": 3.4,
-      "fire": 3.4,
-      "lightning": 3.8,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 14,
-      "focus": 14,
-      "vitality": 16
-    }
+    "poise": 0,
+    "physical": 2.3,
+    "strike": 3.1,
+    "slash": 2.3,
+    "pierce": 2.5,
+    "magic": 3.4,
+    "fire": 3.4,
+    "lightning": 3.8,
+    "holy": 2.8,
+    "immunity": 21,
+    "robustness": 14,
+    "focus": 14,
+    "vitality": 16
   },
   {
     "name": "Omensmirk Mask",
@@ -2223,22 +1977,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 3.1,
-      "strike": 2.8,
-      "slash": 2.5,
-      "pierce": 2.5,
-      "magic": 3.1,
-      "fire": 3.4,
-      "lightning": 4,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 12,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 2,
+    "physical": 3.1,
+    "strike": 2.8,
+    "slash": 2.5,
+    "pierce": 2.5,
+    "magic": 3.1,
+    "fire": 3.4,
+    "lightning": 4,
+    "holy": 3.6,
+    "immunity": 29,
+    "robustness": 12,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Skeletal Mask",
@@ -2250,22 +2001,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 2.5,
-      "strike": 2.8,
-      "slash": 3.1,
-      "pierce": 3.1,
-      "magic": 3.4,
-      "fire": 3.4,
-      "lightning": 3.6,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 23,
-      "robustness": 14,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 1,
+    "physical": 2.5,
+    "strike": 2.8,
+    "slash": 3.1,
+    "pierce": 3.1,
+    "magic": 3.4,
+    "fire": 3.4,
+    "lightning": 3.6,
+    "holy": 3.1,
+    "immunity": 23,
+    "robustness": 14,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Foot Soldier Helm",
@@ -2277,22 +2025,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.6,
-      "strike": 3.4,
-      "slash": 3.1,
-      "pierce": 3.1,
-      "magic": 3.8,
-      "fire": 4.2,
-      "lightning": 4.2,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 18,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 2,
+    "physical": 3.6,
+    "strike": 3.4,
+    "slash": 3.1,
+    "pierce": 3.1,
+    "magic": 3.8,
+    "fire": 4.2,
+    "lightning": 4.2,
+    "holy": 3.8,
+    "immunity": 27,
+    "robustness": 18,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Foot Soldier Helmet",
@@ -2304,22 +2049,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.4,
-      "slash": 3.6,
-      "pierce": 3.6,
-      "magic": 4,
-      "fire": 4,
-      "lightning": 4,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 18,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 3.4,
+    "slash": 3.6,
+    "pierce": 3.6,
+    "magic": 4,
+    "fire": 4,
+    "lightning": 4,
+    "holy": 3.6,
+    "immunity": 27,
+    "robustness": 18,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Foot Soldier Cap",
@@ -2331,22 +2073,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.6,
-      "slash": 3.4,
-      "pierce": 3.4,
-      "magic": 3.8,
-      "fire": 4,
-      "lightning": 4.2,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 18,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 3.6,
+    "slash": 3.4,
+    "pierce": 3.4,
+    "magic": 3.8,
+    "fire": 4,
+    "lightning": 4.2,
+    "holy": 3.8,
+    "immunity": 27,
+    "robustness": 18,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Gilded Foot Soldier Cap",
@@ -2358,22 +2097,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.8,
-      "slash": 3.1,
-      "pierce": 3.6,
-      "magic": 3.6,
-      "fire": 3.8,
-      "lightning": 4.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 18,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 3.8,
+    "slash": 3.1,
+    "pierce": 3.6,
+    "magic": 3.6,
+    "fire": 3.8,
+    "lightning": 4.4,
+    "holy": 3.8,
+    "immunity": 27,
+    "robustness": 18,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Sacred Crown Helm",
@@ -2385,22 +2121,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.8,
-      "slash": 3.1,
-      "pierce": 3.6,
-      "magic": 3.6,
-      "fire": 3.8,
-      "lightning": 4.2,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 18,
-      "focus": 23,
-      "vitality": 24
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 3.8,
+    "slash": 3.1,
+    "pierce": 3.6,
+    "magic": 3.6,
+    "fire": 3.8,
+    "lightning": 4.2,
+    "holy": 4,
+    "immunity": 27,
+    "robustness": 18,
+    "focus": 23,
+    "vitality": 24
   },
   {
     "name": "Highwayman Hood",
@@ -2412,22 +2145,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.6,
-      "slash": 2.8,
-      "pierce": 3.1,
-      "magic": 3.8,
-      "fire": 3.8,
-      "lightning": 4,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 15,
-      "focus": 22,
-      "vitality": 22
-    }
+    "poise": 2,
+    "physical": 2.8,
+    "strike": 3.6,
+    "slash": 2.8,
+    "pierce": 3.1,
+    "magic": 3.8,
+    "fire": 3.8,
+    "lightning": 4,
+    "holy": 3.6,
+    "immunity": 24,
+    "robustness": 15,
+    "focus": 22,
+    "vitality": 22
   },
   {
     "name": "Vulgar Militia Helm",
@@ -2439,22 +2169,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.8,
-      "slash": 3.6,
-      "pierce": 3.1,
-      "magic": 3.8,
-      "fire": 3.8,
-      "lightning": 4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 16,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 3.8,
+    "slash": 3.6,
+    "pierce": 3.1,
+    "magic": 3.8,
+    "fire": 3.8,
+    "lightning": 4,
+    "holy": 3.8,
+    "immunity": 31,
+    "robustness": 16,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Duelist Helm",
@@ -2466,22 +2193,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 6.2,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 6.1,
-      "pierce": 6.1,
-      "magic": 4,
-      "fire": 4.5,
-      "lightning": 3.6,
-      "holy": 4.2
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 24,
-      "focus": 11,
-      "vitality": 12
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 6.1,
+    "pierce": 6.1,
+    "magic": 4,
+    "fire": 4.5,
+    "lightning": 3.6,
+    "holy": 4.2,
+    "immunity": 24,
+    "robustness": 24,
+    "focus": 11,
+    "vitality": 12
   },
   {
     "name": "Rotten Duelist Helm",
@@ -2493,22 +2217,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 6.4,
-    "negation": {
-      "physical": 5.5,
-      "strike": 4.6,
-      "slash": 5.8,
-      "pierce": 5.5,
-      "magic": 4.5,
-      "fire": 4.6,
-      "lightning": 4.4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 31,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 8,
+    "physical": 5.5,
+    "strike": 4.6,
+    "slash": 5.8,
+    "pierce": 5.5,
+    "magic": 4.5,
+    "fire": 4.6,
+    "lightning": 4.4,
+    "holy": 4.5,
+    "immunity": 31,
+    "robustness": 31,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Nox Monk Hood",
@@ -2520,22 +2241,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.1,
-      "slash": 2.8,
-      "pierce": 2.5,
-      "magic": 4,
-      "fire": 3.8,
-      "lightning": 3.8,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 15,
-      "focus": 18,
-      "vitality": 18
-    }
+    "poise": 1,
+    "physical": 2.8,
+    "strike": 3.1,
+    "slash": 2.8,
+    "pierce": 2.5,
+    "magic": 4,
+    "fire": 3.8,
+    "lightning": 3.8,
+    "holy": 3.1,
+    "immunity": 24,
+    "robustness": 15,
+    "focus": 18,
+    "vitality": 18
   },
   {
     "name": "Nox Monk Hood (Altered)",
@@ -2547,22 +2265,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 2.7,
-    "negation": {
-      "physical": 2.5,
-      "strike": 2.8,
-      "slash": 2.5,
-      "pierce": 2.3,
-      "magic": 3.8,
-      "fire": 3.6,
-      "lightning": 3.6,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 12,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 0,
+    "physical": 2.5,
+    "strike": 2.8,
+    "slash": 2.5,
+    "pierce": 2.3,
+    "magic": 3.8,
+    "fire": 3.6,
+    "lightning": 3.6,
+    "holy": 2.8,
+    "immunity": 21,
+    "robustness": 12,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Nox Swordstress Crown",
@@ -2574,22 +2289,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.3,
-    "negation": {
-      "physical": 2.8,
-      "strike": 3.4,
-      "slash": 2.8,
-      "pierce": 3.1,
-      "magic": 4.4,
-      "fire": 3.6,
-      "lightning": 4.2,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 15,
-      "focus": 22,
-      "vitality": 22
-    }
+    "poise": 2,
+    "physical": 2.8,
+    "strike": 3.4,
+    "slash": 2.8,
+    "pierce": 3.1,
+    "magic": 4.4,
+    "fire": 3.6,
+    "lightning": 4.2,
+    "holy": 3.8,
+    "immunity": 24,
+    "robustness": 15,
+    "focus": 22,
+    "vitality": 22
   },
   {
     "name": "Nox Swordstress Crown (Altered)",
@@ -2601,22 +2313,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 2.7,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.8,
-      "slash": 2.3,
-      "pierce": 2.5,
-      "magic": 4,
-      "fire": 3.1,
-      "lightning": 3.8,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 11,
-      "focus": 17,
-      "vitality": 17
-    }
+    "poise": 0,
+    "physical": 2.3,
+    "strike": 2.8,
+    "slash": 2.3,
+    "pierce": 2.5,
+    "magic": 4,
+    "fire": 3.1,
+    "lightning": 3.8,
+    "holy": 3.4,
+    "immunity": 21,
+    "robustness": 11,
+    "focus": 17,
+    "vitality": 17
   },
   {
     "name": "Night Maiden Twin Crown",
@@ -2628,22 +2337,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 3.3,
-    "negation": {
-      "physical": 2.5,
-      "strike": 3.1,
-      "slash": 2.5,
-      "pierce": 3.4,
-      "magic": 4.2,
-      "fire": 3.8,
-      "lightning": 4,
-      "holy": 4.2
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 15,
-      "focus": 22,
-      "vitality": 22
-    }
+    "poise": 2,
+    "physical": 2.5,
+    "strike": 3.1,
+    "slash": 2.5,
+    "pierce": 3.4,
+    "magic": 4.2,
+    "fire": 3.8,
+    "lightning": 4,
+    "holy": 4.2,
+    "immunity": 26,
+    "robustness": 15,
+    "focus": 22,
+    "vitality": 22
   },
   {
     "name": "Champion Headband",
@@ -2655,22 +2361,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 1,
     "weight": 2.7,
-    "negation": {
-      "physical": 2.3,
-      "strike": 3.1,
-      "slash": 2.5,
-      "pierce": 2.8,
-      "magic": 2.8,
-      "fire": 3.4,
-      "lightning": 3.6,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 14,
-      "focus": 18,
-      "vitality": 16
-    }
+    "poise": 2,
+    "physical": 2.3,
+    "strike": 3.1,
+    "slash": 2.5,
+    "pierce": 2.8,
+    "magic": 2.8,
+    "fire": 3.4,
+    "lightning": 3.6,
+    "holy": 3.4,
+    "immunity": 22,
+    "robustness": 14,
+    "focus": 18,
+    "vitality": 16
   },
   {
     "name": "Chain Coif",
@@ -2682,22 +2385,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 4.2,
-      "strike": 3.1,
-      "slash": 4.6,
-      "pierce": 4.2,
-      "magic": 2.5,
-      "fire": 3.8,
-      "lightning": 2.1,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 5,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 4.2,
+    "strike": 3.1,
+    "slash": 4.6,
+    "pierce": 4.2,
+    "magic": 2.5,
+    "fire": 3.8,
+    "lightning": 2.1,
+    "holy": 2.8,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 5,
+    "vitality": 8
   },
   {
     "name": "Iron Helmet",
@@ -2709,22 +2409,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 4,
-      "pierce": 4.2,
-      "magic": 2.5,
-      "fire": 3.1,
-      "lightning": 2.3,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 4,
+    "pierce": 4.2,
+    "magic": 2.5,
+    "fire": 3.1,
+    "lightning": 2.3,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Godrick Soldier Helm",
@@ -2736,22 +2433,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.6,
-      "slash": 4.4,
-      "pierce": 4.2,
-      "magic": 3.1,
-      "fire": 3.6,
-      "lightning": 2.5,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 22,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 5,
+    "physical": 4.4,
+    "strike": 3.6,
+    "slash": 4.4,
+    "pierce": 4.2,
+    "magic": 3.1,
+    "fire": 3.6,
+    "lightning": 2.5,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 22,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Raya Lucarian Helm",
@@ -2763,22 +2457,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.6,
-      "pierce": 4.4,
-      "magic": 3.4,
-      "fire": 3.6,
-      "lightning": 2.3,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 22,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 5,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.6,
+    "pierce": 4.4,
+    "magic": 3.4,
+    "fire": 3.6,
+    "lightning": 2.3,
+    "holy": 2.8,
+    "immunity": 12,
+    "robustness": 22,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Radahn Soldier Helm",
@@ -2790,22 +2481,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.6,
-      "strike": 3.4,
-      "slash": 4.2,
-      "pierce": 4,
-      "magic": 3.1,
-      "fire": 3.8,
-      "lightning": 2.5,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 20,
-      "focus": 9,
-      "vitality": 10
-    }
+    "poise": 5,
+    "physical": 4.6,
+    "strike": 3.4,
+    "slash": 4.2,
+    "pierce": 4,
+    "magic": 3.1,
+    "fire": 3.8,
+    "lightning": 2.5,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 20,
+    "focus": 9,
+    "vitality": 10
   },
   {
     "name": "Leyndell Soldier Helm",
@@ -2817,22 +2505,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.8,
-      "slash": 4.2,
-      "pierce": 4.4,
-      "magic": 2.8,
-      "fire": 3.4,
-      "lightning": 2.8,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 22,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 5,
+    "physical": 4.4,
+    "strike": 3.8,
+    "slash": 4.2,
+    "pierce": 4.4,
+    "magic": 2.8,
+    "fire": 3.4,
+    "lightning": 2.8,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 22,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Haligtree Helm",
@@ -2844,22 +2529,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.8,
-      "slash": 4.2,
-      "pierce": 4.4,
-      "magic": 2.8,
-      "fire": 3.4,
-      "lightning": 2.5,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 22,
-      "focus": 9,
-      "vitality": 10
-    }
+    "poise": 4,
+    "physical": 4.4,
+    "strike": 3.8,
+    "slash": 4.2,
+    "pierce": 4.4,
+    "magic": 2.8,
+    "fire": 3.4,
+    "lightning": 2.5,
+    "holy": 3.4,
+    "immunity": 12,
+    "robustness": 22,
+    "focus": 9,
+    "vitality": 10
   },
   {
     "name": "Exile Hood",
@@ -2871,22 +2553,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.6,
-      "pierce": 4.4,
-      "magic": 2.8,
-      "fire": 3.8,
-      "lightning": 2.3,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 23,
-      "focus": 9,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.6,
+    "pierce": 4.4,
+    "magic": 2.8,
+    "fire": 3.8,
+    "lightning": 2.3,
+    "holy": 3.4,
+    "immunity": 12,
+    "robustness": 23,
+    "focus": 9,
+    "vitality": 8
   },
   {
     "name": "Kaiden Helm",
@@ -2898,22 +2577,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.4,
-      "pierce": 4.4,
-      "magic": 3.1,
-      "fire": 3.4,
-      "lightning": 2.8,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 22,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 5,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.4,
+    "pierce": 4.4,
+    "magic": 3.1,
+    "fire": 3.4,
+    "lightning": 2.8,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 22,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Land of Reeds Helm",
@@ -2925,22 +2601,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.1,
-      "strike": 3.4,
-      "slash": 4.8,
-      "pierce": 3.4,
-      "magic": 3.6,
-      "fire": 4,
-      "lightning": 4.2,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 22,
-      "focus": 0,
-      "vitality": 23
-    }
+    "poise": 2,
+    "physical": 3.1,
+    "strike": 3.4,
+    "slash": 4.8,
+    "pierce": 3.4,
+    "magic": 3.6,
+    "fire": 4,
+    "lightning": 4.2,
+    "holy": 3.8,
+    "immunity": 26,
+    "robustness": 22,
+    "focus": 0,
+    "vitality": 23
   },
   {
     "name": "Okina Mask",
@@ -2952,22 +2625,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.6,
-      "slash": 4,
-      "pierce": 3.1,
-      "magic": 3.8,
-      "fire": 3.8,
-      "lightning": 4.2,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 18,
-      "focus": 23,
-      "vitality": 22
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 3.6,
+    "slash": 4,
+    "pierce": 3.1,
+    "magic": 3.8,
+    "fire": 3.8,
+    "lightning": 4.2,
+    "holy": 3.6,
+    "immunity": 29,
+    "robustness": 18,
+    "focus": 23,
+    "vitality": 22
   },
   {
     "name": "Iron Kasa",
@@ -2979,22 +2649,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 3.6,
-      "strike": 3.6,
-      "slash": 4.2,
-      "pierce": 3.6,
-      "magic": 4,
-      "fire": 4.2,
-      "lightning": 4.4,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 30,
-      "robustness": 23,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 2,
+    "physical": 3.6,
+    "strike": 3.6,
+    "slash": 4.2,
+    "pierce": 3.6,
+    "magic": 4,
+    "fire": 4.2,
+    "lightning": 4.4,
+    "holy": 4,
+    "immunity": 30,
+    "robustness": 23,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Eccentric\u0027s Hood",
@@ -3006,22 +2673,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.2,
-      "pierce": 4.4,
-      "magic": 3.4,
-      "fire": 3.6,
-      "lightning": 2.3,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 24,
-      "focus": 9,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.2,
+    "pierce": 4.4,
+    "magic": 3.4,
+    "fire": 3.6,
+    "lightning": 2.3,
+    "holy": 3.1,
+    "immunity": 14,
+    "robustness": 24,
+    "focus": 9,
+    "vitality": 8
   },
   {
     "name": "Eccentric\u0027s Hood (Altered)",
@@ -3033,22 +2697,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.2,
-      "pierce": 4.4,
-      "magic": 3.4,
-      "fire": 3.6,
-      "lightning": 2.3,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 21,
-      "focus": 8,
-      "vitality": 7
-    }
+    "poise": 3,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.2,
+    "pierce": 4.4,
+    "magic": 3.4,
+    "fire": 3.6,
+    "lightning": 2.3,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 21,
+    "focus": 8,
+    "vitality": 7
   },
   {
     "name": "Marionette Soldier Helm",
@@ -3060,22 +2721,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 4,
-      "pierce": 3.8,
-      "magic": 3.1,
-      "fire": 3.1,
-      "lightning": 2.3,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 10,
-      "robustness": 22,
-      "focus": 9,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 4,
+    "pierce": 3.8,
+    "magic": 3.1,
+    "fire": 3.1,
+    "lightning": 2.3,
+    "holy": 3.1,
+    "immunity": 10,
+    "robustness": 22,
+    "focus": 9,
+    "vitality": 8
   },
   {
     "name": "Marionette Soldier Birdhelm",
@@ -3087,22 +2745,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.1,
-      "slash": 4,
-      "pierce": 3.8,
-      "magic": 3.1,
-      "fire": 3.1,
-      "lightning": 2.5,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 9
-    }
+    "poise": 5,
+    "physical": 4.4,
+    "strike": 3.1,
+    "slash": 4,
+    "pierce": 3.8,
+    "magic": 3.1,
+    "fire": 3.1,
+    "lightning": 2.5,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 9
   },
   {
     "name": "Blue Silver Mail Hood",
@@ -3114,22 +2769,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 4.2,
-      "strike": 3.1,
-      "slash": 4.4,
-      "pierce": 3.8,
-      "magic": 3.6,
-      "fire": 3.4,
-      "lightning": 2.5,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 10,
-      "robustness": 24,
-      "focus": 5,
-      "vitality": 5
-    }
+    "poise": 4,
+    "physical": 4.2,
+    "strike": 3.1,
+    "slash": 4.4,
+    "pierce": 3.8,
+    "magic": 3.6,
+    "fire": 3.4,
+    "lightning": 2.5,
+    "holy": 2.5,
+    "immunity": 10,
+    "robustness": 24,
+    "focus": 5,
+    "vitality": 5
   },
   {
     "name": "Fire Monk Hood",
@@ -3141,22 +2793,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.6,
-      "strike": 3.8,
-      "slash": 4.2,
-      "pierce": 4,
-      "magic": 3.1,
-      "fire": 4.5,
-      "lightning": 2.5,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 20,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 4,
+    "physical": 4.6,
+    "strike": 3.8,
+    "slash": 4.2,
+    "pierce": 4,
+    "magic": 3.1,
+    "fire": 4.5,
+    "lightning": 2.5,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 20,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Blackflame Monk Hood",
@@ -3168,22 +2817,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.6,
-      "pierce": 4.2,
-      "magic": 2.8,
-      "fire": 4.4,
-      "lightning": 2.1,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 20,
-      "focus": 5,
-      "vitality": 11
-    }
+    "poise": 5,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.6,
+    "pierce": 4.2,
+    "magic": 2.8,
+    "fire": 4.4,
+    "lightning": 2.1,
+    "holy": 2.8,
+    "immunity": 11,
+    "robustness": 20,
+    "focus": 5,
+    "vitality": 11
   },
   {
     "name": "Zamor Mask",
@@ -3195,22 +2841,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 4.2,
-      "strike": 3.4,
-      "slash": 4.4,
-      "pierce": 3.8,
-      "magic": 3.1,
-      "fire": 3.1,
-      "lightning": 2.1,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 9,
-      "robustness": 27,
-      "focus": 5,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 4.2,
+    "strike": 3.4,
+    "slash": 4.4,
+    "pierce": 3.8,
+    "magic": 3.1,
+    "fire": 3.1,
+    "lightning": 2.1,
+    "holy": 2.8,
+    "immunity": 9,
+    "robustness": 27,
+    "focus": 5,
+    "vitality": 8
   },
   {
     "name": "Black Knife Hood",
@@ -3222,22 +2865,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.8,
-    "negation": {
-      "physical": 3.8,
-      "strike": 3.6,
-      "slash": 4.2,
-      "pierce": 4.2,
-      "magic": 2.8,
-      "fire": 3.1,
-      "lightning": 2.1,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 4,
+    "physical": 3.8,
+    "strike": 3.6,
+    "slash": 4.2,
+    "pierce": 4.2,
+    "magic": 2.8,
+    "fire": 3.1,
+    "lightning": 2.1,
+    "holy": 3.8,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Malenia\u0027s Winged Helm",
@@ -3249,22 +2889,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.6,
-      "pierce": 4,
-      "magic": 2.8,
-      "fire": 3.4,
-      "lightning": 2.3,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.6,
+    "pierce": 4,
+    "magic": 2.8,
+    "fire": 3.4,
+    "lightning": 2.3,
+    "holy": 3.8,
+    "immunity": 22,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Elden Lord Crown",
@@ -3276,22 +2913,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.8,
-      "strike": 3.4,
-      "slash": 3.6,
-      "pierce": 4,
-      "magic": 2.5,
-      "fire": 3.6,
-      "lightning": 2.1,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 20,
-      "focus": 0,
-      "vitality": 5
-    }
+    "poise": 3,
+    "physical": 3.8,
+    "strike": 3.4,
+    "slash": 3.6,
+    "pierce": 4,
+    "magic": 2.5,
+    "fire": 3.6,
+    "lightning": 2.1,
+    "holy": 2.3,
+    "immunity": 11,
+    "robustness": 20,
+    "focus": 0,
+    "vitality": 5
   },
   {
     "name": "Knight Helm",
@@ -3303,22 +2937,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.4,
-      "strike": 4.2,
-      "slash": 4.8,
-      "pierce": 4.8,
-      "magic": 3.8,
-      "fire": 3.8,
-      "lightning": 3.4,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 22,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 6,
+    "physical": 4.4,
+    "strike": 4.2,
+    "slash": 4.8,
+    "pierce": 4.8,
+    "magic": 3.8,
+    "fire": 3.8,
+    "lightning": 3.4,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 22,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Vagabond Knight Helm",
@@ -3330,22 +2961,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4.6,
-      "strike": 3.6,
-      "slash": 4.2,
-      "pierce": 4,
-      "magic": 3.1,
-      "fire": 3.6,
-      "lightning": 2.8,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 23,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 4,
+    "physical": 4.6,
+    "strike": 3.6,
+    "slash": 4.2,
+    "pierce": 4,
+    "magic": 3.1,
+    "fire": 3.6,
+    "lightning": 2.8,
+    "holy": 2.8,
+    "immunity": 14,
+    "robustness": 23,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Greathelm",
@@ -3357,22 +2985,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.9,
-    "negation": {
-      "physical": 5.5,
-      "strike": 4.2,
-      "slash": 5.8,
-      "pierce": 5.2,
-      "magic": 4.2,
-      "fire": 4.6,
-      "lightning": 3.8,
-      "holy": 4.2
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 29,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 7,
+    "physical": 5.5,
+    "strike": 4.2,
+    "slash": 5.8,
+    "pierce": 5.2,
+    "magic": 4.2,
+    "fire": 4.6,
+    "lightning": 3.8,
+    "holy": 4.2,
+    "immunity": 16,
+    "robustness": 29,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Carian Knight Helm",
@@ -3384,22 +3009,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.2,
-      "strike": 3.8,
-      "slash": 4.4,
-      "pierce": 4.2,
-      "magic": 4.4,
-      "fire": 4.2,
-      "lightning": 3.4,
-      "holy": 4.2
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 20,
-      "focus": 9,
-      "vitality": 10
-    }
+    "poise": 4,
+    "physical": 4.2,
+    "strike": 3.8,
+    "slash": 4.4,
+    "pierce": 4.2,
+    "magic": 4.4,
+    "fire": 4.2,
+    "lightning": 3.4,
+    "holy": 4.2,
+    "immunity": 12,
+    "robustness": 20,
+    "focus": 9,
+    "vitality": 10
   },
   {
     "name": "Godrick Knight Helm",
@@ -3411,22 +3033,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4.2,
-      "slash": 5,
-      "pierce": 4.6,
-      "magic": 3.8,
-      "fire": 4.2,
-      "lightning": 3.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 24,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 6,
+    "physical": 4.8,
+    "strike": 4.2,
+    "slash": 5,
+    "pierce": 4.6,
+    "magic": 3.8,
+    "fire": 4.2,
+    "lightning": 3.4,
+    "holy": 3.8,
+    "immunity": 15,
+    "robustness": 24,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Cuckoo Knight Helm",
@@ -3438,22 +3057,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4,
-      "slash": 5.2,
-      "pierce": 4.8,
-      "magic": 4.4,
-      "fire": 4.2,
-      "lightning": 3.1,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 24,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 6,
+    "physical": 4.8,
+    "strike": 4,
+    "slash": 5.2,
+    "pierce": 4.8,
+    "magic": 4.4,
+    "fire": 4.2,
+    "lightning": 3.1,
+    "holy": 3.6,
+    "immunity": 14,
+    "robustness": 24,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Redmane Knight Helm",
@@ -3465,22 +3081,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 5,
-      "strike": 4,
-      "slash": 4.8,
-      "pierce": 4.4,
-      "magic": 3.8,
-      "fire": 4.4,
-      "lightning": 3.4,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 23,
-      "focus": 10,
-      "vitality": 11
-    }
+    "poise": 6,
+    "physical": 5,
+    "strike": 4,
+    "slash": 4.8,
+    "pierce": 4.4,
+    "magic": 3.8,
+    "fire": 4.4,
+    "lightning": 3.4,
+    "holy": 3.8,
+    "immunity": 15,
+    "robustness": 23,
+    "focus": 10,
+    "vitality": 11
   },
   {
     "name": "Gelmir Knight Helm",
@@ -3492,22 +3105,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4,
-      "slash": 5,
-      "pierce": 4.8,
-      "magic": 3.8,
-      "fire": 4.4,
-      "lightning": 3.6,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 23,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 6,
+    "physical": 4.8,
+    "strike": 4,
+    "slash": 5,
+    "pierce": 4.8,
+    "magic": 3.8,
+    "fire": 4.4,
+    "lightning": 3.6,
+    "holy": 3.8,
+    "immunity": 15,
+    "robustness": 23,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Leyndell Knight Helm",
@@ -3519,22 +3129,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4.4,
-      "slash": 4.8,
-      "pierce": 4.8,
-      "magic": 3.6,
-      "fire": 4,
-      "lightning": 3.6,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 24,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 6,
+    "physical": 4.8,
+    "strike": 4.4,
+    "slash": 4.8,
+    "pierce": 4.8,
+    "magic": 3.6,
+    "fire": 4,
+    "lightning": 3.6,
+    "holy": 3.8,
+    "immunity": 15,
+    "robustness": 24,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Haligtree Knight Helm",
@@ -3546,22 +3153,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4.4,
-      "slash": 4.8,
-      "pierce": 4.8,
-      "magic": 3.6,
-      "fire": 4,
-      "lightning": 3.4,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 24,
-      "focus": 10,
-      "vitality": 11
-    }
+    "poise": 5,
+    "physical": 4.8,
+    "strike": 4.4,
+    "slash": 4.8,
+    "pierce": 4.8,
+    "magic": 3.6,
+    "fire": 4,
+    "lightning": 3.4,
+    "holy": 4,
+    "immunity": 15,
+    "robustness": 24,
+    "focus": 10,
+    "vitality": 11
   },
   {
     "name": "Bloodhound Knight Helm",
@@ -3573,22 +3177,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.4,
-      "strike": 4,
-      "slash": 5,
-      "pierce": 4.8,
-      "magic": 3.4,
-      "fire": 3.6,
-      "lightning": 2.5,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 22,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 4,
+    "physical": 4.4,
+    "strike": 4,
+    "slash": 5,
+    "pierce": 4.8,
+    "magic": 3.4,
+    "fire": 3.6,
+    "lightning": 2.5,
+    "holy": 3.6,
+    "immunity": 14,
+    "robustness": 22,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Cleanrot Helm",
@@ -3600,22 +3201,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 6.4,
-    "negation": {
-      "physical": 5.2,
-      "strike": 4.8,
-      "slash": 5.8,
-      "pierce": 6.3,
-      "magic": 4.5,
-      "fire": 4.6,
-      "lightning": 4,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 29,
-      "focus": 12,
-      "vitality": 14
-    }
+    "poise": 7,
+    "physical": 5.2,
+    "strike": 4.8,
+    "slash": 5.8,
+    "pierce": 6.3,
+    "magic": 4.5,
+    "fire": 4.6,
+    "lightning": 4,
+    "holy": 4.8,
+    "immunity": 27,
+    "robustness": 29,
+    "focus": 12,
+    "vitality": 14
   },
   {
     "name": "Cleanrot Helm (Altered)",
@@ -3627,22 +3225,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 1,
     "weight": 5.5,
-    "negation": {
-      "physical": 4.6,
-      "strike": 4.2,
-      "slash": 5,
-      "pierce": 5.5,
-      "magic": 4,
-      "fire": 4.2,
-      "lightning": 3.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 21,
-      "focus": 9,
-      "vitality": 10
-    }
+    "poise": 4,
+    "physical": 4.6,
+    "strike": 4.2,
+    "slash": 5,
+    "pierce": 5.5,
+    "magic": 4,
+    "fire": 4.2,
+    "lightning": 3.4,
+    "holy": 4.6,
+    "immunity": 21,
+    "robustness": 21,
+    "focus": 9,
+    "vitality": 10
   },
   {
     "name": "Raging Wolf Helm",
@@ -3654,22 +3249,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 4.4,
-    "negation": {
-      "physical": 4.7,
-      "strike": 4.1,
-      "slash": 4.7,
-      "pierce": 4.5,
-      "magic": 3.5,
-      "fire": 3.9,
-      "lightning": 2.4,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 23,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 5,
+    "physical": 4.7,
+    "strike": 4.1,
+    "slash": 4.7,
+    "pierce": 4.5,
+    "magic": 3.5,
+    "fire": 3.9,
+    "lightning": 2.4,
+    "holy": 3.3,
+    "immunity": 14,
+    "robustness": 23,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Hoslow\u0027s Helm",
@@ -3681,22 +3273,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 5.5,
-    "negation": {
-      "physical": 5.2,
-      "strike": 4.4,
-      "slash": 5,
-      "pierce": 4.8,
-      "magic": 4,
-      "fire": 4.4,
-      "lightning": 3.8,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 27,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 6,
+    "physical": 5.2,
+    "strike": 4.4,
+    "slash": 5,
+    "pierce": 4.8,
+    "magic": 4,
+    "fire": 4.4,
+    "lightning": 3.8,
+    "holy": 3.8,
+    "immunity": 18,
+    "robustness": 27,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Diallos\u0027s Mask",
@@ -3708,22 +3297,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.8,
-      "strike": 3.8,
-      "slash": 4.6,
-      "pierce": 4.4,
-      "magic": 3.6,
-      "fire": 3.6,
-      "lightning": 2.5,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 23,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 5,
+    "physical": 4.8,
+    "strike": 3.8,
+    "slash": 4.6,
+    "pierce": 4.4,
+    "magic": 3.6,
+    "fire": 3.6,
+    "lightning": 2.5,
+    "holy": 3.4,
+    "immunity": 15,
+    "robustness": 23,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Twinned Helm",
@@ -3735,22 +3321,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4.4,
-      "slash": 5.2,
-      "pierce": 4.2,
-      "magic": 4,
-      "fire": 4,
-      "lightning": 3.1,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 23,
-      "focus": 9,
-      "vitality": 23
-    }
+    "poise": 5,
+    "physical": 4.8,
+    "strike": 4.4,
+    "slash": 5.2,
+    "pierce": 4.2,
+    "magic": 4,
+    "fire": 4,
+    "lightning": 3.1,
+    "holy": 3.6,
+    "immunity": 14,
+    "robustness": 23,
+    "focus": 9,
+    "vitality": 23
   },
   {
     "name": "Drake Knight Helm",
@@ -3762,22 +3345,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 4,
-    "negation": {
-      "physical": 4,
-      "strike": 3.4,
-      "slash": 4.2,
-      "pierce": 4,
-      "magic": 3.6,
-      "fire": 4,
-      "lightning": 3.1,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 20,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 4,
+    "physical": 4,
+    "strike": 3.4,
+    "slash": 4.2,
+    "pierce": 4,
+    "magic": 3.6,
+    "fire": 4,
+    "lightning": 3.1,
+    "holy": 3.6,
+    "immunity": 11,
+    "robustness": 20,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Drake Knight Helm (Altered)",
@@ -3789,22 +3369,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 3.6,
-    "negation": {
-      "physical": 3.6,
-      "strike": 2.9,
-      "slash": 3.8,
-      "pierce": 3.6,
-      "magic": 3.2,
-      "fire": 3.6,
-      "lightning": 2.6,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 9,
-      "robustness": 16,
-      "focus": 7,
-      "vitality": 7
-    }
+    "poise": 3,
+    "physical": 3.6,
+    "strike": 2.9,
+    "slash": 3.8,
+    "pierce": 3.6,
+    "magic": 3.2,
+    "fire": 3.6,
+    "lightning": 2.6,
+    "holy": 3.2,
+    "immunity": 9,
+    "robustness": 16,
+    "focus": 7,
+    "vitality": 7
   },
   {
     "name": "Briar Helm",
@@ -3816,22 +3393,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.6,
-      "strike": 4,
-      "slash": 4.8,
-      "pierce": 4.4,
-      "magic": 3.8,
-      "fire": 4.4,
-      "lightning": 3.1,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 31,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 5,
+    "physical": 4.6,
+    "strike": 4,
+    "slash": 4.8,
+    "pierce": 4.4,
+    "magic": 3.8,
+    "fire": 4.4,
+    "lightning": 3.1,
+    "holy": 3.8,
+    "immunity": 15,
+    "robustness": 31,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Fingerprint Helm",
@@ -3843,22 +3417,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4.2,
-      "slash": 4.2,
-      "pierce": 4.2,
-      "magic": 3.4,
-      "fire": 4.5,
-      "lightning": 2.3,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 26,
-      "focus": 5,
-      "vitality": 10
-    }
+    "poise": 6,
+    "physical": 4.8,
+    "strike": 4.2,
+    "slash": 4.2,
+    "pierce": 4.2,
+    "magic": 3.4,
+    "fire": 4.5,
+    "lightning": 2.3,
+    "holy": 3.4,
+    "immunity": 14,
+    "robustness": 26,
+    "focus": 5,
+    "vitality": 10
   },
   {
     "name": "Royal Remains Helm",
@@ -3870,22 +3441,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.2,
-      "strike": 4,
-      "slash": 4.6,
-      "pierce": 4.2,
-      "magic": 3.4,
-      "fire": 3.6,
-      "lightning": 2.8,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 24,
-      "focus": 10,
-      "vitality": 5
-    }
+    "poise": 5,
+    "physical": 4.2,
+    "strike": 4,
+    "slash": 4.6,
+    "pierce": 4.2,
+    "magic": 3.4,
+    "fire": 3.6,
+    "lightning": 2.8,
+    "holy": 3.1,
+    "immunity": 15,
+    "robustness": 24,
+    "focus": 10,
+    "vitality": 5
   },
   {
     "name": "All-Knowing Helm",
@@ -3897,22 +3465,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.6,
-      "strike": 4.2,
-      "slash": 4.8,
-      "pierce": 4.2,
-      "magic": 4.4,
-      "fire": 3.4,
-      "lightning": 3.6,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 20,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 5,
+    "physical": 4.6,
+    "strike": 4.2,
+    "slash": 4.8,
+    "pierce": 4.2,
+    "magic": 4.4,
+    "fire": 3.4,
+    "lightning": 3.6,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 20,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Royal Knight Helm",
@@ -3924,22 +3489,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 6.6,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5.2,
-      "slash": 6.3,
-      "pierce": 6.1,
-      "magic": 5,
-      "fire": 4.7,
-      "lightning": 4.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 29,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 8,
+    "physical": 5.8,
+    "strike": 5.2,
+    "slash": 6.3,
+    "pierce": 6.1,
+    "magic": 5,
+    "fire": 4.7,
+    "lightning": 4.4,
+    "holy": 4.6,
+    "immunity": 22,
+    "robustness": 29,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Maliketh\u0027s Helm",
@@ -3951,22 +3513,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 1,
     "weight": 5.5,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4.2,
-      "slash": 5,
-      "pierce": 4.8,
-      "magic": 3.8,
-      "fire": 4,
-      "lightning": 3.4,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 24,
-      "focus": 10,
-      "vitality": 22
-    }
+    "poise": 6,
+    "physical": 4.8,
+    "strike": 4.2,
+    "slash": 5,
+    "pierce": 4.8,
+    "magic": 3.8,
+    "fire": 4,
+    "lightning": 3.4,
+    "holy": 4.6,
+    "immunity": 15,
+    "robustness": 24,
+    "focus": 10,
+    "vitality": 22
   },
   {
     "name": "Banished Knight Helm",
@@ -3978,22 +3537,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 7.5,
-    "negation": {
-      "physical": 6.8,
-      "strike": 5.4,
-      "slash": 7,
-      "pierce": 6.3,
-      "magic": 4.8,
-      "fire": 4.8,
-      "lightning": 4.6,
-      "holy": 4.7
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 35,
-      "focus": 16,
-      "vitality": 18
-    }
+    "poise": 9,
+    "physical": 6.8,
+    "strike": 5.4,
+    "slash": 7,
+    "pierce": 6.3,
+    "magic": 4.8,
+    "fire": 4.8,
+    "lightning": 4.6,
+    "holy": 4.7,
+    "immunity": 26,
+    "robustness": 35,
+    "focus": 16,
+    "vitality": 18
   },
   {
     "name": "Banished Knight Helm (Altered)",
@@ -4005,22 +3561,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 7.1,
-    "negation": {
-      "physical": 6.7,
-      "strike": 5.2,
-      "slash": 6.8,
-      "pierce": 6.1,
-      "magic": 4.7,
-      "fire": 4.7,
-      "lightning": 4.6,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 30,
-      "focus": 13,
-      "vitality": 14
-    }
+    "poise": 8,
+    "physical": 6.7,
+    "strike": 5.2,
+    "slash": 6.8,
+    "pierce": 6.1,
+    "magic": 4.7,
+    "fire": 4.7,
+    "lightning": 4.6,
+    "holy": 4.6,
+    "immunity": 21,
+    "robustness": 30,
+    "focus": 13,
+    "vitality": 14
   },
   {
     "name": "Night\u0027s Cavalry Helm",
@@ -4032,22 +3585,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 5.5,
-    "negation": {
-      "physical": 5,
-      "strike": 4.6,
-      "slash": 5,
-      "pierce": 4.8,
-      "magic": 3.8,
-      "fire": 4.5,
-      "lightning": 3.8,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 24,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 7,
+    "physical": 5,
+    "strike": 4.6,
+    "slash": 5,
+    "pierce": 4.8,
+    "magic": 3.8,
+    "fire": 4.5,
+    "lightning": 3.8,
+    "holy": 4.5,
+    "immunity": 16,
+    "robustness": 24,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Night\u0027s Cavalry Helm (Altered)",
@@ -4059,22 +3609,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.8,
-      "strike": 4.4,
-      "slash": 4.8,
-      "pierce": 4.4,
-      "magic": 3.6,
-      "fire": 4.4,
-      "lightning": 3.6,
-      "holy": 4.4
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 21,
-      "focus": 9,
-      "vitality": 9
-    }
+    "poise": 5,
+    "physical": 4.8,
+    "strike": 4.4,
+    "slash": 4.8,
+    "pierce": 4.4,
+    "magic": 3.6,
+    "fire": 4.4,
+    "lightning": 3.6,
+    "holy": 4.4,
+    "immunity": 13,
+    "robustness": 21,
+    "focus": 9,
+    "vitality": 9
   },
   {
     "name": "Veteran\u0027s Helm",
@@ -4086,22 +3633,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 6.8,
-      "strike": 6.1,
-      "slash": 6.8,
-      "pierce": 6.3,
-      "magic": 4.8,
-      "fire": 5,
-      "lightning": 4.6,
-      "holy": 4.7
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 39,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 12,
+    "physical": 6.8,
+    "strike": 6.1,
+    "slash": 6.8,
+    "pierce": 6.3,
+    "magic": 4.8,
+    "fire": 5,
+    "lightning": 4.6,
+    "holy": 4.7,
+    "immunity": 27,
+    "robustness": 39,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Scaled Helm",
@@ -4113,22 +3657,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 6.8,
-    "negation": {
-      "physical": 5.8,
-      "strike": 5,
-      "slash": 6.1,
-      "pierce": 5.8,
-      "magic": 4.8,
-      "fire": 5,
-      "lightning": 4.6,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 35,
-      "focus": 16,
-      "vitality": 16
-    }
+    "poise": 9,
+    "physical": 5.8,
+    "strike": 5,
+    "slash": 6.1,
+    "pierce": 5.8,
+    "magic": 4.8,
+    "fire": 5,
+    "lightning": 4.6,
+    "holy": 4.8,
+    "immunity": 24,
+    "robustness": 35,
+    "focus": 16,
+    "vitality": 16
   },
   {
     "name": "Beast Champion Helm",
@@ -4140,22 +3681,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 7.5,
-    "negation": {
-      "physical": 6.3,
-      "strike": 5.9,
-      "slash": 6.8,
-      "pierce": 6.7,
-      "magic": 4.6,
-      "fire": 4.9,
-      "lightning": 4.6,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 39,
-      "focus": 18,
-      "vitality": 16
-    }
+    "poise": 9,
+    "physical": 6.3,
+    "strike": 5.9,
+    "slash": 6.8,
+    "pierce": 6.7,
+    "magic": 4.6,
+    "fire": 4.9,
+    "lightning": 4.6,
+    "holy": 4.8,
+    "immunity": 24,
+    "robustness": 39,
+    "focus": 18,
+    "vitality": 16
   },
   {
     "name": "Tree Sentinel Helm",
@@ -4167,22 +3705,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 8.1,
-    "negation": {
-      "physical": 6.8,
-      "strike": 5.4,
-      "slash": 6.8,
-      "pierce": 6.3,
-      "magic": 4.6,
-      "fire": 6.2,
-      "lightning": 4.5,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 39,
-      "focus": 18,
-      "vitality": 20
-    }
+    "poise": 9,
+    "physical": 6.8,
+    "strike": 5.4,
+    "slash": 6.8,
+    "pierce": 6.3,
+    "magic": 4.6,
+    "fire": 6.2,
+    "lightning": 4.5,
+    "holy": 5,
+    "immunity": 29,
+    "robustness": 39,
+    "focus": 18,
+    "vitality": 20
   },
   {
     "name": "Malformed Dragon Helm",
@@ -4194,22 +3729,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 6.8,
-    "negation": {
-      "physical": 6.1,
-      "strike": 5.4,
-      "slash": 6.3,
-      "pierce": 6.1,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4.9,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 33,
-      "focus": 16,
-      "vitality": 16
-    }
+    "poise": 8,
+    "physical": 6.1,
+    "strike": 5.4,
+    "slash": 6.3,
+    "pierce": 6.1,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4.9,
+    "holy": 4.6,
+    "immunity": 24,
+    "robustness": 33,
+    "focus": 16,
+    "vitality": 16
   },
   {
     "name": "Crucible Axe Helm",
@@ -4221,22 +3753,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 6.6,
-    "negation": {
-      "physical": 6.3,
-      "strike": 5,
-      "slash": 6.1,
-      "pierce": 6.1,
-      "magic": 4.6,
-      "fire": 4.6,
-      "lightning": 4,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 31,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 9,
+    "physical": 6.3,
+    "strike": 5,
+    "slash": 6.1,
+    "pierce": 6.1,
+    "magic": 4.6,
+    "fire": 4.6,
+    "lightning": 4,
+    "holy": 4.8,
+    "immunity": 22,
+    "robustness": 31,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Crucible Tree Helm",
@@ -4248,22 +3777,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 6.6,
-    "negation": {
-      "physical": 6.5,
-      "strike": 5,
-      "slash": 6.3,
-      "pierce": 5.6,
-      "magic": 4.6,
-      "fire": 4.2,
-      "lightning": 4,
-      "holy": 5.2
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 31,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 9,
+    "physical": 6.5,
+    "strike": 5,
+    "slash": 6.3,
+    "pierce": 5.6,
+    "magic": 4.6,
+    "fire": 4.2,
+    "lightning": 4,
+    "holy": 5.2,
+    "immunity": 22,
+    "robustness": 31,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Radahn\u0027s Redmane Helm",
@@ -4275,22 +3801,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 1,
     "weight": 7.5,
-    "negation": {
-      "physical": 6.8,
-      "strike": 5.4,
-      "slash": 6.7,
-      "pierce": 6.3,
-      "magic": 4.8,
-      "fire": 5,
-      "lightning": 4.5,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 42,
-      "focus": 18,
-      "vitality": 16
-    }
+    "poise": 9,
+    "physical": 6.8,
+    "strike": 5.4,
+    "slash": 6.7,
+    "pierce": 6.3,
+    "magic": 4.8,
+    "fire": 5,
+    "lightning": 4.5,
+    "holy": 4.8,
+    "immunity": 26,
+    "robustness": 42,
+    "focus": 18,
+    "vitality": 16
   },
   {
     "name": "Lionel\u0027s Helm",
@@ -4302,22 +3825,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 1,
     "weight": 9.1,
-    "negation": {
-      "physical": 6.3,
-      "strike": 5.9,
-      "slash": 7,
-      "pierce": 7.2,
-      "magic": 4.8,
-      "fire": 5.3,
-      "lightning": 4.6,
-      "holy": 4.8
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 42,
-      "focus": 18,
-      "vitality": 22
-    }
+    "poise": 12,
+    "physical": 6.3,
+    "strike": 5.9,
+    "slash": 7,
+    "pierce": 7.2,
+    "magic": 4.8,
+    "fire": 5.3,
+    "lightning": 4.6,
+    "holy": 4.8,
+    "immunity": 27,
+    "robustness": 42,
+    "focus": 18,
+    "vitality": 22
   },
   {
     "name": "Bull-Goat Helm",
@@ -4329,22 +3849,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 1,
     "weight": 11.3,
-    "negation": {
-      "physical": 7.5,
-      "strike": 7.4,
-      "slash": 6.7,
-      "pierce": 6.7,
-      "magic": 4.7,
-      "fire": 4.8,
-      "lightning": 5.3,
-      "holy": 4.6
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 35,
-      "focus": 20,
-      "vitality": 23
-    }
+    "poise": 15,
+    "physical": 7.5,
+    "strike": 7.4,
+    "slash": 6.7,
+    "pierce": 6.7,
+    "magic": 4.7,
+    "fire": 4.8,
+    "lightning": 5.3,
+    "holy": 4.6,
+    "immunity": 31,
+    "robustness": 35,
+    "focus": 20,
+    "vitality": 23
   },
   {
     "name": "Omen Helm",
@@ -4356,22 +3873,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 1,
     "weight": 9.9,
-    "negation": {
-      "physical": 6.7,
-      "strike": 5.4,
-      "slash": 6.8,
-      "pierce": 6.8,
-      "magic": 4.6,
-      "fire": 5.2,
-      "lightning": 5.3,
-      "holy": 4.9
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 27,
-      "focus": 24,
-      "vitality": 33
-    }
+    "poise": 13,
+    "physical": 6.7,
+    "strike": 5.4,
+    "slash": 6.8,
+    "pierce": 6.8,
+    "magic": 4.6,
+    "fire": 5.2,
+    "lightning": 5.3,
+    "holy": 4.9,
+    "immunity": 29,
+    "robustness": 27,
+    "focus": 24,
+    "vitality": 33
   },
   {
     "name": "Fire Prelate Helm",
@@ -4383,22 +3897,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 1,
     "weight": 10.6,
-    "negation": {
-      "physical": 7,
-      "strike": 6.1,
-      "slash": 6.7,
-      "pierce": 6.7,
-      "magic": 4.8,
-      "fire": 7.2,
-      "lightning": 4.6,
-      "holy": 4.7
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 27,
-      "focus": 39,
-      "vitality": 22
-    }
+    "poise": 13,
+    "physical": 7,
+    "strike": 6.1,
+    "slash": 6.7,
+    "pierce": 6.7,
+    "magic": 4.8,
+    "fire": 7.2,
+    "lightning": 4.6,
+    "holy": 4.7,
+    "immunity": 29,
+    "robustness": 27,
+    "focus": 39,
+    "vitality": 22
   },
   {
     "name": "Pumpkin Helm",
@@ -4410,22 +3921,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 1,
     "weight": 12.3,
-    "negation": {
-      "physical": 7,
-      "strike": 5.9,
-      "slash": 6.7,
-      "pierce": 6.7,
-      "magic": 4.6,
-      "fire": 4.7,
-      "lightning": 5.2,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 27,
-      "robustness": 42,
-      "focus": 44,
-      "vitality": 18
-    }
+    "poise": 9,
+    "physical": 7,
+    "strike": 5.9,
+    "slash": 6.7,
+    "pierce": 6.7,
+    "magic": 4.6,
+    "fire": 4.7,
+    "lightning": 5.2,
+    "holy": 4.5,
+    "immunity": 27,
+    "robustness": 42,
+    "focus": 44,
+    "vitality": 18
   },
   {
     "name": "Cloth Garb",
@@ -4437,22 +3945,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 3.2,
-    "negation": {
-      "physical": 5.3,
-      "strike": 4.2,
-      "slash": 2.7,
-      "pierce": 4.2,
-      "magic": 12.8,
-      "fire": 12.4,
-      "lightning": 11.9,
-      "holy": 12.4
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 23,
-      "focus": 60,
-      "vitality": 60
-    }
+    "poise": 1,
+    "physical": 5.3,
+    "strike": 4.2,
+    "slash": 2.7,
+    "pierce": 4.2,
+    "magic": 12.8,
+    "fire": 12.4,
+    "lightning": 11.9,
+    "holy": 12.4,
+    "immunity": 42,
+    "robustness": 23,
+    "focus": 60,
+    "vitality": 60
   },
   {
     "name": "Traveler\u0027s Clothes",
@@ -4464,22 +3969,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 5.3,
-      "slash": 4.2,
-      "pierce": 2.7,
-      "magic": 13.3,
-      "fire": 12.6,
-      "lightning": 12.8,
-      "holy": 12.4
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 24,
-      "focus": 67,
-      "vitality": 67
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 5.3,
+    "slash": 4.2,
+    "pierce": 2.7,
+    "magic": 13.3,
+    "fire": 12.6,
+    "lightning": 12.8,
+    "holy": 12.4,
+    "immunity": 35,
+    "robustness": 24,
+    "focus": 67,
+    "vitality": 67
   },
   {
     "name": "Commoner\u0027s Simple Garb",
@@ -4491,22 +3993,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 6.7,
-      "slash": 6.7,
-      "pierce": 6.1,
-      "magic": 13,
-      "fire": 12.6,
-      "lightning": 12.6,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 24,
-      "focus": 76,
-      "vitality": 83
-    }
+    "poise": 2,
+    "physical": 4.2,
+    "strike": 6.7,
+    "slash": 6.7,
+    "pierce": 6.1,
+    "magic": 13,
+    "fire": 12.6,
+    "lightning": 12.6,
+    "holy": 12.8,
+    "immunity": 46,
+    "robustness": 24,
+    "focus": 76,
+    "vitality": 83
   },
   {
     "name": "Commoner\u0027s Simple Garb (Altered)",
@@ -4518,22 +4017,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 3.2,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 5.3,
-      "magic": 12.8,
-      "fire": 12.4,
-      "lightning": 12.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 21,
-      "focus": 61,
-      "vitality": 64
-    }
+    "poise": 0,
+    "physical": 3.2,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 5.3,
+    "magic": 12.8,
+    "fire": 12.4,
+    "lightning": 12.4,
+    "holy": 12.6,
+    "immunity": 38,
+    "robustness": 21,
+    "focus": 61,
+    "vitality": 64
   },
   {
     "name": "Commoner\u0027s Garb",
@@ -4545,22 +4041,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.7,
-      "slash": 6.7,
-      "pierce": 6.1,
-      "magic": 12.8,
-      "fire": 12.4,
-      "lightning": 12.6,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 25,
-      "focus": 76,
-      "vitality": 83
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 6.7,
+    "slash": 6.7,
+    "pierce": 6.1,
+    "magic": 12.8,
+    "fire": 12.4,
+    "lightning": 12.6,
+    "holy": 12.8,
+    "immunity": 42,
+    "robustness": 25,
+    "focus": 76,
+    "vitality": 83
   },
   {
     "name": "Commoner\u0027s Garb (Altered)",
@@ -4572,22 +4065,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 5.3,
-      "magic": 12.6,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 21,
-      "focus": 61,
-      "vitality": 64
-    }
+    "poise": 0,
+    "physical": 4.2,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 5.3,
+    "magic": 12.6,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 12.6,
+    "immunity": 34,
+    "robustness": 21,
+    "focus": 61,
+    "vitality": 64
   },
   {
     "name": "Aristocrat Garb",
@@ -4599,22 +4089,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.9,
-    "negation": {
-      "physical": 7.8,
-      "strike": 8.6,
-      "slash": 7.8,
-      "pierce": 7.8,
-      "magic": 6.5,
-      "fire": 6.9,
-      "lightning": 7.8,
-      "holy": 6.5
-    },
-    "resists": {
-      "immunity": 47,
-      "robustness": 33,
-      "focus": 36,
-      "vitality": 30
-    }
+    "poise": 2,
+    "physical": 7.8,
+    "strike": 8.6,
+    "slash": 7.8,
+    "pierce": 7.8,
+    "magic": 6.5,
+    "fire": 6.9,
+    "lightning": 7.8,
+    "holy": 6.5,
+    "immunity": 47,
+    "robustness": 33,
+    "focus": 36,
+    "vitality": 30
   },
   {
     "name": "Aristocrat Garb (Altered)",
@@ -4626,22 +4113,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 7.1,
-      "strike": 8,
-      "slash": 7.1,
-      "pierce": 7.1,
-      "magic": 6.1,
-      "fire": 6.7,
-      "lightning": 7.1,
-      "holy": 6.1
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 29,
-      "focus": 32,
-      "vitality": 25
-    }
+    "poise": 1,
+    "physical": 7.1,
+    "strike": 8,
+    "slash": 7.1,
+    "pierce": 7.1,
+    "magic": 6.1,
+    "fire": 6.7,
+    "lightning": 7.1,
+    "holy": 6.1,
+    "immunity": 42,
+    "robustness": 29,
+    "focus": 32,
+    "vitality": 25
   },
   {
     "name": "Aristocrat Coat",
@@ -4653,22 +4137,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 7.1,
-    "negation": {
-      "physical": 8.8,
-      "strike": 8.8,
-      "slash": 8,
-      "pierce": 8.8,
-      "magic": 10.9,
-      "fire": 11.4,
-      "lightning": 10.9,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 32,
-      "focus": 42,
-      "vitality": 46
-    }
+    "poise": 3,
+    "physical": 8.8,
+    "strike": 8.8,
+    "slash": 8,
+    "pierce": 8.8,
+    "magic": 10.9,
+    "fire": 11.4,
+    "lightning": 10.9,
+    "holy": 8.8,
+    "immunity": 50,
+    "robustness": 32,
+    "focus": 42,
+    "vitality": 46
   },
   {
     "name": "Old Aristocrat Gown",
@@ -4680,22 +4161,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 7.1,
-      "strike": 7.1,
-      "slash": 6.7,
-      "pierce": 7.1,
-      "magic": 9.5,
-      "fire": 10.2,
-      "lightning": 9.5,
-      "holy": 7.1
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 25,
-      "focus": 35,
-      "vitality": 38
-    }
+    "poise": 2,
+    "physical": 7.1,
+    "strike": 7.1,
+    "slash": 6.7,
+    "pierce": 7.1,
+    "magic": 9.5,
+    "fire": 10.2,
+    "lightning": 9.5,
+    "holy": 7.1,
+    "immunity": 42,
+    "robustness": 25,
+    "focus": 35,
+    "vitality": 38
   },
   {
     "name": "Page Garb",
@@ -4707,22 +4185,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.7,
-      "strike": 6.1,
-      "slash": 5.3,
-      "pierce": 5.3,
-      "magic": 12.8,
-      "fire": 12.6,
-      "lightning": 13,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 23,
-      "focus": 83,
-      "vitality": 83
-    }
+    "poise": 2,
+    "physical": 6.7,
+    "strike": 6.1,
+    "slash": 5.3,
+    "pierce": 5.3,
+    "magic": 12.8,
+    "fire": 12.6,
+    "lightning": 13,
+    "holy": 13,
+    "immunity": 42,
+    "robustness": 23,
+    "focus": 83,
+    "vitality": 83
   },
   {
     "name": "Page Garb (Altered)",
@@ -4734,22 +4209,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.5,
-    "negation": {
-      "physical": 6.3,
-      "strike": 5.5,
-      "slash": 4.4,
-      "pierce": 4.4,
-      "magic": 12.8,
-      "fire": 12.6,
-      "lightning": 13,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 19,
-      "focus": 64,
-      "vitality": 64
-    }
+    "poise": 1,
+    "physical": 6.3,
+    "strike": 5.5,
+    "slash": 4.4,
+    "pierce": 4.4,
+    "magic": 12.8,
+    "fire": 12.6,
+    "lightning": 13,
+    "holy": 13,
+    "immunity": 34,
+    "robustness": 19,
+    "focus": 64,
+    "vitality": 64
   },
   {
     "name": "High Page Clothes",
@@ -4761,22 +4233,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 5.3,
-    "negation": {
-      "physical": 5.5,
-      "strike": 6.9,
-      "slash": 5.5,
-      "pierce": 5.5,
-      "magic": 13.5,
-      "fire": 12.8,
-      "lightning": 13,
-      "holy": 13.2
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 23,
-      "focus": 76,
-      "vitality": 76
-    }
+    "poise": 2,
+    "physical": 5.5,
+    "strike": 6.9,
+    "slash": 5.5,
+    "pierce": 5.5,
+    "magic": 13.5,
+    "fire": 12.8,
+    "lightning": 13,
+    "holy": 13.2,
+    "immunity": 42,
+    "robustness": 23,
+    "focus": 76,
+    "vitality": 76
   },
   {
     "name": "High Page Clothes (Altered)",
@@ -4788,22 +4257,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.3,
-    "negation": {
-      "physical": 4.4,
-      "strike": 6.3,
-      "slash": 4.4,
-      "pierce": 4.4,
-      "magic": 13.2,
-      "fire": 12.6,
-      "lightning": 12.8,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 19,
-      "focus": 61,
-      "vitality": 61
-    }
+    "poise": 1,
+    "physical": 4.4,
+    "strike": 6.3,
+    "slash": 4.4,
+    "pierce": 4.4,
+    "magic": 13.2,
+    "fire": 12.6,
+    "lightning": 12.8,
+    "holy": 13,
+    "immunity": 34,
+    "robustness": 19,
+    "focus": 61,
+    "vitality": 61
   },
   {
     "name": "Guardian Garb",
@@ -4815,22 +4281,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 7.7,
-    "negation": {
-      "physical": 9.5,
-      "strike": 9.5,
-      "slash": 8.8,
-      "pierce": 8,
-      "magic": 10.9,
-      "fire": 10.2,
-      "lightning": 10.9,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 61,
-      "robustness": 38,
-      "focus": 50,
-      "vitality": 42
-    }
+    "poise": 4,
+    "physical": 9.5,
+    "strike": 9.5,
+    "slash": 8.8,
+    "pierce": 8,
+    "magic": 10.9,
+    "fire": 10.2,
+    "lightning": 10.9,
+    "holy": 10.9,
+    "immunity": 61,
+    "robustness": 38,
+    "focus": 50,
+    "vitality": 42
   },
   {
     "name": "Guardian Garb (Full Bloom)",
@@ -4842,22 +4305,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 8.8,
-    "negation": {
-      "physical": 10.2,
-      "strike": 10.2,
-      "slash": 9.5,
-      "pierce": 9.5,
-      "magic": 11.9,
-      "fire": -2.3,
-      "lightning": 11.9,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 71,
-      "robustness": 46,
-      "focus": 57,
-      "vitality": 55
-    }
+    "poise": 5,
+    "physical": 10.2,
+    "strike": 10.2,
+    "slash": 9.5,
+    "pierce": 9.5,
+    "magic": 11.9,
+    "fire": -2.3,
+    "lightning": 11.9,
+    "holy": 11.4,
+    "immunity": 71,
+    "robustness": 46,
+    "focus": 57,
+    "vitality": 55
   },
   {
     "name": "Festive Garb",
@@ -4869,22 +4329,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 5.3,
-      "slash": 6.1,
-      "pierce": 5.3,
-      "magic": 12.6,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 21,
-      "focus": 67,
-      "vitality": 67
-    }
+    "poise": 1,
+    "physical": 4.2,
+    "strike": 5.3,
+    "slash": 6.1,
+    "pierce": 5.3,
+    "magic": 12.6,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 13,
+    "immunity": 42,
+    "robustness": 21,
+    "focus": 67,
+    "vitality": 67
   },
   {
     "name": "Festive Garb (Altered)",
@@ -4896,22 +4353,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 3.2,
-    "negation": {
-      "physical": 2.7,
-      "strike": 4.2,
-      "slash": 5.3,
-      "pierce": 4.2,
-      "magic": 12.4,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 16,
-      "focus": 57,
-      "vitality": 57
-    }
+    "poise": 0,
+    "physical": 2.7,
+    "strike": 4.2,
+    "slash": 5.3,
+    "pierce": 4.2,
+    "magic": 12.4,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 12.8,
+    "immunity": 34,
+    "robustness": 16,
+    "focus": 57,
+    "vitality": 57
   },
   {
     "name": "Blue Festive Garb",
@@ -4923,22 +4377,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 4.2,
-      "slash": 6.1,
-      "pierce": 5.3,
-      "magic": 12.6,
-      "fire": 11.4,
-      "lightning": 12.6,
-      "holy": 13.8
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 21,
-      "focus": 71,
-      "vitality": 63
-    }
+    "poise": 1,
+    "physical": 4.2,
+    "strike": 4.2,
+    "slash": 6.1,
+    "pierce": 5.3,
+    "magic": 12.6,
+    "fire": 11.4,
+    "lightning": 12.6,
+    "holy": 13.8,
+    "immunity": 46,
+    "robustness": 21,
+    "focus": 71,
+    "vitality": 63
   },
   {
     "name": "Prisoner Clothing",
@@ -4950,22 +4401,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 3.2,
-    "negation": {
-      "physical": 4.2,
-      "strike": 5.3,
-      "slash": 5.3,
-      "pierce": 4.2,
-      "magic": 11.9,
-      "fire": 11.4,
-      "lightning": 11.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 23,
-      "focus": 63,
-      "vitality": 63
-    }
+    "poise": 1,
+    "physical": 4.2,
+    "strike": 5.3,
+    "slash": 5.3,
+    "pierce": 4.2,
+    "magic": 11.9,
+    "fire": 11.4,
+    "lightning": 11.4,
+    "holy": 12.6,
+    "immunity": 42,
+    "robustness": 23,
+    "focus": 63,
+    "vitality": 63
   },
   {
     "name": "Mushroom Body",
@@ -4977,22 +4425,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 7.1,
-      "slash": 2.7,
-      "pierce": 5.3,
-      "magic": 13.3,
-      "fire": 5.3,
-      "lightning": 12.8,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 102,
-      "robustness": 24,
-      "focus": 90,
-      "vitality": 76
-    }
+    "poise": 1,
+    "physical": 6.1,
+    "strike": 7.1,
+    "slash": 2.7,
+    "pierce": 5.3,
+    "magic": 13.3,
+    "fire": 5.3,
+    "lightning": 12.8,
+    "holy": 13,
+    "immunity": 102,
+    "robustness": 24,
+    "focus": 90,
+    "vitality": 76
   },
   {
     "name": "Astrologer Robe",
@@ -5004,22 +4449,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 6.7,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 6.1,
-      "magic": 13.5,
-      "fire": 13,
-      "lightning": 13.3,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 24,
-      "focus": 90,
-      "vitality": 76
-    }
+    "poise": 5,
+    "physical": 6.7,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 6.1,
+    "magic": 13.5,
+    "fire": 13,
+    "lightning": 13.3,
+    "holy": 13,
+    "immunity": 50,
+    "robustness": 24,
+    "focus": 90,
+    "vitality": 76
   },
   {
     "name": "Astrologer Robe (Altered)",
@@ -5031,22 +4473,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 5.3,
-    "negation": {
-      "physical": 6.1,
-      "strike": 5.3,
-      "slash": 5.3,
-      "pierce": 5.3,
-      "magic": 13.3,
-      "fire": 12.8,
-      "lightning": 13,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 21,
-      "focus": 75,
-      "vitality": 64
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 5.3,
+    "slash": 5.3,
+    "pierce": 5.3,
+    "magic": 13.3,
+    "fire": 12.8,
+    "lightning": 13,
+    "holy": 12.8,
+    "immunity": 42,
+    "robustness": 21,
+    "focus": 75,
+    "vitality": 64
   },
   {
     "name": "Juvenile Scholar Robe",
@@ -5058,22 +4497,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 5.3,
-      "magic": 12.8,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 25,
-      "focus": 63,
-      "vitality": 71
-    }
+    "poise": 1,
+    "physical": 5.3,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 5.3,
+    "magic": 12.8,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 12.6,
+    "immunity": 38,
+    "robustness": 25,
+    "focus": 63,
+    "vitality": 71
   },
   {
     "name": "Raya Lucarian Robe",
@@ -5085,22 +4521,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 2.7,
-      "magic": 13.5,
-      "fire": 12.6,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 18,
-      "focus": 67,
-      "vitality": 63
-    }
+    "poise": 1,
+    "physical": 5.3,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 2.7,
+    "magic": 13.5,
+    "fire": 12.6,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 42,
+    "robustness": 18,
+    "focus": 67,
+    "vitality": 63
   },
   {
     "name": "Lazuli Robe",
@@ -5112,22 +4545,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 5.3,
-      "slash": 4.2,
-      "pierce": 2.7,
-      "magic": 13.8,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 21,
-      "focus": 67,
-      "vitality": 67
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 5.3,
+    "slash": 4.2,
+    "pierce": 2.7,
+    "magic": 13.8,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 42,
+    "robustness": 21,
+    "focus": 67,
+    "vitality": 67
   },
   {
     "name": "Battlemage Robe",
@@ -5139,22 +4569,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.1,
-      "slash": 4.2,
-      "pierce": 5.3,
-      "magic": 13,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 23,
-      "focus": 63,
-      "vitality": 71
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 6.1,
+    "slash": 4.2,
+    "pierce": 5.3,
+    "magic": 13,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 12.6,
+    "immunity": 42,
+    "robustness": 23,
+    "focus": 63,
+    "vitality": 71
   },
   {
     "name": "Errant Sorcerer Robe",
@@ -5166,22 +4593,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 4.2,
-      "slash": 6.1,
-      "pierce": 4.2,
-      "magic": 13,
-      "fire": 12.6,
-      "lightning": 12.4,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 23,
-      "focus": 67,
-      "vitality": 71
-    }
+    "poise": 2,
+    "physical": 4.2,
+    "strike": 4.2,
+    "slash": 6.1,
+    "pierce": 4.2,
+    "magic": 13,
+    "fire": 12.6,
+    "lightning": 12.4,
+    "holy": 13,
+    "immunity": 35,
+    "robustness": 23,
+    "focus": 67,
+    "vitality": 71
   },
   {
     "name": "Errant Sorcerer Robe (Altered)",
@@ -5193,22 +4617,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 3.2,
-    "negation": {
-      "physical": 2.7,
-      "strike": 2.7,
-      "slash": 5.3,
-      "pierce": 2.7,
-      "magic": 12.8,
-      "fire": 12.4,
-      "lightning": 11.9,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 20,
-      "focus": 62,
-      "vitality": 66
-    }
+    "poise": 1,
+    "physical": 2.7,
+    "strike": 2.7,
+    "slash": 5.3,
+    "pierce": 2.7,
+    "magic": 12.8,
+    "fire": 12.4,
+    "lightning": 11.9,
+    "holy": 12.8,
+    "immunity": 31,
+    "robustness": 20,
+    "focus": 62,
+    "vitality": 66
   },
   {
     "name": "Spellblade\u0027s Traveling Attire",
@@ -5220,22 +4641,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 3.3,
-    "negation": {
-      "physical": 4.1,
-      "strike": 2.6,
-      "slash": 4.1,
-      "pierce": 4.1,
-      "magic": 12.7,
-      "fire": 11.3,
-      "lightning": 11.8,
-      "holy": 12.7
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 17,
-      "focus": 59,
-      "vitality": 63
-    }
+    "poise": 1,
+    "physical": 4.1,
+    "strike": 2.6,
+    "slash": 4.1,
+    "pierce": 4.1,
+    "magic": 12.7,
+    "fire": 11.3,
+    "lightning": 11.8,
+    "holy": 12.7,
+    "immunity": 35,
+    "robustness": 17,
+    "focus": 59,
+    "vitality": 63
   },
   {
     "name": "Spellblade\u0027s Traveling Attire (Altered)",
@@ -5247,22 +4665,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 2.5,
-    "negation": {
-      "physical": 2.6,
-      "strike": 0.5,
-      "slash": 2.6,
-      "pierce": 2.6,
-      "magic": 12.6,
-      "fire": 10.9,
-      "lightning": 11.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 10,
-      "focus": 54,
-      "vitality": 57
-    }
+    "poise": 0,
+    "physical": 2.6,
+    "strike": 0.5,
+    "slash": 2.6,
+    "pierce": 2.6,
+    "magic": 12.6,
+    "fire": 10.9,
+    "lightning": 11.4,
+    "holy": 12.6,
+    "immunity": 32,
+    "robustness": 10,
+    "focus": 54,
+    "vitality": 57
   },
   {
     "name": "Alberich\u0027s Robe",
@@ -5274,22 +4689,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 4.2,
-      "slash": 5.3,
-      "pierce": 5.3,
-      "magic": 12.8,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 23,
-      "focus": 67,
-      "vitality": 71
-    }
+    "poise": 1,
+    "physical": 5.3,
+    "strike": 4.2,
+    "slash": 5.3,
+    "pierce": 5.3,
+    "magic": 12.8,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 38,
+    "robustness": 23,
+    "focus": 67,
+    "vitality": 71
   },
   {
     "name": "Alberich\u0027s Robe (Altered)",
@@ -5301,22 +4713,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 3.2,
-    "negation": {
-      "physical": 4.2,
-      "strike": 2.7,
-      "slash": 4.2,
-      "pierce": 4.2,
-      "magic": 12.6,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 19,
-      "focus": 57,
-      "vitality": 61
-    }
+    "poise": 0,
+    "physical": 4.2,
+    "strike": 2.7,
+    "slash": 4.2,
+    "pierce": 4.2,
+    "magic": 12.6,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 12.6,
+    "immunity": 32,
+    "robustness": 19,
+    "focus": 57,
+    "vitality": 61
   },
   {
     "name": "Preceptor\u0027s Long Gown",
@@ -5328,22 +4737,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.7,
-      "slash": 6.1,
-      "pierce": 6.1,
-      "magic": 14.5,
-      "fire": 13.3,
-      "lightning": 12.8,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 24,
-      "focus": 83,
-      "vitality": 76
-    }
+    "poise": 3,
+    "physical": 6.1,
+    "strike": 6.7,
+    "slash": 6.1,
+    "pierce": 6.1,
+    "magic": 14.5,
+    "fire": 13.3,
+    "lightning": 12.8,
+    "holy": 12.8,
+    "immunity": 50,
+    "robustness": 24,
+    "focus": 83,
+    "vitality": 76
   },
   {
     "name": "Preceptor\u0027s Long Gown (Altered)",
@@ -5355,22 +4761,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 3.2,
-    "negation": {
-      "physical": 4.2,
-      "strike": 4.2,
-      "slash": 2.7,
-      "pierce": 4.2,
-      "magic": 12.8,
-      "fire": 12.4,
-      "lightning": 11.9,
-      "holy": 12.4
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 16,
-      "focus": 57,
-      "vitality": 57
-    }
+    "poise": 0,
+    "physical": 4.2,
+    "strike": 4.2,
+    "slash": 2.7,
+    "pierce": 4.2,
+    "magic": 12.8,
+    "fire": 12.4,
+    "lightning": 11.9,
+    "holy": 12.4,
+    "immunity": 38,
+    "robustness": 16,
+    "focus": 57,
+    "vitality": 57
   },
   {
     "name": "Azur\u0027s Glintstone Robe",
@@ -5382,22 +4785,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 7.1,
-    "negation": {
-      "physical": 7.1,
-      "strike": 6.1,
-      "slash": 6.7,
-      "pierce": 6.7,
-      "magic": 15.4,
-      "fire": 12.8,
-      "lightning": 13,
-      "holy": 13.8
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 28,
-      "focus": 99,
-      "vitality": 83
-    }
+    "poise": 3,
+    "physical": 7.1,
+    "strike": 6.1,
+    "slash": 6.7,
+    "pierce": 6.7,
+    "magic": 15.4,
+    "fire": 12.8,
+    "lightning": 13,
+    "holy": 13.8,
+    "immunity": 50,
+    "robustness": 28,
+    "focus": 99,
+    "vitality": 83
   },
   {
     "name": "Lusat\u0027s Robe",
@@ -5409,22 +4809,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 7.1,
-    "negation": {
-      "physical": 8,
-      "strike": 6.1,
-      "slash": 8,
-      "pierce": 6.1,
-      "magic": 15.4,
-      "fire": 12.8,
-      "lightning": 13.3,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 25,
-      "focus": 83,
-      "vitality": 99
-    }
+    "poise": 3,
+    "physical": 8,
+    "strike": 6.1,
+    "slash": 8,
+    "pierce": 6.1,
+    "magic": 15.4,
+    "fire": 12.8,
+    "lightning": 13.3,
+    "holy": 13.5,
+    "immunity": 50,
+    "robustness": 25,
+    "focus": 83,
+    "vitality": 99
   },
   {
     "name": "Queen\u0027s Robe",
@@ -5436,22 +4833,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 5.3,
-      "slash": 5.3,
-      "pierce": 4.2,
-      "magic": 13.8,
-      "fire": 12.6,
-      "lightning": 12.8,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 25,
-      "focus": 71,
-      "vitality": 83
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 5.3,
+    "slash": 5.3,
+    "pierce": 4.2,
+    "magic": 13.8,
+    "fire": 12.6,
+    "lightning": 12.8,
+    "holy": 13.3,
+    "immunity": 42,
+    "robustness": 25,
+    "focus": 71,
+    "vitality": 83
   },
   {
     "name": "Snow Witch Robe",
@@ -5463,22 +4857,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 5.5,
-    "negation": {
-      "physical": 5.7,
-      "strike": 6.5,
-      "slash": 6.5,
-      "pierce": 4.6,
-      "magic": 13.4,
-      "fire": 13.4,
-      "lightning": 13.2,
-      "holy": 13.4
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 32,
-      "focus": 71,
-      "vitality": 71
-    }
+    "poise": 2,
+    "physical": 5.7,
+    "strike": 6.5,
+    "slash": 6.5,
+    "pierce": 4.6,
+    "magic": 13.4,
+    "fire": 13.4,
+    "lightning": 13.2,
+    "holy": 13.4,
+    "immunity": 38,
+    "robustness": 32,
+    "focus": 71,
+    "vitality": 71
   },
   {
     "name": "Snow Witch Robe (Altered)",
@@ -5490,22 +4881,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.6,
-    "negation": {
-      "physical": 4.6,
-      "strike": 5.7,
-      "slash": 5.7,
-      "pierce": 3.1,
-      "magic": 13.2,
-      "fire": 13.2,
-      "lightning": 13,
-      "holy": 13.2
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 25,
-      "focus": 57,
-      "vitality": 57
-    }
+    "poise": 0,
+    "physical": 4.6,
+    "strike": 5.7,
+    "slash": 5.7,
+    "pierce": 3.1,
+    "magic": 13.2,
+    "fire": 13.2,
+    "lightning": 13,
+    "holy": 13.2,
+    "immunity": 32,
+    "robustness": 25,
+    "focus": 57,
+    "vitality": 57
   },
   {
     "name": "Fia\u0027s Robe",
@@ -5517,22 +4905,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.1,
-      "slash": 5.3,
-      "pierce": 5.3,
-      "magic": 12.6,
-      "fire": 12.4,
-      "lightning": 12.6,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 21,
-      "focus": 76,
-      "vitality": 108
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 6.1,
+    "slash": 5.3,
+    "pierce": 5.3,
+    "magic": 12.6,
+    "fire": 12.4,
+    "lightning": 12.6,
+    "holy": 13,
+    "immunity": 46,
+    "robustness": 21,
+    "focus": 76,
+    "vitality": 108
   },
   {
     "name": "Fia\u0027s Robe (Altered)",
@@ -5544,22 +4929,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 3.2,
-    "negation": {
-      "physical": 2.7,
-      "strike": 4.2,
-      "slash": 2.7,
-      "pierce": 2.7,
-      "magic": 11.9,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 10,
-      "focus": 57,
-      "vitality": 93
-    }
+    "poise": 0,
+    "physical": 2.7,
+    "strike": 4.2,
+    "slash": 2.7,
+    "pierce": 2.7,
+    "magic": 11.9,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 12.6,
+    "immunity": 34,
+    "robustness": 10,
+    "focus": 57,
+    "vitality": 93
   },
   {
     "name": "Deathbed Dress",
@@ -5571,22 +4953,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 1,
     "weight": 3.2,
-    "negation": {
-      "physical": 0.6,
-      "strike": 2.7,
-      "slash": 0.6,
-      "pierce": 0.6,
-      "magic": 11.9,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 12.4
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 11,
-      "focus": 63,
-      "vitality": 107
-    }
+    "poise": 1,
+    "physical": 0.6,
+    "strike": 2.7,
+    "slash": 0.6,
+    "pierce": 0.6,
+    "magic": 11.9,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 12.4,
+    "immunity": 38,
+    "robustness": 11,
+    "focus": 63,
+    "vitality": 107
   },
   {
     "name": "Prophet Robe",
@@ -5598,22 +4977,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 6.7,
-      "strike": 6.7,
-      "slash": 6.1,
-      "pierce": 6.7,
-      "magic": 13.5,
-      "fire": 12.6,
-      "lightning": 13,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 25,
-      "focus": 83,
-      "vitality": 90
-    }
+    "poise": 3,
+    "physical": 6.7,
+    "strike": 6.7,
+    "slash": 6.1,
+    "pierce": 6.7,
+    "magic": 13.5,
+    "fire": 12.6,
+    "lightning": 13,
+    "holy": 13,
+    "immunity": 46,
+    "robustness": 25,
+    "focus": 83,
+    "vitality": 90
   },
   {
     "name": "Prophet Robe (Altered)",
@@ -5625,22 +5001,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.1,
-      "slash": 5.3,
-      "pierce": 6.1,
-      "magic": 13.3,
-      "fire": 12.4,
-      "lightning": 12.8,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 22,
-      "focus": 69,
-      "vitality": 75
-    }
+    "poise": 1,
+    "physical": 6.1,
+    "strike": 6.1,
+    "slash": 5.3,
+    "pierce": 6.1,
+    "magic": 13.3,
+    "fire": 12.4,
+    "lightning": 12.8,
+    "holy": 12.8,
+    "immunity": 38,
+    "robustness": 22,
+    "focus": 69,
+    "vitality": 75
   },
   {
     "name": "Corhyn\u0027s Robe",
@@ -5652,22 +5025,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.7,
-      "slash": 6.7,
-      "pierce": 6.1,
-      "magic": 13.3,
-      "fire": 12.8,
-      "lightning": 12.8,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 24,
-      "focus": 107,
-      "vitality": 76
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 6.7,
+    "slash": 6.7,
+    "pierce": 6.1,
+    "magic": 13.3,
+    "fire": 12.8,
+    "lightning": 12.8,
+    "holy": 13.5,
+    "immunity": 46,
+    "robustness": 24,
+    "focus": 107,
+    "vitality": 76
   },
   {
     "name": "Traveling Maiden Robe",
@@ -5679,22 +5049,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.9,
-    "negation": {
-      "physical": 5.4,
-      "strike": 6.2,
-      "slash": 6.2,
-      "pierce": 4.3,
-      "magic": 13.4,
-      "fire": 12.9,
-      "lightning": 13.1,
-      "holy": 13.4
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 24,
-      "focus": 76,
-      "vitality": 83
-    }
+    "poise": 2,
+    "physical": 5.4,
+    "strike": 6.2,
+    "slash": 6.2,
+    "pierce": 4.3,
+    "magic": 13.4,
+    "fire": 12.9,
+    "lightning": 13.1,
+    "holy": 13.4,
+    "immunity": 46,
+    "robustness": 24,
+    "focus": 76,
+    "vitality": 83
   },
   {
     "name": "Traveling Maiden Robe (Altered)",
@@ -5706,22 +5073,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.3,
-    "negation": {
-      "physical": 4.3,
-      "strike": 5.4,
-      "slash": 5.4,
-      "pierce": 2.8,
-      "magic": 13.1,
-      "fire": 12.7,
-      "lightning": 12.9,
-      "holy": 13.1
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 21,
-      "focus": 61,
-      "vitality": 64
-    }
+    "poise": 1,
+    "physical": 4.3,
+    "strike": 5.4,
+    "slash": 5.4,
+    "pierce": 2.8,
+    "magic": 13.1,
+    "fire": 12.7,
+    "lightning": 12.9,
+    "holy": 13.1,
+    "immunity": 38,
+    "robustness": 21,
+    "focus": 61,
+    "vitality": 64
   },
   {
     "name": "Finger Maiden Robe",
@@ -5733,22 +5097,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 4.6,
-    "negation": {
-      "physical": 5.8,
-      "strike": 4.7,
-      "slash": 4.7,
-      "pierce": 3.2,
-      "magic": 13.8,
-      "fire": 13.1,
-      "lightning": 13.3,
-      "holy": 13.8
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 21,
-      "focus": 63,
-      "vitality": 63
-    }
+    "poise": 2,
+    "physical": 5.8,
+    "strike": 4.7,
+    "slash": 4.7,
+    "pierce": 3.2,
+    "magic": 13.8,
+    "fire": 13.1,
+    "lightning": 13.3,
+    "holy": 13.8,
+    "immunity": 38,
+    "robustness": 21,
+    "focus": 63,
+    "vitality": 63
   },
   {
     "name": "Finger Maiden Robe (Altered)",
@@ -5760,22 +5121,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 3.7,
-    "negation": {
-      "physical": 4.2,
-      "strike": 2.7,
-      "slash": 2.7,
-      "pierce": 0.6,
-      "magic": 13,
-      "fire": 12.4,
-      "lightning": 12.6,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 16,
-      "focus": 54,
-      "vitality": 54
-    }
+    "poise": 1,
+    "physical": 4.2,
+    "strike": 2.7,
+    "slash": 2.7,
+    "pierce": 0.6,
+    "magic": 13,
+    "fire": 12.4,
+    "lightning": 12.6,
+    "holy": 13.5,
+    "immunity": 32,
+    "robustness": 16,
+    "focus": 54,
+    "vitality": 54
   },
   {
     "name": "Sage Robe",
@@ -5787,22 +5145,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.7,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 4.2,
-      "magic": 13.5,
-      "fire": 12.6,
-      "lightning": 13,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 23,
-      "focus": 71,
-      "vitality": 76
-    }
+    "poise": 2,
+    "physical": 6.7,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 4.2,
+    "magic": 13.5,
+    "fire": 12.6,
+    "lightning": 13,
+    "holy": 13.5,
+    "immunity": 38,
+    "robustness": 23,
+    "focus": 71,
+    "vitality": 76
   },
   {
     "name": "Goldmask\u0027s Rags",
@@ -5814,22 +5169,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 2,
     "weight": 2.4,
-    "negation": {
-      "physical": 4.2,
-      "strike": 2.7,
-      "slash": 2.7,
-      "pierce": 0.6,
-      "magic": 11.9,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 11,
-      "focus": 60,
-      "vitality": 60
-    }
+    "poise": 1,
+    "physical": 4.2,
+    "strike": 2.7,
+    "slash": 2.7,
+    "pierce": 0.6,
+    "magic": 11.9,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 12.8,
+    "immunity": 38,
+    "robustness": 11,
+    "focus": 60,
+    "vitality": 60
   },
   {
     "name": "Perfumer Robe",
@@ -5841,22 +5193,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.7,
-      "slash": 6.1,
-      "pierce": 5.3,
-      "magic": 13,
-      "fire": 12.4,
-      "lightning": 12.6,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 21,
-      "focus": 71,
-      "vitality": 76
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 6.7,
+    "slash": 6.1,
+    "pierce": 5.3,
+    "magic": 13,
+    "fire": 12.4,
+    "lightning": 12.6,
+    "holy": 13,
+    "immunity": 63,
+    "robustness": 21,
+    "focus": 71,
+    "vitality": 76
   },
   {
     "name": "Perfumer Robe (Altered)",
@@ -5868,22 +5217,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 6.1,
-      "slash": 5.3,
-      "pierce": 4.2,
-      "magic": 12.8,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 54,
-      "robustness": 18,
-      "focus": 57,
-      "vitality": 67
-    }
+    "poise": 2,
+    "physical": 4.2,
+    "strike": 6.1,
+    "slash": 5.3,
+    "pierce": 4.2,
+    "magic": 12.8,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 54,
+    "robustness": 18,
+    "focus": 57,
+    "vitality": 67
   },
   {
     "name": "Perfumer\u0027s Traveling Garb",
@@ -5895,22 +5241,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.1,
-      "slash": 5.3,
-      "pierce": 4.2,
-      "magic": 13,
-      "fire": 13,
-      "lightning": 12.6,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 23,
-      "focus": 76,
-      "vitality": 71
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 6.1,
+    "slash": 5.3,
+    "pierce": 4.2,
+    "magic": 13,
+    "fire": 13,
+    "lightning": 12.6,
+    "holy": 13,
+    "immunity": 57,
+    "robustness": 23,
+    "focus": 76,
+    "vitality": 71
   },
   {
     "name": "Perfumer\u0027s Traveling Garb (Altered)",
@@ -5922,22 +5265,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 5.3,
-      "slash": 4.2,
-      "pierce": 2.7,
-      "magic": 12.8,
-      "fire": 12.8,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 55,
-      "robustness": 21,
-      "focus": 67,
-      "vitality": 63
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 5.3,
+    "slash": 4.2,
+    "pierce": 2.7,
+    "magic": 12.8,
+    "fire": 12.8,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 55,
+    "robustness": 21,
+    "focus": 67,
+    "vitality": 63
   },
   {
     "name": "Depraved Perfumer Robe",
@@ -5949,22 +5289,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5,
-    "negation": {
-      "physical": 6,
-      "strike": 6,
-      "slash": 5.2,
-      "pierce": 4.1,
-      "magic": 13.2,
-      "fire": 12.7,
-      "lightning": 12.5,
-      "holy": 12.7
-    },
-    "resists": {
-      "immunity": 65,
-      "robustness": 22,
-      "focus": 55,
-      "vitality": 80
-    }
+    "poise": 2,
+    "physical": 6,
+    "strike": 6,
+    "slash": 5.2,
+    "pierce": 4.1,
+    "magic": 13.2,
+    "fire": 12.7,
+    "lightning": 12.5,
+    "holy": 12.7,
+    "immunity": 65,
+    "robustness": 22,
+    "focus": 55,
+    "vitality": 80
   },
   {
     "name": "Depraved Perfumer Robe (Altered)",
@@ -5976,22 +5313,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4,
-    "negation": {
-      "physical": 5.3,
-      "strike": 5.2,
-      "slash": 4.1,
-      "pierce": 2.6,
-      "magic": 13,
-      "fire": 12.6,
-      "lightning": 12.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 18,
-      "focus": 48,
-      "vitality": 63
-    }
+    "poise": 1,
+    "physical": 5.3,
+    "strike": 5.2,
+    "slash": 4.1,
+    "pierce": 2.6,
+    "magic": 13,
+    "fire": 12.6,
+    "lightning": 12.4,
+    "holy": 12.6,
+    "immunity": 63,
+    "robustness": 18,
+    "focus": 48,
+    "vitality": 63
   },
   {
     "name": "Upper-Class Robe",
@@ -6003,22 +5337,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 2.7,
-      "magic": 12.8,
-      "fire": 11.9,
-      "lightning": 12.6,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 21,
-      "focus": 61,
-      "vitality": 61
-    }
+    "poise": 1,
+    "physical": 4.2,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 2.7,
+    "magic": 12.8,
+    "fire": 11.9,
+    "lightning": 12.6,
+    "holy": 13,
+    "immunity": 38,
+    "robustness": 21,
+    "focus": 61,
+    "vitality": 61
   },
   {
     "name": "Ruler\u0027s Robe",
@@ -6030,22 +5361,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.7,
-      "slash": 6.7,
-      "pierce": 4.2,
-      "magic": 13,
-      "fire": 12.4,
-      "lightning": 12.8,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 24,
-      "focus": 76,
-      "vitality": 76
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 6.7,
+    "slash": 6.7,
+    "pierce": 4.2,
+    "magic": 13,
+    "fire": 12.4,
+    "lightning": 12.8,
+    "holy": 13.3,
+    "immunity": 46,
+    "robustness": 24,
+    "focus": 76,
+    "vitality": 76
   },
   {
     "name": "Consort\u0027s Robe",
@@ -6057,22 +5385,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 4.2,
-      "slash": 4.2,
-      "pierce": 5.3,
-      "magic": 13,
-      "fire": 12.4,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 25,
-      "focus": 67,
-      "vitality": 63
-    }
+    "poise": 1,
+    "physical": 5.3,
+    "strike": 4.2,
+    "slash": 4.2,
+    "pierce": 5.3,
+    "magic": 13,
+    "fire": 12.4,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 46,
+    "robustness": 25,
+    "focus": 67,
+    "vitality": 63
   },
   {
     "name": "Official\u0027s Attire",
@@ -6084,22 +5409,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 4.2,
-      "strike": 4.2,
-      "slash": 4.2,
-      "pierce": 5.3,
-      "magic": 12.8,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 22,
-      "focus": 61,
-      "vitality": 64
-    }
+    "poise": 1,
+    "physical": 4.2,
+    "strike": 4.2,
+    "slash": 4.2,
+    "pierce": 5.3,
+    "magic": 12.8,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 38,
+    "robustness": 22,
+    "focus": 61,
+    "vitality": 64
   },
   {
     "name": "Marais Robe",
@@ -6111,22 +5433,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.1,
-      "slash": 4.2,
-      "pierce": 2.7,
-      "magic": 12.6,
-      "fire": 12.4,
-      "lightning": 12.4,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 28,
-      "focus": 71,
-      "vitality": 67
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 6.1,
+    "slash": 4.2,
+    "pierce": 2.7,
+    "magic": 12.6,
+    "fire": 12.4,
+    "lightning": 12.4,
+    "holy": 12.6,
+    "immunity": 42,
+    "robustness": 28,
+    "focus": 71,
+    "vitality": 67
   },
   {
     "name": "Fur Raiment",
@@ -6138,22 +5457,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.7,
-      "slash": 6.1,
-      "pierce": 6.1,
-      "magic": 6.7,
-      "fire": 7.1,
-      "lightning": 8.8,
-      "holy": 7.1
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 38
-    }
+    "poise": 1,
+    "physical": 6.1,
+    "strike": 6.7,
+    "slash": 6.1,
+    "pierce": 6.1,
+    "magic": 6.7,
+    "fire": 7.1,
+    "lightning": 8.8,
+    "holy": 7.1,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 38
   },
   {
     "name": "Shaman Furs",
@@ -6165,22 +5481,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.3,
-      "strike": 6.1,
-      "slash": 5.3,
-      "pierce": 8,
-      "magic": 8,
-      "fire": 7.1,
-      "lightning": 8,
-      "holy": 6.7
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 35
-    }
+    "poise": 2,
+    "physical": 5.3,
+    "strike": 6.1,
+    "slash": 5.3,
+    "pierce": 8,
+    "magic": 8,
+    "fire": 7.1,
+    "lightning": 8,
+    "holy": 6.7,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 35
   },
   {
     "name": "Godskin Apostle Robe",
@@ -6192,22 +5505,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 4.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 5.3,
-      "slash": 5.3,
-      "pierce": 2.7,
-      "magic": 12.6,
-      "fire": 11.9,
-      "lightning": 12.4,
-      "holy": 13.8
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 21,
-      "focus": 67,
-      "vitality": 63
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 5.3,
+    "slash": 5.3,
+    "pierce": 2.7,
+    "magic": 12.6,
+    "fire": 11.9,
+    "lightning": 12.4,
+    "holy": 13.8,
+    "immunity": 42,
+    "robustness": 21,
+    "focus": 67,
+    "vitality": 63
   },
   {
     "name": "Godskin Noble Robe",
@@ -6219,22 +5529,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 6.1,
-      "strike": 9.5,
-      "slash": 6.7,
-      "pierce": 6.1,
-      "magic": 13,
-      "fire": 12.4,
-      "lightning": 12.6,
-      "holy": 14.1
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 25,
-      "focus": 76,
-      "vitality": 83
-    }
+    "poise": 5,
+    "physical": 6.1,
+    "strike": 9.5,
+    "slash": 6.7,
+    "pierce": 6.1,
+    "magic": 13,
+    "fire": 12.4,
+    "lightning": 12.6,
+    "holy": 14.1,
+    "immunity": 46,
+    "robustness": 25,
+    "focus": 76,
+    "vitality": 83
   },
   {
     "name": "Fell Omen Cloak",
@@ -6246,22 +5553,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.7,
-      "slash": 6.7,
-      "pierce": 6.1,
-      "magic": 13,
-      "fire": 12.4,
-      "lightning": 12.6,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 25,
-      "focus": 71,
-      "vitality": 83
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 6.7,
+    "slash": 6.7,
+    "pierce": 6.1,
+    "magic": 13,
+    "fire": 12.4,
+    "lightning": 12.6,
+    "holy": 12.8,
+    "immunity": 42,
+    "robustness": 25,
+    "focus": 71,
+    "vitality": 83
   },
   {
     "name": "Sanguine Noble Robe",
@@ -6273,22 +5577,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 5.3,
-      "slash": 5.3,
-      "pierce": 5.3,
-      "magic": 13.3,
-      "fire": 11.9,
-      "lightning": 13,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 21,
-      "focus": 83,
-      "vitality": 76
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 5.3,
+    "slash": 5.3,
+    "pierce": 5.3,
+    "magic": 13.3,
+    "fire": 11.9,
+    "lightning": 13,
+    "holy": 13.5,
+    "immunity": 50,
+    "robustness": 21,
+    "focus": 83,
+    "vitality": 76
   },
   {
     "name": "Lord of Blood\u0027s Robe",
@@ -6300,22 +5601,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 8.1,
-    "negation": {
-      "physical": 9.3,
-      "strike": 10,
-      "slash": 8.6,
-      "pierce": 8.6,
-      "magic": 10,
-      "fire": 12.2,
-      "lightning": 12.2,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 23,
-      "focus": 55,
-      "vitality": 55
-    }
+    "poise": 8,
+    "physical": 9.3,
+    "strike": 10,
+    "slash": 8.6,
+    "pierce": 8.6,
+    "magic": 10,
+    "fire": 12.2,
+    "lightning": 12.2,
+    "holy": 13.3,
+    "immunity": 63,
+    "robustness": 23,
+    "focus": 55,
+    "vitality": 55
   },
   {
     "name": "Lord of Blood\u0027s Robe (Altered)",
@@ -6327,22 +5625,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 2,
     "weight": 7.3,
-    "negation": {
-      "physical": 8.9,
-      "strike": 9.6,
-      "slash": 8.1,
-      "pierce": 8.1,
-      "magic": 9.6,
-      "fire": 12,
-      "lightning": 12,
-      "holy": 13.4
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 19,
-      "focus": 47,
-      "vitality": 47
-    }
+    "poise": 7,
+    "physical": 8.9,
+    "strike": 9.6,
+    "slash": 8.1,
+    "pierce": 8.1,
+    "magic": 9.6,
+    "fire": 12,
+    "lightning": 12,
+    "holy": 13.4,
+    "immunity": 57,
+    "robustness": 19,
+    "focus": 47,
+    "vitality": 47
   },
   {
     "name": "Leather Armor",
@@ -6354,22 +5649,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 7.1,
-    "negation": {
-      "physical": 8,
-      "strike": 9.5,
-      "slash": 8,
-      "pierce": 8.8,
-      "magic": 9.5,
-      "fire": 9.5,
-      "lightning": 10.2,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 60,
-      "robustness": 35,
-      "focus": 42,
-      "vitality": 50
-    }
+    "poise": 2,
+    "physical": 8,
+    "strike": 9.5,
+    "slash": 8,
+    "pierce": 8.8,
+    "magic": 9.5,
+    "fire": 9.5,
+    "lightning": 10.2,
+    "holy": 10.2,
+    "immunity": 60,
+    "robustness": 35,
+    "focus": 42,
+    "vitality": 50
   },
   {
     "name": "Blue Cloth Vest",
@@ -6381,22 +5673,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 7.7,
-    "negation": {
-      "physical": 9.5,
-      "strike": 9.5,
-      "slash": 8,
-      "pierce": 8,
-      "magic": 10.2,
-      "fire": 10.9,
-      "lightning": 11.9,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 50,
-      "vitality": 50
-    }
+    "poise": 6,
+    "physical": 9.5,
+    "strike": 9.5,
+    "slash": 8,
+    "pierce": 8,
+    "magic": 10.2,
+    "fire": 10.9,
+    "lightning": 11.9,
+    "holy": 9.5,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 50,
+    "vitality": 50
   },
   {
     "name": "Noble\u0027s Traveling Garb",
@@ -6408,22 +5697,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.7,
-      "slash": 6.1,
-      "pierce": 6.7,
-      "magic": 13.3,
-      "fire": 13.5,
-      "lightning": 13,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 24,
-      "focus": 76,
-      "vitality": 83
-    }
+    "poise": 2,
+    "physical": 6.1,
+    "strike": 6.7,
+    "slash": 6.1,
+    "pierce": 6.7,
+    "magic": 13.3,
+    "fire": 13.5,
+    "lightning": 13,
+    "holy": 13.3,
+    "immunity": 46,
+    "robustness": 24,
+    "focus": 76,
+    "vitality": 83
   },
   {
     "name": "War Surgeon Gown",
@@ -6435,22 +5721,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 6.9,
-    "negation": {
-      "physical": 7,
-      "strike": 7.9,
-      "slash": 8.7,
-      "pierce": 7,
-      "magic": 9.4,
-      "fire": 10.1,
-      "lightning": 10.8,
-      "holy": 10.1
-    },
-    "resists": {
-      "immunity": 53,
-      "robustness": 37,
-      "focus": 44,
-      "vitality": 48
-    }
+    "poise": 5,
+    "physical": 7,
+    "strike": 7.9,
+    "slash": 8.7,
+    "pierce": 7,
+    "magic": 9.4,
+    "fire": 10.1,
+    "lightning": 10.8,
+    "holy": 10.1,
+    "immunity": 53,
+    "robustness": 37,
+    "focus": 44,
+    "vitality": 48
   },
   {
     "name": "War Surgeon Gown (Altered)",
@@ -6462,22 +5745,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 6.1,
-    "negation": {
-      "physical": 6.6,
-      "strike": 7,
-      "slash": 7.9,
-      "pierce": 6.6,
-      "magic": 8.7,
-      "fire": 9.4,
-      "lightning": 10.1,
-      "holy": 9.4
-    },
-    "resists": {
-      "immunity": 45,
-      "robustness": 32,
-      "focus": 38,
-      "vitality": 42
-    }
+    "poise": 2,
+    "physical": 6.6,
+    "strike": 7,
+    "slash": 7.9,
+    "pierce": 6.6,
+    "magic": 8.7,
+    "fire": 9.4,
+    "lightning": 10.1,
+    "holy": 9.4,
+    "immunity": 45,
+    "robustness": 32,
+    "focus": 38,
+    "vitality": 42
   },
   {
     "name": "Nomadic Merchant\u0027s Finery",
@@ -6489,22 +5769,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 7.2,
-    "negation": {
-      "physical": 8,
-      "strike": 8.8,
-      "slash": 7.1,
-      "pierce": 6.7,
-      "magic": 9.5,
-      "fire": 9.5,
-      "lightning": 9.5,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 32,
-      "focus": 71,
-      "vitality": 46
-    }
+    "poise": 3,
+    "physical": 8,
+    "strike": 8.8,
+    "slash": 7.1,
+    "pierce": 6.7,
+    "magic": 9.5,
+    "fire": 9.5,
+    "lightning": 9.5,
+    "holy": 8.8,
+    "immunity": 57,
+    "robustness": 32,
+    "focus": 71,
+    "vitality": 46
   },
   {
     "name": "Nomadic Merchant\u0027s Finery (Altered)",
@@ -6516,22 +5793,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 6.1,
-    "negation": {
-      "physical": 7,
-      "strike": 7.9,
-      "slash": 6.6,
-      "pierce": 6,
-      "magic": 8.7,
-      "fire": 8.7,
-      "lightning": 8.7,
-      "holy": 7.9
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 25,
-      "focus": 61,
-      "vitality": 38
-    }
+    "poise": 1,
+    "physical": 7,
+    "strike": 7.9,
+    "slash": 6.6,
+    "pierce": 6,
+    "magic": 8.7,
+    "fire": 8.7,
+    "lightning": 8.7,
+    "holy": 7.9,
+    "immunity": 50,
+    "robustness": 25,
+    "focus": 61,
+    "vitality": 38
   },
   {
     "name": "Bandit Garb",
@@ -6543,22 +5817,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 7.7,
-    "negation": {
-      "physical": 8,
-      "strike": 8.8,
-      "slash": 9.5,
-      "pierce": 9.5,
-      "magic": 10.2,
-      "fire": 10.2,
-      "lightning": 10.9,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 52,
-      "robustness": 32,
-      "focus": 54,
-      "vitality": 54
-    }
+    "poise": 4,
+    "physical": 8,
+    "strike": 8.8,
+    "slash": 9.5,
+    "pierce": 9.5,
+    "magic": 10.2,
+    "fire": 10.2,
+    "lightning": 10.9,
+    "holy": 9.5,
+    "immunity": 52,
+    "robustness": 32,
+    "focus": 54,
+    "vitality": 54
   },
   {
     "name": "Confessor Armor",
@@ -6570,22 +5841,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 8.8,
-      "strike": 10.9,
-      "slash": 8.8,
-      "pierce": 9.5,
-      "magic": 11.4,
-      "fire": 11.4,
-      "lightning": 12.4,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 50,
-      "focus": 50,
-      "vitality": 55
-    }
+    "poise": 6,
+    "physical": 8.8,
+    "strike": 10.9,
+    "slash": 8.8,
+    "pierce": 9.5,
+    "magic": 11.4,
+    "fire": 11.4,
+    "lightning": 12.4,
+    "holy": 10.2,
+    "immunity": 63,
+    "robustness": 50,
+    "focus": 50,
+    "vitality": 55
   },
   {
     "name": "Confessor Armor (Altered)",
@@ -6597,22 +5865,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.6,
-      "strike": 9.8,
-      "slash": 7.6,
-      "pierce": 8.4,
-      "magic": 10.5,
-      "fire": 10.5,
-      "lightning": 11.5,
-      "holy": 9.1
-    },
-    "resists": {
-      "immunity": 54,
-      "robustness": 42,
-      "focus": 42,
-      "vitality": 45
-    }
+    "poise": 4,
+    "physical": 7.6,
+    "strike": 9.8,
+    "slash": 7.6,
+    "pierce": 8.4,
+    "magic": 10.5,
+    "fire": 10.5,
+    "lightning": 11.5,
+    "holy": 9.1,
+    "immunity": 54,
+    "robustness": 42,
+    "focus": 42,
+    "vitality": 45
   },
   {
     "name": "Omenkiller Robe",
@@ -6624,22 +5889,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 7.1,
-    "negation": {
-      "physical": 8.8,
-      "strike": 8,
-      "slash": 7.1,
-      "pierce": 7.1,
-      "magic": 8.8,
-      "fire": 9.5,
-      "lightning": 11.4,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 67,
-      "robustness": 28,
-      "focus": 46,
-      "vitality": 46
-    }
+    "poise": 6,
+    "physical": 8.8,
+    "strike": 8,
+    "slash": 7.1,
+    "pierce": 7.1,
+    "magic": 8.8,
+    "fire": 9.5,
+    "lightning": 11.4,
+    "holy": 10.2,
+    "immunity": 67,
+    "robustness": 28,
+    "focus": 46,
+    "vitality": 46
   },
   {
     "name": "Raptor\u0027s Black Feathers",
@@ -6651,22 +5913,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 2,
     "weight": 7.7,
-    "negation": {
-      "physical": 8,
-      "strike": 8.8,
-      "slash": 9.5,
-      "pierce": 9.5,
-      "magic": 10.2,
-      "fire": 10.2,
-      "lightning": 10.9,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 35,
-      "focus": 60,
-      "vitality": 60
-    }
+    "poise": 5,
+    "physical": 8,
+    "strike": 8.8,
+    "slash": 9.5,
+    "pierce": 9.5,
+    "magic": 10.2,
+    "fire": 10.2,
+    "lightning": 10.9,
+    "holy": 9.5,
+    "immunity": 57,
+    "robustness": 35,
+    "focus": 60,
+    "vitality": 60
   },
   {
     "name": "Foot Soldier Tabard",
@@ -6678,22 +5937,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 9.5,
-      "strike": 9.5,
-      "slash": 10.2,
-      "pierce": 10.2,
-      "magic": 11.4,
-      "fire": 11.4,
-      "lightning": 11.4,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 55
-    }
+    "poise": 8,
+    "physical": 9.5,
+    "strike": 9.5,
+    "slash": 10.2,
+    "pierce": 10.2,
+    "magic": 11.4,
+    "fire": 11.4,
+    "lightning": 11.4,
+    "holy": 10.2,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 55
   },
   {
     "name": "Leather-Draped Tabard",
@@ -6705,22 +5961,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 9.5,
-      "strike": 10.9,
-      "slash": 8.8,
-      "pierce": 10.2,
-      "magic": 10.2,
-      "fire": 10.9,
-      "lightning": 12.4,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 55
-    }
+    "poise": 8,
+    "physical": 9.5,
+    "strike": 10.9,
+    "slash": 8.8,
+    "pierce": 10.2,
+    "magic": 10.2,
+    "fire": 10.9,
+    "lightning": 12.4,
+    "holy": 10.9,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 55
   },
   {
     "name": "Chain-Draped Tabard",
@@ -6732,22 +5985,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 9.5,
-      "strike": 10.2,
-      "slash": 9.5,
-      "pierce": 9.5,
-      "magic": 10.9,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 55
-    }
+    "poise": 8,
+    "physical": 9.5,
+    "strike": 10.2,
+    "slash": 9.5,
+    "pierce": 9.5,
+    "magic": 10.9,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 10.9,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 55
   },
   {
     "name": "Ivory-Draped Tabard",
@@ -6759,22 +6009,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 9.5,
-      "strike": 10.9,
-      "slash": 8.8,
-      "pierce": 10.2,
-      "magic": 10.2,
-      "fire": 10.9,
-      "lightning": 11.9,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 57
-    }
+    "poise": 6,
+    "physical": 9.5,
+    "strike": 10.9,
+    "slash": 8.8,
+    "pierce": 10.2,
+    "magic": 10.2,
+    "fire": 10.9,
+    "lightning": 11.9,
+    "holy": 11.4,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 57
   },
   {
     "name": "Scarlet Tabard",
@@ -6786,22 +6033,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 10.2,
-      "strike": 9.5,
-      "slash": 8.8,
-      "pierce": 8.8,
-      "magic": 10.9,
-      "fire": 11.9,
-      "lightning": 11.9,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 55
-    }
+    "poise": 8,
+    "physical": 10.2,
+    "strike": 9.5,
+    "slash": 8.8,
+    "pierce": 8.8,
+    "magic": 10.9,
+    "fire": 11.9,
+    "lightning": 11.9,
+    "holy": 10.9,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 55
   },
   {
     "name": "Bloodsoaked Tabard",
@@ -6813,22 +6057,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 9.5,
-      "strike": 9.5,
-      "slash": 10.2,
-      "pierce": 9.5,
-      "magic": 10.9,
-      "fire": 10.9,
-      "lightning": 12.4,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 38,
-      "focus": 55,
-      "vitality": 50
-    }
+    "poise": 9,
+    "physical": 9.5,
+    "strike": 9.5,
+    "slash": 10.2,
+    "pierce": 9.5,
+    "magic": 10.9,
+    "fire": 10.9,
+    "lightning": 12.4,
+    "holy": 11.4,
+    "immunity": 63,
+    "robustness": 38,
+    "focus": 55,
+    "vitality": 50
   },
   {
     "name": "Highwayman Cloth Armor",
@@ -6840,22 +6081,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 7.7,
-    "negation": {
-      "physical": 8,
-      "strike": 10.2,
-      "slash": 8,
-      "pierce": 8.8,
-      "magic": 10.9,
-      "fire": 10.9,
-      "lightning": 11.4,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 35,
-      "focus": 50,
-      "vitality": 50
-    }
+    "poise": 6,
+    "physical": 8,
+    "strike": 10.2,
+    "slash": 8,
+    "pierce": 8.8,
+    "magic": 10.9,
+    "fire": 10.9,
+    "lightning": 11.4,
+    "holy": 10.2,
+    "immunity": 57,
+    "robustness": 35,
+    "focus": 50,
+    "vitality": 50
   },
   {
     "name": "Vulgar Militia Armor",
@@ -6867,22 +6105,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 7.7,
-    "negation": {
-      "physical": 8.8,
-      "strike": 10.2,
-      "slash": 9.5,
-      "pierce": 8,
-      "magic": 10.2,
-      "fire": 10.2,
-      "lightning": 10.9,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 67,
-      "robustness": 35,
-      "focus": 50,
-      "vitality": 50
-    }
+    "poise": 6,
+    "physical": 8.8,
+    "strike": 10.2,
+    "slash": 9.5,
+    "pierce": 8,
+    "magic": 10.2,
+    "fire": 10.2,
+    "lightning": 10.9,
+    "holy": 10.2,
+    "immunity": 67,
+    "robustness": 35,
+    "focus": 50,
+    "vitality": 50
   },
   {
     "name": "Gravekeeper Cloak",
@@ -6894,22 +6129,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 7.1,
-      "strike": 8.8,
-      "slash": 7.1,
-      "pierce": 7.1,
-      "magic": 8,
-      "fire": 9.5,
-      "lightning": 10.2,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 25,
-      "focus": 42,
-      "vitality": 42
-    }
+    "poise": 2,
+    "physical": 7.1,
+    "strike": 8.8,
+    "slash": 7.1,
+    "pierce": 7.1,
+    "magic": 8,
+    "fire": 9.5,
+    "lightning": 10.2,
+    "holy": 8.8,
+    "immunity": 63,
+    "robustness": 25,
+    "focus": 42,
+    "vitality": 42
   },
   {
     "name": "Gravekeeper Cloak (Altered)",
@@ -6921,22 +6153,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.7,
-      "strike": 8,
-      "slash": 6.7,
-      "pierce": 6.7,
-      "magic": 7.1,
-      "fire": 8.8,
-      "lightning": 9.5,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 54,
-      "robustness": 22,
-      "focus": 34,
-      "vitality": 34
-    }
+    "poise": 1,
+    "physical": 6.7,
+    "strike": 8,
+    "slash": 6.7,
+    "pierce": 6.7,
+    "magic": 7.1,
+    "fire": 8.8,
+    "lightning": 9.5,
+    "holy": 8,
+    "immunity": 54,
+    "robustness": 22,
+    "focus": 34,
+    "vitality": 34
   },
   {
     "name": "Rotten Gravekeeper Cloak",
@@ -6948,22 +6177,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 6.3,
-    "negation": {
-      "physical": 6.7,
-      "strike": 6.7,
-      "slash": 6.7,
-      "pierce": 6.7,
-      "magic": 8.8,
-      "fire": 8.8,
-      "lightning": 10.9,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 76,
-      "robustness": 32,
-      "focus": 42,
-      "vitality": 42
-    }
+    "poise": 2,
+    "physical": 6.7,
+    "strike": 6.7,
+    "slash": 6.7,
+    "pierce": 6.7,
+    "magic": 8.8,
+    "fire": 8.8,
+    "lightning": 10.9,
+    "holy": 8.8,
+    "immunity": 76,
+    "robustness": 32,
+    "focus": 42,
+    "vitality": 42
   },
   {
     "name": "Rotten Gravekeeper Cloak (Altered)",
@@ -6975,22 +6201,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 6.1,
-      "slash": 6.1,
-      "pierce": 6.1,
-      "magic": 8,
-      "fire": 8,
-      "lightning": 10.2,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 64,
-      "robustness": 25,
-      "focus": 34,
-      "vitality": 34
-    }
+    "poise": 1,
+    "physical": 6.1,
+    "strike": 6.1,
+    "slash": 6.1,
+    "pierce": 6.1,
+    "magic": 8,
+    "fire": 8,
+    "lightning": 10.2,
+    "holy": 8,
+    "immunity": 64,
+    "robustness": 25,
+    "focus": 34,
+    "vitality": 34
   },
   {
     "name": "Nox Monk Armor",
@@ -7002,22 +6225,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.1,
-    "negation": {
-      "physical": 9.3,
-      "strike": 10,
-      "slash": 9.3,
-      "pierce": 8.6,
-      "magic": 12.2,
-      "fire": 11.7,
-      "lightning": 11.7,
-      "holy": 10
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 42,
-      "focus": 50,
-      "vitality": 50
-    }
+    "poise": 6,
+    "physical": 9.3,
+    "strike": 10,
+    "slash": 9.3,
+    "pierce": 8.6,
+    "magic": 12.2,
+    "fire": 11.7,
+    "lightning": 11.7,
+    "holy": 10,
+    "immunity": 63,
+    "robustness": 42,
+    "focus": 50,
+    "vitality": 50
   },
   {
     "name": "Nox Monk Armor (Altered)",
@@ -7029,22 +6249,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 7.4,
-    "negation": {
-      "physical": 8.6,
-      "strike": 9.3,
-      "slash": 8.6,
-      "pierce": 7.8,
-      "magic": 11.7,
-      "fire": 11.2,
-      "lightning": 11.2,
-      "holy": 9.3
-    },
-    "resists": {
-      "immunity": 54,
-      "robustness": 34,
-      "focus": 42,
-      "vitality": 42
-    }
+    "poise": 4,
+    "physical": 8.6,
+    "strike": 9.3,
+    "slash": 8.6,
+    "pierce": 7.8,
+    "magic": 11.7,
+    "fire": 11.2,
+    "lightning": 11.2,
+    "holy": 9.3,
+    "immunity": 54,
+    "robustness": 34,
+    "focus": 42,
+    "vitality": 42
   },
   {
     "name": "Nox Swordstress Armor",
@@ -7056,22 +6273,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 8.8,
-      "strike": 10.2,
-      "slash": 8.8,
-      "pierce": 9.5,
-      "magic": 12.6,
-      "fire": 10.9,
-      "lightning": 12.4,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 60,
-      "robustness": 38,
-      "focus": 55,
-      "vitality": 55
-    }
+    "poise": 8,
+    "physical": 8.8,
+    "strike": 10.2,
+    "slash": 8.8,
+    "pierce": 9.5,
+    "magic": 12.6,
+    "fire": 10.9,
+    "lightning": 12.4,
+    "holy": 11.4,
+    "immunity": 60,
+    "robustness": 38,
+    "focus": 55,
+    "vitality": 55
   },
   {
     "name": "Nox Swordstress Armor (Altered)",
@@ -7083,22 +6297,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 7.5,
-    "negation": {
-      "physical": 8,
-      "strike": 9.5,
-      "slash": 8,
-      "pierce": 8.8,
-      "magic": 12.4,
-      "fire": 10.2,
-      "lightning": 11.9,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 56,
-      "robustness": 34,
-      "focus": 49,
-      "vitality": 49
-    }
+    "poise": 5,
+    "physical": 8,
+    "strike": 9.5,
+    "slash": 8,
+    "pierce": 8.8,
+    "magic": 12.4,
+    "fire": 10.2,
+    "lightning": 11.9,
+    "holy": 10.9,
+    "immunity": 56,
+    "robustness": 34,
+    "focus": 49,
+    "vitality": 49
   },
   {
     "name": "Night Maiden Armor",
@@ -7110,22 +6321,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 8,
-      "strike": 9.5,
-      "slash": 8,
-      "pierce": 10.2,
-      "magic": 12.4,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 12.4
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 38,
-      "focus": 55,
-      "vitality": 55
-    }
+    "poise": 6,
+    "physical": 8,
+    "strike": 9.5,
+    "slash": 8,
+    "pierce": 10.2,
+    "magic": 12.4,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 12.4,
+    "immunity": 63,
+    "robustness": 38,
+    "focus": 55,
+    "vitality": 55
   },
   {
     "name": "Champion Pauldron",
@@ -7137,22 +6345,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 2,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.1,
-      "strike": 8,
-      "slash": 6.7,
-      "pierce": 7.1,
-      "magic": 7.1,
-      "fire": 8.8,
-      "lightning": 9.5,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 28,
-      "focus": 38,
-      "vitality": 35
-    }
+    "poise": 3,
+    "physical": 6.1,
+    "strike": 8,
+    "slash": 6.7,
+    "pierce": 7.1,
+    "magic": 7.1,
+    "fire": 8.8,
+    "lightning": 9.5,
+    "holy": 8.8,
+    "immunity": 46,
+    "robustness": 28,
+    "focus": 38,
+    "vitality": 35
   },
   {
     "name": "Chain Armor",
@@ -7164,22 +6369,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 8.8,
-    "negation": {
-      "physical": 11.9,
-      "strike": 8.8,
-      "slash": 12.9,
-      "pierce": 11.9,
-      "magic": 7.1,
-      "fire": 10.9,
-      "lightning": 6.1,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 42,
-      "focus": 11,
-      "vitality": 18
-    }
+    "poise": 12,
+    "physical": 11.9,
+    "strike": 8.8,
+    "slash": 12.9,
+    "pierce": 11.9,
+    "magic": 7.1,
+    "fire": 10.9,
+    "lightning": 6.1,
+    "holy": 8,
+    "immunity": 25,
+    "robustness": 42,
+    "focus": 11,
+    "vitality": 18
   },
   {
     "name": "Dirty Chainmail",
@@ -7191,22 +6393,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 8.8,
-    "negation": {
-      "physical": 11.4,
-      "strike": 8.8,
-      "slash": 11.9,
-      "pierce": 11.4,
-      "magic": 8,
-      "fire": 8.8,
-      "lightning": 6.1,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 14,
+    "physical": 11.4,
+    "strike": 8.8,
+    "slash": 11.9,
+    "pierce": 11.4,
+    "magic": 8,
+    "fire": 8.8,
+    "lightning": 6.1,
+    "holy": 8,
+    "immunity": 25,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Tree Surcoat",
@@ -7218,22 +6417,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 9.2,
-    "negation": {
-      "physical": 12.9,
-      "strike": 8.8,
-      "slash": 12.9,
-      "pierce": 11.9,
-      "magic": 8.8,
-      "fire": 10.9,
-      "lightning": 7.1,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 55,
-      "focus": 21,
-      "vitality": 18
-    }
+    "poise": 15,
+    "physical": 12.9,
+    "strike": 8.8,
+    "slash": 12.9,
+    "pierce": 11.9,
+    "magic": 8.8,
+    "fire": 10.9,
+    "lightning": 7.1,
+    "holy": 8.8,
+    "immunity": 25,
+    "robustness": 55,
+    "focus": 21,
+    "vitality": 18
   },
   {
     "name": "Eye Surcoat",
@@ -7245,22 +6441,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 9.2,
-    "negation": {
-      "physical": 12.9,
-      "strike": 8.8,
-      "slash": 12.9,
-      "pierce": 11.9,
-      "magic": 8.8,
-      "fire": 10.9,
-      "lightning": 7.1,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 55,
-      "focus": 21,
-      "vitality": 18
-    }
+    "poise": 15,
+    "physical": 12.9,
+    "strike": 8.8,
+    "slash": 12.9,
+    "pierce": 11.9,
+    "magic": 8.8,
+    "fire": 10.9,
+    "lightning": 7.1,
+    "holy": 8.8,
+    "immunity": 25,
+    "robustness": 55,
+    "focus": 21,
+    "vitality": 18
   },
   {
     "name": "Tree-and-Beast Surcoat",
@@ -7272,22 +6465,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.9,
-      "strike": 11.4,
-      "slash": 12.9,
-      "pierce": 12.4,
-      "magic": 10.2,
-      "fire": 10.9,
-      "lightning": 8,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 55,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 16,
+    "physical": 12.9,
+    "strike": 11.4,
+    "slash": 12.9,
+    "pierce": 12.4,
+    "magic": 10.2,
+    "fire": 10.9,
+    "lightning": 8,
+    "holy": 9.5,
+    "immunity": 32,
+    "robustness": 55,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Cuckoo Surcoat",
@@ -7299,22 +6489,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.9,
-      "strike": 10.9,
-      "slash": 13.5,
-      "pierce": 12.9,
-      "magic": 11.9,
-      "fire": 10.9,
-      "lightning": 7.1,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 28,
-      "robustness": 55,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 16,
+    "physical": 12.9,
+    "strike": 10.9,
+    "slash": 13.5,
+    "pierce": 12.9,
+    "magic": 11.9,
+    "fire": 10.9,
+    "lightning": 7.1,
+    "holy": 8.8,
+    "immunity": 28,
+    "robustness": 55,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Redmane Surcoat",
@@ -7326,22 +6513,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 13.5,
-      "strike": 10.9,
-      "slash": 12.4,
-      "pierce": 11.9,
-      "magic": 10.2,
-      "fire": 11.4,
-      "lightning": 8,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 23,
-      "vitality": 24
-    }
+    "poise": 16,
+    "physical": 13.5,
+    "strike": 10.9,
+    "slash": 12.4,
+    "pierce": 11.9,
+    "magic": 10.2,
+    "fire": 11.4,
+    "lightning": 8,
+    "holy": 9.5,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 23,
+    "vitality": 24
   },
   {
     "name": "Erdtree Surcoat",
@@ -7353,22 +6537,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.9,
-      "strike": 11.9,
-      "slash": 12.4,
-      "pierce": 12.9,
-      "magic": 9.5,
-      "fire": 10.2,
-      "lightning": 8.8,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 55,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 16,
+    "physical": 12.9,
+    "strike": 11.9,
+    "slash": 12.4,
+    "pierce": 12.9,
+    "magic": 9.5,
+    "fire": 10.2,
+    "lightning": 8.8,
+    "holy": 9.5,
+    "immunity": 32,
+    "robustness": 55,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Haligtree Crest Surcoat",
@@ -7380,22 +6561,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.9,
-      "strike": 11.9,
-      "slash": 12.4,
-      "pierce": 12.9,
-      "magic": 9.5,
-      "fire": 10.2,
-      "lightning": 8,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 55,
-      "focus": 23,
-      "vitality": 24
-    }
+    "poise": 15,
+    "physical": 12.9,
+    "strike": 11.9,
+    "slash": 12.4,
+    "pierce": 12.9,
+    "magic": 9.5,
+    "fire": 10.2,
+    "lightning": 8,
+    "holy": 10.2,
+    "immunity": 32,
+    "robustness": 55,
+    "focus": 23,
+    "vitality": 24
   },
   {
     "name": "Mausoleum Surcoat",
@@ -7407,22 +6585,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.9,
-      "strike": 10.9,
-      "slash": 13.5,
-      "pierce": 12.4,
-      "magic": 10.2,
-      "fire": 10.2,
-      "lightning": 8.8,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 23,
-      "vitality": 21
-    }
+    "poise": 19,
+    "physical": 12.9,
+    "strike": 10.9,
+    "slash": 13.5,
+    "pierce": 12.4,
+    "magic": 10.2,
+    "fire": 10.2,
+    "lightning": 8.8,
+    "holy": 10.2,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 23,
+    "vitality": 21
   },
   {
     "name": "Scale Armor",
@@ -7434,22 +6609,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.8,
-    "negation": {
-      "physical": 11.9,
-      "strike": 10.2,
-      "slash": 12.4,
-      "pierce": 10.9,
-      "magic": 7.1,
-      "fire": 10.9,
-      "lightning": 6.7,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 46,
-      "focus": 11,
-      "vitality": 21
-    }
+    "poise": 14,
+    "physical": 11.9,
+    "strike": 10.2,
+    "slash": 12.4,
+    "pierce": 10.9,
+    "magic": 7.1,
+    "fire": 10.9,
+    "lightning": 6.7,
+    "holy": 8,
+    "immunity": 25,
+    "robustness": 46,
+    "focus": 11,
+    "vitality": 21
   },
   {
     "name": "Exile Armor",
@@ -7461,22 +6633,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 9.2,
-    "negation": {
-      "physical": 12.4,
-      "strike": 9.5,
-      "slash": 12.9,
-      "pierce": 12.4,
-      "magic": 8,
-      "fire": 10.9,
-      "lightning": 6.7,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 28,
-      "robustness": 55,
-      "focus": 21,
-      "vitality": 18
-    }
+    "poise": 14,
+    "physical": 12.4,
+    "strike": 9.5,
+    "slash": 12.9,
+    "pierce": 12.4,
+    "magic": 8,
+    "fire": 10.9,
+    "lightning": 6.7,
+    "holy": 9.5,
+    "immunity": 28,
+    "robustness": 55,
+    "focus": 21,
+    "vitality": 18
   },
   {
     "name": "Kaiden Armor",
@@ -7488,22 +6657,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.8,
-    "negation": {
-      "physical": 11.9,
-      "strike": 8.8,
-      "slash": 11.9,
-      "pierce": 11.9,
-      "magic": 8,
-      "fire": 8.8,
-      "lightning": 7.1,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 55,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 14,
+    "physical": 11.9,
+    "strike": 8.8,
+    "slash": 11.9,
+    "pierce": 11.9,
+    "magic": 8,
+    "fire": 8.8,
+    "lightning": 7.1,
+    "holy": 8,
+    "immunity": 25,
+    "robustness": 55,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Land of Reeds Armor",
@@ -7515,22 +6681,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 8.8,
-      "strike": 9.5,
-      "slash": 11.9,
-      "pierce": 9.5,
-      "magic": 10.2,
-      "fire": 11.4,
-      "lightning": 11.9,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 60,
-      "robustness": 50,
-      "focus": 50,
-      "vitality": 55
-    }
+    "poise": 6,
+    "physical": 8.8,
+    "strike": 9.5,
+    "slash": 11.9,
+    "pierce": 9.5,
+    "magic": 10.2,
+    "fire": 11.4,
+    "lightning": 11.9,
+    "holy": 10.9,
+    "immunity": 60,
+    "robustness": 50,
+    "focus": 50,
+    "vitality": 55
   },
   {
     "name": "Land of Reeds Armor (Altered)",
@@ -7542,22 +6705,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 7.8,
-    "negation": {
-      "physical": 8,
-      "strike": 8.8,
-      "slash": 11.4,
-      "pierce": 8.8,
-      "magic": 9.5,
-      "fire": 10.9,
-      "lightning": 11.4,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 52,
-      "robustness": 42,
-      "focus": 42,
-      "vitality": 45
-    }
+    "poise": 4,
+    "physical": 8,
+    "strike": 8.8,
+    "slash": 11.4,
+    "pierce": 8.8,
+    "magic": 9.5,
+    "fire": 10.9,
+    "lightning": 11.4,
+    "holy": 10.2,
+    "immunity": 52,
+    "robustness": 42,
+    "focus": 42,
+    "vitality": 45
   },
   {
     "name": "White Reed Armor",
@@ -7569,22 +6729,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 9.5,
-      "strike": 10.2,
-      "slash": 11.4,
-      "pierce": 8.8,
-      "magic": 10.9,
-      "fire": 10.9,
-      "lightning": 11.9,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 67,
-      "robustness": 42,
-      "focus": 55,
-      "vitality": 50
-    }
+    "poise": 8,
+    "physical": 9.5,
+    "strike": 10.2,
+    "slash": 11.4,
+    "pierce": 8.8,
+    "magic": 10.9,
+    "fire": 10.9,
+    "lightning": 11.9,
+    "holy": 10.2,
+    "immunity": 67,
+    "robustness": 42,
+    "focus": 55,
+    "vitality": 50
   },
   {
     "name": "Ronin\u0027s Armor",
@@ -7596,22 +6753,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.5,
-    "negation": {
-      "physical": 10.5,
-      "strike": 10.5,
-      "slash": 11.2,
-      "pierce": 10.5,
-      "magic": 11.9,
-      "fire": 12.4,
-      "lightning": 13.4,
-      "holy": 11.9
-    },
-    "resists": {
-      "immunity": 66,
-      "robustness": 48,
-      "focus": 52,
-      "vitality": 57
-    }
+    "poise": 6,
+    "physical": 10.5,
+    "strike": 10.5,
+    "slash": 11.2,
+    "pierce": 10.5,
+    "magic": 11.9,
+    "fire": 12.4,
+    "lightning": 13.4,
+    "holy": 11.9,
+    "immunity": 66,
+    "robustness": 48,
+    "focus": 52,
+    "vitality": 57
   },
   {
     "name": "Ronin\u0027s Armor (Altered)",
@@ -7623,22 +6777,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 7.6,
-    "negation": {
-      "physical": 8.8,
-      "strike": 8.8,
-      "slash": 9.5,
-      "pierce": 8.8,
-      "magic": 10.2,
-      "fire": 10.9,
-      "lightning": 11.9,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 54,
-      "robustness": 38,
-      "focus": 42,
-      "vitality": 45
-    }
+    "poise": 4,
+    "physical": 8.8,
+    "strike": 8.8,
+    "slash": 9.5,
+    "pierce": 8.8,
+    "magic": 10.2,
+    "fire": 10.9,
+    "lightning": 11.9,
+    "holy": 10.2,
+    "immunity": 54,
+    "robustness": 38,
+    "focus": 42,
+    "vitality": 45
   },
   {
     "name": "Eccentric\u0027s Armor",
@@ -7650,22 +6801,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.9,
-      "strike": 10.9,
-      "slash": 12.4,
-      "pierce": 12.9,
-      "magic": 10.9,
-      "fire": 10.9,
-      "lightning": 7.1,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 60,
-      "focus": 23,
-      "vitality": 21
-    }
+    "poise": 15,
+    "physical": 12.9,
+    "strike": 10.9,
+    "slash": 12.4,
+    "pierce": 12.9,
+    "magic": 10.9,
+    "fire": 10.9,
+    "lightning": 7.1,
+    "holy": 9.5,
+    "immunity": 35,
+    "robustness": 60,
+    "focus": 23,
+    "vitality": 21
   },
   {
     "name": "Marionette Soldier Armor",
@@ -7677,22 +6825,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.8,
-    "negation": {
-      "physical": 11.9,
-      "strike": 8.8,
-      "slash": 13.5,
-      "pierce": 8.8,
-      "magic": 8.8,
-      "fire": 8.8,
-      "lightning": 6.7,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 18
-    }
+    "poise": 14,
+    "physical": 11.9,
+    "strike": 8.8,
+    "slash": 13.5,
+    "pierce": 8.8,
+    "magic": 8.8,
+    "fire": 8.8,
+    "lightning": 6.7,
+    "holy": 8.8,
+    "immunity": 24,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 18
   },
   {
     "name": "Blue Silver Mail Armor",
@@ -7704,22 +6849,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 9.2,
-    "negation": {
-      "physical": 12.4,
-      "strike": 9.5,
-      "slash": 12.9,
-      "pierce": 11.4,
-      "magic": 10.9,
-      "fire": 10.2,
-      "lightning": 8,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 60,
-      "focus": 18,
-      "vitality": 18
-    }
+    "poise": 14,
+    "physical": 12.4,
+    "strike": 9.5,
+    "slash": 12.9,
+    "pierce": 11.4,
+    "magic": 10.9,
+    "fire": 10.2,
+    "lightning": 8,
+    "holy": 8,
+    "immunity": 25,
+    "robustness": 60,
+    "focus": 18,
+    "vitality": 18
   },
   {
     "name": "Blue Silver Mail Armor (Altered)",
@@ -7731,22 +6873,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.5,
-    "negation": {
-      "physical": 12.1,
-      "strike": 9,
-      "slash": 12.6,
-      "pierce": 11.1,
-      "magic": 10.4,
-      "fire": 9.7,
-      "lightning": 7.3,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 52,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 10,
+    "physical": 12.1,
+    "strike": 9,
+    "slash": 12.6,
+    "pierce": 11.1,
+    "magic": 10.4,
+    "fire": 9.7,
+    "lightning": 7.3,
+    "holy": 7.3,
+    "immunity": 21,
+    "robustness": 52,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Fire Monk Armor",
@@ -7758,22 +6897,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 14,
-      "strike": 12.4,
-      "slash": 13.5,
-      "pierce": 12.4,
-      "magic": 10.9,
-      "fire": 13.3,
-      "lightning": 9.5,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 55,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 16,
+    "physical": 14,
+    "strike": 12.4,
+    "slash": 13.5,
+    "pierce": 12.4,
+    "magic": 10.9,
+    "fire": 13.3,
+    "lightning": 9.5,
+    "holy": 9.5,
+    "immunity": 32,
+    "robustness": 55,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Blackflame Monk Armor",
@@ -7785,22 +6921,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.4,
-      "slash": 14.6,
-      "pierce": 12.9,
-      "magic": 10.2,
-      "fire": 13,
-      "lightning": 8,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 55,
-      "focus": 21,
-      "vitality": 32
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 11.4,
+    "slash": 14.6,
+    "pierce": 12.9,
+    "magic": 10.2,
+    "fire": 13,
+    "lightning": 8,
+    "holy": 10.2,
+    "immunity": 32,
+    "robustness": 55,
+    "focus": 21,
+    "vitality": 32
   },
   {
     "name": "Zamor Armor",
@@ -7812,22 +6945,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.8,
-    "negation": {
-      "physical": 11.9,
-      "strike": 9.5,
-      "slash": 12.4,
-      "pierce": 10.9,
-      "magic": 8.8,
-      "fire": 8.8,
-      "lightning": 6.1,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 63,
-      "focus": 11,
-      "vitality": 18
-    }
+    "poise": 14,
+    "physical": 11.9,
+    "strike": 9.5,
+    "slash": 12.4,
+    "pierce": 10.9,
+    "magic": 8.8,
+    "fire": 8.8,
+    "lightning": 6.1,
+    "holy": 8,
+    "immunity": 21,
+    "robustness": 63,
+    "focus": 11,
+    "vitality": 18
   },
   {
     "name": "Black Knife Armor",
@@ -7839,22 +6969,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 9.2,
-    "negation": {
-      "physical": 11.4,
-      "strike": 10.9,
-      "slash": 12.4,
-      "pierce": 12.4,
-      "magic": 8.8,
-      "fire": 9.5,
-      "lightning": 6.7,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 28,
-      "robustness": 46,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 14,
+    "physical": 11.4,
+    "strike": 10.9,
+    "slash": 12.4,
+    "pierce": 12.4,
+    "magic": 8.8,
+    "fire": 9.5,
+    "lightning": 6.7,
+    "holy": 11.4,
+    "immunity": 28,
+    "robustness": 46,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Black Knife Armor (Altered)",
@@ -7866,22 +6993,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 9,
-    "negation": {
-      "physical": 11.3,
-      "strike": 10.8,
-      "slash": 12.3,
-      "pierce": 12.3,
-      "magic": 8.7,
-      "fire": 9.4,
-      "lightning": 6.6,
-      "holy": 11.3
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 42,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 12,
+    "physical": 11.3,
+    "strike": 10.8,
+    "slash": 12.3,
+    "pierce": 12.3,
+    "magic": 8.7,
+    "fire": 9.4,
+    "lightning": 6.6,
+    "holy": 11.3,
+    "immunity": 25,
+    "robustness": 42,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Malenia\u0027s Armor",
@@ -7893,22 +7017,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 7.7,
-    "negation": {
-      "physical": 10.9,
-      "strike": 7.1,
-      "slash": 11.4,
-      "pierce": 9.5,
-      "magic": 6.1,
-      "fire": 7.1,
-      "lightning": 4.2,
-      "holy": 7.1
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 32,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 9,
+    "physical": 10.9,
+    "strike": 7.1,
+    "slash": 11.4,
+    "pierce": 9.5,
+    "magic": 6.1,
+    "fire": 7.1,
+    "lightning": 4.2,
+    "holy": 7.1,
+    "immunity": 38,
+    "robustness": 32,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Malenia\u0027s Armor (Altered)",
@@ -7920,22 +7041,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 6.8,
-    "negation": {
-      "physical": 10,
-      "strike": 6.5,
-      "slash": 10.7,
-      "pierce": 8.6,
-      "magic": 5.1,
-      "fire": 6.5,
-      "lightning": 2.5,
-      "holy": 6.5
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 25,
-      "focus": 0,
-      "vitality": 0
-    }
+    "poise": 7,
+    "physical": 10,
+    "strike": 6.5,
+    "slash": 10.7,
+    "pierce": 8.6,
+    "magic": 5.1,
+    "fire": 6.5,
+    "lightning": 2.5,
+    "holy": 6.5,
+    "immunity": 29,
+    "robustness": 25,
+    "focus": 0,
+    "vitality": 0
   },
   {
     "name": "Elden Lord Armor",
@@ -7947,22 +7065,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 9.2,
-    "negation": {
-      "physical": 11.9,
-      "strike": 10.9,
-      "slash": 11.4,
-      "pierce": 12.4,
-      "magic": 8.8,
-      "fire": 11.4,
-      "lightning": 7.1,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 55,
-      "focus": 18,
-      "vitality": 21
-    }
+    "poise": 14,
+    "physical": 11.9,
+    "strike": 10.9,
+    "slash": 11.4,
+    "pierce": 12.4,
+    "magic": 8.8,
+    "fire": 11.4,
+    "lightning": 7.1,
+    "holy": 8,
+    "immunity": 32,
+    "robustness": 55,
+    "focus": 18,
+    "vitality": 21
   },
   {
     "name": "Elden Lord Armor (Altered)",
@@ -7974,22 +7089,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 2,
     "weight": 8.4,
-    "negation": {
-      "physical": 11.1,
-      "strike": 9.9,
-      "slash": 10.6,
-      "pierce": 11.6,
-      "magic": 7.7,
-      "fire": 10.6,
-      "lightning": 6.4,
-      "holy": 6.8
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 45,
-      "focus": 10,
-      "vitality": 16
-    }
+    "poise": 10,
+    "physical": 11.1,
+    "strike": 9.9,
+    "slash": 10.6,
+    "pierce": 11.6,
+    "magic": 7.7,
+    "fire": 10.6,
+    "lightning": 6.4,
+    "holy": 6.8,
+    "immunity": 22,
+    "robustness": 45,
+    "focus": 10,
+    "vitality": 16
   },
   {
     "name": "Knight Armor",
@@ -8001,22 +7113,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.4,
-      "strike": 11.9,
-      "slash": 13.5,
-      "pierce": 13.5,
-      "magic": 10.9,
-      "fire": 10.9,
-      "lightning": 9.5,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 28,
-      "robustness": 50,
-      "focus": 18,
-      "vitality": 18
-    }
+    "poise": 19,
+    "physical": 12.4,
+    "strike": 11.9,
+    "slash": 13.5,
+    "pierce": 13.5,
+    "magic": 10.9,
+    "fire": 10.9,
+    "lightning": 9.5,
+    "holy": 8.8,
+    "immunity": 28,
+    "robustness": 50,
+    "focus": 18,
+    "vitality": 18
   },
   {
     "name": "Vagabond Knight Armor",
@@ -8028,22 +7137,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.4,
-      "slash": 12.4,
-      "pierce": 11.9,
-      "magic": 10.2,
-      "fire": 10.9,
-      "lightning": 8.8,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 57,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 15,
+    "physical": 13.5,
+    "strike": 11.4,
+    "slash": 12.4,
+    "pierce": 11.9,
+    "magic": 10.2,
+    "fire": 10.9,
+    "lightning": 8.8,
+    "holy": 8.8,
+    "immunity": 35,
+    "robustness": 57,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Vagabond Knight Armor (Altered)",
@@ -8055,22 +7161,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 9.6,
-    "negation": {
-      "physical": 13.2,
-      "strike": 10.5,
-      "slash": 12.2,
-      "pierce": 11.7,
-      "magic": 9.1,
-      "fire": 10.5,
-      "lightning": 8.3,
-      "holy": 8.3
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 50,
-      "focus": 19,
-      "vitality": 19
-    }
+    "poise": 12,
+    "physical": 13.2,
+    "strike": 10.5,
+    "slash": 12.2,
+    "pierce": 11.7,
+    "magic": 9.1,
+    "fire": 10.5,
+    "lightning": 8.3,
+    "holy": 8.3,
+    "immunity": 29,
+    "robustness": 50,
+    "focus": 19,
+    "vitality": 19
   },
   {
     "name": "Carian Knight Armor",
@@ -8082,22 +7185,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.4,
-    "negation": {
-      "physical": 11.8,
-      "strike": 10.8,
-      "slash": 12.3,
-      "pierce": 11.8,
-      "magic": 12.3,
-      "fire": 11.8,
-      "lightning": 9.4,
-      "holy": 11.8
-    },
-    "resists": {
-      "immunity": 28,
-      "robustness": 46,
-      "focus": 21,
-      "vitality": 23
-    }
+    "poise": 12,
+    "physical": 11.8,
+    "strike": 10.8,
+    "slash": 12.3,
+    "pierce": 11.8,
+    "magic": 12.3,
+    "fire": 11.8,
+    "lightning": 9.4,
+    "holy": 11.8,
+    "immunity": 28,
+    "robustness": 46,
+    "focus": 21,
+    "vitality": 23
   },
   {
     "name": "Carian Knight Armor (Altered)",
@@ -8109,22 +7209,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 9.7,
-    "negation": {
-      "physical": 11.7,
-      "strike": 9.8,
-      "slash": 12.2,
-      "pierce": 11.7,
-      "magic": 11.7,
-      "fire": 11.7,
-      "lightning": 9.1,
-      "holy": 11.7
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 38,
-      "focus": 16,
-      "vitality": 19
-    }
+    "poise": 8,
+    "physical": 11.7,
+    "strike": 9.8,
+    "slash": 12.2,
+    "pierce": 11.7,
+    "magic": 11.7,
+    "fire": 11.7,
+    "lightning": 9.1,
+    "holy": 11.7,
+    "immunity": 22,
+    "robustness": 38,
+    "focus": 16,
+    "vitality": 19
   },
   {
     "name": "Godrick Knight Armor",
@@ -8136,22 +7233,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.9,
-      "slash": 14,
-      "pierce": 12.9,
-      "magic": 10.9,
-      "fire": 11.9,
-      "lightning": 9.5,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 57,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 11.9,
+    "slash": 14,
+    "pierce": 12.9,
+    "magic": 10.9,
+    "fire": 11.9,
+    "lightning": 9.5,
+    "holy": 10.9,
+    "immunity": 35,
+    "robustness": 57,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Godrick Knight Armor (Altered)",
@@ -8163,22 +7257,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.1,
-      "strike": 11.5,
-      "slash": 13.6,
-      "pierce": 12.5,
-      "magic": 10.5,
-      "fire": 11.5,
-      "lightning": 9.1,
-      "holy": 10.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 52,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 17,
+    "physical": 13.1,
+    "strike": 11.5,
+    "slash": 13.6,
+    "pierce": 12.5,
+    "magic": 10.5,
+    "fire": 11.5,
+    "lightning": 9.1,
+    "holy": 10.5,
+    "immunity": 32,
+    "robustness": 52,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Cuckoo Knight Armor",
@@ -8190,22 +7281,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.4,
-      "slash": 14.6,
-      "pierce": 13.5,
-      "magic": 12.4,
-      "fire": 11.9,
-      "lightning": 8.8,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 57,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 11.4,
+    "slash": 14.6,
+    "pierce": 13.5,
+    "magic": 12.4,
+    "fire": 11.9,
+    "lightning": 8.8,
+    "holy": 10.2,
+    "immunity": 32,
+    "robustness": 57,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Cuckoo Knight Armor (Altered)",
@@ -8217,22 +7305,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.1,
-      "strike": 11,
-      "slash": 14.2,
-      "pierce": 13.1,
-      "magic": 12,
-      "fire": 11.5,
-      "lightning": 8.4,
-      "holy": 9.8
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 52,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 17,
+    "physical": 13.1,
+    "strike": 11,
+    "slash": 14.2,
+    "pierce": 13.1,
+    "magic": 12,
+    "fire": 11.5,
+    "lightning": 8.4,
+    "holy": 9.8,
+    "immunity": 29,
+    "robustness": 52,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Redmane Knight Armor",
@@ -8244,22 +7329,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.4,
-      "slash": 13.5,
-      "pierce": 12.4,
-      "magic": 10.9,
-      "fire": 12.8,
-      "lightning": 9.5,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 55,
-      "focus": 24,
-      "vitality": 25
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 11.4,
+    "slash": 13.5,
+    "pierce": 12.4,
+    "magic": 10.9,
+    "fire": 12.8,
+    "lightning": 9.5,
+    "holy": 10.9,
+    "immunity": 35,
+    "robustness": 55,
+    "focus": 24,
+    "vitality": 25
   },
   {
     "name": "Redmane Knight Armor (Altered)",
@@ -8271,22 +7353,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.1,
-      "strike": 11,
-      "slash": 13.1,
-      "pierce": 12,
-      "magic": 10.5,
-      "fire": 12.4,
-      "lightning": 9.1,
-      "holy": 10.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 22
-    }
+    "poise": 17,
+    "physical": 13.1,
+    "strike": 11,
+    "slash": 13.1,
+    "pierce": 12,
+    "magic": 10.5,
+    "fire": 12.4,
+    "lightning": 9.1,
+    "holy": 10.5,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 22
   },
   {
     "name": "Gelmir Knight Armor",
@@ -8298,22 +7377,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.4,
-      "slash": 14,
-      "pierce": 13.5,
-      "magic": 10.9,
-      "fire": 12.4,
-      "lightning": 10.2,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 55,
-      "focus": 24,
-      "vitality": 23
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 11.4,
+    "slash": 14,
+    "pierce": 13.5,
+    "magic": 10.9,
+    "fire": 12.4,
+    "lightning": 10.2,
+    "holy": 10.9,
+    "immunity": 35,
+    "robustness": 55,
+    "focus": 24,
+    "vitality": 23
   },
   {
     "name": "Gelmir Knight Armor (Altered)",
@@ -8325,22 +7401,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.1,
-      "strike": 11,
-      "slash": 13.6,
-      "pierce": 13.1,
-      "magic": 10.5,
-      "fire": 12,
-      "lightning": 9.8,
-      "holy": 10.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 17,
+    "physical": 13.1,
+    "strike": 11,
+    "slash": 13.6,
+    "pierce": 13.1,
+    "magic": 10.5,
+    "fire": 12,
+    "lightning": 9.8,
+    "holy": 10.5,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Leyndell Knight Armor",
@@ -8352,22 +7425,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 12.4,
-      "slash": 13.5,
-      "pierce": 13.5,
-      "magic": 10.2,
-      "fire": 11.4,
-      "lightning": 11.4,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 55,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 12.4,
+    "slash": 13.5,
+    "pierce": 13.5,
+    "magic": 10.2,
+    "fire": 11.4,
+    "lightning": 11.4,
+    "holy": 10.2,
+    "immunity": 35,
+    "robustness": 55,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Leyndell Knight Armor (Altered)",
@@ -8379,22 +7449,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.1,
-      "strike": 12,
-      "slash": 13.1,
-      "pierce": 13.1,
-      "magic": 9.8,
-      "fire": 11,
-      "lightning": 11,
-      "holy": 9.8
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 17,
+    "physical": 13.1,
+    "strike": 12,
+    "slash": 13.1,
+    "pierce": 13.1,
+    "magic": 9.8,
+    "fire": 11,
+    "lightning": 11,
+    "holy": 9.8,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Haligtree Knight Armor",
@@ -8406,22 +7473,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 12.4,
-      "slash": 13.5,
-      "pierce": 13.5,
-      "magic": 10.2,
-      "fire": 11.4,
-      "lightning": 9.5,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 57,
-      "focus": 24,
-      "vitality": 25
-    }
+    "poise": 16,
+    "physical": 13.5,
+    "strike": 12.4,
+    "slash": 13.5,
+    "pierce": 13.5,
+    "magic": 10.2,
+    "fire": 11.4,
+    "lightning": 9.5,
+    "holy": 11.4,
+    "immunity": 35,
+    "robustness": 57,
+    "focus": 24,
+    "vitality": 25
   },
   {
     "name": "Haligtree Knight Armor (Altered)",
@@ -8433,22 +7497,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.1,
-      "strike": 12,
-      "slash": 13.1,
-      "pierce": 13.1,
-      "magic": 9.8,
-      "fire": 11,
-      "lightning": 9.1,
-      "holy": 11
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 52,
-      "focus": 21,
-      "vitality": 22
-    }
+    "poise": 14,
+    "physical": 13.1,
+    "strike": 12,
+    "slash": 13.1,
+    "pierce": 13.1,
+    "magic": 9.8,
+    "fire": 11,
+    "lightning": 9.1,
+    "holy": 11,
+    "immunity": 32,
+    "robustness": 52,
+    "focus": 21,
+    "vitality": 22
   },
   {
     "name": "Mausoleum Knight Armor",
@@ -8460,22 +7521,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.4,
-      "slash": 14.6,
-      "pierce": 12.9,
-      "magic": 10.9,
-      "fire": 11.4,
-      "lightning": 10.2,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 55,
-      "focus": 24,
-      "vitality": 23
-    }
+    "poise": 21,
+    "physical": 13.5,
+    "strike": 11.4,
+    "slash": 14.6,
+    "pierce": 12.9,
+    "magic": 10.9,
+    "fire": 11.4,
+    "lightning": 10.2,
+    "holy": 11.4,
+    "immunity": 35,
+    "robustness": 55,
+    "focus": 24,
+    "vitality": 23
   },
   {
     "name": "Mausoleum Knight Armor (Altered)",
@@ -8487,22 +7545,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.1,
-      "strike": 11,
-      "slash": 14.2,
-      "pierce": 12.5,
-      "magic": 10.5,
-      "fire": 11,
-      "lightning": 9.8,
-      "holy": 11
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 18,
+    "physical": 13.1,
+    "strike": 11,
+    "slash": 14.2,
+    "pierce": 12.5,
+    "magic": 10.5,
+    "fire": 11,
+    "lightning": 9.8,
+    "holy": 11,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Bloodhound Knight Armor",
@@ -8514,22 +7569,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 12.4,
-      "strike": 11.4,
-      "slash": 14,
-      "pierce": 13.5,
-      "magic": 9.5,
-      "fire": 10.2,
-      "lightning": 7.1,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 23,
-      "vitality": 23
-    }
+    "poise": 14,
+    "physical": 12.4,
+    "strike": 11.4,
+    "slash": 14,
+    "pierce": 13.5,
+    "magic": 9.5,
+    "fire": 10.2,
+    "lightning": 7.1,
+    "holy": 10.2,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 23,
+    "vitality": 23
   },
   {
     "name": "Bloodhound Knight Armor (Altered)",
@@ -8541,22 +7593,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 9.6,
-    "negation": {
-      "physical": 12.1,
-      "strike": 11.1,
-      "slash": 13.7,
-      "pierce": 13.2,
-      "magic": 9.2,
-      "fire": 9.9,
-      "lightning": 6.8,
-      "holy": 9.9
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 45,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 12,
+    "physical": 12.1,
+    "strike": 11.1,
+    "slash": 13.7,
+    "pierce": 13.2,
+    "magic": 9.2,
+    "fire": 9.9,
+    "lightning": 6.8,
+    "holy": 9.9,
+    "immunity": 29,
+    "robustness": 45,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Cleanrot Armor",
@@ -8568,22 +7617,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 15,
-    "negation": {
-      "physical": 14.6,
-      "strike": 13.4,
-      "slash": 16,
-      "pierce": 17.5,
-      "magic": 12.6,
-      "fire": 12.8,
-      "lightning": 11.4,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 67,
-      "focus": 28,
-      "vitality": 32
-    }
+    "poise": 23,
+    "physical": 14.6,
+    "strike": 13.4,
+    "slash": 16,
+    "pierce": 17.5,
+    "magic": 12.6,
+    "fire": 12.8,
+    "lightning": 11.4,
+    "holy": 13.5,
+    "immunity": 63,
+    "robustness": 67,
+    "focus": 28,
+    "vitality": 32
   },
   {
     "name": "Cleanrot Armor (Altered)",
@@ -8595,22 +7641,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 2,
     "weight": 13.7,
-    "negation": {
-      "physical": 13.5,
-      "strike": 12.4,
-      "slash": 14.6,
-      "pierce": 16,
-      "magic": 11.9,
-      "fire": 12.4,
-      "lightning": 10.2,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 52,
-      "robustness": 54,
-      "focus": 22,
-      "vitality": 22
-    }
+    "poise": 17,
+    "physical": 13.5,
+    "strike": 12.4,
+    "slash": 14.6,
+    "pierce": 16,
+    "magic": 11.9,
+    "fire": 12.4,
+    "lightning": 10.2,
+    "holy": 13,
+    "immunity": 52,
+    "robustness": 54,
+    "focus": 22,
+    "vitality": 22
   },
   {
     "name": "Raging Wolf Armor",
@@ -8622,22 +7665,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 10.1,
-    "negation": {
-      "physical": 13.2,
-      "strike": 11.6,
-      "slash": 13.2,
-      "pierce": 12.6,
-      "magic": 9.9,
-      "fire": 11.1,
-      "lightning": 6.8,
-      "holy": 9.2
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 55,
-      "focus": 17,
-      "vitality": 17
-    }
+    "poise": 15,
+    "physical": 13.2,
+    "strike": 11.6,
+    "slash": 13.2,
+    "pierce": 12.6,
+    "magic": 9.9,
+    "fire": 11.1,
+    "lightning": 6.8,
+    "holy": 9.2,
+    "immunity": 31,
+    "robustness": 55,
+    "focus": 17,
+    "vitality": 17
   },
   {
     "name": "Raging Wolf Armor (Altered)",
@@ -8649,22 +7689,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 9,
-    "negation": {
-      "physical": 12.8,
-      "strike": 10.8,
-      "slash": 12.8,
-      "pierce": 12.3,
-      "magic": 8.7,
-      "fire": 10.8,
-      "lightning": 6.6,
-      "holy": 8.7
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 50,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 12,
+    "physical": 12.8,
+    "strike": 10.8,
+    "slash": 12.8,
+    "pierce": 12.3,
+    "magic": 8.7,
+    "fire": 10.8,
+    "lightning": 6.6,
+    "holy": 8.7,
+    "immunity": 25,
+    "robustness": 50,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Hoslow\u0027s Armor",
@@ -8676,22 +7713,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 14,
-      "strike": 11.9,
-      "slash": 13.5,
-      "pierce": 12.4,
-      "magic": 10.9,
-      "fire": 11.9,
-      "lightning": 10.2,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 60,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 16,
+    "physical": 14,
+    "strike": 11.9,
+    "slash": 13.5,
+    "pierce": 12.4,
+    "magic": 10.9,
+    "fire": 11.9,
+    "lightning": 10.2,
+    "holy": 10.2,
+    "immunity": 38,
+    "robustness": 60,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Hoslow\u0027s Armor (Altered)",
@@ -8703,22 +7737,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 10.8,
-    "negation": {
-      "physical": 13.6,
-      "strike": 11.5,
-      "slash": 12.5,
-      "pierce": 12,
-      "magic": 10.3,
-      "fire": 11,
-      "lightning": 8.9,
-      "holy": 8.9
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 52,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 13,
+    "physical": 13.6,
+    "strike": 11.5,
+    "slash": 12.5,
+    "pierce": 12,
+    "magic": 10.3,
+    "fire": 11,
+    "lightning": 8.9,
+    "holy": 8.9,
+    "immunity": 32,
+    "robustness": 52,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Twinned Armor",
@@ -8730,22 +7761,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 13.7,
-    "negation": {
-      "physical": 14.6,
-      "strike": 13.4,
-      "slash": 16,
-      "pierce": 13.5,
-      "magic": 12.4,
-      "fire": 12.4,
-      "lightning": 10.2,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 60,
-      "focus": 24,
-      "vitality": 60
-    }
+    "poise": 21,
+    "physical": 14.6,
+    "strike": 13.4,
+    "slash": 16,
+    "pierce": 13.5,
+    "magic": 12.4,
+    "fire": 12.4,
+    "lightning": 10.2,
+    "holy": 11.4,
+    "immunity": 38,
+    "robustness": 60,
+    "focus": 24,
+    "vitality": 60
   },
   {
     "name": "Twinned Armor (Altered)",
@@ -8757,22 +7785,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 12.8,
-    "negation": {
-      "physical": 14,
-      "strike": 12.9,
-      "slash": 15.3,
-      "pierce": 12.9,
-      "magic": 11.9,
-      "fire": 11.9,
-      "lightning": 9.5,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 52,
-      "focus": 21,
-      "vitality": 52
-    }
+    "poise": 17,
+    "physical": 14,
+    "strike": 12.9,
+    "slash": 15.3,
+    "pierce": 12.9,
+    "magic": 11.9,
+    "fire": 11.9,
+    "lightning": 9.5,
+    "holy": 10.9,
+    "immunity": 32,
+    "robustness": 52,
+    "focus": 21,
+    "vitality": 52
   },
   {
     "name": "Drake Knight Armor",
@@ -8784,22 +7809,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 9.2,
-    "negation": {
-      "physical": 11.4,
-      "strike": 9.5,
-      "slash": 11.9,
-      "pierce": 11.4,
-      "magic": 10.2,
-      "fire": 11.4,
-      "lightning": 8.8,
-      "holy": 10.2
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 46,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 14,
+    "physical": 11.4,
+    "strike": 9.5,
+    "slash": 11.9,
+    "pierce": 11.4,
+    "magic": 10.2,
+    "fire": 11.4,
+    "lightning": 8.8,
+    "holy": 10.2,
+    "immunity": 25,
+    "robustness": 46,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Drake Knight Armor (Altered)",
@@ -8811,22 +7833,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 8.3,
-    "negation": {
-      "physical": 11.2,
-      "strike": 8.6,
-      "slash": 11.2,
-      "pierce": 10.7,
-      "magic": 8,
-      "fire": 9.5,
-      "lightning": 6.7,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 34,
-      "focus": 10,
-      "vitality": 10
-    }
+    "poise": 8,
+    "physical": 11.2,
+    "strike": 8.6,
+    "slash": 11.2,
+    "pierce": 10.7,
+    "magic": 8,
+    "fire": 9.5,
+    "lightning": 6.7,
+    "holy": 8,
+    "immunity": 21,
+    "robustness": 34,
+    "focus": 10,
+    "vitality": 10
   },
   {
     "name": "Blaidd\u0027s Armor",
@@ -8838,22 +7857,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 13.7,
-    "negation": {
-      "physical": 14.6,
-      "strike": 12.9,
-      "slash": 14.6,
-      "pierce": 15.3,
-      "magic": 11.4,
-      "fire": 12.6,
-      "lightning": 10.2,
-      "holy": 11.9
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 76,
-      "focus": 25,
-      "vitality": 25
-    }
+    "poise": 24,
+    "physical": 14.6,
+    "strike": 12.9,
+    "slash": 14.6,
+    "pierce": 15.3,
+    "magic": 11.4,
+    "fire": 12.6,
+    "lightning": 10.2,
+    "holy": 11.9,
+    "immunity": 38,
+    "robustness": 76,
+    "focus": 25,
+    "vitality": 25
   },
   {
     "name": "Blaidd\u0027s Armor (Altered)",
@@ -8865,22 +7881,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 12.5,
-    "negation": {
-      "physical": 14,
-      "strike": 12.4,
-      "slash": 14,
-      "pierce": 14.6,
-      "magic": 10.9,
-      "fire": 12.4,
-      "lightning": 9.5,
-      "holy": 11.4
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 57,
-      "focus": 22,
-      "vitality": 21
-    }
+    "poise": 20,
+    "physical": 14,
+    "strike": 12.4,
+    "slash": 14,
+    "pierce": 14.6,
+    "magic": 10.9,
+    "fire": 12.4,
+    "lightning": 9.5,
+    "holy": 11.4,
+    "immunity": 32,
+    "robustness": 57,
+    "focus": 22,
+    "vitality": 21
   },
   {
     "name": "Briar Armor",
@@ -8892,22 +7905,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 12.9,
-      "strike": 11.4,
-      "slash": 13.5,
-      "pierce": 12.4,
-      "magic": 10.9,
-      "fire": 12.4,
-      "lightning": 8.8,
-      "holy": 10.9
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 71,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 15,
+    "physical": 12.9,
+    "strike": 11.4,
+    "slash": 13.5,
+    "pierce": 12.4,
+    "magic": 10.9,
+    "fire": 12.4,
+    "lightning": 8.8,
+    "holy": 10.9,
+    "immunity": 35,
+    "robustness": 71,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Briar Armor (Altered)",
@@ -8919,22 +7929,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 10.7,
-    "negation": {
-      "physical": 12.4,
-      "strike": 10.9,
-      "slash": 12.4,
-      "pierce": 11.9,
-      "magic": 10.2,
-      "fire": 11.4,
-      "lightning": 7.1,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 61,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 12,
+    "physical": 12.4,
+    "strike": 10.9,
+    "slash": 12.4,
+    "pierce": 11.9,
+    "magic": 10.2,
+    "fire": 11.4,
+    "lightning": 7.1,
+    "holy": 9.5,
+    "immunity": 29,
+    "robustness": 61,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Fingerprint Armor",
@@ -8946,22 +7953,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.9,
-      "slash": 11.9,
-      "pierce": 11.9,
-      "magic": 9.5,
-      "fire": 12.6,
-      "lightning": 6.7,
-      "holy": 9.5
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 60,
-      "focus": 11,
-      "vitality": 23
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 11.9,
+    "slash": 11.9,
+    "pierce": 11.9,
+    "magic": 9.5,
+    "fire": 12.6,
+    "lightning": 6.7,
+    "holy": 9.5,
+    "immunity": 32,
+    "robustness": 60,
+    "focus": 11,
+    "vitality": 23
   },
   {
     "name": "Fingerprint Armor (Altered)",
@@ -8973,22 +7977,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 10,
-    "negation": {
-      "physical": 13.1,
-      "strike": 11.5,
-      "slash": 11.5,
-      "pierce": 11.5,
-      "magic": 9.1,
-      "fire": 12.2,
-      "lightning": 6.3,
-      "holy": 9.1
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 54,
-      "focus": 10,
-      "vitality": 21
-    }
+    "poise": 17,
+    "physical": 13.1,
+    "strike": 11.5,
+    "slash": 11.5,
+    "pierce": 11.5,
+    "magic": 9.1,
+    "fire": 12.2,
+    "lightning": 6.3,
+    "holy": 9.1,
+    "immunity": 29,
+    "robustness": 54,
+    "focus": 10,
+    "vitality": 21
   },
   {
     "name": "Royal Remains Armor",
@@ -9000,22 +8001,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 10.6,
-    "negation": {
-      "physical": 11.9,
-      "strike": 11.4,
-      "slash": 12.9,
-      "pierce": 11.9,
-      "magic": 9.5,
-      "fire": 10.2,
-      "lightning": 8,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 57,
-      "focus": 24,
-      "vitality": 11
-    }
+    "poise": 15,
+    "physical": 11.9,
+    "strike": 11.4,
+    "slash": 12.9,
+    "pierce": 11.9,
+    "magic": 9.5,
+    "fire": 10.2,
+    "lightning": 8,
+    "holy": 8.8,
+    "immunity": 35,
+    "robustness": 57,
+    "focus": 24,
+    "vitality": 11
   },
   {
     "name": "All-Knowing Armor",
@@ -9027,22 +8025,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 10.7,
-    "negation": {
-      "physical": 12.9,
-      "strike": 11.9,
-      "slash": 13.5,
-      "pierce": 11.9,
-      "magic": 12.4,
-      "fire": 9.5,
-      "lightning": 10.2,
-      "holy": 8.8
-    },
-    "resists": {
-      "immunity": 28,
-      "robustness": 46,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 16,
+    "physical": 12.9,
+    "strike": 11.9,
+    "slash": 13.5,
+    "pierce": 11.9,
+    "magic": 12.4,
+    "fire": 9.5,
+    "lightning": 10.2,
+    "holy": 8.8,
+    "immunity": 28,
+    "robustness": 46,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "All-Knowing Armor (Altered)",
@@ -9054,22 +8049,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 9.3,
-    "negation": {
-      "physical": 12.4,
-      "strike": 10.9,
-      "slash": 12.9,
-      "pierce": 11.4,
-      "magic": 11.4,
-      "fire": 8.8,
-      "lightning": 9.5,
-      "holy": 8
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 38,
-      "focus": 16,
-      "vitality": 16
-    }
+    "poise": 13,
+    "physical": 12.4,
+    "strike": 10.9,
+    "slash": 12.9,
+    "pierce": 11.4,
+    "magic": 11.4,
+    "fire": 8.8,
+    "lightning": 9.5,
+    "holy": 8,
+    "immunity": 22,
+    "robustness": 38,
+    "focus": 16,
+    "vitality": 16
   },
   {
     "name": "Royal Knight Armor",
@@ -9081,22 +8073,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 15.5,
-    "negation": {
-      "physical": 16,
-      "strike": 14.4,
-      "slash": 17.5,
-      "pierce": 16.8,
-      "magic": 14.1,
-      "fire": 13.3,
-      "lightning": 12.4,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 67,
-      "focus": 35,
-      "vitality": 35
-    }
+    "poise": 24,
+    "physical": 16,
+    "strike": 14.4,
+    "slash": 17.5,
+    "pierce": 16.8,
+    "magic": 14.1,
+    "fire": 13.3,
+    "lightning": 12.4,
+    "holy": 13,
+    "immunity": 50,
+    "robustness": 67,
+    "focus": 35,
+    "vitality": 35
   },
   {
     "name": "Royal Knight Armor (Altered)",
@@ -9108,22 +8097,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 15,
-    "negation": {
-      "physical": 15.8,
-      "strike": 14.2,
-      "slash": 17.3,
-      "pierce": 16.6,
-      "magic": 13.9,
-      "fire": 13.1,
-      "lightning": 12.2,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 45,
-      "robustness": 61,
-      "focus": 32,
-      "vitality": 32
-    }
+    "poise": 21,
+    "physical": 15.8,
+    "strike": 14.2,
+    "slash": 17.3,
+    "pierce": 16.6,
+    "magic": 13.9,
+    "fire": 13.1,
+    "lightning": 12.2,
+    "holy": 12.8,
+    "immunity": 45,
+    "robustness": 61,
+    "focus": 32,
+    "vitality": 32
   },
   {
     "name": "Maliketh\u0027s Armor",
@@ -9135,22 +8121,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 12.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 11.9,
-      "slash": 14,
-      "pierce": 13.5,
-      "magic": 10.9,
-      "fire": 11.4,
-      "lightning": 9.5,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 57,
-      "focus": 24,
-      "vitality": 50
-    }
+    "poise": 19,
+    "physical": 13.5,
+    "strike": 11.9,
+    "slash": 14,
+    "pierce": 13.5,
+    "magic": 10.9,
+    "fire": 11.4,
+    "lightning": 9.5,
+    "holy": 12.8,
+    "immunity": 35,
+    "robustness": 57,
+    "focus": 24,
+    "vitality": 50
   },
   {
     "name": "Maliketh\u0027s Armor (Altered)",
@@ -9162,22 +8145,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 12.9,
-      "strike": 11.4,
-      "slash": 13.5,
-      "pierce": 12.4,
-      "magic": 10.2,
-      "fire": 10.9,
-      "lightning": 8.8,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 42
-    }
+    "poise": 14,
+    "physical": 12.9,
+    "strike": 11.4,
+    "slash": 13.5,
+    "pierce": 12.4,
+    "magic": 10.2,
+    "fire": 10.9,
+    "lightning": 8.8,
+    "holy": 12.6,
+    "immunity": 29,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 42
   },
   {
     "name": "Banished Knight Armor",
@@ -9189,22 +8169,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 17.5,
-    "negation": {
-      "physical": 18.7,
-      "strike": 15,
-      "slash": 19.2,
-      "pierce": 17.5,
-      "magic": 13.5,
-      "fire": 13.5,
-      "lightning": 13,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 60,
-      "robustness": 83,
-      "focus": 38,
-      "vitality": 42
-    }
+    "poise": 28,
+    "physical": 18.7,
+    "strike": 15,
+    "slash": 19.2,
+    "pierce": 17.5,
+    "magic": 13.5,
+    "fire": 13.5,
+    "lightning": 13,
+    "holy": 13.3,
+    "immunity": 60,
+    "robustness": 83,
+    "focus": 38,
+    "vitality": 42
   },
   {
     "name": "Banished Knight Armor (Altered)",
@@ -9216,22 +8193,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 16.5,
-    "negation": {
-      "physical": 18.3,
-      "strike": 14.4,
-      "slash": 18.7,
-      "pierce": 16.8,
-      "magic": 13.3,
-      "fire": 13.3,
-      "lightning": 12.8,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 52,
-      "robustness": 69,
-      "focus": 32,
-      "vitality": 34
-    }
+    "poise": 25,
+    "physical": 18.3,
+    "strike": 14.4,
+    "slash": 18.7,
+    "pierce": 16.8,
+    "magic": 13.3,
+    "fire": 13.3,
+    "lightning": 12.8,
+    "holy": 13,
+    "immunity": 52,
+    "robustness": 69,
+    "focus": 32,
+    "vitality": 34
   },
   {
     "name": "Night\u0027s Cavalry Armor",
@@ -9243,22 +8217,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 12.8,
-    "negation": {
-      "physical": 14,
-      "strike": 12.9,
-      "slash": 14,
-      "pierce": 13.5,
-      "magic": 10.9,
-      "fire": 12.6,
-      "lightning": 10.9,
-      "holy": 12.6
-    },
-    "resists": {
-      "immunity": 38,
-      "robustness": 57,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 21,
+    "physical": 14,
+    "strike": 12.9,
+    "slash": 14,
+    "pierce": 13.5,
+    "magic": 10.9,
+    "fire": 12.6,
+    "lightning": 10.9,
+    "holy": 12.6,
+    "immunity": 38,
+    "robustness": 57,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Night\u0027s Cavalry Armor (Altered)",
@@ -9270,22 +8241,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 11.8,
-    "negation": {
-      "physical": 13.5,
-      "strike": 12.4,
-      "slash": 13.5,
-      "pierce": 12.4,
-      "magic": 10.2,
-      "fire": 12.4,
-      "lightning": 10.2,
-      "holy": 12.4
-    },
-    "resists": {
-      "immunity": 32,
-      "robustness": 50,
-      "focus": 21,
-      "vitality": 21
-    }
+    "poise": 17,
+    "physical": 13.5,
+    "strike": 12.4,
+    "slash": 13.5,
+    "pierce": 12.4,
+    "magic": 10.2,
+    "fire": 12.4,
+    "lightning": 10.2,
+    "holy": 12.4,
+    "immunity": 32,
+    "robustness": 50,
+    "focus": 21,
+    "vitality": 21
   },
   {
     "name": "Veteran\u0027s Armor",
@@ -9297,22 +8265,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 18.9,
-    "negation": {
-      "physical": 18.7,
-      "strike": 17,
-      "slash": 18.7,
-      "pierce": 17.5,
-      "magic": 13.5,
-      "fire": 14.1,
-      "lightning": 12.8,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 90,
-      "focus": 46,
-      "vitality": 46
-    }
+    "poise": 37,
+    "physical": 18.7,
+    "strike": 17,
+    "slash": 18.7,
+    "pierce": 17.5,
+    "magic": 13.5,
+    "fire": 14.1,
+    "lightning": 12.8,
+    "holy": 13.3,
+    "immunity": 63,
+    "robustness": 90,
+    "focus": 46,
+    "vitality": 46
   },
   {
     "name": "Veteran\u0027s Armor (Altered)",
@@ -9324,22 +8289,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 17.2,
-    "negation": {
-      "physical": 18.1,
-      "strike": 16.8,
-      "slash": 18.5,
-      "pierce": 17.3,
-      "magic": 13.1,
-      "fire": 13.6,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 54,
-      "robustness": 75,
-      "focus": 38,
-      "vitality": 38
-    }
+    "poise": 29,
+    "physical": 18.1,
+    "strike": 16.8,
+    "slash": 18.5,
+    "pierce": 17.3,
+    "magic": 13.1,
+    "fire": 13.6,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 54,
+    "robustness": 75,
+    "focus": 38,
+    "vitality": 38
   },
   {
     "name": "Scaled Armor",
@@ -9351,22 +8313,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 16,
-    "negation": {
-      "physical": 16,
-      "strike": 13.9,
-      "slash": 16.8,
-      "pierce": 16,
-      "magic": 13.5,
-      "fire": 14.1,
-      "lightning": 13,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 83,
-      "focus": 38,
-      "vitality": 38
-    }
+    "poise": 27,
+    "physical": 16,
+    "strike": 13.9,
+    "slash": 16.8,
+    "pierce": 16,
+    "magic": 13.5,
+    "fire": 14.1,
+    "lightning": 13,
+    "holy": 13.5,
+    "immunity": 57,
+    "robustness": 83,
+    "focus": 38,
+    "vitality": 38
   },
   {
     "name": "Scaled Armor (Altered)",
@@ -9378,22 +8337,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 15,
-    "negation": {
-      "physical": 15.3,
-      "strike": 13.4,
-      "slash": 16,
-      "pierce": 15.3,
-      "magic": 12.8,
-      "fire": 13.3,
-      "lightning": 12.4,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 45,
-      "robustness": 64,
-      "focus": 29,
-      "vitality": 29
-    }
+    "poise": 22,
+    "physical": 15.3,
+    "strike": 13.4,
+    "slash": 16,
+    "pierce": 15.3,
+    "magic": 12.8,
+    "fire": 13.3,
+    "lightning": 12.4,
+    "holy": 12.8,
+    "immunity": 45,
+    "robustness": 64,
+    "focus": 29,
+    "vitality": 29
   },
   {
     "name": "Beast Champion Armor",
@@ -9405,22 +8361,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 17.5,
-    "negation": {
-      "physical": 17.5,
-      "strike": 16.3,
-      "slash": 18.7,
-      "pierce": 18.3,
-      "magic": 13,
-      "fire": 13.8,
-      "lightning": 12.8,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 90,
-      "focus": 42,
-      "vitality": 38
-    }
+    "poise": 28,
+    "physical": 17.5,
+    "strike": 16.3,
+    "slash": 18.7,
+    "pierce": 18.3,
+    "magic": 13,
+    "fire": 13.8,
+    "lightning": 12.8,
+    "holy": 13.5,
+    "immunity": 57,
+    "robustness": 90,
+    "focus": 42,
+    "vitality": 38
   },
   {
     "name": "Beast Champion Armor (Altered)",
@@ -9432,22 +8385,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 16.4,
-    "negation": {
-      "physical": 17.2,
-      "strike": 15.9,
-      "slash": 18.5,
-      "pierce": 18.2,
-      "magic": 12.9,
-      "fire": 13.7,
-      "lightning": 12.7,
-      "holy": 13.4
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 75,
-      "focus": 34,
-      "vitality": 32
-    }
+    "poise": 25,
+    "physical": 17.2,
+    "strike": 15.9,
+    "slash": 18.5,
+    "pierce": 18.2,
+    "magic": 12.9,
+    "fire": 13.7,
+    "lightning": 12.7,
+    "holy": 13.4,
+    "immunity": 50,
+    "robustness": 75,
+    "focus": 34,
+    "vitality": 32
   },
   {
     "name": "Tree Sentinel Armor",
@@ -9459,22 +8409,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 18.9,
-    "negation": {
-      "physical": 18.7,
-      "strike": 15,
-      "slash": 18.7,
-      "pierce": 17.5,
-      "magic": 13,
-      "fire": 17.1,
-      "lightning": 12.6,
-      "holy": 14.1
-    },
-    "resists": {
-      "immunity": 67,
-      "robustness": 90,
-      "focus": 42,
-      "vitality": 46
-    }
+    "poise": 28,
+    "physical": 18.7,
+    "strike": 15,
+    "slash": 18.7,
+    "pierce": 17.5,
+    "magic": 13,
+    "fire": 17.1,
+    "lightning": 12.6,
+    "holy": 14.1,
+    "immunity": 67,
+    "robustness": 90,
+    "focus": 42,
+    "vitality": 46
   },
   {
     "name": "Tree Sentinel Armor (Altered)",
@@ -9486,22 +8433,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 18.1,
-    "negation": {
-      "physical": 18.5,
-      "strike": 14.8,
-      "slash": 18.5,
-      "pierce": 17.3,
-      "magic": 12.6,
-      "fire": 16.4,
-      "lightning": 12.4,
-      "holy": 14
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 75,
-      "focus": 34,
-      "vitality": 38
-    }
+    "poise": 25,
+    "physical": 18.5,
+    "strike": 14.8,
+    "slash": 18.5,
+    "pierce": 17.3,
+    "magic": 12.6,
+    "fire": 16.4,
+    "lightning": 12.4,
+    "holy": 14,
+    "immunity": 57,
+    "robustness": 75,
+    "focus": 34,
+    "vitality": 38
   },
   {
     "name": "Malformed Dragon Armor",
@@ -9513,22 +8457,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 16,
-    "negation": {
-      "physical": 16.8,
-      "strike": 15,
-      "slash": 17.5,
-      "pierce": 16.8,
-      "magic": 13,
-      "fire": 13,
-      "lightning": 13.8,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 76,
-      "focus": 38,
-      "vitality": 38
-    }
+    "poise": 26,
+    "physical": 16.8,
+    "strike": 15,
+    "slash": 17.5,
+    "pierce": 16.8,
+    "magic": 13,
+    "fire": 13,
+    "lightning": 13.8,
+    "holy": 13,
+    "immunity": 57,
+    "robustness": 76,
+    "focus": 38,
+    "vitality": 38
   },
   {
     "name": "Crucible Axe Armor",
@@ -9540,22 +8481,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 15.5,
-    "negation": {
-      "physical": 17.5,
-      "strike": 13.9,
-      "slash": 16.8,
-      "pierce": 16.8,
-      "magic": 13,
-      "fire": 12.8,
-      "lightning": 11.4,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 71,
-      "focus": 35,
-      "vitality": 35
-    }
+    "poise": 27,
+    "physical": 17.5,
+    "strike": 13.9,
+    "slash": 16.8,
+    "pierce": 16.8,
+    "magic": 13,
+    "fire": 12.8,
+    "lightning": 11.4,
+    "holy": 13.5,
+    "immunity": 50,
+    "robustness": 71,
+    "focus": 35,
+    "vitality": 35
   },
   {
     "name": "Crucible Axe Armor (Altered)",
@@ -9567,22 +8505,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 14.9,
-    "negation": {
-      "physical": 16.8,
-      "strike": 13.4,
-      "slash": 16,
-      "pierce": 16,
-      "magic": 12.8,
-      "fire": 12.6,
-      "lightning": 10.9,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 61,
-      "focus": 29,
-      "vitality": 29
-    }
+    "poise": 23,
+    "physical": 16.8,
+    "strike": 13.4,
+    "slash": 16,
+    "pierce": 16,
+    "magic": 12.8,
+    "fire": 12.6,
+    "lightning": 10.9,
+    "holy": 13.3,
+    "immunity": 42,
+    "robustness": 61,
+    "focus": 29,
+    "vitality": 29
   },
   {
     "name": "Crucible Tree Armor",
@@ -9594,22 +8529,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 15.5,
-    "negation": {
-      "physical": 17.7,
-      "strike": 13.9,
-      "slash": 17.5,
-      "pierce": 15.8,
-      "magic": 13,
-      "fire": 11.9,
-      "lightning": 11.4,
-      "holy": 14.5
-    },
-    "resists": {
-      "immunity": 50,
-      "robustness": 71,
-      "focus": 35,
-      "vitality": 35
-    }
+    "poise": 27,
+    "physical": 17.7,
+    "strike": 13.9,
+    "slash": 17.5,
+    "pierce": 15.8,
+    "magic": 13,
+    "fire": 11.9,
+    "lightning": 11.4,
+    "holy": 14.5,
+    "immunity": 50,
+    "robustness": 71,
+    "focus": 35,
+    "vitality": 35
   },
   {
     "name": "Crucible Tree Armor (Altered)",
@@ -9621,22 +8553,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 14.9,
-    "negation": {
-      "physical": 17,
-      "strike": 13.4,
-      "slash": 16,
-      "pierce": 15.6,
-      "magic": 12.8,
-      "fire": 11.4,
-      "lightning": 10.9,
-      "holy": 14.1
-    },
-    "resists": {
-      "immunity": 42,
-      "robustness": 61,
-      "focus": 29,
-      "vitality": 29
-    }
+    "poise": 23,
+    "physical": 17,
+    "strike": 13.4,
+    "slash": 16,
+    "pierce": 15.6,
+    "magic": 12.8,
+    "fire": 11.4,
+    "lightning": 10.9,
+    "holy": 14.1,
+    "immunity": 42,
+    "robustness": 61,
+    "focus": 29,
+    "vitality": 29
   },
   {
     "name": "Radahn\u0027s Lion Armor",
@@ -9648,22 +8577,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 17.5,
-    "negation": {
-      "physical": 18.7,
-      "strike": 15,
-      "slash": 18.3,
-      "pierce": 17.5,
-      "magic": 13.5,
-      "fire": 14.1,
-      "lightning": 12.6,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 60,
-      "robustness": 99,
-      "focus": 42,
-      "vitality": 38
-    }
+    "poise": 28,
+    "physical": 18.7,
+    "strike": 15,
+    "slash": 18.3,
+    "pierce": 17.5,
+    "magic": 13.5,
+    "fire": 14.1,
+    "lightning": 12.6,
+    "holy": 13.5,
+    "immunity": 60,
+    "robustness": 99,
+    "focus": 42,
+    "vitality": 38
   },
   {
     "name": "Radahn\u0027s Lion Armor (Altered)",
@@ -9675,22 +8601,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 2,
     "weight": 16.4,
-    "negation": {
-      "physical": 18.5,
-      "strike": 14.6,
-      "slash": 17.7,
-      "pierce": 17,
-      "magic": 13.3,
-      "fire": 14,
-      "lightning": 12.4,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 52,
-      "robustness": 82,
-      "focus": 34,
-      "vitality": 32
-    }
+    "poise": 24,
+    "physical": 18.5,
+    "strike": 14.6,
+    "slash": 17.7,
+    "pierce": 17,
+    "magic": 13.3,
+    "fire": 14,
+    "lightning": 12.4,
+    "holy": 13.3,
+    "immunity": 52,
+    "robustness": 82,
+    "focus": 34,
+    "vitality": 32
   },
   {
     "name": "Lionel\u0027s Armor",
@@ -9702,22 +8625,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 2,
     "weight": 21.2,
-    "negation": {
-      "physical": 17.5,
-      "strike": 16.3,
-      "slash": 19.2,
-      "pierce": 19.7,
-      "magic": 13.5,
-      "fire": 14.9,
-      "lightning": 13,
-      "holy": 13.5
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 99,
-      "focus": 42,
-      "vitality": 50
-    }
+    "poise": 37,
+    "physical": 17.5,
+    "strike": 16.3,
+    "slash": 19.2,
+    "pierce": 19.7,
+    "magic": 13.5,
+    "fire": 14.9,
+    "lightning": 13,
+    "holy": 13.5,
+    "immunity": 63,
+    "robustness": 99,
+    "focus": 42,
+    "vitality": 50
   },
   {
     "name": "Lionel\u0027s Armor (Altered)",
@@ -9729,22 +8649,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 2,
     "weight": 20.2,
-    "negation": {
-      "physical": 17.1,
-      "strike": 15.9,
-      "slash": 18.8,
-      "pierce": 19.3,
-      "magic": 13.1,
-      "fire": 14.5,
-      "lightning": 12.6,
-      "holy": 13.1
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 90,
-      "focus": 38,
-      "vitality": 45
-    }
+    "poise": 33,
+    "physical": 17.1,
+    "strike": 15.9,
+    "slash": 18.8,
+    "pierce": 19.3,
+    "magic": 13.1,
+    "fire": 14.5,
+    "lightning": 12.6,
+    "holy": 13.1,
+    "immunity": 57,
+    "robustness": 90,
+    "focus": 38,
+    "vitality": 45
   },
   {
     "name": "Bull-Goat Armor",
@@ -9756,22 +8673,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 2,
     "weight": 26.5,
-    "negation": {
-      "physical": 20.4,
-      "strike": 20.2,
-      "slash": 18.3,
-      "pierce": 18.3,
-      "magic": 13.3,
-      "fire": 13.5,
-      "lightning": 14.9,
-      "holy": 12.8
-    },
-    "resists": {
-      "immunity": 71,
-      "robustness": 83,
-      "focus": 46,
-      "vitality": 55
-    }
+    "poise": 47,
+    "physical": 20.4,
+    "strike": 20.2,
+    "slash": 18.3,
+    "pierce": 18.3,
+    "magic": 13.3,
+    "fire": 13.5,
+    "lightning": 14.9,
+    "holy": 12.8,
+    "immunity": 71,
+    "robustness": 83,
+    "focus": 46,
+    "vitality": 55
   },
   {
     "name": "Omen Armor",
@@ -9783,22 +8697,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 2,
     "weight": 23.1,
-    "negation": {
-      "physical": 18.3,
-      "strike": 15,
-      "slash": 18.7,
-      "pierce": 18.7,
-      "magic": 13,
-      "fire": 14.5,
-      "lightning": 14.9,
-      "holy": 13.8
-    },
-    "resists": {
-      "immunity": 67,
-      "robustness": 63,
-      "focus": 57,
-      "vitality": 76
-    }
+    "poise": 40,
+    "physical": 18.3,
+    "strike": 15,
+    "slash": 18.7,
+    "pierce": 18.7,
+    "magic": 13,
+    "fire": 14.5,
+    "lightning": 14.9,
+    "holy": 13.8,
+    "immunity": 67,
+    "robustness": 63,
+    "focus": 57,
+    "vitality": 76
   },
   {
     "name": "Fire Prelate Armor",
@@ -9810,22 +8721,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 2,
     "weight": 24.7,
-    "negation": {
-      "physical": 19.2,
-      "strike": 17,
-      "slash": 18.3,
-      "pierce": 18.3,
-      "magic": 13.5,
-      "fire": 19.8,
-      "lightning": 13,
-      "holy": 13.3
-    },
-    "resists": {
-      "immunity": 67,
-      "robustness": 63,
-      "focus": 90,
-      "vitality": 50
-    }
+    "poise": 40,
+    "physical": 19.2,
+    "strike": 17,
+    "slash": 18.3,
+    "pierce": 18.3,
+    "magic": 13.5,
+    "fire": 19.8,
+    "lightning": 13,
+    "holy": 13.3,
+    "immunity": 67,
+    "robustness": 63,
+    "focus": 90,
+    "vitality": 50
   },
   {
     "name": "Fire Prelate Armor (Altered)",
@@ -9837,22 +8745,19 @@ var armor = [
     "sortGroupID": 110,
     "slotType": 2,
     "weight": 23.6,
-    "negation": {
-      "physical": 18.7,
-      "strike": 16.3,
-      "slash": 17.5,
-      "pierce": 17.5,
-      "magic": 13.3,
-      "fire": 18.3,
-      "lightning": 12.8,
-      "holy": 13
-    },
-    "resists": {
-      "immunity": 57,
-      "robustness": 54,
-      "focus": 75,
-      "vitality": 42
-    }
+    "poise": 37,
+    "physical": 18.7,
+    "strike": 16.3,
+    "slash": 17.5,
+    "pierce": 17.5,
+    "magic": 13.3,
+    "fire": 18.3,
+    "lightning": 12.8,
+    "holy": 13,
+    "immunity": 57,
+    "robustness": 54,
+    "focus": 75,
+    "vitality": 42
   },
   {
     "name": "Traveler\u0027s Manchettes",
@@ -9864,22 +8769,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 3,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.6,
-      "strike": 1.5,
-      "slash": 1.3,
-      "pierce": 1,
-      "magic": 3.3,
-      "fire": 3.2,
-      "lightning": 3.2,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 8,
-      "focus": 25,
-      "vitality": 25
-    }
+    "poise": 1,
+    "physical": 1.6,
+    "strike": 1.5,
+    "slash": 1.3,
+    "pierce": 1,
+    "magic": 3.3,
+    "fire": 3.2,
+    "lightning": 3.2,
+    "holy": 3.1,
+    "immunity": 13,
+    "robustness": 8,
+    "focus": 25,
+    "vitality": 25
   },
   {
     "name": "Guardian Bracers",
@@ -9891,22 +8793,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 3,
     "weight": 2.9,
-    "negation": {
-      "physical": 2.7,
-      "strike": 2.5,
-      "slash": 2.5,
-      "pierce": 2.3,
-      "magic": 2.9,
-      "fire": 2.8,
-      "lightning": 2.9,
-      "holy": 2.9
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 17,
-      "focus": 20,
-      "vitality": 19
-    }
+    "poise": 1,
+    "physical": 2.7,
+    "strike": 2.5,
+    "slash": 2.5,
+    "pierce": 2.3,
+    "magic": 2.9,
+    "fire": 2.8,
+    "lightning": 2.9,
+    "holy": 2.9,
+    "immunity": 25,
+    "robustness": 17,
+    "focus": 20,
+    "vitality": 19
   },
   {
     "name": "Bloodsoaked Manchettes",
@@ -9918,22 +8817,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 3,
     "weight": 1.4,
-    "negation": {
-      "physical": 1.3,
-      "strike": 1.5,
-      "slash": 1,
-      "pierce": 0.6,
-      "magic": 3.1,
-      "fire": 3.1,
-      "lightning": 3.1,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 9,
-      "focus": 24,
-      "vitality": 22
-    }
+    "poise": 0,
+    "physical": 1.3,
+    "strike": 1.5,
+    "slash": 1,
+    "pierce": 0.6,
+    "magic": 3.1,
+    "fire": 3.1,
+    "lightning": 3.1,
+    "holy": 3.1,
+    "immunity": 14,
+    "robustness": 9,
+    "focus": 24,
+    "vitality": 22
   },
   {
     "name": "Mushroom Arms",
@@ -9945,22 +8841,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 3,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.5,
-      "strike": 1.7,
-      "slash": 0.6,
-      "pierce": 1.3,
-      "magic": 3.3,
-      "fire": 1.3,
-      "lightning": 3.2,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 8,
-      "focus": 30,
-      "vitality": 25
-    }
+    "poise": 0,
+    "physical": 1.5,
+    "strike": 1.7,
+    "slash": 0.6,
+    "pierce": 1.3,
+    "magic": 3.3,
+    "fire": 1.3,
+    "lightning": 3.2,
+    "holy": 3.2,
+    "immunity": 34,
+    "robustness": 8,
+    "focus": 30,
+    "vitality": 25
   },
   {
     "name": "Astrologer Gloves",
@@ -9972,22 +8865,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.4,
-    "negation": {
-      "physical": 1.3,
-      "strike": 1,
-      "slash": 1,
-      "pierce": 1,
-      "magic": 3.2,
-      "fire": 3.1,
-      "lightning": 3.2,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 7,
-      "focus": 24,
-      "vitality": 21
-    }
+    "poise": 1,
+    "physical": 1.3,
+    "strike": 1,
+    "slash": 1,
+    "pierce": 1,
+    "magic": 3.2,
+    "fire": 3.1,
+    "lightning": 3.2,
+    "holy": 3.1,
+    "immunity": 14,
+    "robustness": 7,
+    "focus": 24,
+    "vitality": 21
   },
   {
     "name": "Sorcerer Manchettes",
@@ -9999,22 +8889,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.1,
-    "negation": {
-      "physical": 1,
-      "strike": 1.3,
-      "slash": 1.3,
-      "pierce": 0.1,
-      "magic": 3.2,
-      "fire": 3.1,
-      "lightning": 2.9,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 4,
-      "focus": 21,
-      "vitality": 20
-    }
+    "poise": 0,
+    "physical": 1,
+    "strike": 1.3,
+    "slash": 1.3,
+    "pierce": 0.1,
+    "magic": 3.2,
+    "fire": 3.1,
+    "lightning": 2.9,
+    "holy": 3.1,
+    "immunity": 13,
+    "robustness": 4,
+    "focus": 21,
+    "vitality": 20
   },
   {
     "name": "Battlemage Manchettes",
@@ -10026,22 +8913,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.1,
-    "negation": {
-      "physical": 1,
-      "strike": 1.3,
-      "slash": 0.6,
-      "pierce": 1,
-      "magic": 3.2,
-      "fire": 2.8,
-      "lightning": 2.9,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 7,
-      "focus": 20,
-      "vitality": 22
-    }
+    "poise": 0,
+    "physical": 1,
+    "strike": 1.3,
+    "slash": 0.6,
+    "pierce": 1,
+    "magic": 3.2,
+    "fire": 2.8,
+    "lightning": 2.9,
+    "holy": 3.1,
+    "immunity": 13,
+    "robustness": 7,
+    "focus": 20,
+    "vitality": 22
   },
   {
     "name": "Errant Sorcerer Manchettes",
@@ -10053,22 +8937,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.1,
-    "negation": {
-      "physical": 0.6,
-      "strike": 0.6,
-      "slash": 1.3,
-      "pierce": 0.6,
-      "magic": 3.2,
-      "fire": 3.1,
-      "lightning": 2.9,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 7,
-      "focus": 21,
-      "vitality": 22
-    }
+    "poise": 0,
+    "physical": 0.6,
+    "strike": 0.6,
+    "slash": 1.3,
+    "pierce": 0.6,
+    "magic": 3.2,
+    "fire": 3.1,
+    "lightning": 2.9,
+    "holy": 3.2,
+    "immunity": 11,
+    "robustness": 7,
+    "focus": 21,
+    "vitality": 22
   },
   {
     "name": "Spellblade\u0027s Gloves",
@@ -10080,22 +8961,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.2,
-    "negation": {
-      "physical": 0.9,
-      "strike": 0.5,
-      "slash": 0.9,
-      "pierce": 0.9,
-      "magic": 3.1,
-      "fire": 2.7,
-      "lightning": 2.8,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 6,
-      "focus": 19,
-      "vitality": 20
-    }
+    "poise": 0,
+    "physical": 0.9,
+    "strike": 0.5,
+    "slash": 0.9,
+    "pierce": 0.9,
+    "magic": 3.1,
+    "fire": 2.7,
+    "lightning": 2.8,
+    "holy": 3.1,
+    "immunity": 11,
+    "robustness": 6,
+    "focus": 19,
+    "vitality": 20
   },
   {
     "name": "Alberich\u0027s Bracers",
@@ -10107,22 +8985,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.4,
-    "negation": {
-      "physical": 1.3,
-      "strike": 1,
-      "slash": 1.3,
-      "pierce": 1.3,
-      "magic": 3.2,
-      "fire": 2.9,
-      "lightning": 3.1,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 8,
-      "focus": 22,
-      "vitality": 24
-    }
+    "poise": 0,
+    "physical": 1.3,
+    "strike": 1,
+    "slash": 1.3,
+    "pierce": 1.3,
+    "magic": 3.2,
+    "fire": 2.9,
+    "lightning": 3.1,
+    "holy": 3.2,
+    "immunity": 13,
+    "robustness": 8,
+    "focus": 22,
+    "vitality": 24
   },
   {
     "name": "Preceptor\u0027s Gloves",
@@ -10134,22 +9009,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 2.1,
-    "negation": {
-      "physical": 1.5,
-      "strike": 1.6,
-      "slash": 1.5,
-      "pierce": 1.5,
-      "magic": 3.6,
-      "fire": 3.3,
-      "lightning": 3.2,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 8,
-      "focus": 28,
-      "vitality": 25
-    }
+    "poise": 1,
+    "physical": 1.5,
+    "strike": 1.6,
+    "slash": 1.5,
+    "pierce": 1.5,
+    "magic": 3.6,
+    "fire": 3.3,
+    "lightning": 3.2,
+    "holy": 3.2,
+    "immunity": 17,
+    "robustness": 8,
+    "focus": 28,
+    "vitality": 25
   },
   {
     "name": "Azur\u0027s Manchettes",
@@ -10161,22 +9033,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.1,
-    "negation": {
-      "physical": 1,
-      "strike": 0.1,
-      "slash": 0.6,
-      "pierce": 0.6,
-      "magic": 3.4,
-      "fire": 2.8,
-      "lightning": 2.9,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 8,
-      "focus": 22,
-      "vitality": 20
-    }
+    "poise": 0,
+    "physical": 1,
+    "strike": 0.1,
+    "slash": 0.6,
+    "pierce": 0.6,
+    "magic": 3.4,
+    "fire": 2.8,
+    "lightning": 2.9,
+    "holy": 3.2,
+    "immunity": 12,
+    "robustness": 8,
+    "focus": 22,
+    "vitality": 20
   },
   {
     "name": "Lusat\u0027s Manchettes",
@@ -10188,22 +9057,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.1,
-    "negation": {
-      "physical": 1.3,
-      "strike": 0.1,
-      "slash": 1.3,
-      "pierce": 0.1,
-      "magic": 3.4,
-      "fire": 2.8,
-      "lightning": 3.1,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 6,
-      "focus": 20,
-      "vitality": 22
-    }
+    "poise": 0,
+    "physical": 1.3,
+    "strike": 0.1,
+    "slash": 1.3,
+    "pierce": 0.1,
+    "magic": 3.4,
+    "fire": 2.8,
+    "lightning": 3.1,
+    "holy": 3.1,
+    "immunity": 12,
+    "robustness": 6,
+    "focus": 20,
+    "vitality": 22
   },
   {
     "name": "Queen\u0027s Bracelets",
@@ -10215,22 +9081,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.5,
-      "strike": 1.3,
-      "slash": 1.3,
-      "pierce": 1,
-      "magic": 3.4,
-      "fire": 3.1,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 8,
-      "focus": 24,
-      "vitality": 28
-    }
+    "poise": 0,
+    "physical": 1.5,
+    "strike": 1.3,
+    "slash": 1.3,
+    "pierce": 1,
+    "magic": 3.4,
+    "fire": 3.1,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 14,
+    "robustness": 8,
+    "focus": 24,
+    "vitality": 28
   },
   {
     "name": "Traveling Maiden Gloves",
@@ -10242,22 +9105,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 1.6,
-    "negation": {
-      "physical": 1.3,
-      "strike": 1.5,
-      "slash": 1.5,
-      "pierce": 1,
-      "magic": 3.3,
-      "fire": 3.2,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 8,
-      "focus": 25,
-      "vitality": 28
-    }
+    "poise": 1,
+    "physical": 1.3,
+    "strike": 1.5,
+    "slash": 1.5,
+    "pierce": 1,
+    "magic": 3.3,
+    "fire": 3.2,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 15,
+    "robustness": 8,
+    "focus": 25,
+    "vitality": 28
   },
   {
     "name": "Gold Bracelets",
@@ -10269,22 +9129,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 3,
     "weight": 0.8,
-    "negation": {
-      "physical": 1,
-      "strike": 0.6,
-      "slash": 0.6,
-      "pierce": 0.1,
-      "magic": 2.9,
-      "fire": 2.8,
-      "lightning": 2.9,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 4,
-      "focus": 20,
-      "vitality": 20
-    }
+    "poise": 0,
+    "physical": 1,
+    "strike": 0.6,
+    "slash": 0.6,
+    "pierce": 0.1,
+    "magic": 2.9,
+    "fire": 2.8,
+    "lightning": 2.9,
+    "holy": 3.2,
+    "immunity": 13,
+    "robustness": 4,
+    "focus": 20,
+    "vitality": 20
   },
   {
     "name": "Perfumer Gloves",
@@ -10296,22 +9153,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 3,
     "weight": 1.4,
-    "negation": {
-      "physical": 1,
-      "strike": 1.5,
-      "slash": 1.3,
-      "pierce": 1,
-      "magic": 3.2,
-      "fire": 2.9,
-      "lightning": 3.1,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 6,
-      "focus": 21,
-      "vitality": 22
-    }
+    "poise": 0,
+    "physical": 1,
+    "strike": 1.5,
+    "slash": 1.3,
+    "pierce": 1,
+    "magic": 3.2,
+    "fire": 2.9,
+    "lightning": 3.1,
+    "holy": 3.2,
+    "immunity": 20,
+    "robustness": 6,
+    "focus": 21,
+    "vitality": 22
   },
   {
     "name": "Traveler\u0027s Gloves",
@@ -10323,22 +9177,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 3,
     "weight": 1.4,
-    "negation": {
-      "physical": 1.3,
-      "strike": 1.3,
-      "slash": 1,
-      "pierce": 0.6,
-      "magic": 3.2,
-      "fire": 3.2,
-      "lightning": 3.1,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 7,
-      "focus": 22,
-      "vitality": 21
-    }
+    "poise": 0,
+    "physical": 1.3,
+    "strike": 1.3,
+    "slash": 1,
+    "pierce": 0.6,
+    "magic": 3.2,
+    "fire": 3.2,
+    "lightning": 3.1,
+    "holy": 3.2,
+    "immunity": 18,
+    "robustness": 7,
+    "focus": 22,
+    "vitality": 21
   },
   {
     "name": "Depraved Perfumer Gloves",
@@ -10350,22 +9201,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 3,
     "weight": 2,
-    "negation": {
-      "physical": 1.5,
-      "strike": 1.5,
-      "slash": 1.4,
-      "pierce": 1.2,
-      "magic": 3.2,
-      "fire": 3.1,
-      "lightning": 3.1,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 23,
-      "robustness": 8,
-      "focus": 20,
-      "vitality": 28
-    }
+    "poise": 1,
+    "physical": 1.5,
+    "strike": 1.5,
+    "slash": 1.4,
+    "pierce": 1.2,
+    "magic": 3.2,
+    "fire": 3.1,
+    "lightning": 3.1,
+    "holy": 3.1,
+    "immunity": 23,
+    "robustness": 8,
+    "focus": 20,
+    "vitality": 28
   },
   {
     "name": "Godskin Apostle Bracelets",
@@ -10377,22 +9225,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 3,
     "weight": 2.1,
-    "negation": {
-      "physical": 1.7,
-      "strike": 1.6,
-      "slash": 1.6,
-      "pierce": 1.3,
-      "magic": 3.2,
-      "fire": 3.1,
-      "lightning": 3.2,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 8,
-      "focus": 28,
-      "vitality": 25
-    }
+    "poise": 1,
+    "physical": 1.7,
+    "strike": 1.6,
+    "slash": 1.6,
+    "pierce": 1.3,
+    "magic": 3.2,
+    "fire": 3.1,
+    "lightning": 3.2,
+    "holy": 3.6,
+    "immunity": 17,
+    "robustness": 8,
+    "focus": 28,
+    "vitality": 25
   },
   {
     "name": "Godskin Noble Bracelets",
@@ -10404,22 +9249,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 3,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.3,
-      "strike": 2.1,
-      "slash": 1.5,
-      "pierce": 1.3,
-      "magic": 3.2,
-      "fire": 2.9,
-      "lightning": 3.1,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 14,
-      "robustness": 8,
-      "focus": 24,
-      "vitality": 25
-    }
+    "poise": 1,
+    "physical": 1.3,
+    "strike": 2.1,
+    "slash": 1.5,
+    "pierce": 1.3,
+    "magic": 3.2,
+    "fire": 2.9,
+    "lightning": 3.1,
+    "holy": 3.4,
+    "immunity": 14,
+    "robustness": 8,
+    "focus": 24,
+    "vitality": 25
   },
   {
     "name": "Leather Gloves",
@@ -10431,22 +9273,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 3,
     "weight": 2.4,
-    "negation": {
-      "physical": 1.9,
-      "strike": 2.3,
-      "slash": 1.9,
-      "pierce": 2.1,
-      "magic": 2.3,
-      "fire": 2.3,
-      "lightning": 2.5,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 12,
-      "focus": 14,
-      "vitality": 17
-    }
+    "poise": 1,
+    "physical": 1.9,
+    "strike": 2.3,
+    "slash": 1.9,
+    "pierce": 2.1,
+    "magic": 2.3,
+    "fire": 2.3,
+    "lightning": 2.5,
+    "holy": 2.5,
+    "immunity": 20,
+    "robustness": 12,
+    "focus": 14,
+    "vitality": 17
   },
   {
     "name": "Warrior Gauntlets",
@@ -10458,22 +9297,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 3,
     "weight": 2.6,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.3,
-      "slash": 1.9,
-      "pierce": 1.9,
-      "magic": 2.5,
-      "fire": 2.7,
-      "lightning": 2.9,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 14,
-      "focus": 17,
-      "vitality": 17
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 2.3,
+    "slash": 1.9,
+    "pierce": 1.9,
+    "magic": 2.5,
+    "fire": 2.7,
+    "lightning": 2.9,
+    "holy": 2.3,
+    "immunity": 21,
+    "robustness": 14,
+    "focus": 17,
+    "vitality": 17
   },
   {
     "name": "Noble\u0027s Gloves",
@@ -10485,22 +9321,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 3,
     "weight": 2.1,
-    "negation": {
-      "physical": 1.5,
-      "strike": 1.6,
-      "slash": 1.5,
-      "pierce": 1.6,
-      "magic": 3.3,
-      "fire": 3.3,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 8,
-      "focus": 25,
-      "vitality": 28
-    }
+    "poise": 1,
+    "physical": 1.5,
+    "strike": 1.6,
+    "slash": 1.5,
+    "pierce": 1.6,
+    "magic": 3.3,
+    "fire": 3.3,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 15,
+    "robustness": 8,
+    "focus": 25,
+    "vitality": 28
   },
   {
     "name": "War Surgeon Gloves",
@@ -10512,22 +9345,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 3,
     "weight": 2.3,
-    "negation": {
-      "physical": 1.6,
-      "strike": 1.8,
-      "slash": 2,
-      "pierce": 1.6,
-      "magic": 2.2,
-      "fire": 2.4,
-      "lightning": 2.6,
-      "holy": 2.4
-    },
-    "resists": {
-      "immunity": 18,
-      "robustness": 13,
-      "focus": 15,
-      "vitality": 17
-    }
+    "poise": 1,
+    "physical": 1.6,
+    "strike": 1.8,
+    "slash": 2,
+    "pierce": 1.6,
+    "magic": 2.2,
+    "fire": 2.4,
+    "lightning": 2.6,
+    "holy": 2.4,
+    "immunity": 18,
+    "robustness": 13,
+    "focus": 15,
+    "vitality": 17
   },
   {
     "name": "Bandit Manchettes",
@@ -10539,22 +9369,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 3,
     "weight": 1.7,
-    "negation": {
-      "physical": 1.5,
-      "strike": 1.6,
-      "slash": 1.7,
-      "pierce": 1.7,
-      "magic": 1.9,
-      "fire": 1.9,
-      "lightning": 2.1,
-      "holy": 1.7
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 8,
-      "focus": 17,
-      "vitality": 17
-    }
+    "poise": 0,
+    "physical": 1.5,
+    "strike": 1.6,
+    "slash": 1.7,
+    "pierce": 1.7,
+    "magic": 1.9,
+    "fire": 1.9,
+    "lightning": 2.1,
+    "holy": 1.7,
+    "immunity": 15,
+    "robustness": 8,
+    "focus": 17,
+    "vitality": 17
   },
   {
     "name": "Confessor Gloves",
@@ -10566,22 +9393,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 3,
     "weight": 2.8,
-    "negation": {
-      "physical": 2.1,
-      "strike": 2.7,
-      "slash": 2.1,
-      "pierce": 2.3,
-      "magic": 2.8,
-      "fire": 2.8,
-      "lightning": 3.1,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 17,
-      "focus": 17,
-      "vitality": 18
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 2.7,
+    "slash": 2.1,
+    "pierce": 2.3,
+    "magic": 2.8,
+    "fire": 2.8,
+    "lightning": 3.1,
+    "holy": 2.5,
+    "immunity": 21,
+    "robustness": 17,
+    "focus": 17,
+    "vitality": 18
   },
   {
     "name": "Omenkiller Long Gloves",
@@ -10593,22 +9417,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 3,
     "weight": 2.4,
-    "negation": {
-      "physical": 2.1,
-      "strike": 1.9,
-      "slash": 1.7,
-      "pierce": 1.7,
-      "magic": 2.1,
-      "fire": 2.3,
-      "lightning": 2.8,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 9,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 1.9,
+    "slash": 1.7,
+    "pierce": 1.7,
+    "magic": 2.1,
+    "fire": 2.3,
+    "lightning": 2.8,
+    "holy": 2.5,
+    "immunity": 22,
+    "robustness": 9,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Foot Soldier Gauntlets",
@@ -10620,22 +9441,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 3,
     "weight": 2.6,
-    "negation": {
-      "physical": 2.1,
-      "strike": 2.3,
-      "slash": 2.1,
-      "pierce": 2.1,
-      "magic": 2.5,
-      "fire": 2.7,
-      "lightning": 2.8,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 13,
-      "focus": 17,
-      "vitality": 17
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 2.3,
+    "slash": 2.1,
+    "pierce": 2.1,
+    "magic": 2.5,
+    "fire": 2.7,
+    "lightning": 2.8,
+    "holy": 2.5,
+    "immunity": 20,
+    "robustness": 13,
+    "focus": 17,
+    "vitality": 17
   },
   {
     "name": "Highwayman Gauntlets",
@@ -10647,22 +9465,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 3,
     "weight": 2.6,
-    "negation": {
-      "physical": 1.9,
-      "strike": 2.5,
-      "slash": 1.9,
-      "pierce": 2.1,
-      "magic": 2.7,
-      "fire": 2.7,
-      "lightning": 2.8,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 19,
-      "robustness": 12,
-      "focus": 17,
-      "vitality": 17
-    }
+    "poise": 1,
+    "physical": 1.9,
+    "strike": 2.5,
+    "slash": 1.9,
+    "pierce": 2.1,
+    "magic": 2.7,
+    "fire": 2.7,
+    "lightning": 2.8,
+    "holy": 2.5,
+    "immunity": 19,
+    "robustness": 12,
+    "focus": 17,
+    "vitality": 17
   },
   {
     "name": "Vulgar Militia Gauntlets",
@@ -10674,22 +9489,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 3,
     "weight": 2.1,
-    "negation": {
-      "physical": 1.7,
-      "strike": 2.1,
-      "slash": 1.9,
-      "pierce": 1.6,
-      "magic": 2.1,
-      "fire": 2.1,
-      "lightning": 2.3,
-      "holy": 2.1
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 9,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 1,
+    "physical": 1.7,
+    "strike": 2.1,
+    "slash": 1.9,
+    "pierce": 1.6,
+    "magic": 2.1,
+    "fire": 2.1,
+    "lightning": 2.3,
+    "holy": 2.1,
+    "immunity": 20,
+    "robustness": 9,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Nox Bracelets",
@@ -10701,22 +9513,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 3,
     "weight": 2.6,
-    "negation": {
-      "physical": 2.1,
-      "strike": 2.3,
-      "slash": 2.1,
-      "pierce": 1.9,
-      "magic": 2.9,
-      "fire": 2.8,
-      "lightning": 2.8,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 13,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 2.3,
+    "slash": 2.1,
+    "pierce": 1.9,
+    "magic": 2.9,
+    "fire": 2.8,
+    "lightning": 2.8,
+    "holy": 2.3,
+    "immunity": 20,
+    "robustness": 13,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Champion Bracers",
@@ -10728,22 +9537,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 3,
     "weight": 2.1,
-    "negation": {
-      "physical": 1.6,
-      "strike": 2.1,
-      "slash": 1.7,
-      "pierce": 1.9,
-      "magic": 1.9,
-      "fire": 2.3,
-      "lightning": 2.5,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 11,
-      "focus": 14,
-      "vitality": 13
-    }
+    "poise": 1,
+    "physical": 1.6,
+    "strike": 2.1,
+    "slash": 1.7,
+    "pierce": 1.9,
+    "magic": 1.9,
+    "fire": 2.3,
+    "lightning": 2.5,
+    "holy": 2.3,
+    "immunity": 17,
+    "robustness": 11,
+    "focus": 14,
+    "vitality": 13
   },
   {
     "name": "Gauntlets",
@@ -10755,22 +9561,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.9,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.1,
-      "slash": 3.2,
-      "pierce": 2.9,
-      "magic": 1.7,
-      "fire": 2.7,
-      "lightning": 1.5,
-      "holy": 1.9
-    },
-    "resists": {
-      "immunity": 8,
-      "robustness": 14,
-      "focus": 4,
-      "vitality": 6
-    }
+    "poise": 3,
+    "physical": 2.9,
+    "strike": 2.1,
+    "slash": 3.2,
+    "pierce": 2.9,
+    "magic": 1.7,
+    "fire": 2.7,
+    "lightning": 1.5,
+    "holy": 1.9,
+    "immunity": 8,
+    "robustness": 14,
+    "focus": 4,
+    "vitality": 6
   },
   {
     "name": "Iron Gauntlets",
@@ -10782,22 +9585,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.9,
-    "negation": {
-      "physical": 2.8,
-      "strike": 2.3,
-      "slash": 2.9,
-      "pierce": 2.9,
-      "magic": 2.1,
-      "fire": 2.3,
-      "lightning": 1.5,
-      "holy": 1.9
-    },
-    "resists": {
-      "immunity": 8,
-      "robustness": 15,
-      "focus": 6,
-      "vitality": 4
-    }
+    "poise": 3,
+    "physical": 2.8,
+    "strike": 2.3,
+    "slash": 2.9,
+    "pierce": 2.9,
+    "magic": 2.1,
+    "fire": 2.3,
+    "lightning": 1.5,
+    "holy": 1.9,
+    "immunity": 8,
+    "robustness": 15,
+    "focus": 6,
+    "vitality": 4
   },
   {
     "name": "Godrick Soldier Gauntlets",
@@ -10809,22 +9609,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.8,
-      "slash": 3.2,
-      "pierce": 3.1,
-      "magic": 2.5,
-      "fire": 2.7,
-      "lightning": 1.9,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.2,
+    "strike": 2.8,
+    "slash": 3.2,
+    "pierce": 3.1,
+    "magic": 2.5,
+    "fire": 2.7,
+    "lightning": 1.9,
+    "holy": 2.3,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Raya Lucarian Gauntlets",
@@ -10836,22 +9633,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.7,
-      "slash": 3.3,
-      "pierce": 3.2,
-      "magic": 2.7,
-      "fire": 2.7,
-      "lightning": 1.7,
-      "holy": 2.1
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.2,
+    "strike": 2.7,
+    "slash": 3.3,
+    "pierce": 3.2,
+    "magic": 2.7,
+    "fire": 2.7,
+    "lightning": 1.7,
+    "holy": 2.1,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Radahn Soldier Gauntlets",
@@ -10863,22 +9657,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.7,
-      "slash": 3.1,
-      "pierce": 2.9,
-      "magic": 2.5,
-      "fire": 2.8,
-      "lightning": 1.9,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 17,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.7,
+    "slash": 3.1,
+    "pierce": 2.9,
+    "magic": 2.5,
+    "fire": 2.8,
+    "lightning": 1.9,
+    "holy": 2.3,
+    "immunity": 11,
+    "robustness": 17,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Leyndell Soldier Gauntlets",
@@ -10890,22 +9681,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.9,
-      "slash": 3.1,
-      "pierce": 3.2,
-      "magic": 2.3,
-      "fire": 2.5,
-      "lightning": 2.1,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.2,
+    "strike": 2.9,
+    "slash": 3.1,
+    "pierce": 3.2,
+    "magic": 2.3,
+    "fire": 2.5,
+    "lightning": 2.1,
+    "holy": 2.3,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Haligtree Gauntlets",
@@ -10917,22 +9705,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.9,
-      "slash": 3.1,
-      "pierce": 3.2,
-      "magic": 2.3,
-      "fire": 2.5,
-      "lightning": 1.9,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 3,
+    "physical": 3.2,
+    "strike": 2.9,
+    "slash": 3.1,
+    "pierce": 3.2,
+    "magic": 2.3,
+    "fire": 2.5,
+    "lightning": 1.9,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Mausoleum Gauntlets",
@@ -10944,22 +9729,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.7,
-      "slash": 3.3,
-      "pierce": 3.1,
-      "magic": 2.5,
-      "fire": 2.5,
-      "lightning": 2.1,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 17,
-      "focus": 8,
-      "vitality": 7
-    }
+    "poise": 4,
+    "physical": 3.2,
+    "strike": 2.7,
+    "slash": 3.3,
+    "pierce": 3.1,
+    "magic": 2.5,
+    "fire": 2.5,
+    "lightning": 2.1,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 17,
+    "focus": 8,
+    "vitality": 7
   },
   {
     "name": "Exile Gauntlets",
@@ -10971,22 +9753,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.9,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.1,
-      "slash": 3.1,
-      "pierce": 2.9,
-      "magic": 1.7,
-      "fire": 2.5,
-      "lightning": 1.5,
-      "holy": 2.1
-    },
-    "resists": {
-      "immunity": 8,
-      "robustness": 17,
-      "focus": 6,
-      "vitality": 4
-    }
+    "poise": 3,
+    "physical": 2.9,
+    "strike": 2.1,
+    "slash": 3.1,
+    "pierce": 2.9,
+    "magic": 1.7,
+    "fire": 2.5,
+    "lightning": 1.5,
+    "holy": 2.1,
+    "immunity": 8,
+    "robustness": 17,
+    "focus": 6,
+    "vitality": 4
   },
   {
     "name": "Kaiden Gauntlets",
@@ -10998,22 +9777,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.9,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.1,
-      "slash": 2.9,
-      "pierce": 2.9,
-      "magic": 1.9,
-      "fire": 2.1,
-      "lightning": 1.7,
-      "holy": 1.9
-    },
-    "resists": {
-      "immunity": 8,
-      "robustness": 15,
-      "focus": 6,
-      "vitality": 6
-    }
+    "poise": 3,
+    "physical": 2.9,
+    "strike": 2.1,
+    "slash": 2.9,
+    "pierce": 2.9,
+    "magic": 1.9,
+    "fire": 2.1,
+    "lightning": 1.7,
+    "holy": 1.9,
+    "immunity": 8,
+    "robustness": 15,
+    "focus": 6,
+    "vitality": 6
   },
   {
     "name": "Land of Reeds Gauntlets",
@@ -11025,22 +9801,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.8,
-    "negation": {
-      "physical": 2.1,
-      "strike": 2.3,
-      "slash": 2.9,
-      "pierce": 2.3,
-      "magic": 2.5,
-      "fire": 2.8,
-      "lightning": 2.9,
-      "holy": 2.7
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 17,
-      "focus": 17,
-      "vitality": 18
-    }
+    "poise": 1,
+    "physical": 2.1,
+    "strike": 2.3,
+    "slash": 2.9,
+    "pierce": 2.3,
+    "magic": 2.5,
+    "fire": 2.8,
+    "lightning": 2.9,
+    "holy": 2.7,
+    "immunity": 20,
+    "robustness": 17,
+    "focus": 17,
+    "vitality": 18
   },
   {
     "name": "White Reed Gauntlets",
@@ -11052,22 +9825,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.8,
-    "negation": {
-      "physical": 2.3,
-      "strike": 2.5,
-      "slash": 2.8,
-      "pierce": 2.1,
-      "magic": 2.7,
-      "fire": 2.7,
-      "lightning": 2.9,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 14,
-      "focus": 18,
-      "vitality": 17
-    }
+    "poise": 2,
+    "physical": 2.3,
+    "strike": 2.5,
+    "slash": 2.8,
+    "pierce": 2.1,
+    "magic": 2.7,
+    "fire": 2.7,
+    "lightning": 2.9,
+    "holy": 2.5,
+    "immunity": 22,
+    "robustness": 14,
+    "focus": 18,
+    "vitality": 17
   },
   {
     "name": "Ronin\u0027s Gauntlets",
@@ -11079,22 +9849,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.1,
-    "negation": {
-      "physical": 2.7,
-      "strike": 2.7,
-      "slash": 2.8,
-      "pierce": 2.7,
-      "magic": 2.9,
-      "fire": 3.1,
-      "lightning": 3.2,
-      "holy": 2.9
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 19,
-      "focus": 20,
-      "vitality": 21
-    }
+    "poise": 2,
+    "physical": 2.7,
+    "strike": 2.7,
+    "slash": 2.8,
+    "pierce": 2.7,
+    "magic": 2.9,
+    "fire": 3.1,
+    "lightning": 3.2,
+    "holy": 2.9,
+    "immunity": 25,
+    "robustness": 19,
+    "focus": 20,
+    "vitality": 21
   },
   {
     "name": "Eccentric\u0027s Manchettes",
@@ -11106,22 +9873,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.9,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.1,
-      "slash": 2.8,
-      "pierce": 2.9,
-      "magic": 2.1,
-      "fire": 2.3,
-      "lightning": 1.5,
-      "holy": 1.9
-    },
-    "resists": {
-      "immunity": 8,
-      "robustness": 18,
-      "focus": 6,
-      "vitality": 4
-    }
+    "poise": 3,
+    "physical": 2.9,
+    "strike": 2.1,
+    "slash": 2.8,
+    "pierce": 2.9,
+    "magic": 2.1,
+    "fire": 2.3,
+    "lightning": 1.5,
+    "holy": 1.9,
+    "immunity": 8,
+    "robustness": 18,
+    "focus": 6,
+    "vitality": 4
   },
   {
     "name": "Blue Silver Bracelets",
@@ -11133,22 +9897,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.1,
-    "negation": {
-      "physical": 2.3,
-      "strike": 1.5,
-      "slash": 2.5,
-      "pierce": 1.9,
-      "magic": 1.9,
-      "fire": 1.6,
-      "lightning": 1,
-      "holy": 1
-    },
-    "resists": {
-      "immunity": 4,
-      "robustness": 14,
-      "focus": 4,
-      "vitality": 4
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 1.5,
+    "slash": 2.5,
+    "pierce": 1.9,
+    "magic": 1.9,
+    "fire": 1.6,
+    "lightning": 1,
+    "holy": 1,
+    "immunity": 4,
+    "robustness": 14,
+    "focus": 4,
+    "vitality": 4
   },
   {
     "name": "Fire Monk Gauntlets",
@@ -11160,22 +9921,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.5,
-      "strike": 3.1,
-      "slash": 3.3,
-      "pierce": 3.1,
-      "magic": 2.7,
-      "fire": 3.3,
-      "lightning": 2.3,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.5,
+    "strike": 3.1,
+    "slash": 3.3,
+    "pierce": 3.1,
+    "magic": 2.7,
+    "fire": 3.3,
+    "lightning": 2.3,
+    "holy": 2.3,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Blackflame Monk Gauntlets",
@@ -11187,22 +9945,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.8,
-      "slash": 3.6,
-      "pierce": 3.2,
-      "magic": 2.5,
-      "fire": 3.2,
-      "lightning": 1.9,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 7,
-      "vitality": 11
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.8,
+    "slash": 3.6,
+    "pierce": 3.2,
+    "magic": 2.5,
+    "fire": 3.2,
+    "lightning": 1.9,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 7,
+    "vitality": 11
   },
   {
     "name": "Zamor Bracelets",
@@ -11214,22 +9969,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 2.8,
-    "negation": {
-      "physical": 2.8,
-      "strike": 2.1,
-      "slash": 2.9,
-      "pierce": 2.5,
-      "magic": 1.9,
-      "fire": 1.9,
-      "lightning": 1.3,
-      "holy": 1.7
-    },
-    "resists": {
-      "immunity": 6,
-      "robustness": 20,
-      "focus": 0,
-      "vitality": 4
-    }
+    "poise": 3,
+    "physical": 2.8,
+    "strike": 2.1,
+    "slash": 2.9,
+    "pierce": 2.5,
+    "magic": 1.9,
+    "fire": 1.9,
+    "lightning": 1.3,
+    "holy": 1.7,
+    "immunity": 6,
+    "robustness": 20,
+    "focus": 0,
+    "vitality": 4
   },
   {
     "name": "Black Knife Gauntlets",
@@ -11241,22 +9993,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.1,
-    "negation": {
-      "physical": 2.8,
-      "strike": 2.7,
-      "slash": 3.1,
-      "pierce": 3.1,
-      "magic": 2.1,
-      "fire": 2.3,
-      "lightning": 1.6,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 9,
-      "robustness": 15,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 3,
+    "physical": 2.8,
+    "strike": 2.7,
+    "slash": 3.1,
+    "pierce": 3.1,
+    "magic": 2.1,
+    "fire": 2.3,
+    "lightning": 1.6,
+    "holy": 2.8,
+    "immunity": 9,
+    "robustness": 15,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Malenia\u0027s Gauntlet",
@@ -11268,22 +10017,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.1,
-    "negation": {
-      "physical": 3.1,
-      "strike": 2.3,
-      "slash": 3.2,
-      "pierce": 2.8,
-      "magic": 1.9,
-      "fire": 2.3,
-      "lightning": 1.6,
-      "holy": 2.7
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 14,
-      "focus": 6,
-      "vitality": 6
-    }
+    "poise": 3,
+    "physical": 3.1,
+    "strike": 2.3,
+    "slash": 3.2,
+    "pierce": 2.8,
+    "magic": 1.9,
+    "fire": 2.3,
+    "lightning": 1.6,
+    "holy": 2.7,
+    "immunity": 17,
+    "robustness": 14,
+    "focus": 6,
+    "vitality": 6
   },
   {
     "name": "Elden Lord Bracers",
@@ -11295,22 +10041,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 3,
     "weight": 3.1,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.7,
-      "slash": 2.8,
-      "pierce": 3.1,
-      "magic": 2.1,
-      "fire": 2.8,
-      "lightning": 1.7,
-      "holy": 1.9
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 6,
-      "vitality": 7
-    }
+    "poise": 3,
+    "physical": 2.9,
+    "strike": 2.7,
+    "slash": 2.8,
+    "pierce": 3.1,
+    "magic": 2.1,
+    "fire": 2.8,
+    "lightning": 1.7,
+    "holy": 1.9,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 6,
+    "vitality": 7
   },
   {
     "name": "Knight Gauntlets",
@@ -11322,22 +10065,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.1,
-      "strike": 2.9,
-      "slash": 3.3,
-      "pierce": 3.3,
-      "magic": 2.7,
-      "fire": 2.7,
-      "lightning": 2.3,
-      "holy": 2.1
-    },
-    "resists": {
-      "immunity": 9,
-      "robustness": 17,
-      "focus": 6,
-      "vitality": 6
-    }
+    "poise": 4,
+    "physical": 3.1,
+    "strike": 2.9,
+    "slash": 3.3,
+    "pierce": 3.3,
+    "magic": 2.7,
+    "fire": 2.7,
+    "lightning": 2.3,
+    "holy": 2.1,
+    "immunity": 9,
+    "robustness": 17,
+    "focus": 6,
+    "vitality": 6
   },
   {
     "name": "Vagabond Knight Gauntlets",
@@ -11349,22 +10089,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.8,
-      "slash": 3.1,
-      "pierce": 2.9,
-      "magic": 2.5,
-      "fire": 2.7,
-      "lightning": 2.1,
-      "holy": 2.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 3,
+    "physical": 3.3,
+    "strike": 2.8,
+    "slash": 3.1,
+    "pierce": 2.9,
+    "magic": 2.5,
+    "fire": 2.7,
+    "lightning": 2.1,
+    "holy": 2.1,
+    "immunity": 12,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Carian Knight Gauntlets",
@@ -11376,22 +10113,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.7,
-      "slash": 3.1,
-      "pierce": 2.9,
-      "magic": 3.1,
-      "fire": 2.9,
-      "lightning": 2.3,
-      "holy": 2.9
-    },
-    "resists": {
-      "immunity": 9,
-      "robustness": 15,
-      "focus": 7,
-      "vitality": 8
-    }
+    "poise": 3,
+    "physical": 2.9,
+    "strike": 2.7,
+    "slash": 3.1,
+    "pierce": 2.9,
+    "magic": 3.1,
+    "fire": 2.9,
+    "lightning": 2.3,
+    "holy": 2.9,
+    "immunity": 9,
+    "robustness": 15,
+    "focus": 7,
+    "vitality": 8
   },
   {
     "name": "Godrick Knight Gauntlets",
@@ -11403,22 +10137,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.9,
-      "slash": 3.5,
-      "pierce": 3.2,
-      "magic": 2.7,
-      "fire": 2.9,
-      "lightning": 2.3,
-      "holy": 2.7
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.9,
+    "slash": 3.5,
+    "pierce": 3.2,
+    "magic": 2.7,
+    "fire": 2.9,
+    "lightning": 2.3,
+    "holy": 2.7,
+    "immunity": 12,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Cuckoo Knight Gauntlets",
@@ -11430,22 +10161,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.8,
-      "slash": 3.6,
-      "pierce": 3.3,
-      "magic": 3.1,
-      "fire": 2.9,
-      "lightning": 2.1,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.8,
+    "slash": 3.6,
+    "pierce": 3.3,
+    "magic": 3.1,
+    "fire": 2.9,
+    "lightning": 2.1,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Redmane Knight Gauntlets",
@@ -11457,22 +10185,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.5,
-      "strike": 2.8,
-      "slash": 3.3,
-      "pierce": 3.1,
-      "magic": 2.7,
-      "fire": 3.1,
-      "lightning": 2.3,
-      "holy": 2.7
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.5,
+    "strike": 2.8,
+    "slash": 3.3,
+    "pierce": 3.1,
+    "magic": 2.7,
+    "fire": 3.1,
+    "lightning": 2.3,
+    "holy": 2.7,
+    "immunity": 12,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Gelmir Knight Gauntlets",
@@ -11484,22 +10209,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.8,
-      "slash": 3.5,
-      "pierce": 3.3,
-      "magic": 2.7,
-      "fire": 3.1,
-      "lightning": 2.5,
-      "holy": 2.7
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.8,
+    "slash": 3.5,
+    "pierce": 3.3,
+    "magic": 2.7,
+    "fire": 3.1,
+    "lightning": 2.5,
+    "holy": 2.7,
+    "immunity": 12,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Leyndell Knight Gauntlets",
@@ -11511,22 +10233,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 3.1,
-      "slash": 3.3,
-      "pierce": 3.3,
-      "magic": 2.5,
-      "fire": 2.8,
-      "lightning": 2.5,
-      "holy": 2.7
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 3.1,
+    "slash": 3.3,
+    "pierce": 3.3,
+    "magic": 2.5,
+    "fire": 2.8,
+    "lightning": 2.5,
+    "holy": 2.7,
+    "immunity": 12,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Haligtree Knight Gauntlets",
@@ -11538,22 +10257,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 3.1,
-      "slash": 3.3,
-      "pierce": 3.3,
-      "magic": 2.5,
-      "fire": 2.8,
-      "lightning": 2.3,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 3.1,
+    "slash": 3.3,
+    "pierce": 3.3,
+    "magic": 2.5,
+    "fire": 2.8,
+    "lightning": 2.3,
+    "holy": 2.8,
+    "immunity": 12,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Mausoleum Knight Gauntlets",
@@ -11565,22 +10281,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.8,
-      "slash": 3.6,
-      "pierce": 3.2,
-      "magic": 2.7,
-      "fire": 2.8,
-      "lightning": 2.5,
-      "holy": 2.8
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 18,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.8,
+    "slash": 3.6,
+    "pierce": 3.2,
+    "magic": 2.7,
+    "fire": 2.8,
+    "lightning": 2.5,
+    "holy": 2.8,
+    "immunity": 12,
+    "robustness": 18,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Bloodhound Knight Gauntlets",
@@ -11592,22 +10305,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.1,
-      "strike": 2.8,
-      "slash": 3.5,
-      "pierce": 3.3,
-      "magic": 2.3,
-      "fire": 2.5,
-      "lightning": 1.7,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 17,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 3,
+    "physical": 3.1,
+    "strike": 2.8,
+    "slash": 3.5,
+    "pierce": 3.3,
+    "magic": 2.3,
+    "fire": 2.5,
+    "lightning": 1.7,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 17,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Cleanrot Gauntlets",
@@ -11619,22 +10329,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 3,
     "weight": 5,
-    "negation": {
-      "physical": 3.6,
-      "strike": 3.3,
-      "slash": 4,
-      "pierce": 4.4,
-      "magic": 3.1,
-      "fire": 3.2,
-      "lightning": 2.8,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 22,
-      "focus": 9,
-      "vitality": 11
-    }
+    "poise": 5,
+    "physical": 3.6,
+    "strike": 3.3,
+    "slash": 4,
+    "pierce": 4.4,
+    "magic": 3.1,
+    "fire": 3.2,
+    "lightning": 2.8,
+    "holy": 3.3,
+    "immunity": 21,
+    "robustness": 22,
+    "focus": 9,
+    "vitality": 11
   },
   {
     "name": "Raging Wolf Gauntlets",
@@ -11646,22 +10353,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.4,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.8,
-      "slash": 3.2,
-      "pierce": 3.1,
-      "magic": 2.4,
-      "fire": 2.7,
-      "lightning": 1.6,
-      "holy": 2.2
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 19,
-      "focus": 6,
-      "vitality": 6
-    }
+    "poise": 3,
+    "physical": 3.2,
+    "strike": 2.8,
+    "slash": 3.2,
+    "pierce": 3.1,
+    "magic": 2.4,
+    "fire": 2.7,
+    "lightning": 1.6,
+    "holy": 2.2,
+    "immunity": 11,
+    "robustness": 19,
+    "focus": 6,
+    "vitality": 6
   },
   {
     "name": "Hoslow\u0027s Gauntlets",
@@ -11673,22 +10377,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.5,
-      "strike": 2.9,
-      "slash": 3.3,
-      "pierce": 3.1,
-      "magic": 2.7,
-      "fire": 2.9,
-      "lightning": 2.5,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 20,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.5,
+    "strike": 2.9,
+    "slash": 3.3,
+    "pierce": 3.1,
+    "magic": 2.7,
+    "fire": 2.9,
+    "lightning": 2.5,
+    "holy": 2.5,
+    "immunity": 13,
+    "robustness": 20,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Twinned Gauntlets",
@@ -11700,22 +10401,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.3,
-      "strike": 3.1,
-      "slash": 3.6,
-      "pierce": 2.9,
-      "magic": 2.8,
-      "fire": 2.8,
-      "lightning": 2.1,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 18,
-      "focus": 7,
-      "vitality": 18
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 3.1,
+    "slash": 3.6,
+    "pierce": 2.9,
+    "magic": 2.8,
+    "fire": 2.8,
+    "lightning": 2.1,
+    "holy": 2.5,
+    "immunity": 11,
+    "robustness": 18,
+    "focus": 7,
+    "vitality": 18
   },
   {
     "name": "Drake Knight Gauntlets",
@@ -11727,22 +10425,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.1,
-    "negation": {
-      "physical": 2.8,
-      "strike": 2.3,
-      "slash": 2.9,
-      "pierce": 2.8,
-      "magic": 2.5,
-      "fire": 2.8,
-      "lightning": 2.1,
-      "holy": 2.5
-    },
-    "resists": {
-      "immunity": 8,
-      "robustness": 15,
-      "focus": 7,
-      "vitality": 7
-    }
+    "poise": 3,
+    "physical": 2.8,
+    "strike": 2.3,
+    "slash": 2.9,
+    "pierce": 2.8,
+    "magic": 2.5,
+    "fire": 2.8,
+    "lightning": 2.1,
+    "holy": 2.5,
+    "immunity": 8,
+    "robustness": 15,
+    "focus": 7,
+    "vitality": 7
   },
   {
     "name": "Blaidd\u0027s Gauntlets",
@@ -11754,22 +10449,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 4.6,
-    "negation": {
-      "physical": 3.6,
-      "strike": 3.2,
-      "slash": 3.6,
-      "pierce": 3.8,
-      "magic": 2.8,
-      "fire": 3.2,
-      "lightning": 2.7,
-      "holy": 2.9
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 21,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 5,
+    "physical": 3.6,
+    "strike": 3.2,
+    "slash": 3.6,
+    "pierce": 3.8,
+    "magic": 2.8,
+    "fire": 3.2,
+    "lightning": 2.7,
+    "holy": 2.9,
+    "immunity": 13,
+    "robustness": 21,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Briar Gauntlets",
@@ -11781,22 +10473,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.8,
-      "slash": 3.3,
-      "pierce": 3.1,
-      "magic": 2.7,
-      "fire": 3.1,
-      "lightning": 2.1,
-      "holy": 2.7
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 24,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 3,
+    "physical": 3.2,
+    "strike": 2.8,
+    "slash": 3.3,
+    "pierce": 3.1,
+    "magic": 2.7,
+    "fire": 3.1,
+    "lightning": 2.1,
+    "holy": 2.7,
+    "immunity": 12,
+    "robustness": 24,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Fingerprint Gauntlets",
@@ -11808,22 +10497,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.9,
-      "slash": 2.9,
-      "pierce": 2.9,
-      "magic": 2.3,
-      "fire": 3.1,
-      "lightning": 1.6,
-      "holy": 2.3
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 20,
-      "focus": 4,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.9,
+    "slash": 2.9,
+    "pierce": 2.9,
+    "magic": 2.3,
+    "fire": 3.1,
+    "lightning": 1.6,
+    "holy": 2.3,
+    "immunity": 11,
+    "robustness": 20,
+    "focus": 4,
+    "vitality": 8
   },
   {
     "name": "Royal Remains Gauntlets",
@@ -11835,22 +10521,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.8,
-      "slash": 3.2,
-      "pierce": 2.9,
-      "magic": 2.3,
-      "fire": 2.5,
-      "lightning": 1.9,
-      "holy": 2.1
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 4
-    }
+    "poise": 3,
+    "physical": 2.9,
+    "strike": 2.8,
+    "slash": 3.2,
+    "pierce": 2.9,
+    "magic": 2.3,
+    "fire": 2.5,
+    "lightning": 1.9,
+    "holy": 2.1,
+    "immunity": 12,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 4
   },
   {
     "name": "All-Knowing Gauntlets",
@@ -11862,22 +10545,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 3.5,
-    "negation": {
-      "physical": 3.2,
-      "strike": 2.9,
-      "slash": 3.3,
-      "pierce": 2.9,
-      "magic": 3.1,
-      "fire": 2.3,
-      "lightning": 2.5,
-      "holy": 2.1
-    },
-    "resists": {
-      "immunity": 9,
-      "robustness": 15,
-      "focus": 7,
-      "vitality": 7
-    }
+    "poise": 4,
+    "physical": 3.2,
+    "strike": 2.9,
+    "slash": 3.3,
+    "pierce": 2.9,
+    "magic": 3.1,
+    "fire": 2.3,
+    "lightning": 2.5,
+    "holy": 2.1,
+    "immunity": 9,
+    "robustness": 15,
+    "focus": 7,
+    "vitality": 7
   },
   {
     "name": "Royal Knight Gauntlets",
@@ -11889,22 +10569,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 5.2,
-    "negation": {
-      "physical": 4,
-      "strike": 3.6,
-      "slash": 4.4,
-      "pierce": 4.2,
-      "magic": 3.5,
-      "fire": 3.3,
-      "lightning": 3.1,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 22,
-      "focus": 12,
-      "vitality": 12
-    }
+    "poise": 5,
+    "physical": 4,
+    "strike": 3.6,
+    "slash": 4.4,
+    "pierce": 4.2,
+    "magic": 3.5,
+    "fire": 3.3,
+    "lightning": 3.1,
+    "holy": 3.2,
+    "immunity": 17,
+    "robustness": 22,
+    "focus": 12,
+    "vitality": 12
   },
   {
     "name": "Maliketh\u0027s Gauntlets",
@@ -11916,22 +10593,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 3,
     "weight": 4.3,
-    "negation": {
-      "physical": 3.3,
-      "strike": 2.9,
-      "slash": 3.5,
-      "pierce": 3.3,
-      "magic": 2.7,
-      "fire": 2.8,
-      "lightning": 2.3,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 12,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 17
-    }
+    "poise": 4,
+    "physical": 3.3,
+    "strike": 2.9,
+    "slash": 3.5,
+    "pierce": 3.3,
+    "magic": 2.7,
+    "fire": 2.8,
+    "lightning": 2.3,
+    "holy": 3.2,
+    "immunity": 12,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 17
   },
   {
     "name": "Banished Knight Gauntlets",
@@ -11943,22 +10617,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 5.8,
-    "negation": {
-      "physical": 4.7,
-      "strike": 3.7,
-      "slash": 4.9,
-      "pierce": 4.4,
-      "magic": 3.3,
-      "fire": 3.3,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 28,
-      "focus": 13,
-      "vitality": 14
-    }
+    "poise": 6,
+    "physical": 4.7,
+    "strike": 3.7,
+    "slash": 4.9,
+    "pierce": 4.4,
+    "magic": 3.3,
+    "fire": 3.3,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 20,
+    "robustness": 28,
+    "focus": 13,
+    "vitality": 14
   },
   {
     "name": "Night\u0027s Cavalry Gauntlets",
@@ -11970,22 +10641,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 4.3,
-    "negation": {
-      "physical": 3.5,
-      "strike": 3.2,
-      "slash": 3.5,
-      "pierce": 3.3,
-      "magic": 2.7,
-      "fire": 3.1,
-      "lightning": 2.7,
-      "holy": 3.1
-    },
-    "resists": {
-      "immunity": 13,
-      "robustness": 19,
-      "focus": 8,
-      "vitality": 8
-    }
+    "poise": 4,
+    "physical": 3.5,
+    "strike": 3.2,
+    "slash": 3.5,
+    "pierce": 3.3,
+    "magic": 2.7,
+    "fire": 3.1,
+    "lightning": 2.7,
+    "holy": 3.1,
+    "immunity": 13,
+    "robustness": 19,
+    "focus": 8,
+    "vitality": 8
   },
   {
     "name": "Veteran\u0027s Gauntlets",
@@ -11997,22 +10665,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 6.3,
-    "negation": {
-      "physical": 4.7,
-      "strike": 4.3,
-      "slash": 4.7,
-      "pierce": 4.4,
-      "magic": 3.3,
-      "fire": 3.5,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 30,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 8,
+    "physical": 4.7,
+    "strike": 4.3,
+    "slash": 4.7,
+    "pierce": 4.4,
+    "magic": 3.3,
+    "fire": 3.5,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 21,
+    "robustness": 30,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Scaled Gauntlets",
@@ -12024,22 +10689,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 5.3,
-    "negation": {
-      "physical": 4,
-      "strike": 3.4,
-      "slash": 4.2,
-      "pierce": 4,
-      "magic": 3.3,
-      "fire": 3.5,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 19,
-      "robustness": 28,
-      "focus": 13,
-      "vitality": 13
-    }
+    "poise": 6,
+    "physical": 4,
+    "strike": 3.4,
+    "slash": 4.2,
+    "pierce": 4,
+    "magic": 3.3,
+    "fire": 3.5,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 19,
+    "robustness": 28,
+    "focus": 13,
+    "vitality": 13
   },
   {
     "name": "Beast Champion Gauntlets",
@@ -12051,22 +10713,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 5.8,
-    "negation": {
-      "physical": 4.4,
-      "strike": 4.1,
-      "slash": 4.7,
-      "pierce": 4.6,
-      "magic": 3.2,
-      "fire": 3.4,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 19,
-      "robustness": 30,
-      "focus": 14,
-      "vitality": 13
-    }
+    "poise": 6,
+    "physical": 4.4,
+    "strike": 4.1,
+    "slash": 4.7,
+    "pierce": 4.6,
+    "magic": 3.2,
+    "fire": 3.4,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 19,
+    "robustness": 30,
+    "focus": 14,
+    "vitality": 13
   },
   {
     "name": "Tree Sentinel Gauntlets",
@@ -12078,22 +10737,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 6.3,
-    "negation": {
-      "physical": 4.7,
-      "strike": 3.7,
-      "slash": 4.7,
-      "pierce": 4.4,
-      "magic": 3.2,
-      "fire": 4.3,
-      "lightning": 3.1,
-      "holy": 3.5
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 30,
-      "focus": 14,
-      "vitality": 15
-    }
+    "poise": 6,
+    "physical": 4.7,
+    "strike": 3.7,
+    "slash": 4.7,
+    "pierce": 4.4,
+    "magic": 3.2,
+    "fire": 4.3,
+    "lightning": 3.1,
+    "holy": 3.5,
+    "immunity": 22,
+    "robustness": 30,
+    "focus": 14,
+    "vitality": 15
   },
   {
     "name": "Malformed Dragon Gauntlets",
@@ -12105,22 +10761,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 5.3,
-    "negation": {
-      "physical": 4.2,
-      "strike": 3.7,
-      "slash": 4.4,
-      "pierce": 4.2,
-      "magic": 3.2,
-      "fire": 3.2,
-      "lightning": 3.4,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 19,
-      "robustness": 25,
-      "focus": 13,
-      "vitality": 13
-    }
+    "poise": 6,
+    "physical": 4.2,
+    "strike": 3.7,
+    "slash": 4.4,
+    "pierce": 4.2,
+    "magic": 3.2,
+    "fire": 3.2,
+    "lightning": 3.4,
+    "holy": 3.2,
+    "immunity": 19,
+    "robustness": 25,
+    "focus": 13,
+    "vitality": 13
   },
   {
     "name": "Crucible Gauntlets",
@@ -12132,22 +10785,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 5.2,
-    "negation": {
-      "physical": 4.4,
-      "strike": 3.4,
-      "slash": 4.2,
-      "pierce": 4.2,
-      "magic": 3.2,
-      "fire": 3.2,
-      "lightning": 2.8,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 24,
-      "focus": 12,
-      "vitality": 12
-    }
+    "poise": 6,
+    "physical": 4.4,
+    "strike": 3.4,
+    "slash": 4.2,
+    "pierce": 4.2,
+    "magic": 3.2,
+    "fire": 3.2,
+    "lightning": 2.8,
+    "holy": 3.3,
+    "immunity": 17,
+    "robustness": 24,
+    "focus": 12,
+    "vitality": 12
   },
   {
     "name": "Radahn\u0027s Gauntlets",
@@ -12159,22 +10809,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 3,
     "weight": 5.8,
-    "negation": {
-      "physical": 4.7,
-      "strike": 3.7,
-      "slash": 4.6,
-      "pierce": 4.4,
-      "magic": 3.3,
-      "fire": 3.5,
-      "lightning": 3.1,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 33,
-      "focus": 14,
-      "vitality": 13
-    }
+    "poise": 6,
+    "physical": 4.7,
+    "strike": 3.7,
+    "slash": 4.6,
+    "pierce": 4.4,
+    "magic": 3.3,
+    "fire": 3.5,
+    "lightning": 3.1,
+    "holy": 3.3,
+    "immunity": 20,
+    "robustness": 33,
+    "focus": 14,
+    "vitality": 13
   },
   {
     "name": "Lionel\u0027s Gauntlets",
@@ -12186,22 +10833,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 3,
     "weight": 7.1,
-    "negation": {
-      "physical": 4.4,
-      "strike": 4.1,
-      "slash": 4.9,
-      "pierce": 5,
-      "magic": 3.3,
-      "fire": 3.7,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 21,
-      "robustness": 33,
-      "focus": 14,
-      "vitality": 17
-    }
+    "poise": 8,
+    "physical": 4.4,
+    "strike": 4.1,
+    "slash": 4.9,
+    "pierce": 5,
+    "magic": 3.3,
+    "fire": 3.7,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 21,
+    "robustness": 33,
+    "focus": 14,
+    "vitality": 17
   },
   {
     "name": "Bull-Goat Gauntlets",
@@ -12213,22 +10857,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 3,
     "weight": 8.8,
-    "negation": {
-      "physical": 5.2,
-      "strike": 5.2,
-      "slash": 4.6,
-      "pierce": 4.6,
-      "magic": 3.3,
-      "fire": 3.3,
-      "lightning": 3.7,
-      "holy": 3.2
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 28,
-      "focus": 15,
-      "vitality": 18
-    }
+    "poise": 10,
+    "physical": 5.2,
+    "strike": 5.2,
+    "slash": 4.6,
+    "pierce": 4.6,
+    "magic": 3.3,
+    "fire": 3.3,
+    "lightning": 3.7,
+    "holy": 3.2,
+    "immunity": 24,
+    "robustness": 28,
+    "focus": 15,
+    "vitality": 18
   },
   {
     "name": "Omen Gauntlets",
@@ -12240,22 +10881,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 3,
     "weight": 7.7,
-    "negation": {
-      "physical": 4.6,
-      "strike": 3.7,
-      "slash": 4.7,
-      "pierce": 4.7,
-      "magic": 3.2,
-      "fire": 3.6,
-      "lightning": 3.7,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 21,
-      "focus": 19,
-      "vitality": 25
-    }
+    "poise": 9,
+    "physical": 4.6,
+    "strike": 3.7,
+    "slash": 4.7,
+    "pierce": 4.7,
+    "magic": 3.2,
+    "fire": 3.6,
+    "lightning": 3.7,
+    "holy": 3.4,
+    "immunity": 22,
+    "robustness": 21,
+    "focus": 19,
+    "vitality": 25
   },
   {
     "name": "Fire Prelate Gauntlets",
@@ -12267,22 +10905,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 3,
     "weight": 8.2,
-    "negation": {
-      "physical": 4.9,
-      "strike": 4.3,
-      "slash": 4.6,
-      "pierce": 4.6,
-      "magic": 3.3,
-      "fire": 5,
-      "lightning": 3.2,
-      "holy": 3.3
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 21,
-      "focus": 30,
-      "vitality": 17
-    }
+    "poise": 9,
+    "physical": 4.9,
+    "strike": 4.3,
+    "slash": 4.6,
+    "pierce": 4.6,
+    "magic": 3.3,
+    "fire": 5,
+    "lightning": 3.2,
+    "holy": 3.3,
+    "immunity": 22,
+    "robustness": 21,
+    "focus": 30,
+    "vitality": 17
   },
   {
     "name": "Cloth Trousers",
@@ -12294,22 +10929,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 2,
-    "negation": {
-      "physical": 3,
-      "strike": 2.3,
-      "slash": 1.5,
-      "pierce": 2.3,
-      "magic": 7.3,
-      "fire": 7.1,
-      "lightning": 6.8,
-      "holy": 7.1
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 14,
-      "focus": 37,
-      "vitality": 37
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 2.3,
+    "slash": 1.5,
+    "pierce": 2.3,
+    "magic": 7.3,
+    "fire": 7.1,
+    "lightning": 6.8,
+    "holy": 7.1,
+    "immunity": 26,
+    "robustness": 14,
+    "focus": 37,
+    "vitality": 37
   },
   {
     "name": "Traveler\u0027s Boots",
@@ -12321,22 +10953,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 3.1,
-    "negation": {
-      "physical": 3.8,
-      "strike": 3.4,
-      "slash": 3,
-      "pierce": 2.3,
-      "magic": 7.7,
-      "fire": 7.3,
-      "lightning": 7.4,
-      "holy": 7.2
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 15,
-      "focus": 47,
-      "vitality": 47
-    }
+    "poise": 1,
+    "physical": 3.8,
+    "strike": 3.4,
+    "slash": 3,
+    "pierce": 2.3,
+    "magic": 7.7,
+    "fire": 7.3,
+    "lightning": 7.4,
+    "holy": 7.2,
+    "immunity": 24,
+    "robustness": 15,
+    "focus": 47,
+    "vitality": 47
   },
   {
     "name": "Commoner\u0027s Shoes",
@@ -12348,22 +10977,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 2,
-    "negation": {
-      "physical": 1.5,
-      "strike": 3,
-      "slash": 3,
-      "pierce": 2.3,
-      "magic": 7.1,
-      "fire": 6.5,
-      "lightning": 6.8,
-      "holy": 7.1
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 14,
-      "focus": 39,
-      "vitality": 41
-    }
+    "poise": 1,
+    "physical": 1.5,
+    "strike": 3,
+    "slash": 3,
+    "pierce": 2.3,
+    "magic": 7.1,
+    "fire": 6.5,
+    "lightning": 6.8,
+    "holy": 7.1,
+    "immunity": 22,
+    "robustness": 14,
+    "focus": 39,
+    "vitality": 41
   },
   {
     "name": "Aristocrat Boots",
@@ -12375,22 +11001,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 2.9,
-    "negation": {
-      "physical": 4.3,
-      "strike": 4.8,
-      "slash": 4.3,
-      "pierce": 4.3,
-      "magic": 3.6,
-      "fire": 3.8,
-      "lightning": 4.3,
-      "holy": 3.6
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 21,
-      "focus": 23,
-      "vitality": 19
-    }
+    "poise": 1,
+    "physical": 4.3,
+    "strike": 4.8,
+    "slash": 4.3,
+    "pierce": 4.3,
+    "magic": 3.6,
+    "fire": 3.8,
+    "lightning": 4.3,
+    "holy": 3.6,
+    "immunity": 29,
+    "robustness": 21,
+    "focus": 23,
+    "vitality": 19
   },
   {
     "name": "Old Aristocrat Shoes",
@@ -12402,22 +11025,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 2,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.4,
-      "slash": 3,
-      "pierce": 3.4,
-      "magic": 4.5,
-      "fire": 5,
-      "lightning": 4.5,
-      "holy": 3.4
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 15,
-      "focus": 17,
-      "vitality": 20
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 3.4,
+    "slash": 3,
+    "pierce": 3.4,
+    "magic": 4.5,
+    "fire": 5,
+    "lightning": 4.5,
+    "holy": 3.4,
+    "immunity": 22,
+    "robustness": 15,
+    "focus": 17,
+    "vitality": 20
   },
   {
     "name": "Page Trousers",
@@ -12429,22 +11049,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3,
-      "slash": 2.3,
-      "pierce": 2.3,
-      "magic": 7.2,
-      "fire": 7.1,
-      "lightning": 7.3,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 13,
-      "focus": 44,
-      "vitality": 44
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 3,
+    "slash": 2.3,
+    "pierce": 2.3,
+    "magic": 7.2,
+    "fire": 7.1,
+    "lightning": 7.3,
+    "holy": 7.3,
+    "immunity": 24,
+    "robustness": 13,
+    "focus": 44,
+    "vitality": 44
   },
   {
     "name": "Guardian Greaves",
@@ -12456,22 +11073,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 5.5,
-    "negation": {
-      "physical": 6.2,
-      "strike": 5.8,
-      "slash": 5.8,
-      "pierce": 5.4,
-      "magic": 6.8,
-      "fire": 6.5,
-      "lightning": 6.8,
-      "holy": 6.8
-    },
-    "resists": {
-      "immunity": 47,
-      "robustness": 31,
-      "focus": 37,
-      "vitality": 35
-    }
+    "poise": 3,
+    "physical": 6.2,
+    "strike": 5.8,
+    "slash": 5.8,
+    "pierce": 5.4,
+    "magic": 6.8,
+    "fire": 6.5,
+    "lightning": 6.8,
+    "holy": 6.8,
+    "immunity": 47,
+    "robustness": 31,
+    "focus": 37,
+    "vitality": 35
   },
   {
     "name": "Prisoner Trousers",
@@ -12483,22 +11097,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 2,
-    "negation": {
-      "physical": 2.3,
-      "strike": 3,
-      "slash": 3,
-      "pierce": 2.3,
-      "magic": 6.8,
-      "fire": 6.5,
-      "lightning": 6.5,
-      "holy": 7.2
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 14,
-      "focus": 39,
-      "vitality": 39
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 3,
+    "slash": 3,
+    "pierce": 2.3,
+    "magic": 6.8,
+    "fire": 6.5,
+    "lightning": 6.5,
+    "holy": 7.2,
+    "immunity": 26,
+    "robustness": 14,
+    "focus": 39,
+    "vitality": 39
   },
   {
     "name": "Mushroom Legs",
@@ -12510,22 +11121,19 @@ var armor = [
     "sortGroupID": 10,
     "slotType": 4,
     "weight": 3.1,
-    "negation": {
-      "physical": 3.4,
-      "strike": 4,
-      "slash": 1.5,
-      "pierce": 3,
-      "magic": 7.6,
-      "fire": 3,
-      "lightning": 7.3,
-      "holy": 7.4
-    },
-    "resists": {
-      "immunity": 63,
-      "robustness": 15,
-      "focus": 56,
-      "vitality": 47
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 4,
+    "slash": 1.5,
+    "pierce": 3,
+    "magic": 7.6,
+    "fire": 3,
+    "lightning": 7.3,
+    "holy": 7.4,
+    "immunity": 63,
+    "robustness": 15,
+    "focus": 56,
+    "vitality": 47
   },
   {
     "name": "Astrologer Trousers",
@@ -12537,22 +11145,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.8,
-      "strike": 3.4,
-      "slash": 3.4,
-      "pierce": 3.4,
-      "magic": 7.7,
-      "fire": 7.4,
-      "lightning": 7.6,
-      "holy": 7.4
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 15,
-      "focus": 56,
-      "vitality": 47
-    }
+    "poise": 3,
+    "physical": 3.8,
+    "strike": 3.4,
+    "slash": 3.4,
+    "pierce": 3.4,
+    "magic": 7.7,
+    "fire": 7.4,
+    "lightning": 7.6,
+    "holy": 7.4,
+    "immunity": 31,
+    "robustness": 15,
+    "focus": 56,
+    "vitality": 47
   },
   {
     "name": "Sorcerer Leggings",
@@ -12564,22 +11169,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2,
-    "negation": {
-      "physical": 2.3,
-      "strike": 3,
-      "slash": 3,
-      "pierce": 0.3,
-      "magic": 7.3,
-      "fire": 7.1,
-      "lightning": 6.8,
-      "holy": 7.2
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 7,
-      "focus": 39,
-      "vitality": 37
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 3,
+    "slash": 3,
+    "pierce": 0.3,
+    "magic": 7.3,
+    "fire": 7.1,
+    "lightning": 6.8,
+    "holy": 7.2,
+    "immunity": 24,
+    "robustness": 7,
+    "focus": 39,
+    "vitality": 37
   },
   {
     "name": "Battlemage Legwraps",
@@ -12591,22 +11193,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3,
-      "strike": 3.4,
-      "slash": 2.3,
-      "pierce": 3,
-      "magic": 7.4,
-      "fire": 6.8,
-      "lightning": 7.1,
-      "holy": 7.2
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 14,
-      "focus": 39,
-      "vitality": 44
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 3.4,
+    "slash": 2.3,
+    "pierce": 3,
+    "magic": 7.4,
+    "fire": 6.8,
+    "lightning": 7.1,
+    "holy": 7.2,
+    "immunity": 26,
+    "robustness": 14,
+    "focus": 39,
+    "vitality": 44
   },
   {
     "name": "Errant Sorcerer Boots",
@@ -12618,22 +11217,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 3.1,
-    "negation": {
-      "physical": 3,
-      "strike": 3,
-      "slash": 3.8,
-      "pierce": 3,
-      "magic": 7.6,
-      "fire": 7.3,
-      "lightning": 7.2,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 15,
-      "focus": 47,
-      "vitality": 51
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 3,
+    "slash": 3.8,
+    "pierce": 3,
+    "magic": 7.6,
+    "fire": 7.3,
+    "lightning": 7.2,
+    "holy": 7.6,
+    "immunity": 24,
+    "robustness": 15,
+    "focus": 47,
+    "vitality": 51
   },
   {
     "name": "Spellblade\u0027s Trousers",
@@ -12645,22 +11241,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2.6,
-    "negation": {
-      "physical": 2.9,
-      "strike": 2.2,
-      "slash": 2.9,
-      "pierce": 2.9,
-      "magic": 7.3,
-      "fire": 6.7,
-      "lightning": 7,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 25,
-      "robustness": 13,
-      "focus": 38,
-      "vitality": 41
-    }
+    "poise": 1,
+    "physical": 2.9,
+    "strike": 2.2,
+    "slash": 2.9,
+    "pierce": 2.9,
+    "magic": 7.3,
+    "fire": 6.7,
+    "lightning": 7,
+    "holy": 7.3,
+    "immunity": 25,
+    "robustness": 13,
+    "focus": 38,
+    "vitality": 41
   },
   {
     "name": "Alberich\u0027s Trousers",
@@ -12672,22 +11265,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3,
-      "strike": 2.3,
-      "slash": 3,
-      "pierce": 3,
-      "magic": 7.3,
-      "fire": 6.8,
-      "lightning": 7.2,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 14,
-      "focus": 41,
-      "vitality": 44
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 2.3,
+    "slash": 3,
+    "pierce": 3,
+    "magic": 7.3,
+    "fire": 6.8,
+    "lightning": 7.2,
+    "holy": 7.3,
+    "immunity": 26,
+    "robustness": 14,
+    "focus": 41,
+    "vitality": 44
   },
   {
     "name": "Preceptor\u0027s Trousers",
@@ -12699,22 +11289,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.8,
-      "slash": 3.4,
-      "pierce": 3.4,
-      "magic": 8.3,
-      "fire": 7.6,
-      "lightning": 7.3,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 15,
-      "focus": 51,
-      "vitality": 47
-    }
+    "poise": 2,
+    "physical": 3.4,
+    "strike": 3.8,
+    "slash": 3.4,
+    "pierce": 3.4,
+    "magic": 8.3,
+    "fire": 7.6,
+    "lightning": 7.3,
+    "holy": 7.3,
+    "immunity": 31,
+    "robustness": 15,
+    "focus": 51,
+    "vitality": 47
   },
   {
     "name": "Old Sorcerer\u0027s Legwraps",
@@ -12726,22 +11313,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3.4,
-      "strike": 1.5,
-      "slash": 3.4,
-      "pierce": 1.5,
-      "magic": 8.1,
-      "fire": 6.8,
-      "lightning": 7.2,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 13,
-      "focus": 39,
-      "vitality": 44
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 1.5,
+    "slash": 3.4,
+    "pierce": 1.5,
+    "magic": 8.1,
+    "fire": 6.8,
+    "lightning": 7.2,
+    "holy": 7.3,
+    "immunity": 24,
+    "robustness": 13,
+    "focus": 39,
+    "vitality": 44
   },
   {
     "name": "Queen\u0027s Leggings",
@@ -12753,22 +11337,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2,
-    "negation": {
-      "physical": 2.3,
-      "strike": 1.5,
-      "slash": 1.5,
-      "pierce": 0.3,
-      "magic": 7.6,
-      "fire": 6.8,
-      "lightning": 7.1,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 14,
-      "focus": 37,
-      "vitality": 41
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 1.5,
+    "slash": 1.5,
+    "pierce": 0.3,
+    "magic": 7.6,
+    "fire": 6.8,
+    "lightning": 7.1,
+    "holy": 7.3,
+    "immunity": 22,
+    "robustness": 14,
+    "focus": 37,
+    "vitality": 41
   },
   {
     "name": "Snow Witch Skirt",
@@ -12780,22 +11361,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 3.1,
-    "negation": {
-      "physical": 3,
-      "strike": 3.4,
-      "slash": 3.4,
-      "pierce": 2.3,
-      "magic": 7.4,
-      "fire": 7.4,
-      "lightning": 7.3,
-      "holy": 7.4
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 20,
-      "focus": 44,
-      "vitality": 44
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 3.4,
+    "slash": 3.4,
+    "pierce": 2.3,
+    "magic": 7.4,
+    "fire": 7.4,
+    "lightning": 7.3,
+    "holy": 7.4,
+    "immunity": 24,
+    "robustness": 20,
+    "focus": 44,
+    "vitality": 44
   },
   {
     "name": "Prophet Trousers",
@@ -12807,22 +11385,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 3.1,
-    "negation": {
-      "physical": 3,
-      "strike": 3.4,
-      "slash": 3.4,
-      "pierce": 3,
-      "magic": 7.6,
-      "fire": 7.3,
-      "lightning": 7.2,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 14,
-      "focus": 47,
-      "vitality": 51
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 3.4,
+    "slash": 3.4,
+    "pierce": 3,
+    "magic": 7.6,
+    "fire": 7.3,
+    "lightning": 7.2,
+    "holy": 7.6,
+    "immunity": 26,
+    "robustness": 14,
+    "focus": 47,
+    "vitality": 51
   },
   {
     "name": "Traveling Maiden Boots",
@@ -12834,22 +11409,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2.9,
-    "negation": {
-      "physical": 3.1,
-      "strike": 3.5,
-      "slash": 3.5,
-      "pierce": 2.4,
-      "magic": 7.7,
-      "fire": 7.4,
-      "lightning": 7.5,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 15,
-      "focus": 47,
-      "vitality": 51
-    }
+    "poise": 1,
+    "physical": 3.1,
+    "strike": 3.5,
+    "slash": 3.5,
+    "pierce": 2.4,
+    "magic": 7.7,
+    "fire": 7.4,
+    "lightning": 7.5,
+    "holy": 7.7,
+    "immunity": 29,
+    "robustness": 15,
+    "focus": 47,
+    "vitality": 51
   },
   {
     "name": "Finger Maiden Shoes",
@@ -12861,22 +11433,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3,
-      "strike": 2.3,
-      "slash": 2.3,
-      "pierce": 1.5,
-      "magic": 7.6,
-      "fire": 7.2,
-      "lightning": 7.3,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 13,
-      "focus": 39,
-      "vitality": 39
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 2.3,
+    "slash": 2.3,
+    "pierce": 1.5,
+    "magic": 7.6,
+    "fire": 7.2,
+    "lightning": 7.3,
+    "holy": 7.6,
+    "immunity": 24,
+    "robustness": 13,
+    "focus": 39,
+    "vitality": 39
   },
   {
     "name": "Sage Trousers",
@@ -12888,22 +11457,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3,
-      "slash": 3,
-      "pierce": 1.5,
-      "magic": 7.6,
-      "fire": 7.1,
-      "lightning": 7.3,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 13,
-      "focus": 39,
-      "vitality": 41
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 3,
+    "slash": 3,
+    "pierce": 1.5,
+    "magic": 7.6,
+    "fire": 7.1,
+    "lightning": 7.3,
+    "holy": 7.6,
+    "immunity": 22,
+    "robustness": 13,
+    "focus": 39,
+    "vitality": 41
   },
   {
     "name": "Gold Waistwrap",
@@ -12915,22 +11481,19 @@ var armor = [
     "sortGroupID": 20,
     "slotType": 4,
     "weight": 4.4,
-    "negation": {
-      "physical": 4,
-      "strike": 3.8,
-      "slash": 3.8,
-      "pierce": 3,
-      "magic": 7.6,
-      "fire": 7.4,
-      "lightning": 7.6,
-      "holy": 8.1
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 15,
-      "focus": 56,
-      "vitality": 56
-    }
+    "poise": 3,
+    "physical": 4,
+    "strike": 3.8,
+    "slash": 3.8,
+    "pierce": 3,
+    "magic": 7.6,
+    "fire": 7.4,
+    "lightning": 7.6,
+    "holy": 8.1,
+    "immunity": 35,
+    "robustness": 15,
+    "focus": 56,
+    "vitality": 56
   },
   {
     "name": "Perfumer Sarong",
@@ -12942,22 +11505,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 2.3,
-      "strike": 3.4,
-      "slash": 3,
-      "pierce": 2.3,
-      "magic": 7.3,
-      "fire": 6.8,
-      "lightning": 7.1,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 37,
-      "robustness": 11,
-      "focus": 39,
-      "vitality": 41
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 3.4,
+    "slash": 3,
+    "pierce": 2.3,
+    "magic": 7.3,
+    "fire": 6.8,
+    "lightning": 7.1,
+    "holy": 7.3,
+    "immunity": 37,
+    "robustness": 11,
+    "focus": 39,
+    "vitality": 41
   },
   {
     "name": "Traveler\u0027s Slops",
@@ -12969,22 +11529,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3,
-      "strike": 3,
-      "slash": 2.3,
-      "pierce": 1.5,
-      "magic": 7.3,
-      "fire": 7.3,
-      "lightning": 7.1,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 13,
-      "focus": 41,
-      "vitality": 39
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 3,
+    "slash": 2.3,
+    "pierce": 1.5,
+    "magic": 7.3,
+    "fire": 7.3,
+    "lightning": 7.1,
+    "holy": 7.3,
+    "immunity": 34,
+    "robustness": 13,
+    "focus": 41,
+    "vitality": 39
   },
   {
     "name": "Depraved Perfumer Trousers",
@@ -12996,22 +11553,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 4.3,
-    "negation": {
-      "physical": 3.9,
-      "strike": 3.9,
-      "slash": 3.7,
-      "pierce": 3.3,
-      "magic": 7.8,
-      "fire": 7.5,
-      "lightning": 7.3,
-      "holy": 7.5
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 15,
-      "focus": 40,
-      "vitality": 58
-    }
+    "poise": 2,
+    "physical": 3.9,
+    "strike": 3.9,
+    "slash": 3.7,
+    "pierce": 3.3,
+    "magic": 7.8,
+    "fire": 7.5,
+    "lightning": 7.3,
+    "holy": 7.5,
+    "immunity": 46,
+    "robustness": 15,
+    "focus": 40,
+    "vitality": 58
   },
   {
     "name": "Consort\u0027s Trousers",
@@ -13023,22 +11577,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3,
-      "strike": 2.3,
-      "slash": 2.3,
-      "pierce": 3,
-      "magic": 7.4,
-      "fire": 7.1,
-      "lightning": 7.1,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 15,
-      "focus": 41,
-      "vitality": 39
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 2.3,
+    "slash": 2.3,
+    "pierce": 3,
+    "magic": 7.4,
+    "fire": 7.1,
+    "lightning": 7.1,
+    "holy": 7.3,
+    "immunity": 29,
+    "robustness": 15,
+    "focus": 41,
+    "vitality": 39
   },
   {
     "name": "Fur Leggings",
@@ -13050,22 +11601,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 3.1,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.8,
-      "slash": 3.4,
-      "pierce": 3.4,
-      "magic": 3.8,
-      "fire": 4,
-      "lightning": 5,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 26,
-      "focus": 34,
-      "vitality": 24
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 3.8,
+    "slash": 3.4,
+    "pierce": 3.4,
+    "magic": 3.8,
+    "fire": 4,
+    "lightning": 5,
+    "holy": 4,
+    "immunity": 39,
+    "robustness": 26,
+    "focus": 34,
+    "vitality": 24
   },
   {
     "name": "Shaman Leggings",
@@ -13077,22 +11625,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 3.1,
-    "negation": {
-      "physical": 3,
-      "strike": 3.4,
-      "slash": 3,
-      "pierce": 4.5,
-      "magic": 4.5,
-      "fire": 4,
-      "lightning": 4.5,
-      "holy": 3.8
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 26,
-      "focus": 34,
-      "vitality": 22
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 3.4,
+    "slash": 3,
+    "pierce": 4.5,
+    "magic": 4.5,
+    "fire": 4,
+    "lightning": 4.5,
+    "holy": 3.8,
+    "immunity": 39,
+    "robustness": 26,
+    "focus": 34,
+    "vitality": 22
   },
   {
     "name": "Godskin Apostle Trousers",
@@ -13104,22 +11649,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3,
-      "slash": 3,
-      "pierce": 1.5,
-      "magic": 7.2,
-      "fire": 6.8,
-      "lightning": 7.1,
-      "holy": 7.9
-    },
-    "resists": {
-      "immunity": 26,
-      "robustness": 13,
-      "focus": 41,
-      "vitality": 39
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 3,
+    "slash": 3,
+    "pierce": 1.5,
+    "magic": 7.2,
+    "fire": 6.8,
+    "lightning": 7.1,
+    "holy": 7.9,
+    "immunity": 26,
+    "robustness": 13,
+    "focus": 41,
+    "vitality": 39
   },
   {
     "name": "Godskin Noble Trousers",
@@ -13131,22 +11673,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 2.3,
-      "strike": 4.5,
-      "slash": 3,
-      "pierce": 2.3,
-      "magic": 7.2,
-      "fire": 6.5,
-      "lightning": 6.8,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 14,
-      "focus": 39,
-      "vitality": 41
-    }
+    "poise": 1,
+    "physical": 2.3,
+    "strike": 4.5,
+    "slash": 3,
+    "pierce": 2.3,
+    "magic": 7.2,
+    "fire": 6.5,
+    "lightning": 6.8,
+    "holy": 7.7,
+    "immunity": 24,
+    "robustness": 14,
+    "focus": 39,
+    "vitality": 41
   },
   {
     "name": "Sanguine Noble Waistcloth",
@@ -13158,22 +11697,19 @@ var armor = [
     "sortGroupID": 30,
     "slotType": 4,
     "weight": 2.5,
-    "negation": {
-      "physical": 3,
-      "strike": 2.3,
-      "slash": 2.3,
-      "pierce": 2.3,
-      "magic": 7.4,
-      "fire": 6.5,
-      "lightning": 7.3,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 11,
-      "focus": 44,
-      "vitality": 41
-    }
+    "poise": 1,
+    "physical": 3,
+    "strike": 2.3,
+    "slash": 2.3,
+    "pierce": 2.3,
+    "magic": 7.4,
+    "fire": 6.5,
+    "lightning": 7.3,
+    "holy": 7.6,
+    "immunity": 29,
+    "robustness": 11,
+    "focus": 44,
+    "vitality": 41
   },
   {
     "name": "Leather Trousers",
@@ -13185,22 +11721,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 5.5,
-    "negation": {
-      "physical": 6.5,
-      "strike": 5.4,
-      "slash": 6.8,
-      "pierce": 6.8,
-      "magic": 5,
-      "fire": 5.4,
-      "lightning": 3.4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 29,
-      "focus": 11,
-      "vitality": 7
-    }
+    "poise": 8,
+    "physical": 6.5,
+    "strike": 5.4,
+    "slash": 6.8,
+    "pierce": 6.8,
+    "magic": 5,
+    "fire": 5.4,
+    "lightning": 3.4,
+    "holy": 4.5,
+    "immunity": 16,
+    "robustness": 29,
+    "focus": 11,
+    "vitality": 7
   },
   {
     "name": "Leather Boots",
@@ -13212,22 +11745,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 4.4,
-    "negation": {
-      "physical": 4.5,
-      "strike": 5.4,
-      "slash": 4.5,
-      "pierce": 5,
-      "magic": 5.4,
-      "fire": 5.4,
-      "lightning": 5.8,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 37,
-      "robustness": 22,
-      "focus": 26,
-      "vitality": 31
-    }
+    "poise": 1,
+    "physical": 4.5,
+    "strike": 5.4,
+    "slash": 4.5,
+    "pierce": 5,
+    "magic": 5.4,
+    "fire": 5.4,
+    "lightning": 5.8,
+    "holy": 5.8,
+    "immunity": 37,
+    "robustness": 22,
+    "focus": 26,
+    "vitality": 31
   },
   {
     "name": "Warrior Greaves",
@@ -13239,22 +11769,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 4.8,
-    "negation": {
-      "physical": 5.4,
-      "strike": 5.4,
-      "slash": 4.5,
-      "pierce": 4.5,
-      "magic": 5.8,
-      "fire": 6.2,
-      "lightning": 6.8,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 26,
-      "focus": 31,
-      "vitality": 31
-    }
+    "poise": 4,
+    "physical": 5.4,
+    "strike": 5.4,
+    "slash": 4.5,
+    "pierce": 4.5,
+    "magic": 5.8,
+    "fire": 6.2,
+    "lightning": 6.8,
+    "holy": 5.4,
+    "immunity": 39,
+    "robustness": 26,
+    "focus": 31,
+    "vitality": 31
   },
   {
     "name": "Noble\u0027s Trousers",
@@ -13266,22 +11793,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.4,
-      "strike": 3.8,
-      "slash": 3.4,
-      "pierce": 3.8,
-      "magic": 7.6,
-      "fire": 7.7,
-      "lightning": 7.4,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 15,
-      "focus": 47,
-      "vitality": 51
-    }
+    "poise": 1,
+    "physical": 3.4,
+    "strike": 3.8,
+    "slash": 3.4,
+    "pierce": 3.8,
+    "magic": 7.6,
+    "fire": 7.7,
+    "lightning": 7.4,
+    "holy": 7.6,
+    "immunity": 29,
+    "robustness": 15,
+    "focus": 47,
+    "vitality": 51
   },
   {
     "name": "War Surgeon Trousers",
@@ -13293,22 +11817,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 4.2,
-    "negation": {
-      "physical": 3.9,
-      "strike": 4.4,
-      "slash": 4.9,
-      "pierce": 3.9,
-      "magic": 5.3,
-      "fire": 5.7,
-      "lightning": 6.1,
-      "holy": 5.7
-    },
-    "resists": {
-      "immunity": 33,
-      "robustness": 23,
-      "focus": 28,
-      "vitality": 31
-    }
+    "poise": 3,
+    "physical": 3.9,
+    "strike": 4.4,
+    "slash": 4.9,
+    "pierce": 3.9,
+    "magic": 5.3,
+    "fire": 5.7,
+    "lightning": 6.1,
+    "holy": 5.7,
+    "immunity": 33,
+    "robustness": 23,
+    "focus": 28,
+    "vitality": 31
   },
   {
     "name": "Nomadic Merchant\u0027s Trousers",
@@ -13320,22 +11841,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 4.4,
-    "negation": {
-      "physical": 4.5,
-      "strike": 5,
-      "slash": 4,
-      "pierce": 3.8,
-      "magic": 5.4,
-      "fire": 5.4,
-      "lightning": 5.4,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 20,
-      "focus": 44,
-      "vitality": 29
-    }
+    "poise": 2,
+    "physical": 4.5,
+    "strike": 5,
+    "slash": 4,
+    "pierce": 3.8,
+    "magic": 5.4,
+    "fire": 5.4,
+    "lightning": 5.4,
+    "holy": 5,
+    "immunity": 35,
+    "robustness": 20,
+    "focus": 44,
+    "vitality": 29
   },
   {
     "name": "Bandit Boots",
@@ -13347,22 +11865,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 4.4,
-    "negation": {
-      "physical": 4,
-      "strike": 4.5,
-      "slash": 5,
-      "pierce": 5,
-      "magic": 5.4,
-      "fire": 5.4,
-      "lightning": 5.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 34,
-      "robustness": 20,
-      "focus": 35,
-      "vitality": 35
-    }
+    "poise": 2,
+    "physical": 4,
+    "strike": 4.5,
+    "slash": 5,
+    "pierce": 5,
+    "magic": 5.4,
+    "fire": 5.4,
+    "lightning": 5.8,
+    "holy": 5,
+    "immunity": 34,
+    "robustness": 20,
+    "focus": 35,
+    "vitality": 35
   },
   {
     "name": "Confessor Boots",
@@ -13374,22 +11889,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 4.8,
-    "negation": {
-      "physical": 4.5,
-      "strike": 5.8,
-      "slash": 4.5,
-      "pierce": 5,
-      "magic": 6.2,
-      "fire": 6.2,
-      "lightning": 6.8,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 37,
-      "robustness": 29,
-      "focus": 29,
-      "vitality": 31
-    }
+    "poise": 3,
+    "physical": 4.5,
+    "strike": 5.8,
+    "slash": 4.5,
+    "pierce": 5,
+    "magic": 6.2,
+    "fire": 6.2,
+    "lightning": 6.8,
+    "holy": 5.4,
+    "immunity": 37,
+    "robustness": 29,
+    "focus": 29,
+    "vitality": 31
   },
   {
     "name": "Omenkiller Boots",
@@ -13401,22 +11913,19 @@ var armor = [
     "sortGroupID": 40,
     "slotType": 4,
     "weight": 4.4,
-    "negation": {
-      "physical": 5,
-      "strike": 4.5,
-      "slash": 4,
-      "pierce": 4,
-      "magic": 5,
-      "fire": 5.4,
-      "lightning": 6.5,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 41,
-      "robustness": 17,
-      "focus": 29,
-      "vitality": 29
-    }
+    "poise": 4,
+    "physical": 5,
+    "strike": 4.5,
+    "slash": 4,
+    "pierce": 4,
+    "magic": 5,
+    "fire": 5.4,
+    "lightning": 6.5,
+    "holy": 5.8,
+    "immunity": 41,
+    "robustness": 17,
+    "focus": 29,
+    "vitality": 29
   },
   {
     "name": "Foot Soldier Greaves",
@@ -13428,22 +11937,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.4,
-      "strike": 5.8,
-      "slash": 5.4,
-      "pierce": 5.4,
-      "magic": 6.2,
-      "fire": 6.5,
-      "lightning": 6.8,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 26,
-      "focus": 34,
-      "vitality": 34
-    }
+    "poise": 4,
+    "physical": 5.4,
+    "strike": 5.8,
+    "slash": 5.4,
+    "pierce": 5.4,
+    "magic": 6.2,
+    "fire": 6.5,
+    "lightning": 6.8,
+    "holy": 6.2,
+    "immunity": 39,
+    "robustness": 26,
+    "focus": 34,
+    "vitality": 34
   },
   {
     "name": "Vulgar Militia Greaves",
@@ -13455,22 +11961,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.4,
-      "strike": 6.2,
-      "slash": 5.8,
-      "pierce": 5,
-      "magic": 6.2,
-      "fire": 6.2,
-      "lightning": 6.5,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 44,
-      "robustness": 24,
-      "focus": 34,
-      "vitality": 34
-    }
+    "poise": 4,
+    "physical": 5.4,
+    "strike": 6.2,
+    "slash": 5.8,
+    "pierce": 5,
+    "magic": 6.2,
+    "fire": 6.2,
+    "lightning": 6.5,
+    "holy": 6.2,
+    "immunity": 44,
+    "robustness": 24,
+    "focus": 34,
+    "vitality": 34
   },
   {
     "name": "Duelist Greaves",
@@ -13482,22 +11985,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 8,
-      "strike": 7.1,
-      "slash": 8,
-      "pierce": 7.4,
-      "magic": 5.8,
-      "fire": 6.8,
-      "lightning": 5.4,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 29,
-      "robustness": 31,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 11,
+    "physical": 8,
+    "strike": 7.1,
+    "slash": 8,
+    "pierce": 7.4,
+    "magic": 5.8,
+    "fire": 6.8,
+    "lightning": 5.4,
+    "holy": 6.2,
+    "immunity": 29,
+    "robustness": 31,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Rotten Duelist Greaves",
@@ -13509,22 +12009,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 1,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.2,
-      "slash": 7.7,
-      "pierce": 7.1,
-      "magic": 6.2,
-      "fire": 6.5,
-      "lightning": 5.8,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 10,
+    "physical": 7.4,
+    "strike": 6.2,
+    "slash": 7.7,
+    "pierce": 7.1,
+    "magic": 6.2,
+    "fire": 6.5,
+    "lightning": 5.8,
+    "holy": 6.2,
+    "immunity": 35,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Nox Greaves",
@@ -13536,22 +12033,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.4,
-      "strike": 5.8,
-      "slash": 5.4,
-      "pierce": 5,
-      "magic": 7.1,
-      "fire": 6.8,
-      "lightning": 6.8,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 26,
-      "focus": 31,
-      "vitality": 31
-    }
+    "poise": 4,
+    "physical": 5.4,
+    "strike": 5.8,
+    "slash": 5.4,
+    "pierce": 5,
+    "magic": 7.1,
+    "fire": 6.8,
+    "lightning": 6.8,
+    "holy": 5.8,
+    "immunity": 39,
+    "robustness": 26,
+    "focus": 31,
+    "vitality": 31
   },
   {
     "name": "Champion Gaiters",
@@ -13563,22 +12057,19 @@ var armor = [
     "sortGroupID": 50,
     "slotType": 4,
     "weight": 3.9,
-    "negation": {
-      "physical": 3.8,
-      "strike": 5,
-      "slash": 4,
-      "pierce": 4.5,
-      "magic": 4.5,
-      "fire": 5.4,
-      "lightning": 5.8,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 20,
-      "focus": 26,
-      "vitality": 24
-    }
+    "poise": 3,
+    "physical": 3.8,
+    "strike": 5,
+    "slash": 4,
+    "pierce": 4.5,
+    "magic": 4.5,
+    "fire": 5.4,
+    "lightning": 5.8,
+    "holy": 5.4,
+    "immunity": 31,
+    "robustness": 20,
+    "focus": 26,
+    "vitality": 24
   },
   {
     "name": "Chain Leggings",
@@ -13590,22 +12081,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.5,
-    "negation": {
-      "physical": 6.8,
-      "strike": 5,
-      "slash": 7.4,
-      "pierce": 6.8,
-      "magic": 4,
-      "fire": 6.2,
-      "lightning": 3.4,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 26,
-      "focus": 7,
-      "vitality": 11
-    }
+    "poise": 7,
+    "physical": 6.8,
+    "strike": 5,
+    "slash": 7.4,
+    "pierce": 6.8,
+    "magic": 4,
+    "fire": 6.2,
+    "lightning": 3.4,
+    "holy": 4.5,
+    "immunity": 16,
+    "robustness": 26,
+    "focus": 7,
+    "vitality": 11
   },
   {
     "name": "Godrick Soldier Greaves",
@@ -13617,22 +12105,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.5,
-      "slash": 7.4,
-      "pierce": 7.1,
-      "magic": 5.8,
-      "fire": 6.2,
-      "lightning": 4.5,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 10,
+    "physical": 7.4,
+    "strike": 6.5,
+    "slash": 7.4,
+    "pierce": 7.1,
+    "magic": 5.8,
+    "fire": 6.2,
+    "lightning": 4.5,
+    "holy": 5.4,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Raya Lucarian Greaves",
@@ -13644,22 +12129,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.2,
-      "slash": 7.7,
-      "pierce": 7.4,
-      "magic": 6.2,
-      "fire": 6.2,
-      "lightning": 4,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 10,
+    "physical": 7.4,
+    "strike": 6.2,
+    "slash": 7.7,
+    "pierce": 7.4,
+    "magic": 6.2,
+    "fire": 6.2,
+    "lightning": 4,
+    "holy": 5,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Radahn Soldier Greaves",
@@ -13671,22 +12153,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.2,
-      "slash": 7.1,
-      "pierce": 6.8,
-      "magic": 5.8,
-      "fire": 6.5,
-      "lightning": 4.5,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 31,
-      "focus": 14,
-      "vitality": 15
-    }
+    "poise": 10,
+    "physical": 7.7,
+    "strike": 6.2,
+    "slash": 7.1,
+    "pierce": 6.8,
+    "magic": 5.8,
+    "fire": 6.5,
+    "lightning": 4.5,
+    "holy": 5.4,
+    "immunity": 20,
+    "robustness": 31,
+    "focus": 14,
+    "vitality": 15
   },
   {
     "name": "Leyndell Soldier Greaves",
@@ -13698,22 +12177,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.8,
-      "slash": 7.1,
-      "pierce": 7.4,
-      "magic": 5.4,
-      "fire": 5.8,
-      "lightning": 5,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 10,
+    "physical": 7.4,
+    "strike": 6.8,
+    "slash": 7.1,
+    "pierce": 7.4,
+    "magic": 5.4,
+    "fire": 5.8,
+    "lightning": 5,
+    "holy": 5.4,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Haligtree Greaves",
@@ -13725,22 +12201,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.8,
-      "slash": 7.1,
-      "pierce": 7.4,
-      "magic": 5.4,
-      "fire": 5.8,
-      "lightning": 4.5,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 14,
-      "vitality": 15
-    }
+    "poise": 9,
+    "physical": 7.4,
+    "strike": 6.8,
+    "slash": 7.1,
+    "pierce": 7.4,
+    "magic": 5.4,
+    "fire": 5.8,
+    "lightning": 4.5,
+    "holy": 5.8,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 14,
+    "vitality": 15
   },
   {
     "name": "Mausoleum Greaves",
@@ -13752,22 +12225,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.2,
-      "slash": 7.7,
-      "pierce": 7.1,
-      "magic": 5.8,
-      "fire": 5.8,
-      "lightning": 5,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 31,
-      "focus": 14,
-      "vitality": 13
-    }
+    "poise": 11,
+    "physical": 7.4,
+    "strike": 6.2,
+    "slash": 7.7,
+    "pierce": 7.1,
+    "magic": 5.8,
+    "fire": 5.8,
+    "lightning": 5,
+    "holy": 5.8,
+    "immunity": 20,
+    "robustness": 31,
+    "focus": 14,
+    "vitality": 13
   },
   {
     "name": "Exile Greaves",
@@ -13779,22 +12249,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.7,
-    "negation": {
-      "physical": 7.1,
-      "strike": 5.4,
-      "slash": 7.4,
-      "pierce": 7.1,
-      "magic": 4.5,
-      "fire": 6.2,
-      "lightning": 3.8,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 34,
-      "focus": 13,
-      "vitality": 11
-    }
+    "poise": 8,
+    "physical": 7.1,
+    "strike": 5.4,
+    "slash": 7.4,
+    "pierce": 7.1,
+    "magic": 4.5,
+    "fire": 6.2,
+    "lightning": 3.8,
+    "holy": 5.4,
+    "immunity": 17,
+    "robustness": 34,
+    "focus": 13,
+    "vitality": 11
   },
   {
     "name": "Kaiden Trousers",
@@ -13806,22 +12273,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.5,
-      "strike": 4.5,
-      "slash": 6.5,
-      "pierce": 6.5,
-      "magic": 4,
-      "fire": 4.5,
-      "lightning": 3.8,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 26,
-      "focus": 7,
-      "vitality": 7
-    }
+    "poise": 7,
+    "physical": 6.5,
+    "strike": 4.5,
+    "slash": 6.5,
+    "pierce": 6.5,
+    "magic": 4,
+    "fire": 4.5,
+    "lightning": 3.8,
+    "holy": 4,
+    "immunity": 15,
+    "robustness": 26,
+    "focus": 7,
+    "vitality": 7
   },
   {
     "name": "Land of Reeds Greaves",
@@ -13833,22 +12297,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 5,
-      "strike": 5.4,
-      "slash": 6.8,
-      "pierce": 5.4,
-      "magic": 5.8,
-      "fire": 6.5,
-      "lightning": 6.8,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 37,
-      "robustness": 31,
-      "focus": 31,
-      "vitality": 34
-    }
+    "poise": 4,
+    "physical": 5,
+    "strike": 5.4,
+    "slash": 6.8,
+    "pierce": 5.4,
+    "magic": 5.8,
+    "fire": 6.5,
+    "lightning": 6.8,
+    "holy": 6.2,
+    "immunity": 37,
+    "robustness": 31,
+    "focus": 31,
+    "vitality": 34
   },
   {
     "name": "White Reed Greaves",
@@ -13860,22 +12321,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 5.4,
-      "strike": 5.8,
-      "slash": 6.5,
-      "pierce": 5,
-      "magic": 6.2,
-      "fire": 6.2,
-      "lightning": 6.8,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 41,
-      "robustness": 26,
-      "focus": 34,
-      "vitality": 31
-    }
+    "poise": 4,
+    "physical": 5.4,
+    "strike": 5.8,
+    "slash": 6.5,
+    "pierce": 5,
+    "magic": 6.2,
+    "fire": 6.2,
+    "lightning": 6.8,
+    "holy": 5.8,
+    "immunity": 41,
+    "robustness": 26,
+    "focus": 34,
+    "vitality": 31
   },
   {
     "name": "Ronin\u0027s Greaves",
@@ -13887,22 +12345,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.7,
-    "negation": {
-      "physical": 6.2,
-      "strike": 6.2,
-      "slash": 6.5,
-      "pierce": 6.2,
-      "magic": 6.8,
-      "fire": 7.1,
-      "lightning": 7.3,
-      "holy": 6.8
-    },
-    "resists": {
-      "immunity": 46,
-      "robustness": 35,
-      "focus": 36,
-      "vitality": 38
-    }
+    "poise": 5,
+    "physical": 6.2,
+    "strike": 6.2,
+    "slash": 6.5,
+    "pierce": 6.2,
+    "magic": 6.8,
+    "fire": 7.1,
+    "lightning": 7.3,
+    "holy": 6.8,
+    "immunity": 46,
+    "robustness": 35,
+    "focus": 36,
+    "vitality": 38
   },
   {
     "name": "Eccentric\u0027s Breeches",
@@ -13914,22 +12369,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.5,
-      "strike": 4.5,
-      "slash": 6.2,
-      "pierce": 6.5,
-      "magic": 4.5,
-      "fire": 5,
-      "lightning": 3,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 31,
-      "focus": 7,
-      "vitality": 7
-    }
+    "poise": 6,
+    "physical": 6.5,
+    "strike": 4.5,
+    "slash": 6.2,
+    "pierce": 6.5,
+    "magic": 4.5,
+    "fire": 5,
+    "lightning": 3,
+    "holy": 4,
+    "immunity": 15,
+    "robustness": 31,
+    "focus": 7,
+    "vitality": 7
   },
   {
     "name": "Blue Silver Mail Skirt",
@@ -13941,22 +12393,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.5,
-    "negation": {
-      "physical": 6.8,
-      "strike": 5,
-      "slash": 7.1,
-      "pierce": 6.2,
-      "magic": 5.8,
-      "fire": 5.4,
-      "lightning": 4,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 15,
-      "robustness": 35,
-      "focus": 7,
-      "vitality": 7
-    }
+    "poise": 7,
+    "physical": 6.8,
+    "strike": 5,
+    "slash": 7.1,
+    "pierce": 6.2,
+    "magic": 5.8,
+    "fire": 5.4,
+    "lightning": 4,
+    "holy": 4,
+    "immunity": 15,
+    "robustness": 35,
+    "focus": 7,
+    "vitality": 7
   },
   {
     "name": "Fire Monk Greaves",
@@ -13968,22 +12417,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 8,
-      "strike": 7.1,
-      "slash": 7.7,
-      "pierce": 7.1,
-      "magic": 6.2,
-      "fire": 7.6,
-      "lightning": 5.4,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 10,
+    "physical": 8,
+    "strike": 7.1,
+    "slash": 7.7,
+    "pierce": 7.1,
+    "magic": 6.2,
+    "fire": 7.6,
+    "lightning": 5.4,
+    "holy": 5.4,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Blackflame Monk Greaves",
@@ -13995,22 +12441,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.5,
-      "slash": 8.4,
-      "pierce": 7.4,
-      "magic": 5.8,
-      "fire": 7.4,
-      "lightning": 4.5,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 13,
-      "vitality": 20
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 6.5,
+    "slash": 8.4,
+    "pierce": 7.4,
+    "magic": 5.8,
+    "fire": 7.4,
+    "lightning": 4.5,
+    "holy": 5.8,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 13,
+    "vitality": 20
   },
   {
     "name": "Zamor Legwraps",
@@ -14022,22 +12465,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.1,
-    "negation": {
-      "physical": 6.5,
-      "strike": 5,
-      "slash": 6.8,
-      "pierce": 5.8,
-      "magic": 4.5,
-      "fire": 4.5,
-      "lightning": 3,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 11,
-      "robustness": 37,
-      "focus": 0,
-      "vitality": 7
-    }
+    "poise": 7,
+    "physical": 6.5,
+    "strike": 5,
+    "slash": 6.8,
+    "pierce": 5.8,
+    "magic": 4.5,
+    "fire": 4.5,
+    "lightning": 3,
+    "holy": 4,
+    "immunity": 11,
+    "robustness": 37,
+    "focus": 0,
+    "vitality": 7
   },
   {
     "name": "Black Knife Greaves",
@@ -14049,22 +12489,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.7,
-    "negation": {
-      "physical": 6.5,
-      "strike": 6.2,
-      "slash": 7.1,
-      "pierce": 7.1,
-      "magic": 5,
-      "fire": 5.4,
-      "lightning": 3.8,
-      "holy": 6.5
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 29,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 8,
+    "physical": 6.5,
+    "strike": 6.2,
+    "slash": 7.1,
+    "pierce": 7.1,
+    "magic": 5,
+    "fire": 5.4,
+    "lightning": 3.8,
+    "holy": 6.5,
+    "immunity": 17,
+    "robustness": 29,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Malenia\u0027s Greaves",
@@ -14076,22 +12513,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.7,
-    "negation": {
-      "physical": 7.1,
-      "strike": 5.4,
-      "slash": 7.4,
-      "pierce": 6.5,
-      "magic": 4.5,
-      "fire": 5.4,
-      "lightning": 3.8,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 26,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 8,
+    "physical": 7.1,
+    "strike": 5.4,
+    "slash": 7.4,
+    "pierce": 6.5,
+    "magic": 4.5,
+    "fire": 5.4,
+    "lightning": 3.8,
+    "holy": 6.2,
+    "immunity": 31,
+    "robustness": 26,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Elden Lord Greaves",
@@ -14103,22 +12537,19 @@ var armor = [
     "sortGroupID": 60,
     "slotType": 4,
     "weight": 5.5,
-    "negation": {
-      "physical": 6.5,
-      "strike": 5.8,
-      "slash": 6.2,
-      "pierce": 6.8,
-      "magic": 4.5,
-      "fire": 6.2,
-      "lightning": 3.8,
-      "holy": 4
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 31,
-      "focus": 7,
-      "vitality": 11
-    }
+    "poise": 7,
+    "physical": 6.5,
+    "strike": 5.8,
+    "slash": 6.2,
+    "pierce": 6.8,
+    "magic": 4.5,
+    "fire": 6.2,
+    "lightning": 3.8,
+    "holy": 4,
+    "immunity": 16,
+    "robustness": 31,
+    "focus": 7,
+    "vitality": 11
   },
   {
     "name": "Knight Greaves",
@@ -14130,22 +12561,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.1,
-      "strike": 6.8,
-      "slash": 7.7,
-      "pierce": 7.7,
-      "magic": 6.2,
-      "fire": 6.2,
-      "lightning": 5.4,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 31,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 11,
+    "physical": 7.1,
+    "strike": 6.8,
+    "slash": 7.7,
+    "pierce": 7.7,
+    "magic": 6.2,
+    "fire": 6.2,
+    "lightning": 5.4,
+    "holy": 5,
+    "immunity": 17,
+    "robustness": 31,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Vagabond Knight Greaves",
@@ -14157,22 +12585,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 5.7,
-    "negation": {
-      "physical": 7.4,
-      "strike": 5.8,
-      "slash": 6.8,
-      "pierce": 6.5,
-      "magic": 5,
-      "fire": 5.8,
-      "lightning": 4.5,
-      "holy": 4.5
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 13,
-      "vitality": 13
-    }
+    "poise": 8,
+    "physical": 7.4,
+    "strike": 5.8,
+    "slash": 6.8,
+    "pierce": 6.5,
+    "magic": 5,
+    "fire": 5.8,
+    "lightning": 4.5,
+    "holy": 4.5,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 13,
+    "vitality": 13
   },
   {
     "name": "Carian Knight Greaves",
@@ -14184,22 +12609,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 6.8,
-      "strike": 6.2,
-      "slash": 7.1,
-      "pierce": 6.8,
-      "magic": 7.1,
-      "fire": 6.8,
-      "lightning": 5.4,
-      "holy": 6.8
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 29,
-      "focus": 13,
-      "vitality": 14
-    }
+    "poise": 7,
+    "physical": 6.8,
+    "strike": 6.2,
+    "slash": 7.1,
+    "pierce": 6.8,
+    "magic": 7.1,
+    "fire": 6.8,
+    "lightning": 5.4,
+    "holy": 6.8,
+    "immunity": 17,
+    "robustness": 29,
+    "focus": 13,
+    "vitality": 14
   },
   {
     "name": "Godrick Knight Greaves",
@@ -14211,22 +12633,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.8,
-      "slash": 8,
-      "pierce": 7.4,
-      "magic": 6.2,
-      "fire": 6.8,
-      "lightning": 5.4,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 6.8,
+    "slash": 8,
+    "pierce": 7.4,
+    "magic": 6.2,
+    "fire": 6.8,
+    "lightning": 5.4,
+    "holy": 6.2,
+    "immunity": 22,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Cuckoo Knight Greaves",
@@ -14238,22 +12657,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.5,
-      "slash": 8.4,
-      "pierce": 7.7,
-      "magic": 7.1,
-      "fire": 6.8,
-      "lightning": 5,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 6.5,
+    "slash": 8.4,
+    "pierce": 7.7,
+    "magic": 7.1,
+    "fire": 6.8,
+    "lightning": 5,
+    "holy": 5.8,
+    "immunity": 20,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Redmane Knight Greaves",
@@ -14265,22 +12681,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.5,
-      "slash": 7.7,
-      "pierce": 7.1,
-      "magic": 6.2,
-      "fire": 7.3,
-      "lightning": 5.4,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 34,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 6.5,
+    "slash": 7.7,
+    "pierce": 7.1,
+    "magic": 6.2,
+    "fire": 7.3,
+    "lightning": 5.4,
+    "holy": 6.2,
+    "immunity": 22,
+    "robustness": 34,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Gelmir Knight Greaves",
@@ -14292,22 +12705,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.5,
-      "slash": 8,
-      "pierce": 7.7,
-      "magic": 6.2,
-      "fire": 7.1,
-      "lightning": 5.8,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 34,
-      "focus": 15,
-      "vitality": 14
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 6.5,
+    "slash": 8,
+    "pierce": 7.7,
+    "magic": 6.2,
+    "fire": 7.1,
+    "lightning": 5.8,
+    "holy": 6.2,
+    "immunity": 22,
+    "robustness": 34,
+    "focus": 15,
+    "vitality": 14
   },
   {
     "name": "Leyndell Knight Greaves",
@@ -14319,22 +12729,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 7.1,
-      "slash": 7.7,
-      "pierce": 7.7,
-      "magic": 5.8,
-      "fire": 6.5,
-      "lightning": 5.8,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 7.1,
+    "slash": 7.7,
+    "pierce": 7.7,
+    "magic": 5.8,
+    "fire": 6.5,
+    "lightning": 5.8,
+    "holy": 6.2,
+    "immunity": 22,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Haligtree Knight Greaves",
@@ -14346,22 +12753,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 7.1,
-      "slash": 7.7,
-      "pierce": 7.7,
-      "magic": 5.8,
-      "fire": 6.5,
-      "lightning": 5.4,
-      "holy": 6.5
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 10,
+    "physical": 7.7,
+    "strike": 7.1,
+    "slash": 7.7,
+    "pierce": 7.7,
+    "magic": 5.8,
+    "fire": 6.5,
+    "lightning": 5.4,
+    "holy": 6.5,
+    "immunity": 22,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Mausoleum Knight Greaves",
@@ -14373,22 +12777,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.5,
-      "slash": 8.4,
-      "pierce": 7.4,
-      "magic": 6.2,
-      "fire": 6.5,
-      "lightning": 5.8,
-      "holy": 6.5
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 34,
-      "focus": 15,
-      "vitality": 14
-    }
+    "poise": 12,
+    "physical": 7.7,
+    "strike": 6.5,
+    "slash": 8.4,
+    "pierce": 7.4,
+    "magic": 6.2,
+    "fire": 6.5,
+    "lightning": 5.8,
+    "holy": 6.5,
+    "immunity": 22,
+    "robustness": 34,
+    "focus": 15,
+    "vitality": 14
   },
   {
     "name": "Bloodhound Knight Greaves",
@@ -14400,22 +12801,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.1,
-      "strike": 6.5,
-      "slash": 8,
-      "pierce": 7.7,
-      "magic": 5.4,
-      "fire": 5.8,
-      "lightning": 4,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 31,
-      "focus": 14,
-      "vitality": 14
-    }
+    "poise": 8,
+    "physical": 7.1,
+    "strike": 6.5,
+    "slash": 8,
+    "pierce": 7.7,
+    "magic": 5.4,
+    "fire": 5.8,
+    "lightning": 4,
+    "holy": 5.8,
+    "immunity": 20,
+    "robustness": 31,
+    "focus": 14,
+    "vitality": 14
   },
   {
     "name": "Cleanrot Greaves",
@@ -14427,22 +12825,19 @@ var armor = [
     "sortGroupID": 70,
     "slotType": 4,
     "weight": 9.3,
-    "negation": {
-      "physical": 8.4,
-      "strike": 7.6,
-      "slash": 9.2,
-      "pierce": 10.1,
-      "magic": 7.2,
-      "fire": 7.3,
-      "lightning": 6.5,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 41,
-      "focus": 17,
-      "vitality": 20
-    }
+    "poise": 13,
+    "physical": 8.4,
+    "strike": 7.6,
+    "slash": 9.2,
+    "pierce": 10.1,
+    "magic": 7.2,
+    "fire": 7.3,
+    "lightning": 6.5,
+    "holy": 7.7,
+    "immunity": 39,
+    "robustness": 41,
+    "focus": 17,
+    "vitality": 20
   },
   {
     "name": "Raging Wolf Greaves",
@@ -14454,22 +12849,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 6.3,
-    "negation": {
-      "physical": 7.5,
-      "strike": 6.6,
-      "slash": 7.5,
-      "pierce": 7.2,
-      "magic": 5.6,
-      "fire": 6.3,
-      "lightning": 3.8,
-      "holy": 5.2
-    },
-    "resists": {
-      "immunity": 19,
-      "robustness": 34,
-      "focus": 11,
-      "vitality": 11
-    }
+    "poise": 9,
+    "physical": 7.5,
+    "strike": 6.6,
+    "slash": 7.5,
+    "pierce": 7.2,
+    "magic": 5.6,
+    "fire": 6.3,
+    "lightning": 3.8,
+    "holy": 5.2,
+    "immunity": 19,
+    "robustness": 34,
+    "focus": 11,
+    "vitality": 11
   },
   {
     "name": "Hoslow\u0027s Greaves",
@@ -14481,22 +12873,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 8,
-      "strike": 6.8,
-      "slash": 7.7,
-      "pierce": 7.1,
-      "magic": 6.2,
-      "fire": 6.8,
-      "lightning": 5.8,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 37,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 10,
+    "physical": 8,
+    "strike": 6.8,
+    "slash": 7.7,
+    "pierce": 7.1,
+    "magic": 6.2,
+    "fire": 6.8,
+    "lightning": 5.8,
+    "holy": 5.8,
+    "immunity": 24,
+    "robustness": 37,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Twinned Greaves",
@@ -14508,22 +12897,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.7,
-      "strike": 7.1,
-      "slash": 8.4,
-      "pierce": 6.8,
-      "magic": 6.5,
-      "fire": 6.5,
-      "lightning": 5,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 34,
-      "focus": 13,
-      "vitality": 34
-    }
+    "poise": 10,
+    "physical": 7.7,
+    "strike": 7.1,
+    "slash": 8.4,
+    "pierce": 6.8,
+    "magic": 6.5,
+    "fire": 6.5,
+    "lightning": 5,
+    "holy": 5.8,
+    "immunity": 20,
+    "robustness": 34,
+    "focus": 13,
+    "vitality": 34
   },
   {
     "name": "Drake Knight Greaves",
@@ -14535,22 +12921,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 5.7,
-    "negation": {
-      "physical": 6.5,
-      "strike": 5.4,
-      "slash": 6.8,
-      "pierce": 6.5,
-      "magic": 5.8,
-      "fire": 6.5,
-      "lightning": 5,
-      "holy": 5.8
-    },
-    "resists": {
-      "immunity": 16,
-      "robustness": 29,
-      "focus": 13,
-      "vitality": 13
-    }
+    "poise": 8,
+    "physical": 6.5,
+    "strike": 5.4,
+    "slash": 6.8,
+    "pierce": 6.5,
+    "magic": 5.8,
+    "fire": 6.5,
+    "lightning": 5,
+    "holy": 5.8,
+    "immunity": 16,
+    "robustness": 29,
+    "focus": 13,
+    "vitality": 13
   },
   {
     "name": "Blaidd\u0027s Greaves",
@@ -14562,22 +12945,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 8.5,
-    "negation": {
-      "physical": 8.4,
-      "strike": 7.3,
-      "slash": 8.4,
-      "pierce": 8.8,
-      "magic": 6.5,
-      "fire": 7.3,
-      "lightning": 6.2,
-      "holy": 6.8
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 39,
-      "focus": 16,
-      "vitality": 16
-    }
+    "poise": 14,
+    "physical": 8.4,
+    "strike": 7.3,
+    "slash": 8.4,
+    "pierce": 8.8,
+    "magic": 6.5,
+    "fire": 7.3,
+    "lightning": 6.2,
+    "holy": 6.8,
+    "immunity": 24,
+    "robustness": 39,
+    "focus": 16,
+    "vitality": 16
   },
   {
     "name": "Briar Greaves",
@@ -14589,22 +12969,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 7.3,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.5,
-      "slash": 7.7,
-      "pierce": 7.1,
-      "magic": 6.2,
-      "fire": 7.1,
-      "lightning": 5,
-      "holy": 6.2
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 44,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 9,
+    "physical": 7.4,
+    "strike": 6.5,
+    "slash": 7.7,
+    "pierce": 7.1,
+    "magic": 6.2,
+    "fire": 7.1,
+    "lightning": 5,
+    "holy": 6.2,
+    "immunity": 22,
+    "robustness": 44,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Fingerprint Greaves",
@@ -14616,22 +12993,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.8,
-      "slash": 6.8,
-      "pierce": 6.8,
-      "magic": 5.4,
-      "fire": 7.2,
-      "lightning": 3.8,
-      "holy": 5.4
-    },
-    "resists": {
-      "immunity": 20,
-      "robustness": 37,
-      "focus": 7,
-      "vitality": 14
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 6.8,
+    "slash": 6.8,
+    "pierce": 6.8,
+    "magic": 5.4,
+    "fire": 7.2,
+    "lightning": 3.8,
+    "holy": 5.4,
+    "immunity": 20,
+    "robustness": 37,
+    "focus": 7,
+    "vitality": 14
   },
   {
     "name": "Royal Remains Greaves",
@@ -14643,22 +13017,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 6.8,
-      "strike": 6.5,
-      "slash": 7.4,
-      "pierce": 6.8,
-      "magic": 5.4,
-      "fire": 5.8,
-      "lightning": 4.5,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 7
-    }
+    "poise": 9,
+    "physical": 6.8,
+    "strike": 6.5,
+    "slash": 7.4,
+    "pierce": 6.8,
+    "magic": 5.4,
+    "fire": 5.8,
+    "lightning": 4.5,
+    "holy": 5,
+    "immunity": 22,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 7
   },
   {
     "name": "All-Knowing Greaves",
@@ -14670,22 +13041,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 6.6,
-    "negation": {
-      "physical": 7.4,
-      "strike": 6.8,
-      "slash": 7.7,
-      "pierce": 6.8,
-      "magic": 7.1,
-      "fire": 5.4,
-      "lightning": 5.8,
-      "holy": 5
-    },
-    "resists": {
-      "immunity": 17,
-      "robustness": 29,
-      "focus": 13,
-      "vitality": 13
-    }
+    "poise": 10,
+    "physical": 7.4,
+    "strike": 6.8,
+    "slash": 7.7,
+    "pierce": 6.8,
+    "magic": 7.1,
+    "fire": 5.4,
+    "lightning": 5.8,
+    "holy": 5,
+    "immunity": 17,
+    "robustness": 29,
+    "focus": 13,
+    "vitality": 13
   },
   {
     "name": "Royal Knight Greaves",
@@ -14697,22 +13065,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 9.6,
-    "negation": {
-      "physical": 9.2,
-      "strike": 8.3,
-      "slash": 10.1,
-      "pierce": 9.6,
-      "magic": 8.1,
-      "fire": 7.6,
-      "lightning": 7.1,
-      "holy": 7.4
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 41,
-      "focus": 22,
-      "vitality": 22
-    }
+    "poise": 14,
+    "physical": 9.2,
+    "strike": 8.3,
+    "slash": 10.1,
+    "pierce": 9.6,
+    "magic": 8.1,
+    "fire": 7.6,
+    "lightning": 7.1,
+    "holy": 7.4,
+    "immunity": 31,
+    "robustness": 41,
+    "focus": 22,
+    "vitality": 22
   },
   {
     "name": "Maliketh\u0027s Greaves",
@@ -14724,22 +13089,19 @@ var armor = [
     "sortGroupID": 80,
     "slotType": 4,
     "weight": 7.9,
-    "negation": {
-      "physical": 7.7,
-      "strike": 6.8,
-      "slash": 8,
-      "pierce": 7.7,
-      "magic": 6.2,
-      "fire": 6.5,
-      "lightning": 5.4,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 22,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 31
-    }
+    "poise": 11,
+    "physical": 7.7,
+    "strike": 6.8,
+    "slash": 8,
+    "pierce": 7.7,
+    "magic": 6.2,
+    "fire": 6.5,
+    "lightning": 5.4,
+    "holy": 7.3,
+    "immunity": 22,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 31
   },
   {
     "name": "Banished Knight Greaves",
@@ -14751,22 +13113,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 10.8,
-    "negation": {
-      "physical": 10.8,
-      "strike": 8.6,
-      "slash": 11.1,
-      "pierce": 10.1,
-      "magic": 7.7,
-      "fire": 7.7,
-      "lightning": 7.4,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 37,
-      "robustness": 51,
-      "focus": 24,
-      "vitality": 26
-    }
+    "poise": 17,
+    "physical": 10.8,
+    "strike": 8.6,
+    "slash": 11.1,
+    "pierce": 10.1,
+    "magic": 7.7,
+    "fire": 7.7,
+    "lightning": 7.4,
+    "holy": 7.6,
+    "immunity": 37,
+    "robustness": 51,
+    "focus": 24,
+    "vitality": 26
   },
   {
     "name": "Night\u0027s Cavalry Greaves",
@@ -14778,22 +13137,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 7.9,
-    "negation": {
-      "physical": 8,
-      "strike": 7.3,
-      "slash": 8,
-      "pierce": 7.7,
-      "magic": 6.2,
-      "fire": 7.2,
-      "lightning": 6.2,
-      "holy": 7.2
-    },
-    "resists": {
-      "immunity": 24,
-      "robustness": 35,
-      "focus": 15,
-      "vitality": 15
-    }
+    "poise": 12,
+    "physical": 8,
+    "strike": 7.3,
+    "slash": 8,
+    "pierce": 7.7,
+    "magic": 6.2,
+    "fire": 7.2,
+    "lightning": 6.2,
+    "holy": 7.2,
+    "immunity": 24,
+    "robustness": 35,
+    "focus": 15,
+    "vitality": 15
   },
   {
     "name": "Veteran\u0027s Greaves",
@@ -14805,22 +13161,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 11.7,
-    "negation": {
-      "physical": 10.8,
-      "strike": 9.8,
-      "slash": 10.8,
-      "pierce": 10.1,
-      "magic": 7.7,
-      "fire": 8.1,
-      "lightning": 7.3,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 56,
-      "focus": 29,
-      "vitality": 29
-    }
+    "poise": 22,
+    "physical": 10.8,
+    "strike": 9.8,
+    "slash": 10.8,
+    "pierce": 10.1,
+    "magic": 7.7,
+    "fire": 8.1,
+    "lightning": 7.3,
+    "holy": 7.6,
+    "immunity": 39,
+    "robustness": 56,
+    "focus": 29,
+    "vitality": 29
   },
   {
     "name": "Scaled Greaves",
@@ -14832,22 +13185,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 9.9,
-    "negation": {
-      "physical": 9.2,
-      "strike": 8,
-      "slash": 9.6,
-      "pierce": 9.2,
-      "magic": 7.7,
-      "fire": 8.1,
-      "lightning": 7.4,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 51,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 16,
+    "physical": 9.2,
+    "strike": 8,
+    "slash": 9.6,
+    "pierce": 9.2,
+    "magic": 7.7,
+    "fire": 8.1,
+    "lightning": 7.4,
+    "holy": 7.7,
+    "immunity": 35,
+    "robustness": 51,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Beast Champion Greaves",
@@ -14859,22 +13209,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 10.8,
-    "negation": {
-      "physical": 10.1,
-      "strike": 9.4,
-      "slash": 10.8,
-      "pierce": 10.6,
-      "magic": 7.4,
-      "fire": 7.9,
-      "lightning": 7.3,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 56,
-      "focus": 26,
-      "vitality": 24
-    }
+    "poise": 17,
+    "physical": 10.1,
+    "strike": 9.4,
+    "slash": 10.8,
+    "pierce": 10.6,
+    "magic": 7.4,
+    "fire": 7.9,
+    "lightning": 7.3,
+    "holy": 7.7,
+    "immunity": 35,
+    "robustness": 56,
+    "focus": 26,
+    "vitality": 24
   },
   {
     "name": "Tree Sentinel Greaves",
@@ -14886,22 +13233,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 11.7,
-    "negation": {
-      "physical": 10.8,
-      "strike": 8.6,
-      "slash": 10.8,
-      "pierce": 10.1,
-      "magic": 7.4,
-      "fire": 9.9,
-      "lightning": 7.2,
-      "holy": 8.1
-    },
-    "resists": {
-      "immunity": 41,
-      "robustness": 56,
-      "focus": 26,
-      "vitality": 29
-    }
+    "poise": 17,
+    "physical": 10.8,
+    "strike": 8.6,
+    "slash": 10.8,
+    "pierce": 10.1,
+    "magic": 7.4,
+    "fire": 9.9,
+    "lightning": 7.2,
+    "holy": 8.1,
+    "immunity": 41,
+    "robustness": 56,
+    "focus": 26,
+    "vitality": 29
   },
   {
     "name": "Malformed Dragon Greaves",
@@ -14913,22 +13257,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 9.9,
-    "negation": {
-      "physical": 9.6,
-      "strike": 8.6,
-      "slash": 10.1,
-      "pierce": 9.6,
-      "magic": 7.4,
-      "fire": 7.4,
-      "lightning": 7.9,
-      "holy": 7.4
-    },
-    "resists": {
-      "immunity": 35,
-      "robustness": 47,
-      "focus": 24,
-      "vitality": 24
-    }
+    "poise": 16,
+    "physical": 9.6,
+    "strike": 8.6,
+    "slash": 10.1,
+    "pierce": 9.6,
+    "magic": 7.4,
+    "fire": 7.4,
+    "lightning": 7.9,
+    "holy": 7.4,
+    "immunity": 35,
+    "robustness": 47,
+    "focus": 24,
+    "vitality": 24
   },
   {
     "name": "Crucible Greaves",
@@ -14940,22 +13281,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 9.6,
-    "negation": {
-      "physical": 10.1,
-      "strike": 8,
-      "slash": 9.6,
-      "pierce": 9.6,
-      "magic": 7.4,
-      "fire": 7.3,
-      "lightning": 6.5,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 31,
-      "robustness": 44,
-      "focus": 22,
-      "vitality": 22
-    }
+    "poise": 16,
+    "physical": 10.1,
+    "strike": 8,
+    "slash": 9.6,
+    "pierce": 9.6,
+    "magic": 7.4,
+    "fire": 7.3,
+    "lightning": 6.5,
+    "holy": 7.7,
+    "immunity": 31,
+    "robustness": 44,
+    "focus": 22,
+    "vitality": 22
   },
   {
     "name": "Radahn\u0027s Greaves",
@@ -14967,22 +13305,19 @@ var armor = [
     "sortGroupID": 90,
     "slotType": 4,
     "weight": 10.8,
-    "negation": {
-      "physical": 10.8,
-      "strike": 8.6,
-      "slash": 10.6,
-      "pierce": 10.1,
-      "magic": 7.7,
-      "fire": 8.1,
-      "lightning": 7.2,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 37,
-      "robustness": 61,
-      "focus": 26,
-      "vitality": 24
-    }
+    "poise": 17,
+    "physical": 10.8,
+    "strike": 8.6,
+    "slash": 10.6,
+    "pierce": 10.1,
+    "magic": 7.7,
+    "fire": 8.1,
+    "lightning": 7.2,
+    "holy": 7.7,
+    "immunity": 37,
+    "robustness": 61,
+    "focus": 26,
+    "vitality": 24
   },
   {
     "name": "Lionel\u0027s Greaves",
@@ -14994,22 +13329,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 4,
     "weight": 13.1,
-    "negation": {
-      "physical": 10.1,
-      "strike": 9.4,
-      "slash": 11.1,
-      "pierce": 11.4,
-      "magic": 7.7,
-      "fire": 8.5,
-      "lightning": 7.4,
-      "holy": 7.7
-    },
-    "resists": {
-      "immunity": 39,
-      "robustness": 61,
-      "focus": 26,
-      "vitality": 31
-    }
+    "poise": 22,
+    "physical": 10.1,
+    "strike": 9.4,
+    "slash": 11.1,
+    "pierce": 11.4,
+    "magic": 7.7,
+    "fire": 8.5,
+    "lightning": 7.4,
+    "holy": 7.7,
+    "immunity": 39,
+    "robustness": 61,
+    "focus": 26,
+    "vitality": 31
   },
   {
     "name": "Bull-Goat Greaves",
@@ -15021,22 +13353,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 4,
     "weight": 16.4,
-    "negation": {
-      "physical": 11.9,
-      "strike": 11.8,
-      "slash": 10.6,
-      "pierce": 10.6,
-      "magic": 7.6,
-      "fire": 7.7,
-      "lightning": 8.5,
-      "holy": 7.3
-    },
-    "resists": {
-      "immunity": 44,
-      "robustness": 51,
-      "focus": 29,
-      "vitality": 34
-    }
+    "poise": 28,
+    "physical": 11.9,
+    "strike": 11.8,
+    "slash": 10.6,
+    "pierce": 10.6,
+    "magic": 7.6,
+    "fire": 7.7,
+    "lightning": 8.5,
+    "holy": 7.3,
+    "immunity": 44,
+    "robustness": 51,
+    "focus": 29,
+    "vitality": 34
   },
   {
     "name": "Omen Greaves",
@@ -15048,22 +13377,19 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 4,
     "weight": 14.3,
-    "negation": {
-      "physical": 10.6,
-      "strike": 8.6,
-      "slash": 10.8,
-      "pierce": 10.8,
-      "magic": 7.4,
-      "fire": 8.3,
-      "lightning": 8.5,
-      "holy": 7.9
-    },
-    "resists": {
-      "immunity": 41,
-      "robustness": 39,
-      "focus": 35,
-      "vitality": 47
-    }
+    "poise": 24,
+    "physical": 10.6,
+    "strike": 8.6,
+    "slash": 10.8,
+    "pierce": 10.8,
+    "magic": 7.4,
+    "fire": 8.3,
+    "lightning": 8.5,
+    "holy": 7.9,
+    "immunity": 41,
+    "robustness": 39,
+    "focus": 35,
+    "vitality": 47
   },
   {
     "name": "Fire Prelate Greaves",
@@ -15075,21 +13401,18 @@ var armor = [
     "sortGroupID": 100,
     "slotType": 4,
     "weight": 15.3,
-    "negation": {
-      "physical": 11.1,
-      "strike": 9.8,
-      "slash": 10.6,
-      "pierce": 10.6,
-      "magic": 7.7,
-      "fire": 11.5,
-      "lightning": 7.4,
-      "holy": 7.6
-    },
-    "resists": {
-      "immunity": 41,
-      "robustness": 39,
-      "focus": 56,
-      "vitality": 31
-    }
+    "poise": 24,
+    "physical": 11.1,
+    "strike": 9.8,
+    "slash": 10.6,
+    "pierce": 10.6,
+    "magic": 7.7,
+    "fire": 11.5,
+    "lightning": 7.4,
+    "holy": 7.6,
+    "immunity": 41,
+    "robustness": 39,
+    "focus": 56,
+    "vitality": 31
   }
 ]

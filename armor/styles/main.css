@@ -1,0 +1,52 @@
+#contentBody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 4rem 0rem 2rem 0rem;
+}
+
+.mainDescription {
+    text-align: center;
+    max-width: 80rem;
+    margin: 1.5rem auto;
+}
+
+.leftAlign {
+    text-align: left;
+}
+
+/* Mobile support, M'lord - Boc, 2022 */
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: calc(100vw / 13.75);
+    }
+}
+
+@media screen and (max-width: 325px) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 326px) and (max-width: 375px) {
+    :root {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #spellList, #spellList thead tr th {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+    #spellList, #spellList thead tr th {
+        font-size: calc(100vw / 50);
+    }
+}
+
+/* M'lord! M'lord! */

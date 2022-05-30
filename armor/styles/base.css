@@ -1,0 +1,185 @@
+/* Overall Page Styling */
+/* ======================================= */
+
+:root {
+	font-size: 10px;
+	--colorBG: #22221e;
+	--colorDivider: #3c3932;
+	--colorText: #dddcd6;
+	--colorAccentLight: #e4dbc5;
+
+    --borderThicknessGeneric: 0.4rem;
+    --colorAccentDark: #d6cc9c;
+    --colorRequirementUnmet: #e46363;
+    --colorSchoolBuff: #7bca71;
+}
+
+.damageTypeMagic {
+    color: #b4daf8;
+}
+
+.damageTypeFire {
+    color: #f0b4ac;
+}
+
+.damageTypeLightning {
+    color: #fdd791;
+}
+
+.damageTypeHoly {
+    color: #fbfcbd;
+}
+
+html, body {
+    padding: 0rem;
+    background-color: var(--colorBG);
+	color: var(--colorText);
+    background: linear-gradient(0deg, #373830 0%, #525044 15%, #2b2c26 70%, #0b0b09 100%);
+    background-attachment: fixed;
+
+    text-shadow: 0.15rem 0.15rem 0.0rem rgba(0, 0, 0, 0.50);
+}
+
+body {
+	margin: 4rem 0rem 0rem 0rem;
+	font-size: 1.6rem;
+	font-family: Calibri, Adobe Gothic Standard B, Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:active {
+    color: var(--colorAccentDark);
+    font-weight: bold;
+}
+
+a:visited {
+    color: var(--colorAccentDark);
+}
+
+a:hover {
+    color: var(--colorAccentLight);
+}
+
+a:active {
+    color: var(--colorAccentDark);
+}
+
+p {
+    margin: 0.5rem 0rem;
+    padding: 0rem 0.5rem;
+}
+
+input, select, option {
+    border-style: none;
+    background-color: #0d0d0b77;
+    color: var(--colorText);
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 5.2rem;
+    font-weight: normal;
+    font-weight: bold;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+    text-align: center;
+    background-color: #34362a66;
+    border-top: 0.3rem solid #4c4940;
+    border-bottom: 0.3rem solid #4c4940;
+}
+
+h2 {
+    font-size: 2.15rem;
+    line-height: 2.25rem;
+    font-weight: normal;
+    font-weight: bold;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+    text-align: center;
+    background-color: #34362a66;
+    border-top: 0.3rem solid #4c4940;
+    border-bottom: 0.3rem solid #4c4940;
+    margin: 0rem 0rem 1rem 0rem;;
+}
+
+table {
+    background-color: var(--colorBG);
+    border-collapse: separate;
+    border-spacing: 0.0rem 0.3rem;
+    width: 100%;
+    padding: 0rem 0.3rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+table tr {
+    background-color: #31302d;
+}
+
+table tr:nth-child(even) {
+    background-color: #35332a;
+}
+
+table tr td {
+    padding: 0.25rem 0.6rem;
+    text-align: center;
+}
+
+thead tr {
+    font-weight: bold;
+    color: var(--colorAccentLight);
+    background-color: #413d33;
+}
+
+table thead tr th {
+    white-space: nowrap;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+}
+
+/* Footer */
+/* ======================================= */
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    max-width: 80rem;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.linkIconSVG {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+.linkIconSVG path {
+    fill: var(--colorAccentDark);
+	stroke-width: 1rem;
+	stroke: var(--colorBG);
+	fill-rule: evenodd;
+	paint-order: stroke;
+}
+
+a:hover .linkIconSVG path {
+    fill: var(--colorAccentLight);
+}

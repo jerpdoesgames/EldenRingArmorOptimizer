@@ -12007,7 +12007,7 @@ var armor = [
     "armorID": 300,
     "armorCategoryID": 3,
     "sortGroupID": 50,
-    "slotType": 1,
+    "slotType": 4,
     "weight": 7.3,
     "poise": 10,
     "physical": 7.4,

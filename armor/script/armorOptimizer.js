@@ -41,7 +41,6 @@ class armorOptimizer
         poiseMin: 61    // 61
     };
 
-
     sortByPriority({ propertyList })
     {
         return (a, b) =>
@@ -219,7 +218,8 @@ class armorOptimizer
         // armor.sort(this.sortByRatio({ propertyA: sortFields[this.configuration.sort], propertyB: "poise" }));
         // armor.sort(this.sortBy({ property: "poise", fallback: targetField }));
         // armor.sort(this.sortByPriority({ propertyList: [ { name: "poise", order: "desc" }, { name: targetField, order: "desc" }, { name: "weight", order: "asc" } ] }));
-        armor.sort(this.sortBy({ property: targetField, fallback: "poise" }));
+        armor.sort(this.sortByPriority({ propertyList: [ { name: targetField, order: "desc" }, { name: "poise", order: "desc" } ] }));
+        // armor.sort(this.sortBy({ property: targetField, fallback: "poise" }));
 
 
         let iterationCount = 0;
@@ -1085,55 +1085,137 @@ class armorOptimizer
         return outputList;
     }
 
-    testFindArmorReductive()
+    testFindArmorReductiveResort()
     {
-        let iterationCount = 0
-        const iterationMax = 50000;
+        let iterationCount = 0;
+        const iterationMax = 250000;
         const maxWeight = this.configuration.totalWeightMax;
+        const minPoise = this.configuration.poiseMin;
         const targetField = sortFields[this.configuration.sort];
-        armor.sort(this.sortBy({ property: targetField, fallback: "poise"}));
-
-        let curWeight = 0;
+        let totalCombinations = 0;
+        const checkCountMax = 500;
         let highestValue = 0;
-        let curPoise = 0;
+        let armorCombinations = [];
 
-        let armorIndex = 0;
+        armor.sort(this.sortByPriority({ propertyList: [ { name: "weight", order: "asc" }, { name: targetField, order: "asc" } ] }));
 
+        let headList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_HEAD && armorItem.weight <= maxWeight);
+        let bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= maxWeight);
+        let armList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_ARMS && armorItem.weight <= maxWeight);
+        let legList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_LEGS && armorItem.weight <= maxWeight);
 
-        const [maxValue, maxPoise] = this.getHighestSetValues({ objectList: armor, propertyList: [targetField, "poise"], uniqueField: "slotType" });
-        console.log(maxValue);
-        console.log(maxPoise);
-        return;
-
-        while(iterationCount < iterationMax && armorIndex < armor.length)
-        {
-
-            let curArmorList = armor.slice();
-
-            if (armorIndex > armor.length)
-                armorIndex = 0;
-
-            let basePiece = armor[armorIndex];
-            curArmorList = curArmorList.filter(armorItem => armorItem.itemID != basePiece.itemID);
-            let curMaxValue = 0;
-
-            while(iterationCount < iterationMax && curArmorList.length > 0)
+        let partData = [
             {
+                list: headList,
+                startIndex: -1,
+                value: headList[0][targetField],
+                slotType: ARMOR_TYPE_HEAD
+            },
+            {
+                list: bodyList,
+                startIndex: -1,
+                value: bodyList[0][targetField],
+                slotType: ARMOR_TYPE_BODY
+            },
+            {
+                list: armList,
+                startIndex: -1,
+                value: armList[0][targetField],
+                slotType: ARMOR_TYPE_ARMS
+            },
+            {
+                list: legList,
+                startIndex: -1,
+                value: legList[0][targetField],
+                slotType: ARMOR_TYPE_LEGS
+            }
+        ]
 
 
+        while (
+            iterationCount < iterationMax &&
+            partData[0].startIndex < partData[0].list.length &&
+            partData[1].startIndex < partData[1].list.length &&
+            partData[2].startIndex < partData[2].list.length &&
+            partData[3].startIndex < partData[3].list.length
+        )
+        {
+            partData.sort(this.sortBy({property: "value"}));
 
-                iterationCount++
+            partData[0].startIndex++;
+            if (partData[0].startIndex < partData[0].list.length)
+            {
+                partData[0].value = partData[0].list[partData[0].startIndex][targetField];
+            }
+            else
+            {
+                continue;
+            }
+            const dataAItem = partData[0].list[partData[0].startIndex];
+            const weightAfterDataA = maxWeight - dataAItem.weight;
+
+            const piecesAfterDataA = armor.filter(armorItem => armorItem.slotType != dataAItem.slotType && weightAfterDataA - armorItem.weight >= 0);
+
+            if (piecesAfterDataA.length == 0)
+                continue;
+
+            const [maxValueAfterDataA, maxPoiseAfterDataA] = this.getHighestSetValues({ objectList: piecesAfterDataA, propertyList: [targetField, "poise"], uniqueField: "slotType" });
+            if (maxPoiseAfterDataA + dataAItem.poise < minPoise || maxValueAfterDataA + dataAItem[targetField] < highestValue)
+                continue;
+
+            const legList = piecesAfterDataA.filter(armorItem => armorItem.slotType == partData[1].slotType && weightAfterDataA - armorItem.weight >= 0);
+            for (const legItem of legList)
+            {
+                const weightAfterLeg = weightAfterDataA - legItem.weight;
+
+                const piecesAfterLeg = piecesAfterDataA.filter(armorItem => armorItem.slotType != legItem.slotType && weightAfterLeg - armorItem.weight >= 0);
+
+                if (piecesAfterLeg.length == 0)
+                    continue;
+
+                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValues({ objectList: piecesAfterLeg, propertyList: [targetField, "poise"], uniqueField: "slotType" });
+                if (maxPoiseAfterLeg + dataAItem.poise + legItem.poise < minPoise || maxValueAfterLeg + legItem[targetField] + dataAItem[targetField] < highestValue)
+                    continue;
+
+                const headList = piecesAfterLeg.filter(armorItem => armorItem.slotType == partData[2].slotType && weightAfterLeg - armorItem.weight >= 0);
+                for (const headItem of headList)
+                {
+                    const weightAfterHead = weightAfterLeg - headItem.weight;
+
+                    const poiseAfterHead = this.getArrayPropertyTotal([dataAItem, legItem, headItem], "poise");
+                    const valueAfterHead = this.getArrayPropertyTotal([dataAItem, legItem, headItem], targetField);
+                    const armList = armor.filter(armorItem => armorItem.slotType == partData[3].slotType && weightAfterHead - armorItem.weight >= 0 && poiseAfterHead + armorItem.poise >= minPoise && armorItem[targetField] + valueAfterHead >= highestValue);
+                    for (const armItem of armList)
+                    {
+                        const curValue = valueAfterHead + armItem[targetField];
+                        if (curValue >= highestValue)
+                        {
+                            const curCombination = [dataAItem, legItem, headItem, armItem];
+                            highestValue = curValue;
+                            armorCombinations.push(curCombination);
+                            totalCombinations++;
+                        }
+
+                        iterationCount++;
+
+                        if (totalCombinations >= checkCountMax)
+                            break;
+                    }
+
+                    if (totalCombinations >= checkCountMax)
+                        break;
+                }
+
+                if (totalCombinations >= checkCountMax)
+                    break;
             }
 
-            if (curPoise >= this.configuration.poiseMin && curMaxValue < highestValue)
-                break;
 
-            armorIndex++;
-
-
+            iterationCount++;
         }
 
-        // this.outputArmorList([selectedParts]);
+        let outputPrefix = `Total Iterations: ${iterationCount}<br/>`;
+        this.outputArmorList(armorCombinations, outputPrefix)
 
     }
 
@@ -1145,7 +1227,8 @@ class armorOptimizer
         // this.testFindArmorReductiveBruteForce(); // Fast/Perfect
 
         let start = new Date();
-        this.testFindArmorReductive();
+        this.testFindArmorReductiveResort();
+        // this.testFindArmorReductiveBruteForce();
         let end = new Date();
         let duration = end - start;
 

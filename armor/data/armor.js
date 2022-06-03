@@ -1,4 +1,4 @@
-var armor = [
+const armor = [
   {
     "name": "Commoner\u0027s Headband",
     "itemID": 810000,

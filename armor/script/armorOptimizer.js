@@ -70,6 +70,14 @@ class armorOptimizer
         }
     }
 
+    sortBySimple(aProperty)
+    {
+        return (a, b) =>
+        {
+            return b[aProperty] - a[aProperty];
+        }
+    }
+
     sortByRatio({propertyA, propertyB, fallback})
     {
         return (a, b) =>
@@ -212,82 +220,65 @@ class armorOptimizer
         this.contentElement.innerHTML = output;
     }
 
-    testFindArmorReductiveBruteForce()   // 515-540ms
+    testFindArmorReductiveBruteForce()   // 254ms or so
     {
         const targetField = sortFields[this.configuration.sort];
-        // armor.sort(this.sortByRatio({ propertyA: sortFields[this.configuration.sort], propertyB: "poise" }));
-        // armor.sort(this.sortBy({ property: "poise", fallback: targetField }));
-        // armor.sort(this.sortByPriority({ propertyList: [ { name: "poise", order: "desc" }, { name: targetField, order: "desc" }, { name: "weight", order: "asc" } ] }));
-        armor.sort(this.sortByPriority({ propertyList: [ { name: targetField, order: "desc" }, { name: "poise", order: "desc" } ] }));
-        // armor.sort(this.sortBy({ property: targetField, fallback: "poise" }));
+        const maxWeight = this.configuration.totalWeightMax;
+        const uniqueField = "slotType";
+        const poiseField = "poise";
 
+        armor.sort(this.sortBySimple(targetField));
 
-        let iterationCount = 0;
-        const checkCountMax = 500;
-        let armorCombinations = [];
-        let totalCombinations = 0;
+        const armorCombinations = [];
         let highestValue = 0;
+        const poiseMin = this.configuration.poiseMin
 
-        const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= this.configuration.totalWeightMax);
-
+        const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= maxWeight);
         for (const bodyItem of bodyList)
         {
-            const weightAfterBody = this.configuration.totalWeightMax - bodyItem.weight;
+            const weightAfterBody = maxWeight - bodyItem.weight;
 
             const piecesAfterBody = armor.filter(armorItem => armorItem.slotType != ARMOR_TYPE_BODY && weightAfterBody - armorItem.weight >= 0);
-            const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValues({ objectList: piecesAfterBody, propertyList: [targetField, "poise"], uniqueField: "slotType" });
-            if (maxPoiseAfterBody + bodyItem.poise < this.configuration.poiseMin || maxValueAfterBody + bodyItem[targetField] < highestValue)
+            const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValues({ objectList: piecesAfterBody, propertyList: [targetField, poiseField], uniqueField: uniqueField });
+            if (maxPoiseAfterBody + bodyItem.poise < poiseMin || maxValueAfterBody + bodyItem[targetField] < highestValue)
                 continue;
 
-                const legList = piecesAfterBody.filter(armorItem => armorItem.slotType == ARMOR_TYPE_LEGS && weightAfterBody - armorItem.weight >= 0);
+            const legList = piecesAfterBody.filter(armorItem => armorItem.slotType == ARMOR_TYPE_LEGS && weightAfterBody >= armorItem.weight);
             for (const legItem of legList)
             {
+                const poiseAfterLeg = bodyItem.poise + legItem.poise;
+                const valueAfterLeg = bodyItem[targetField] + legItem[targetField];
                 const weightAfterLeg = weightAfterBody - legItem.weight;
 
                 const piecesAfterLeg = piecesAfterBody.filter(armorItem => armorItem.slotType != ARMOR_TYPE_LEGS && weightAfterLeg - armorItem.weight >= 0);
-                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValues({ objectList: piecesAfterLeg, propertyList: [targetField, "poise"], uniqueField: "slotType" });
-                if (maxPoiseAfterLeg + bodyItem.poise + legItem.poise < this.configuration.poiseMin || maxValueAfterLeg + legItem[targetField] + bodyItem[targetField] < highestValue)
+                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValues({ objectList: piecesAfterLeg, propertyList: [targetField, poiseField], uniqueField: uniqueField });
+                if (maxPoiseAfterLeg + poiseAfterLeg < poiseMin || maxValueAfterLeg + valueAfterLeg < highestValue)
                     continue;
 
-                    const headList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_HEAD && weightAfterLeg - armorItem.weight >= 0);
-                for (const headItem of headList)
+                const armList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_ARMS && weightAfterLeg >= armorItem.weight);
+                for (const armItem of armList)
                 {
-                    const weightAfterHead = weightAfterLeg - headItem.weight;
+                    const weightAfterArm = weightAfterLeg - armItem.weight;
 
-                    const poiseAfterHead = this.getArrayPropertyTotal([bodyItem, legItem, headItem], "poise");
-                    const valueAfterHead = this.getArrayPropertyTotal([bodyItem, legItem, headItem], targetField);
-                    const armList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_ARMS && weightAfterHead - armorItem.weight >= 0 && poiseAfterHead + armorItem.poise >= this.configuration.poiseMin && armorItem[targetField] + valueAfterHead >= highestValue);
-                    for (const armItem of armList)
+                    const poiseAfterArm = poiseAfterLeg + armItem.poise;
+                    const valueAfterArm = valueAfterLeg + armItem[targetField];
+                    const headList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_HEAD && weightAfterArm >= armorItem.weight && poiseAfterArm + armorItem.poise >= poiseMin && armorItem[targetField] + valueAfterArm >= highestValue);
+
+                    for (const headItem of headList)
                     {
-                        const curValue = valueAfterHead + armItem[targetField];
+                        const curValue = valueAfterArm + headItem[targetField];
                         if (curValue >= highestValue)
                         {
                             const curCombination = [bodyItem, legItem, headItem, armItem];
                             highestValue = curValue;
                             armorCombinations.push(curCombination);
-                            totalCombinations++;
                         }
-
-                        iterationCount++;
-
-                        if (totalCombinations >= checkCountMax)
-                           break;
                     }
-
-                    if (totalCombinations >= checkCountMax)
-                       break;
                 }
-
-                if (totalCombinations >= checkCountMax)
-                    break;
             }
-
-            if (totalCombinations >= checkCountMax)
-                break;
         }
 
-        const outputPrefix = `Total Iterations: ${iterationCount}<br/>`;
-        this.outputArmorList(armorCombinations, outputPrefix)
+        this.outputArmorList(armorCombinations);
     }
 
     testfindArmorPathfinder() // 3-20ms sub-optimal result
@@ -1219,16 +1210,208 @@ class armorOptimizer
 
     }
 
+
+    testFindArmorReductiveBruteForceHeadWorker()    // Runs out of ram, super slow
+    {
+        // To test locally, you must run Chrome with --allow-file-access-from-files
+        const targetField = sortFields[this.configuration.sort];
+        armor.sort(this.sortByPriority({ propertyList: [ { name: targetField, order: "desc" }, { name: "poise", order: "desc" } ] }));
+
+        let start = new Date();
+
+        let armorCombinations = [];
+        let highestValue = 0;
+        const poiseMin = this.configuration.poiseMin;
+        const weightMax = this.configuration.totalWeightMax;
+
+        const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= weightMax);
+
+        let jobsLeft = bodyList.length;
+
+        const workerLimit = navigator.hardwareConcurrency || 4;
+        let workerIndex = 0;
+        let workerList = [];
+
+        function onWorkerMessage(e)
+        {
+            if (e.data.success == true)
+            {
+                if (e.data.highestValue > highestValue)
+                {
+                    highestValue = e.data.highestValue;
+                    armorCombinations.push(e.data.combination);
+
+                    for(const curWorker of workerList)
+                    {
+                        curWorker.postMessage({
+                            highestValue: highestValue,
+                            messageType: 0
+                        });
+                    }
+                }
+            }
+            else
+            {
+                jobsLeft--;
+            }
+
+            if (jobsLeft == 0)
+            {
+                let end = new Date();
+                let duration = end - start;
+                let outputPrefix = `${duration}ms<br/><br/>`;
+                this.outputArmorList(armorCombinations, outputPrefix);
+            }
+        }
+
+        for (let i = 0; i < workerLimit; i++)
+        {
+            let curWorker = new Worker('script/reductiveBruteForceHeadWorker.js');
+            curWorker.onmessage = onWorkerMessage.bind(this);
+            workerList.push(curWorker);
+        }
+
+
+        for (const bodyItem of bodyList)
+        {
+            const weightAfterBody = this.configuration.totalWeightMax - bodyItem.weight;
+
+            const piecesAfterBody = armor.filter(armorItem => armorItem.slotType != ARMOR_TYPE_BODY && weightAfterBody - armorItem.weight >= 0);
+            const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValues({ objectList: piecesAfterBody, propertyList: [targetField, "poise"], uniqueField: "slotType" });
+            if (maxPoiseAfterBody + bodyItem.poise < poiseMin || maxValueAfterBody + bodyItem[targetField] < highestValue)
+                continue;
+
+            const legList = piecesAfterBody.filter(armorItem => armorItem.slotType == ARMOR_TYPE_LEGS && weightAfterBody - armorItem.weight >= 0);
+            for (const legItem of legList)
+            {
+                const weightAfterLeg = weightAfterBody - legItem.weight;
+
+                let piecesAfterLeg = piecesAfterBody.filter(armorItem => armorItem.slotType != ARMOR_TYPE_LEGS && weightAfterLeg - armorItem.weight >= 0);
+                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValues({ objectList: piecesAfterLeg, propertyList: [targetField, "poise"], uniqueField: "slotType" });
+                if (maxPoiseAfterLeg + bodyItem.poise + legItem.poise < poiseMin || maxValueAfterLeg + legItem[targetField] + bodyItem[targetField] < highestValue)
+                    continue;
+
+                const armList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_ARMS && weightAfterLeg - armorItem.weight >= 0);
+                for (const armItem of armList)
+                {
+                    workerList[workerIndex].postMessage({
+                        bodyItem: bodyItem,
+                        legItem: legItem,
+                        armItem: armItem,
+                        targetField: targetField,
+                        highestValue: highestValue,
+                        poiseMin: poiseMin,
+                        piecesAfterLeg: piecesAfterLeg,
+                        weightAfterLeg: weightAfterBody,
+                        messageType: 1
+                    });
+
+                    workerIndex++;
+                    if (workerIndex >= workerLimit)
+                        workerIndex = 0;
+                }
+                piecesAfterLeg = null;
+            }
+        }
+    }
+
+    testFindArmorReductiveBruteForceWorker()    // 12720ms+
+    {
+        // To test locally, you must run Chrome with --allow-file-access-from-files
+        const targetField = sortFields[this.configuration.sort];
+        armor.sort(this.sortByPriority({ propertyList: [ { name: targetField, order: "desc" }, { name: "poise", order: "desc" } ] }));
+
+        let start = new Date();
+
+        let armorCombinations = [];
+        let highestValue = 0;
+        const poiseMin = this.configuration.poiseMin;
+        const weightMax = this.configuration.totalWeightMax;
+
+        const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= weightMax);
+
+        let jobsLeft = bodyList.length;
+
+        const workerLimit = navigator.hardwareConcurrency || 4;
+        let workerIndex = 0;
+        let workerList = [];
+
+        function onWorkerMessage(e)
+        {
+            if (e.data.success == true)
+            {
+                if (e.data.highestValue > highestValue)
+                {
+                    highestValue = e.data.highestValue;
+                    armorCombinations.push(e.data.combination);
+
+                    for(const curWorker of workerList)
+                    {
+                        curWorker.postMessage({
+                            highestValue: highestValue,
+                            messageType: 0
+                        });
+                    }
+                }
+            }
+            else
+            {
+                jobsLeft--;
+            }
+
+            if (jobsLeft == 0)
+            {
+                let end = new Date();
+                let duration = end - start;
+                let outputPrefix = `${duration}ms<br/><br/>`;
+                this.outputArmorList(armorCombinations, outputPrefix);
+            }
+        }
+
+        for (let i = 0; i < workerLimit; i++)
+        {
+            let curWorker = new Worker('script/ReductiveBruteForceWorker.js');
+            curWorker.onmessage = onWorkerMessage.bind(this);
+            workerList.push(curWorker);
+        }
+
+        for (const bodyItem of bodyList)
+        {
+            const weightAfterBody = weightMax - bodyItem.weight;
+            let piecesAfterBody = armor.filter(armorItem => armorItem.slotType != ARMOR_TYPE_BODY && weightAfterBody - armorItem.weight >= 0);
+
+            workerList[workerIndex].postMessage({
+                bodyItem: bodyItem,
+                targetField: targetField,
+                highestValue: highestValue,
+                piecesAfterBody: piecesAfterBody,
+                weightAfterBody: weightAfterBody,
+                poiseMin: poiseMin,
+                messageType: 1
+            });
+            piecesAfterBody  = null;
+
+
+            workerIndex++;
+            if (workerIndex >= workerLimit)
+                workerIndex = 0;
+
+        }
+    }
+
     initialize()
     {
         this.contentElement = document.getElementById("outputDiv");
 
         // this.testFindArmorRawBruteForce(); // SLOW/Perfect
-        // this.testFindArmorReductiveBruteForce(); // Fast/Perfect
+        // this.testFindArmorReductiveBruteForce(); // FAST/Perfect
+        // this.testFindArmorReductiveResort(); // Fast/Perfect
 
         let start = new Date();
-        this.testFindArmorReductiveResort();
-        // this.testFindArmorReductiveBruteForce();
+
+        // this.testFindArmorReductiveBruteForceWorker();
+        // this.testFindArmorReductiveBruteForceHeadWorker();
+        this.testFindArmorReductiveBruteForce();
         let end = new Date();
         let duration = end - start;
 

@@ -248,11 +248,14 @@ class armorOptimizer
         let highestValue = 0;
         const poiseMin = this.configuration.poiseMin
         const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= maxWeight);
+        const typeListLAH = [ARMOR_TYPE_LEGS, ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD];
+        const typeListAH = [ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD];
+
         for (const bodyItem of bodyList)
         {
             const weightAfterBody = maxWeight - bodyItem.weight;
             const piecesAfterBody = armor.filter(armorItem => armorItem.slotType != ARMOR_TYPE_BODY && weightAfterBody - armorItem.weight >= 0);
-            const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValuesOptimal({ objectList: piecesAfterBody, propertyList: highestSetValueProperties, uniqueField: uniqueField, uniqueFieldEntries: [ARMOR_TYPE_LEGS, ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD] });
+            const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValuesOptimal({ objectList: piecesAfterBody, propertyList: highestSetValueProperties, uniqueField: uniqueField, uniqueFieldEntries: typeListLAH });
             if (maxPoiseAfterBody + bodyItem.poise < poiseMin || maxValueAfterBody + bodyItem[targetField] < highestValue)
                 continue;
 
@@ -263,7 +266,7 @@ class armorOptimizer
                 const valueAfterLeg = bodyItem[targetField] + legItem[targetField];
                 const weightAfterLeg = weightAfterBody - legItem.weight;
                 const piecesAfterLeg = piecesAfterBody.filter(armorItem => armorItem.slotType != ARMOR_TYPE_LEGS && weightAfterLeg - armorItem.weight >= 0);
-                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValuesOptimal({ objectList: piecesAfterLeg, propertyList: highestSetValueProperties, uniqueField: uniqueField, uniqueFieldEntries: [ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD] });
+                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValuesOptimal({ objectList: piecesAfterLeg, propertyList: highestSetValueProperties, uniqueField: uniqueField, uniqueFieldEntries: typeListAH });
                 if (maxPoiseAfterLeg + poiseAfterLeg < poiseMin || maxValueAfterLeg + valueAfterLeg < highestValue)
                     continue;
 

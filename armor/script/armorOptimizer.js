@@ -220,26 +220,39 @@ class armorOptimizer
         this.contentElement.innerHTML = output;
     }
 
-    testFindArmorReductiveBruteForce()   // 254ms or so
+    getHighestSetValuesOptimal({objectList, propertyList, uniqueField, uniqueFieldEntries})
+    {
+        const outputList = [];
+
+        for (const curProperty of propertyList)
+        {
+            let curValue = 0;
+            for (const uniqueEntry of uniqueFieldEntries)
+            {
+                curValue += objectList.filter(e => e[uniqueField] == uniqueEntry).reduce((a, b) => Math.max(a, b[curProperty]), 0);
+            }
+            outputList.push(curValue);
+        }
+
+        return outputList;
+    }
+
+    testFindArmorReductiveBruteForce()   // 197ms or so
     {
         const targetField = sortFields[this.configuration.sort];
         const maxWeight = this.configuration.totalWeightMax;
         const uniqueField = "slotType";
-        const poiseField = "poise";
-
+        const highestSetValueProperties = [targetField, "poise"];
         armor.sort(this.sortBySimple(targetField));
-
         const armorCombinations = [];
         let highestValue = 0;
         const poiseMin = this.configuration.poiseMin
-
         const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= maxWeight);
         for (const bodyItem of bodyList)
         {
             const weightAfterBody = maxWeight - bodyItem.weight;
-
             const piecesAfterBody = armor.filter(armorItem => armorItem.slotType != ARMOR_TYPE_BODY && weightAfterBody - armorItem.weight >= 0);
-            const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValues({ objectList: piecesAfterBody, propertyList: [targetField, poiseField], uniqueField: uniqueField });
+            const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValuesOptimal({ objectList: piecesAfterBody, propertyList: highestSetValueProperties, uniqueField: uniqueField, uniqueFieldEntries: [ARMOR_TYPE_LEGS, ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD] });
             if (maxPoiseAfterBody + bodyItem.poise < poiseMin || maxValueAfterBody + bodyItem[targetField] < highestValue)
                 continue;
 
@@ -249,9 +262,8 @@ class armorOptimizer
                 const poiseAfterLeg = bodyItem.poise + legItem.poise;
                 const valueAfterLeg = bodyItem[targetField] + legItem[targetField];
                 const weightAfterLeg = weightAfterBody - legItem.weight;
-
                 const piecesAfterLeg = piecesAfterBody.filter(armorItem => armorItem.slotType != ARMOR_TYPE_LEGS && weightAfterLeg - armorItem.weight >= 0);
-                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValues({ objectList: piecesAfterLeg, propertyList: [targetField, poiseField], uniqueField: uniqueField });
+                const [maxValueAfterLeg, maxPoiseAfterLeg] = this.getHighestSetValuesOptimal({ objectList: piecesAfterLeg, propertyList: highestSetValueProperties, uniqueField: uniqueField, uniqueFieldEntries: [ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD] });
                 if (maxPoiseAfterLeg + poiseAfterLeg < poiseMin || maxValueAfterLeg + valueAfterLeg < highestValue)
                     continue;
 
@@ -259,11 +271,9 @@ class armorOptimizer
                 for (const armItem of armList)
                 {
                     const weightAfterArm = weightAfterLeg - armItem.weight;
-
                     const poiseAfterArm = poiseAfterLeg + armItem.poise;
                     const valueAfterArm = valueAfterLeg + armItem[targetField];
                     const headList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_HEAD && weightAfterArm >= armorItem.weight && poiseAfterArm + armorItem.poise >= poiseMin && armorItem[targetField] + valueAfterArm >= highestValue);
-
                     for (const headItem of headList)
                     {
                         const curValue = valueAfterArm + headItem[targetField];
@@ -277,7 +287,6 @@ class armorOptimizer
                 }
             }
         }
-
         this.outputArmorList(armorCombinations);
     }
 
@@ -1056,6 +1065,8 @@ class armorOptimizer
         console.log(iterationCount);
         console.log(selectedParts);
     }
+
+
 
 
     getHighestSetValues({objectList, propertyList, uniqueField})

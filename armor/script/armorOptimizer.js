@@ -37,8 +37,21 @@ class armorOptimizer
         selectedBody: -1,
         selectedArms: -1,
         selectedLegs: -1,
-        sort: 0,
-        poiseMin: 61    // 61
+        poiseMin: 61,    // 61
+        statPriority: {
+            physical: 100,
+            strike: 70,
+            slash: 130,
+            pierce: 110,
+            magic: 100,
+            fire: 65,
+            lightning: 120,
+            holy: 70,
+            immunity: 0,
+            robustness: 15,
+            focus: 0,
+            vitality: 0
+        }
     };
 
     sortByPriority(propertyList)
@@ -59,7 +72,7 @@ class armorOptimizer
         }
     }
 
-    sortBy({property, fallback})
+    sortBy(property, fallback)
     {
         return (a, b) =>
         {
@@ -78,26 +91,12 @@ class armorOptimizer
         }
     }
 
-    sortByRatio({propertyA, propertyB, fallback})
+    sortByAggregate(property, fallback, fallback2)
     {
         return (a, b) =>
         {
-            let aRatio = a[propertyA] / a[propertyB];
-            let bRatio = b[propertyA] / b[propertyB];
-
-            if (aRatio == bRatio)
-                return b[fallback] - a[fallback];
-            else
-                return bRatio - aRatio;
-        }
-    }
-
-    sortByAggregate({property, fallback, fallback2})
-    {
-        return (a, b) =>
-        {
-            let aTotal = this.getArrayPropertyTotal(a, property);
-            let bTotal = this.getArrayPropertyTotal(b, property);
+            const aTotal = this.getArrayPropertyTotal(a, property);
+            const bTotal = this.getArrayPropertyTotal(b, property);
 
             let aTotalFB = 0;
             let bTotalFB = 0;
@@ -116,8 +115,6 @@ class armorOptimizer
                 return this.getArrayPropertyTotal(b, fallback2) - this.getArrayPropertyTotal(a, fallback2)
             else
                 return 0;
-
-
         }
     }
 
@@ -134,88 +131,85 @@ class armorOptimizer
         return total;
     }
 
-    testFindArmorRawBruteForce()    // 69000ms+
-    {
-        let headList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_HEAD);
-        let bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY);
-        let armList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_ARMS);
-        let legList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_LEGS);
-
-        let allCombinations = [];
-        let highestValue = 0;
-        let iterationCount = 0;
-
-        for (const headItem of headList)
-        {
-            for (const bodyItem of bodyList)
-            {
-                for (const armItem of armList)
-                {
-                    for (const legItem of legList)
-                    {
-                        iterationCount++;
-
-                        let curValue = this.getArrayPropertyTotal([headItem, bodyItem, armItem, legItem], sortFields[this.configuration.sort]);
-                        let totalPoise = this.getArrayPropertyTotal([headItem, bodyItem, armItem, legItem], "poise");
-                        let totalWeight = this.getArrayPropertyTotal([headItem, bodyItem, armItem, legItem], "weight");
-                        if (
-                            totalWeight <= this.configuration.totalWeightMax &&
-                            curValue >= highestValue &&
-                            totalPoise >= this.configuration.poiseMin
-                        )
-                        {
-                            highestValue = Math.max(curValue, highestValue);
-                            allCombinations.push([
-                                headItem,
-                                bodyItem,
-                                armItem,
-                                legItem
-                            ]);
-                        }
-
-                    }
-                }
-            }
-        }
-
-        let outputPrefix = `Total Iterations: ${iterationCount}<br/>`;
-        this.outputArmorList(allCombinations, outputPrefix)
-    }
-
-    outputArmorList(aArmorSets, aOutputPrefix = "")
+    outputArmorList(aArmorSets)
     {
         let output = "";
-        let maxPoise = 0;
 
-        aArmorSets.sort(this.sortByAggregate({ property: sortFields[this.configuration.sort], fallback: "poise" }));
-        for (let i = 0; i < aArmorSets.length && i < 20; i++)
+        aArmorSets.sort(this.sortByAggregate("score", "poise"));
+        aArmorSets.splice(20);
+        for (const curCombination of aArmorSets)
         {
-            let curCombination = aArmorSets[i];
-            let totalPoise = 0;
-            let totalWeight = 0;
-            let totalValue = 0;
-            curCombination.sort(this.sortBy({property: "slotType"}));
-            for (const curArmor of curCombination)
-            {
-                let poiseWeight = curArmor.poise / curArmor.weight;
-                let valueWeight = curArmor[sortFields[this.configuration.sort]] / curArmor.weight;
-                output += `${curArmor.name} (${valueWeight} | ${poiseWeight})<br/>`
-                totalPoise += curArmor.poise;
-                totalWeight += curArmor.weight;
-                totalValue += curArmor[sortFields[this.configuration.sort]];
-            }
-            output += `Weight: ${totalWeight}<br/>`
-            output += `Value: ${totalValue}<br/>`
-            output += `Poise: ${totalPoise}<br/><br/>`
-            maxPoise = Math.max(totalPoise, maxPoise);
+            curCombination.sort(this.sortBy("slotType")).reverse();
+
+            const names = curCombination.reduce((a, b) => a + `<td>${b.name}</td>`, "");
+            const weight = curCombination.reduce((a, b) => a + b.weight, 0).toPrecision(3);
+            const [score, poise, immunity, robustness, focus, vitality] = this.getValueTotals(curCombination, ["score", "poise", "immunity", "robustness", "focus", "vitality"]);
+            const negationFields = ["physical", "strike", "slash", "pierce", "magic", "fire", "lightning", "holy"];
+            const negationCols = this.getNegationTotals(curCombination, negationFields).reduce((a, b) => a + `<td>${(100 - b).toFixed(3)}</td>`, "");
+
+            output += `
+                <tr>
+                    ${names}
+                    <td>${score.toFixed(3)}</td>
+                    <td>${weight}</td>
+                    <td>${poise}</td>
+                    ${negationCols}
+                    <td>${immunity}</td>
+                    <td>${robustness}</td>
+                    <td>${focus}</td>
+                    <td>${vitality}</td>
+                </tr>
+            `;
         }
 
-        output = aOutputPrefix + `
-        Total Combinations: ${aArmorSets.length}<br/>
-        Max Poise: ${maxPoise}<br/><br/>
-        ` + output;
+        this.contentElement.innerHTML = `
+            <table>
+                <thead>
+                    <tr>
+                        <th>Head</th>
+                        <th>Body</th>
+                        <th>Arms</th>
+                        <th>Legs</th>
+                        <th>Score</th>
+                        <th>Weight</th>
+                        <th>Poise</th>
+                        <th>Physical</th>
+                        <th>Strike</th>
+                        <th>Slash</th>
+                        <th>Pierce</th>
+                        <th>Magic</th>
+                        <th>Fire</th>
+                        <th>Lightning</th>
+                        <th>Holy</th>
+                        <th>Immunity</th>
+                        <th>Robustness</th>
+                        <th>Focus</th>
+                        <th>Vitality</th>
+                    </tr>
+                </thead>
+                ${output}
+            </table>
+        `;
+    }
 
-        this.contentElement.innerHTML = output;
+    getValueTotals(pieces, propertyList)
+    {
+        const output = [];
+        for (const curProperty of propertyList)
+        {
+            output.push(pieces.reduce((a, b) => a + b[curProperty], 0));
+        }
+        return output;
+    }
+
+    getNegationTotals(pieces, propertyList)
+    {
+        const output = [];
+        for (const curProperty of propertyList)
+        {
+            output.push(pieces.reduce((a, b) => a * (1 - (b[curProperty] / 100)), 100));
+        }
+        return output;
     }
 
     getHighestSetValuesOptimal(objectList, propertyList, uniqueField, uniqueFieldEntries)
@@ -234,12 +228,24 @@ class armorOptimizer
         return outputList;
     }
 
-    testFindArmorReductiveBruteForce()   // 182ms or so
+    findArmor()   // 182ms or so
     {
-        const targetField = sortFields[this.configuration.sort];
+        const targetField = "score";
         const maxWeight = this.configuration.totalWeightMax;
         const uniqueField = "slotType";
         const highestSetValueProperties = [targetField, "poise"];
+
+        for (const curPiece of armor)
+        {
+            let curScore = 0;
+            for (const [stat, priority] of Object.entries(this.configuration.statPriority))
+            {
+                curScore += curPiece[stat] * (priority / 100);
+            }
+            curPiece.score = curScore;
+            console.log(`${curScore}: ${curPiece.name}`);
+        }
+
         armor.sort(this.sortBySimple(targetField));
         const armorCombinations = [];
         let highestValue = 0;
@@ -293,13 +299,7 @@ class armorOptimizer
     initialize()
     {
         this.contentElement = document.getElementById("outputDiv");
-        let start = new Date();
-        // this.testFindArmorRawBruteForce();
-        this.testFindArmorReductiveBruteForce();
-        let end = new Date();
-        let duration = end - start;
-
-        this.contentElement.innerHTML = `${duration}ms<br/><br/>` + this.contentElement.innerHTML;
+        document.getElementById("buttonFindArmor").addEventListener("click", this.findArmor.bind(this));
     }
 }
 

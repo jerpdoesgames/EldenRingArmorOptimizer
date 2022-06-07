@@ -32,26 +32,29 @@ class armorOptimizer
     updateOnChange = true;  // Disabled temporarily when modifying input fields without user intervention
 
     configuration = {
-        totalWeightMax: 40.64, // 40.64
+        totalWeightMax: 76.2,
+        equippedWeight: 10.00,
+        targetWeightPercent: 70,
         selectedHead: -1,
         selectedBody: -1,
         selectedArms: -1,
         selectedLegs: -1,
-        poiseMin: 61,    // 61
+        poiseMin: 51,    // 61
         statPriority: {
-            physical: 100,
-            strike: 70,
-            slash: 130,
-            pierce: 110,
-            magic: 100,
+            physical: 90,
+            strike: 65,
+            slash: 120,
+            pierce: 105,
+            magic: 110,
             fire: 65,
             lightning: 120,
             holy: 70,
             immunity: 0,
-            robustness: 15,
+            robustness: 20,
             focus: 0,
             vitality: 0
-        }
+        },
+        disabledItems : []  // Only used for saving/loading configuration (enabled/disabled is stored per piece when running the optimizer)
     };
 
     sortByPriority(propertyList)
@@ -88,6 +91,14 @@ class armorOptimizer
         return (a, b) =>
         {
             return b[aProperty] - a[aProperty];
+        }
+    }
+
+    sortLexical(aProperty)
+    {
+        return (a, b) =>
+        {
+            return b[aProperty] < a[aProperty] ? -1 : 1;
         }
     }
 
@@ -133,63 +144,71 @@ class armorOptimizer
 
     outputArmorList(aArmorSets)
     {
-        let output = "";
-
-        aArmorSets.sort(this.sortByAggregate("score", "poise"));
-        aArmorSets.splice(20);
-        for (const curCombination of aArmorSets)
+        if (aArmorSets.length > 0)
         {
-            curCombination.sort(this.sortBy("slotType")).reverse();
+            let output = "";
 
-            const names = curCombination.reduce((a, b) => a + `<td>${b.name}</td>`, "");
-            const weight = curCombination.reduce((a, b) => a + b.weight, 0).toPrecision(3);
-            const [score, poise, immunity, robustness, focus, vitality] = this.getValueTotals(curCombination, ["score", "poise", "immunity", "robustness", "focus", "vitality"]);
-            const negationFields = ["physical", "strike", "slash", "pierce", "magic", "fire", "lightning", "holy"];
-            const negationCols = this.getNegationTotals(curCombination, negationFields).reduce((a, b) => a + `<td>${(100 - b).toFixed(3)}</td>`, "");
+            aArmorSets.sort(this.sortByAggregate("score", "poise"));
+            aArmorSets.splice(20);
+            for (const curCombination of aArmorSets)
+            {
+                curCombination.sort(this.sortBy("slotType")).reverse();
 
-            output += `
-                <tr>
-                    ${names}
-                    <td>${score.toFixed(3)}</td>
-                    <td>${weight}</td>
-                    <td>${poise}</td>
-                    ${negationCols}
-                    <td>${immunity}</td>
-                    <td>${robustness}</td>
-                    <td>${focus}</td>
-                    <td>${vitality}</td>
-                </tr>
+                const names = curCombination.reduce((a, b) => a + `<td>${b.name}</td>`, "");
+                const weight = curCombination.reduce((a, b) => a + b.weight, 0).toPrecision(3);
+                const [score, poise, immunity, robustness, focus, vitality] = this.getValueTotals(curCombination, ["score", "poise", "immunity", "robustness", "focus", "vitality"]);
+                const negationFields = ["physical", "strike", "slash", "pierce", "magic", "fire", "lightning", "holy"];
+                const negationCols = this.getNegationTotals(curCombination, negationFields).reduce((a, b) => a + `<td>${(100 - b).toFixed(3)}</td>`, "");
+
+                output += `
+                    <tr>
+                        ${names}
+                        <td>${score.toFixed(3)}</td>
+                        <td>${weight}</td>
+                        <td>${poise}</td>
+                        ${negationCols}
+                        <td>${immunity}</td>
+                        <td>${robustness}</td>
+                        <td>${focus}</td>
+                        <td>${vitality}</td>
+                    </tr>
+                `;
+            }
+
+            this.contentElement.innerHTML = `
+                <table id="armorResultList">
+                    <thead>
+                        <tr>
+                            <th>Head</th>
+                            <th>Body</th>
+                            <th>Arms</th>
+                            <th>Legs</th>
+                            <th>Score</th>
+                            <th>Weight</th>
+                            <th>Poise</th>
+                            <th>Physical</th>
+                            <th>Strike</th>
+                            <th>Slash</th>
+                            <th>Pierce</th>
+                            <th>Magic</th>
+                            <th>Fire</th>
+                            <th>Lightning</th>
+                            <th>Holy</th>
+                            <th>Immunity</th>
+                            <th>Robustness</th>
+                            <th>Focus</th>
+                            <th>Vitality</th>
+                        </tr>
+                    </thead>
+                    ${output}
+                </table>
             `;
         }
+        else
+        {
+            this.contentElement.innerHTML = `<p class="mainDescription failureMessage">No armor found!  Try selecting different armor or loosening the weight/poise requirements.</p>`;
+        }
 
-        this.contentElement.innerHTML = `
-            <table>
-                <thead>
-                    <tr>
-                        <th>Head</th>
-                        <th>Body</th>
-                        <th>Arms</th>
-                        <th>Legs</th>
-                        <th>Score</th>
-                        <th>Weight</th>
-                        <th>Poise</th>
-                        <th>Physical</th>
-                        <th>Strike</th>
-                        <th>Slash</th>
-                        <th>Pierce</th>
-                        <th>Magic</th>
-                        <th>Fire</th>
-                        <th>Lightning</th>
-                        <th>Holy</th>
-                        <th>Immunity</th>
-                        <th>Robustness</th>
-                        <th>Focus</th>
-                        <th>Vitality</th>
-                    </tr>
-                </thead>
-                ${output}
-            </table>
-        `;
     }
 
     getValueTotals(pieces, propertyList)
@@ -228,12 +247,195 @@ class armorOptimizer
         return outputList;
     }
 
+    toggleArmorEnabled(aArmorID)
+    {
+        const armorItem = armor.find(e => e.itemID == aArmorID);
+
+        if (armorItem != undefined)
+        {
+            if (armorItem.hasOwnProperty("enabled"))
+            {
+                armorItem.enabled = !armorItem.enabled;
+            }
+            else
+            {
+                armorItem.enabled = false;
+            }
+        }
+
+        this.populateItemList();
+    }
+
+    closeArmorSelection()
+    {
+        this.mainBodyElement.style.display = "block";
+        this.armorListElement.style.display = "none";
+    }
+
+    openArmorSelection()
+    {
+        this.mainBodyElement.style.display = "none";
+        this.armorListElement.style.display = "block";
+    }
+
+    getArmorSelectColumn(aArmorItem)
+    {
+        if (aArmorItem != null)
+        {
+            const enabledString = aArmorItem.enabled !== false ? "": " disabledArmor";
+            return `<td id="selectArmorID${aArmorItem.itemID}" class="armorItemEntry${enabledString}" style="cursor:pointer;" onclick="toolInstance.toggleArmorEnabled(${aArmorItem.itemID})">${aArmorItem.name}</td>`;
+        }
+        else
+        {
+            return "<td></td>";
+        }
+    }
+
+    getArmorSelectRow(aCurSet)
+    {
+        let headItem;
+        let bodyItem;
+        let armItem;
+        let legItem;
+
+        for (const armorItem of aCurSet)
+        {
+            switch(armorItem.slotType)
+            {
+                case ARMOR_TYPE_HEAD:
+                    headItem = armorItem;
+                    break;
+                case ARMOR_TYPE_BODY:
+                    bodyItem = armorItem;
+                    break;
+                case ARMOR_TYPE_ARMS:
+                    armItem = armorItem;
+                    break;
+                case ARMOR_TYPE_LEGS:
+                    legItem = armorItem;
+                    break;
+            }
+        }
+
+        let output = "";
+        for (const curSetItem of [headItem, bodyItem, armItem, legItem])
+        {
+            output += this.getArmorSelectColumn(curSetItem);
+        }
+
+        return `<tr>${output}</tr>`;
+    }
+
+    enableAllArmor()
+    {
+        for (const armorItem of armor)
+        {
+            armorItem.enabled = true;
+        }
+        this.populateItemList();
+    }
+
+    disableAllArmor()
+    {
+        for (const armorItem of armor)
+        {
+            armorItem.enabled = false;
+        }
+        this.populateItemList();
+    }
+
+    onStatPriorityChange(aEvent)
+    {
+        let statName = aEvent.target.id;
+        this.configuration.statPriority[statName] = parseInt(aEvent.target.value);
+    }
+
+    onHeadSelected(aEvent)
+    {
+        this.configuration.selectedHead = parseInt(aEvent.target.value);
+    }
+
+    onBodySelected(aEvent)
+    {
+        this.configuration.selectedBody = parseInt(aEvent.target.value);
+    }
+
+    onArmsSelected(aEvent)
+    {
+        this.configuration.selectedArms = parseInt(aEvent.target.value);
+    }
+
+    onLegsSelected(aEvent)
+    {
+        this.configuration.selectedLegs = parseInt(aEvent.target.value);
+    }
+
+    populateForceArmorList(aListElement, aSlotType, aSelectedID)
+    {
+        const entryList = armor.filter(armorItem => armorItem.slotType == aSlotType);
+
+        entryList.unshift({ itemID: -1, name: "[none]" });
+        let output = "";
+        for (const armorItem of entryList)
+        {
+            let selectedString = (aSelectedID == armorItem.itemID) ? " selected" : "";
+            output += `<option value="${armorItem.itemID}"${selectedString}>${armorItem.name}</option>`;
+        }
+        aListElement.innerHTML = output;
+    }
+
+    populateForceArmorSelections()
+    {
+        armor.sort(this.sortLexical("name"));
+        armor.reverse();
+        this.populateForceArmorList(document.getElementById("armorForceHead"), ARMOR_TYPE_HEAD, this.configuration.selectedHead);
+        this.populateForceArmorList(document.getElementById("armorForceBody"), ARMOR_TYPE_BODY, this.configuration.selectedBody);
+        this.populateForceArmorList(document.getElementById("armorForceArms"), ARMOR_TYPE_ARMS, this.configuration.selectedArms);
+        this.populateForceArmorList(document.getElementById("armorForceLegs"), ARMOR_TYPE_LEGS, this.configuration.selectedLegs);
+    }
+
+    populateItemList()
+    {
+        let output = "";
+        armor.sort(this.sortByPriority([{name: "itemID", order: "asc"}, {name: "setID", order: "asc"}, {name: "slotType", order: "asc"}]))
+        let lastSetId = -1;
+        let curRowTypes = [];
+        let curRowItems = [];
+        for (const armorItem of armor)
+        {
+
+            if (curRowTypes.indexOf(armorItem.slotType) != -1 || lastSetId != armorItem.setID)
+            {
+                lastSetId = -1;
+                curRowTypes = [];
+                output += this.getArmorSelectRow(curRowItems);
+                curRowItems = [];
+            }
+
+            curRowTypes.push(armorItem.slotType);
+            curRowItems.push(armorItem);
+            lastSetId = armorItem.setID;
+        }
+
+        if (curRowItems.length > 0)
+        {
+            output += this.getArmorSelectRow(curRowItems);
+        }
+
+        this.armorListBodyElements.innerHTML = output;;
+    }
+
     findArmor()   // 182ms or so
     {
         const targetField = "score";
-        const maxWeight = this.configuration.totalWeightMax;
+        const maxWeight = (this.configuration.totalWeightMax * (this.configuration.targetWeightPercent / 100)) - this.configuration.equippedWeight;
         const uniqueField = "slotType";
         const highestSetValueProperties = [targetField, "poise"];
+
+        const selectedHead = this.configuration.selectedHead;
+        const selectedBody = this.configuration.selectedBody;
+        const selectedArms = this.configuration.selectedArms;
+        const selectedLegs = this.configuration.selectedLegs;
 
         for (const curPiece of armor)
         {
@@ -243,14 +445,13 @@ class armorOptimizer
                 curScore += curPiece[stat] * (priority / 100);
             }
             curPiece.score = curScore;
-            console.log(`${curScore}: ${curPiece.name}`);
         }
 
         armor.sort(this.sortBySimple(targetField));
         const armorCombinations = [];
         let highestValue = 0;
         const poiseMin = this.configuration.poiseMin
-        const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && armorItem.weight <= maxWeight);
+        const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && ((selectedBody == -1 && armorItem.enabled !== false) || selectedBody == armorItem.itemID) && armorItem.weight <= maxWeight);
         const typeListLAH = [ARMOR_TYPE_LEGS, ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD];
         const typeListAH = [ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD];
 
@@ -263,7 +464,7 @@ class armorOptimizer
             if (maxPoiseAfterBody + bodyItem.poise < poiseMin || maxValueAfterBody + bodyItem[targetField] < highestValue)
                 continue;
 
-            const legList = piecesAfterBody.filter(armorItem => armorItem.slotType == ARMOR_TYPE_LEGS && weightAfterBody >= armorItem.weight);
+            const legList = piecesAfterBody.filter(armorItem => armorItem.slotType == ARMOR_TYPE_LEGS && ((selectedLegs == -1 && armorItem.enabled !== false) || selectedLegs == armorItem.itemID) && weightAfterBody >= armorItem.weight);
             for (const legItem of legList)
             {
                 const poiseAfterLeg = bodyItem.poise + legItem.poise;
@@ -274,13 +475,13 @@ class armorOptimizer
                 if (maxPoiseAfterLeg + poiseAfterLeg < poiseMin || maxValueAfterLeg + valueAfterLeg < highestValue)
                     continue;
 
-                const armList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_ARMS && weightAfterLeg >= armorItem.weight);
+                const armList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_ARMS && ((selectedArms == -1 && armorItem.enabled !== false) || selectedArms == armorItem.itemID) && weightAfterLeg >= armorItem.weight);
                 for (const armItem of armList)
                 {
                     const weightAfterArm = weightAfterLeg - armItem.weight;
                     const poiseAfterArm = poiseAfterLeg + armItem.poise;
                     const valueAfterArm = valueAfterLeg + armItem[targetField];
-                    const headList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_HEAD && weightAfterArm >= armorItem.weight && poiseAfterArm + armorItem.poise >= poiseMin && armorItem[targetField] + valueAfterArm >= highestValue);
+                    const headList = piecesAfterLeg.filter(armorItem => armorItem.slotType == ARMOR_TYPE_HEAD && ((selectedHead == -1 && armorItem.enabled !== false) || selectedHead == armorItem.itemID) && weightAfterArm >= armorItem.weight && poiseAfterArm + armorItem.poise >= poiseMin && armorItem[targetField] + valueAfterArm >= highestValue);
                     for (const headItem of headList)
                     {
                         const curValue = valueAfterArm + headItem[targetField];
@@ -299,8 +500,42 @@ class armorOptimizer
     initialize()
     {
         this.contentElement = document.getElementById("outputDiv");
+        this.armorListElement = document.getElementById("armorSelector");
+        this.mainBodyElement = document.getElementById("mainContent");
+        this.armorListBodyElements = document.getElementById("armorSelectListEntries");
         document.getElementById("buttonFindArmor").addEventListener("click", this.findArmor.bind(this));
+
+        document.getElementById("armorForceHead").addEventListener("change", this.onHeadSelected.bind(this));
+        document.getElementById("armorForceBody").addEventListener("change", this.onBodySelected.bind(this));
+        document.getElementById("armorForceArms").addEventListener("change", this.onArmsSelected.bind(this));
+        document.getElementById("armorForceLegs").addEventListener("change", this.onLegsSelected.bind(this));
+
+        this.maxWeightElement = document.getElementById("maxWeight");
+        this.maxWeightElement.value = this.configuration.totalWeightMax;
+        this.equippedWeightElement = document.getElementById("equippedWeight");
+        this.equippedWeightElement.value = this.configuration.equippedWeight;
+        this.weightPercentElement = document.getElementById("weightPercent");
+        this.weightPercentElement.value = this.configuration.targetWeightPercent;
+        this.poiseElement = document.getElementById("poise");
+        this.poiseElement.value = this.configuration.poiseMin;
+
+        for (const [statName, statValue] of Object.entries(this.configuration.statPriority))
+        {
+            const statElement = document.getElementById(statName);
+            statElement.value = statValue;
+            statElement.addEventListener("change", this.onStatPriorityChange.bind(this));
+        }
+
+        this.populateForceArmorSelections();
+        this.populateItemList();
     }
 }
 
 var toolInstance = new armorOptimizer();
+
+// Hacky VH business.
+// - for the URL bar appearing/disappearing as you scroll up/down on mobile
+window.addEventListener('resize', () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--calculatedVH', `${vh}px`);
+});

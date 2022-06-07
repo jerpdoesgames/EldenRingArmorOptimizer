@@ -17,6 +17,55 @@
     text-align: left;
 }
 
+.armorItemEntry {
+    cursor: pointer;
+    color: var(--colorAccentDark);
+}
+
+.disabledArmor {
+    color: var(--colorDisabled);
+}
+
+.controlsContainer {
+    margin: 0rem 2rem;
+    flex-basis: 40rem;
+}
+
+thead {
+    top: 0.4rem;
+    position: sticky;
+    border-bottom: 0.2rem var(--colorBG) solid;
+    background-color: #31302d;
+    z-index: 1;
+}
+
+#armorSelectList tbody tr td {
+    z-index: 2;
+}
+
+#armorResultList tbody tr td {
+    white-space: nowrap;
+}
+
+#armorSelector {
+    display: none;
+}
+
+#outputDiv {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: calc((var(--calculatedVH) * 100) - 3rem);
+}
+
+.failureMessage {
+    color: var(--colorRequirementUnmet);
+}
+
+.annotation {
+    font-size: 1.2rem;
+    color: var(--colorAccentLight);
+}
+
 /* Mobile support, M'lord - Boc, 2022 */
 
 @media screen and (max-width: 550px) {
@@ -31,21 +80,15 @@
     }
 }
 
-@media screen and (min-width: 326px) and (max-width: 375px) {
+@media screen and (min-width: 326px) and (max-width: 400px) {
     :root {
-        font-size: 9px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    #spellList, #spellList thead tr th {
         font-size: 8px;
     }
 }
 
 @media screen and (min-width: 401px) and (max-width: 900px) {
-    #spellList, #spellList thead tr th {
-        font-size: calc(100vw / 50);
+    #armorSelectList, #armorSelectList thead tr th, #armorResultList, #armorResultList thead tr th {
+        font-size: calc(100vw / 56);
     }
 }
 

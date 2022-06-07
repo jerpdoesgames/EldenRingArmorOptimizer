@@ -12,6 +12,8 @@
     --colorAccentDark: #d6cc9c;
     --colorRequirementUnmet: #e46363;
     --colorSchoolBuff: #7bca71;
+    --colorDisabled: #a3a3a3;
+    --calculatedVH: 1vh;
 }
 
 .damageTypeMagic {
@@ -41,7 +43,7 @@ html, body {
 }
 
 body {
-	margin: 4rem 0rem 0rem 0rem;
+	margin: 0rem 0rem 0rem 0rem;
 	font-size: 1.6rem;
 	font-family: Calibri, Adobe Gothic Standard B, Helvetica, Arial, sans-serif;
 }
@@ -119,7 +121,7 @@ table tr {
     background-color: #31302d;
 }
 
-table tr:nth-child(even) {
+table tbody tr:nth-child(even) {
     background-color: #35332a;
 }
 
@@ -128,7 +130,7 @@ table tr td {
     text-align: center;
 }
 
-thead tr {
+thead tr th {
     font-weight: bold;
     color: var(--colorAccentLight);
     background-color: #413d33;

@@ -32,8 +32,8 @@ class armorOptimizer
     updateOnChange = true;  // Disabled temporarily when modifying input fields without user intervention
 
     configuration = {
-        totalWeightMax: 76.2,
-        equippedWeight: 10.00,
+        totalWeightMax: 90.0,
+        equippedWeight: 21.7,
         targetWeightPercent: 70,
         selectedHead: -1,
         selectedBody: -1,
@@ -350,6 +350,26 @@ class armorOptimizer
         this.configuration.statPriority[statName] = parseInt(aEvent.target.value);
     }
 
+    onMaxWeightChange(aEvent)
+    {
+        this.configuration.totalWeightMax = parseFloat(aEvent.target.value);
+    }
+
+    onEquippedWeightChange(aEvent)
+    {
+        this.configuration.equippedWeight = parseFloat(aEvent.target.value);
+    }
+
+    onWeightPercentChange(aEvent)
+    {
+        this.configuration.targetWeightPercent = parseInt(aEvent.target.value);
+    }
+
+    onPoiseChange(aEvent)
+    {
+        this.configuration.poiseMin = parseInt(aEvent.target.value);
+    }
+
     onHeadSelected(aEvent)
     {
         this.configuration.selectedHead = parseInt(aEvent.target.value);
@@ -511,12 +531,19 @@ class armorOptimizer
         document.getElementById("armorForceLegs").addEventListener("change", this.onLegsSelected.bind(this));
 
         this.maxWeightElement = document.getElementById("maxWeight");
+        this.maxWeightElement.addEventListener("change", this.onMaxWeightChange.bind(this));
         this.maxWeightElement.value = this.configuration.totalWeightMax;
+
         this.equippedWeightElement = document.getElementById("equippedWeight");
+        this.equippedWeightElement.addEventListener("change", this.onEquippedWeightChange.bind(this));
         this.equippedWeightElement.value = this.configuration.equippedWeight;
+
         this.weightPercentElement = document.getElementById("weightPercent");
+        this.weightPercentElement.addEventListener("change", this.onWeightPercentChange.bind(this));
         this.weightPercentElement.value = this.configuration.targetWeightPercent;
+
         this.poiseElement = document.getElementById("poise");
+        this.poiseElement.addEventListener("change", this.onPoiseChange.bind(this));
         this.poiseElement.value = this.configuration.poiseMin;
 
         for (const [statName, statValue] of Object.entries(this.configuration.statPriority))

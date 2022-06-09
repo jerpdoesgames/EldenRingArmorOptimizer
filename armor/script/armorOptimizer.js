@@ -27,6 +27,107 @@ const partNames = [
     "Legs"
 ];
 
+const emptyHeadItem = {
+    "name": "[Empty Slot]",
+    "itemID": -2,
+    "sortID": -1,
+    "setID": -1,
+    "armorID": -1,
+    "armorCategoryID": -1,
+    "sortGroupID": -1,
+    "slotType": ARMOR_TYPE_HEAD,
+    "weight": 0,
+    "poise": 0,
+    "physical": 0,
+    "strike": 0,
+    "slash": 0,
+    "pierce": 0,
+    "magic": 0,
+    "fire": 0,
+    "lightning": 0,
+    "holy": 0,
+    "immunity": 0,
+    "robustness": 0,
+    "focus": 0,
+    "vitality": 0
+};
+
+const emptyBodyItem = {
+    "name": "[Empty Slot]",
+    "itemID": -3,
+    "sortID": -1,
+    "setID": -1,
+    "armorID": -1,
+    "armorCategoryID": -1,
+    "sortGroupID": -1,
+    "slotType": ARMOR_TYPE_BODY,
+    "weight": 0,
+    "poise": 0,
+    "physical": 0,
+    "strike": 0,
+    "slash": 0,
+    "pierce": 0,
+    "magic": 0,
+    "fire": 0,
+    "lightning": 0,
+    "holy": 0,
+    "immunity": 0,
+    "robustness": 0,
+    "focus": 0,
+    "vitality": 0
+};
+
+const emptyArmsItem = {
+    "name": "[Empty Slot]",
+    "itemID": -4,
+    "sortID": -1,
+    "setID": -1,
+    "armorID": -1,
+    "armorCategoryID": -1,
+    "sortGroupID": -1,
+    "slotType": ARMOR_TYPE_ARMS,
+    "weight": 0,
+    "poise": 0,
+    "physical": 0,
+    "strike": 0,
+    "slash": 0,
+    "pierce": 0,
+    "magic": 0,
+    "fire": 0,
+    "lightning": 0,
+    "holy": 0,
+    "immunity": 0,
+    "robustness": 0,
+    "focus": 0,
+    "vitality": 0
+};
+
+const emptyLegsItem = {
+    "name": "[Empty Slot]",
+    "itemID": -5,
+    "sortID": -1,
+    "setID": -1,
+    "armorID": -1,
+    "armorCategoryID": -1,
+    "sortGroupID": -1,
+    "slotType": ARMOR_TYPE_LEGS,
+    "weight": 0,
+    "poise": 0,
+    "physical": 0,
+    "strike": 0,
+    "slash": 0,
+    "pierce": 0,
+    "magic": 0,
+    "fire": 0,
+    "lightning": 0,
+    "holy": 0,
+    "immunity": 0,
+    "robustness": 0,
+    "focus": 0,
+    "vitality": 0
+};
+
+
 class armorOptimizer
 {
     updateOnChange = true;  // Disabled temporarily when modifying input fields without user intervention
@@ -35,6 +136,7 @@ class armorOptimizer
         totalWeightMax: 90.0,
         equippedWeight: 21.7,
         targetWeightPercent: 70,
+        allowEmptySlots: false,
         selectedHead: -1,
         selectedBody: -1,
         selectedArms: -1,
@@ -249,7 +351,13 @@ class armorOptimizer
 
     toggleArmorEnabled(aArmorID)
     {
-        const armorItem = armor.find(e => e.itemID == aArmorID);
+        const tempArmorList = armor.slice();
+        tempArmorList.push(emptyHeadItem);
+        tempArmorList.push(emptyBodyItem);
+        tempArmorList.push(emptyArmsItem);
+        tempArmorList.push(emptyLegsItem);
+
+        const armorItem = tempArmorList.find(e => e.itemID == aArmorID);
 
         if (armorItem != undefined)
         {
@@ -328,7 +436,13 @@ class armorOptimizer
 
     enableAllArmor()
     {
-        for (const armorItem of armor)
+        const tempArmorList = armor.slice();
+        tempArmorList.push(emptyHeadItem);
+        tempArmorList.push(emptyBodyItem);
+        tempArmorList.push(emptyArmsItem);
+        tempArmorList.push(emptyLegsItem);
+
+        for (const armorItem of tempArmorList)
         {
             armorItem.enabled = true;
         }
@@ -337,7 +451,13 @@ class armorOptimizer
 
     disableAllArmor()
     {
-        for (const armorItem of armor)
+        const tempArmorList = armor.slice();
+        tempArmorList.push(emptyHeadItem);
+        tempArmorList.push(emptyBodyItem);
+        tempArmorList.push(emptyArmsItem);
+        tempArmorList.push(emptyLegsItem);
+
+        for (const armorItem of tempArmorList)
         {
             armorItem.enabled = false;
         }
@@ -370,6 +490,11 @@ class armorOptimizer
         this.configuration.poiseMin = parseInt(aEvent.target.value);
     }
 
+    onAllowEmptySlotsChange(aEvent)
+    {
+        this.configuration.allowEmptySlots = aEvent.target.checked;
+    }
+
     onHeadSelected(aEvent)
     {
         this.configuration.selectedHead = parseInt(aEvent.target.value);
@@ -394,7 +519,24 @@ class armorOptimizer
     {
         const entryList = armor.filter(armorItem => armorItem.slotType == aSlotType);
 
-        entryList.unshift({ itemID: -1, name: "[none]" });
+        switch(aSlotType)
+        {
+            case ARMOR_TYPE_HEAD:
+                entryList.unshift(emptyHeadItem);
+                break;
+            case ARMOR_TYPE_BODY:
+                entryList.unshift(emptyBodyItem);
+                break;
+            case ARMOR_TYPE_ARMS:
+                entryList.unshift(emptyArmsItem);
+                break;
+            case ARMOR_TYPE_LEGS:
+                entryList.unshift(emptyLegsItem);
+                break;
+        }
+
+        entryList.unshift({ itemID: -1, name: "[Any]" });
+
         let output = "";
         for (const armorItem of entryList)
         {
@@ -417,13 +559,17 @@ class armorOptimizer
     populateItemList()
     {
         let output = "";
-        armor.sort(this.sortByPriority([{name: "itemID", order: "asc"}, {name: "setID", order: "asc"}, {name: "slotType", order: "asc"}]))
+        const selectableArmorList = armor.slice();
+        selectableArmorList.push(emptyHeadItem);
+        selectableArmorList.push(emptyBodyItem);
+        selectableArmorList.push(emptyArmsItem);
+        selectableArmorList.push(emptyLegsItem);
+        selectableArmorList.sort(this.sortByPriority([{name: "itemID", order: "asc"}, {name: "setID", order: "asc"}, {name: "slotType", order: "asc"}]))
         let lastSetId = -1;
         let curRowTypes = [];
         let curRowItems = [];
-        for (const armorItem of armor)
+        for (const armorItem of selectableArmorList)
         {
-
             if (curRowTypes.indexOf(armorItem.slotType) != -1 || lastSetId != armorItem.setID)
             {
                 lastSetId = -1;
@@ -442,7 +588,7 @@ class armorOptimizer
             output += this.getArmorSelectRow(curRowItems);
         }
 
-        this.armorListBodyElements.innerHTML = output;;
+        this.armorListBodyElements.innerHTML = output;
     }
 
     findArmor()   // 182ms or so
@@ -450,6 +596,7 @@ class armorOptimizer
         const targetField = "score";
         const maxWeight = (this.configuration.totalWeightMax * (this.configuration.targetWeightPercent / 100)) - this.configuration.equippedWeight;
         const uniqueField = "slotType";
+        const allowEmptySlots = this.configuration.allowEmptySlots;
         const highestSetValueProperties = [targetField, "poise"];
 
         const selectedHead = this.configuration.selectedHead;
@@ -457,7 +604,13 @@ class armorOptimizer
         const selectedArms = this.configuration.selectedArms;
         const selectedLegs = this.configuration.selectedLegs;
 
-        for (const curPiece of armor)
+        const armorSearchList = armor.slice();
+        if (allowEmptySlots || selectedHead == -2) { armorSearchList.push(emptyHeadItem) };
+        if (allowEmptySlots || selectedBody == -3) { armorSearchList.push(emptyBodyItem) };
+        if (allowEmptySlots || selectedArms == -4) { armorSearchList.push(emptyArmsItem) };
+        if (allowEmptySlots || selectedLegs == -5) { armorSearchList.push(emptyLegsItem) };
+
+        for (const curPiece of armorSearchList)
         {
             let curScore = 0;
             for (const [stat, priority] of Object.entries(this.configuration.statPriority))
@@ -467,18 +620,18 @@ class armorOptimizer
             curPiece.score = curScore;
         }
 
-        armor.sort(this.sortBySimple(targetField));
+        armorSearchList.sort(this.sortBySimple(targetField));
         const armorCombinations = [];
         let highestValue = 0;
         const poiseMin = this.configuration.poiseMin
-        const bodyList = armor.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && ((selectedBody == -1 && armorItem.enabled !== false) || selectedBody == armorItem.itemID) && armorItem.weight <= maxWeight);
+        const bodyList = armorSearchList.filter(armorItem => armorItem.slotType == ARMOR_TYPE_BODY && ((selectedBody == -1 && armorItem.enabled !== false) || selectedBody == armorItem.itemID) && armorItem.weight <= maxWeight);
         const typeListLAH = [ARMOR_TYPE_LEGS, ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD];
         const typeListAH = [ARMOR_TYPE_ARMS, ARMOR_TYPE_HEAD];
 
         for (const bodyItem of bodyList)
         {
             const weightAfterBody = maxWeight - bodyItem.weight;
-            const piecesAfterBody = armor.filter(armorItem => armorItem.slotType != ARMOR_TYPE_BODY && weightAfterBody - armorItem.weight >= 0);
+            const piecesAfterBody = armorSearchList.filter(armorItem => armorItem.slotType != ARMOR_TYPE_BODY && weightAfterBody - armorItem.weight >= 0);
 
             const [maxValueAfterBody, maxPoiseAfterBody] = this.getHighestSetValuesOptimal(piecesAfterBody, highestSetValueProperties, uniqueField, typeListLAH);
             if (maxPoiseAfterBody + bodyItem.poise < poiseMin || maxValueAfterBody + bodyItem[targetField] < highestValue)
@@ -545,6 +698,10 @@ class armorOptimizer
         this.poiseElement = document.getElementById("poise");
         this.poiseElement.addEventListener("change", this.onPoiseChange.bind(this));
         this.poiseElement.value = this.configuration.poiseMin;
+
+        this.allowEmptySlotsElement = document.getElementById("allowEmptySlots");
+        this.allowEmptySlotsElement.addEventListener("change", this.onAllowEmptySlotsChange.bind(this));
+        this.allowEmptySlotsElement.checked = this.configuration.allowEmptySlots;
 
         for (const [statName, statValue] of Object.entries(this.configuration.statPriority))
         {

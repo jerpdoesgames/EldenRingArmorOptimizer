@@ -1,6 +1,8 @@
 # EldenRingArmorOptimizer
 A web app finding the best armor for Elden Ring builds based on desired weight and negation/resistances.
 
+[Click here for the current live version of the tool](https://jerp.tv/eldenring/armor/)
+
 ## How to Use:
 
 1. Enter in the Maximum Equip Load for your character as determined by your stats and anything that increases it (Great-Jar's Arsenal, etc.).

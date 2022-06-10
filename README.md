@@ -3,7 +3,19 @@ A web app finding the best armor for Elden Ring builds based on desired weight a
 
 ## How to Use:
 
-(wip)
+1. Enter in the Maximum Equip Load for your character as determined by your stats and anything that increases it (Great-Jar's Arsenal, etc.).
+2. Enter your Equipped Item Weight, which includes anything you have equipped EXCEPT armor.  Simplest way to get this is to equip the heaviest items you plan to use and then ensure your armor slots are empty.
+3. Enter your Desired Weight Percentage - basically how much of your Maximum Equip Load you plan to use.  70% is the threshold for Medium Rolls (go beyond that and you'll become Heavy and will have much slower rolls).
+4. Enter your minimum poise.  Everyone has their own personal peference for this based on what weapons they might be hit with, but 51 covers many small to mid-sized weapons.
+
+## Optional Stuff:
+
+* The Negation Priority fields let you specify which damage types you're most interested in reducing.
+* The Resistance Priority Fields let you specify which status effects you're most interested in preventing.
+* Setting any of these values to 0 lets you skip considering that Negation or Resistance.
+
+Each point of Negation and Resistance on each piece of armor is multiplied by those priority values to come up with a score.  Armor pieces with higher scores (that fit within your Poise and Equip Weight settings) will be sorted higher in the list.
+
 
 # My Other Tools
 

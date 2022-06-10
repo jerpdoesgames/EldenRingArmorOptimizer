@@ -27,5 +27,6 @@ Each point of Negation and Resistance on each piece of armor is multiplied by th
 
 # Credits
 
+* This tool is inspired by the legendary work by [MugenMonkey](https://mugenmonkey.com) on various Build Planner, Starting Class Optimizer, Armor Optimizer, etc. tools for the Souls games.
 * This tool uses data-mined information provided by [TarnishedSpreadsheet](https://www.reddit.com/user/tarnishedspreadsheet)
 * Please be sure to check the [Contributors List](https://github.com/jerpdoesgames/EldenRingArmorOptimizer/graphs/contributors) to see who've been submitting changes on **GitHub**.

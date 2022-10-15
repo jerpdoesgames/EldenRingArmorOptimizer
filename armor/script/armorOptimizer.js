@@ -141,7 +141,7 @@ class armorOptimizer
         selectedBody: -1,
         selectedArms: -1,
         selectedLegs: -1,
-        poiseMin: 51,    // 61
+        poiseMin: 68,   // Straightsword 1HR1
         statPriority: {
             physical: 90,
             strike: 65,

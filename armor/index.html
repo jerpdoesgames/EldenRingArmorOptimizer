@@ -7,8 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="styles/base.css" />
         <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <link rel="stylesheet" type="text/css" href="styles/headerStream.css"/>
         <script src="data/armor.js"></script>
         <script src="script/armorOptimizer.js"></script>
+        <script src="script/headerStream.js"></script>
 
         <meta property="og:title" content="Elden Ring Armor Optimizer - by Jerp" />
         <meta property="og:description" content="Find the best armor based on desired weight, poise, and negation/resistances." />
@@ -21,22 +23,34 @@
         <meta property="og:locale" content="en_US" />
     </head>
 
-    <body onload="toolInstance.initialize();">
+    <body onload="toolInstance.initialize(); initializeHeaderStream();">
 
         <div id="mainContent">
             <h1>Elden Ring Armor Optimizer</h1>
 
-            <p class="mainDescription">Find the best armor based on desired weight, poise, and negation/resistances.</p>
 
-            <p class="mainDescription"><b>Updated for 1.07</b></p>
+            <div id="header">
+                <div id="headerContent">
 
-            <p class="mainDescription">
-                <a href="https://jerp.tv/eldenring">Other helpful Elden Ring Tools &amp; Info</a>
-            </p>
+                    <p class="mainDescription">Find the best armor based on desired weight, poise, and negation/resistances.</p>
 
-            <p class="mainDescription">
-                Negation / Resistance priorities allow you to favor the Damage Types and Status Effects you encounter most. Set any value to 0 to avoid considering it.
-            </p>
+                    <p class="mainDescription"><b>Updated for 1.08.1</b></p>
+
+                    <p class="mainDescription">
+                        <a href="https://jerp.tv/eldenring">Other helpful Elden Ring Tools &amp; Info</a>
+                    </p>
+
+                    <p class="mainDescription">
+                        Negation / Resistance priorities allow you to favor the Damage Types and Status Effects you encounter most. Set any value to 0 to avoid considering it.
+                    </p>
+
+                    <p id="headerStreamOpen" class="mainDescription">Want to support Jerp?  <a href="#" id="headerStreamOpenButton" onclick="headerStreamOpen();">Pop open the stream</a> while you work.</p>
+                </div>
+
+                <div id="headerStream">
+
+                </div>
+            </div>
 
             <div id="contentBody">
 
